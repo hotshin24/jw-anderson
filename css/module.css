@@ -1,0 +1,54 @@
+:root {
+  --gs00: #ffffff;
+  --gs01: #d9dbdd;
+  --gs02: #cccccc;
+  --gs03: #999999;
+  --gs04: #666666;
+  --gs05: #333333;
+  --gs06: #252525;
+  --gs07: #000000;
+
+  --be01: #f3ede3;
+  --be02: #ece3d5;
+
+  --ac01: #ff7605;
+  --ac02: #ffff99;
+
+  --rd01: #da0000;
+
+  --ov40: rgba(0, 0, 0, 0.4);
+  --ov10: rgba(0, 0, 0, 0.1);
+
+  --sp05: 5px;
+  --sp10: 10px;
+  --sp15: 15px;
+  --sp20: 20px;
+  --sp25: 25px;
+  --sp30: 30px;
+  --sp35: 35px;
+  --sp40: 40px;
+  --sp45: 45px;
+  --sp50: 50px;
+  --sp55: 55px;
+  --sp60: 60px;
+  --sp70: 70px;
+  --sp90: 90px;
+  --sp110: 110px;
+  --sp120: 120px;
+  --sp140: 140px;
+  --sp150: 150px;
+
+  --gutter: clamp(15px, 4vw, 40px);
+  --section-y: clamp(40px, 8vw, 90px);
+  --block-gap: clamp(20px, 4vw, 50px);
+
+  --c-bg: var(--be01);
+  --c-surface: var(--be02);
+  --c-text: var(--gs05);
+  --c-text-sub: var(--gs04);
+  --c-text-muted: var(--gs03);
+  --c-line: var(--gs02);
+  --c-line-cool: var(--gs01);
+  --c-accent: var(--ac01);
+  --c-error: var(--rd01);
+}

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JW Anderson | Customer Service - Shipping & Returns</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/jwanderson.js"></script>
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div id="popupSignIn">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>Sign in</h2>
+    <p>Required fields are marked with an (*).</p>
+    <form action="index_after.html">
+      <span>
+        <input type="email" id="emailAddressPopup" class="popup-input" required>
+        <label for="emailAddressPopup" class="popup-label">Email address*</label>
+      </span>
+      <span>
+        <input type="password" id="signPassword" class="popup-input" required>
+        <label for="signPassword" class="popup-label">Password*</label>
+        <input type="button" value="hiddenPassword" class="toggleBtn">
+      </span>
+      <span>
+        <input type="checkbox" id="staySignedIn">
+        <label for="staySignedIn">Stay signed in</label>
+        <input type="button" value="Forgotten password?" data-panel="popupForgottenPassword">
+      </span>
+      <input type="submit" class="btnForm" value="Sign in">
+    </form>
+    <p>
+      By logging in, you are agreeing to our <a href="generalInformationPrivacyAndCookiesPolicy.html">privacy policy</a>
+      and <a href="generalInformationTermsAndConditions.html">our terms and
+        conditions.</a>
+    </p>
+    <span>or</span>
+    <hr>
+    <p>
+      Sign in with your social media account
+    </p>
+    <div>
+      <a href="https://www.facebook.com/?locale=ko_KR" class="btnSns">Facebook</a>
+      <a href="https://myaccount.google.com/" class="btnSns">Google</a>
+    </div>
+    <p>
+      When you use Facebook or Google to login to our site, be advised that your data is governed by Facebook’s or
+      Google’s privacy policy and terms of use.
+    </p>
+    <p>
+      New to JW Anderson? <input type="button" value="Create an account" data-panel="popupCreateAccount">
+    </p>
+  </div>
+  <div id="popupForgottenPassword">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>Reset password</h2>
+    <p>
+      To have your password reset, enter your email address below. We will then send an email containing a link to reset
+      your password.
+    </p>
+    <span>
+      <input type="email" id="addressEmail" class="popup-input" required>
+      <label for="addressEmail" class="popup-label">Email address*</label>
+    </span>
+    <input type="submit" value="Send email" class="btnForm active">
+  </div>
+  <div id="popupNewPassword">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>Create new password</h2>
+    <p>
+      Create a new password to keep your account secure. Make sure your password is unique and not used on other sites.
+    </p>
+    <span>
+      <input type="password" id="newPassword" class="popup-input" required>
+      <label for="newPassword" class="popup-label">Password*</label>
+      <input type="button" value="hiddenPassword" class="toggleBtn">
+    </span>
+    <span>
+      <input type="password" id="confirmNewPassword" class="popup-input" required>
+      <label for="confirmNewPassword" class="popup-label">Confirm password*</label>
+      <input type="button" value="hiddenPassword" class="toggleBtn">
+    </span>
+    <input type="button" value="Confirm new password" class="btnForm active" data-panel="popupSignIn">
+  </div>
+  <div id="popupCreateAccount">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>Create an account</h2>
+    <p>
+      Sign up with social media or fill the form below and enjoy the benefits of having an account.
+    </p>
+    <div>
+      <a href="https://www.facebook.com/?locale=ko_KR" class="btnSns">Facebook</a>
+      <a href="https://myaccount.google.com/" class="btnSns">Google</a>
+    </div>
+    <p>
+      When you use Facebook or Google to login to our site, be advised that your data is governed by Facebook’s or
+      Google’s privacy policy and terms of use.
+    </p>
+    <span>or</span>
+    <hr>
+    <form action="index_after.html">
+      <span>
+        <input type="text" id="firstNamePopup" class="popup-input" required>
+        <label for="firstNamePopup" class="popup-label">First name*</label>
+      </span>
+      <span>
+        <input type="text" id="lastNamePopup" class="popup-input" required>
+        <label for="lastNamePopup" class="popup-label">Last name*</label>
+      </span>
+      <span>
+        <input type="email" id="emailAccount" class="popup-input" required>
+        <label for="emailAccount" class="popup-label">Email*</label>
+      </span>
+      <span>
+        <input type="password" placeholder="" id="newPasswordAccount" class="popup-input" required>
+        <label for="newPasswordAccount" class="popup-label">Password*</label>
+        <input type="button" value="hiddenPassword" class="toggleBtn">
+      </span>
+      <span>
+        <input type="password" id="confirmNewPasswordAccount" class="popup-input" required>
+        <label for="confirmNewPasswordAccount" class="popup-label">Confirm password*</label>
+        <input type="button" value="hiddenPassword" class="toggleBtn">
+      </span>
+      <input type="checkbox" id="agreeCreateAccount">
+      <label for="agreeCreateAccount">
+        <span>
+          By ticking this box, you confirm you would like to receive communications about JW Anderson news, events,
+          offers, services and also a personalised experience with customised content and advertising through our website,
+          social media and our online partners.
+        </span>
+        <span>
+          For more information visit our <a href="generalInformationPrivacyAndCookiesPolicy.html">Privacy Policy</a>. By
+          creating an account, you agree to JW Anderson’s <a href="generalInformationTermsAndConditions.html">Terms of
+            Use.</a>
+        </span>
+      </label>
+      <input type="submit" value="Create account" class="btnForm">
+    </form>
+  </div>
+  <div id="emailSignUpBox">
+    <img src="images/index_bg_sign_up.png" alt="Loafer bag in pine green alligator leather">
+    <div id="popupEmailSignUp">
+      <input type="button" value="close" class="material-symbols-outlined btn_close">
+      <h2>Subscribe to stay in&ndash;the&ndash;know</h2>
+      <p>
+        Enter your details to receive communications about our products and services, events, and cultural endeavours.
+      </p>
+      <p>
+        Subscribe to JW Anderson communications
+      </p>
+      <form>
+        <span>
+          <input type="email" id="emailSub" class="popup-input" required>
+          <label for="emailSub" class="popup-label">Email</label>
+        </span>
+        <span>
+          <input type="tel" class="onlyNumb popup-input" id="phoneNumbSub" maxlength="11" required>
+          <label for="phoneNumbSub" class="popup-label">Phone number</label>
+        </span>
+        <div>
+          <input type="checkbox" id="agreeEmailSignUp">
+          <label for="agreeEmailSignUp">
+            By submitting this form, I expressly agree to JW Anderson, directly or by third parties acting on its
+            behalf, sending me promotional &amp; marketing messages (e.g. cart reminders) - including texts or calls
+            using automated means (including for the selection or dialing of a telephone number) or pre-recorded or
+            artificial voice messages - to the mobile number I provided and to the Mobile Terms (which include an
+            arbitration provision to resolve disputes). I confirm I am the owner of the provided, and understand consent
+            is not a condition of purchase. Msg frequency varies. Msg &amp; Data Rates May Apply. Text HELP for help and
+            STOP to cancel.
+            <a href="generalInformationPrivacyAndCookiesPolicy.html">Privacy Policy</a> Notice of Financial
+            Incentives.
+          </label>
+          <p>
+            <b>Receive email communications</b>
+            By submitting this form, I confirm I am a US resident and (1) agree to JW Anderson's <a
+              href="generalInformationTermsAndConditions.html">Terms &amp;
+              Conditions</a> (which includes an arbitration provision) and Marketing Disclosure; and (2)
+            have read and acknowledge JW Anderson's <a href="generalInformationPrivacyAndCookiesPolicy.html">Privacy
+              Notice</a> and Notice of Financial
+            Incentives.
+          </p>
+        </div>
+        <input type="submit" class="btnForm" value="Submit">
+      </form>
+    </div>
+  </div>
+  <div id="popupAddToCart">
+    <div>
+      <input type="button" value="close" class="material-symbols-outlined btn_close">
+      <h2>Added product(s)</h2>
+      <form action="cartFull.html">
+        <div>
+          <img src="images/index_addtocart_01.png" alt="Wide Sleeve Blazer In Black">
+          <div>
+            <a href="mensWideSleeveBlazerInBlack.html">Wide Sleeve Blazer In Black</a>
+            <small>44</small>
+            <span class="qtyComponent" data-price="1915">
+              <i>Quantity</i>
+              <input type="button" value="minus">
+              <input type="number" class="qtyVal" min="1" step="1" value="1">
+              <input type="button" value="plus">
+            </span>
+            <strong class="totalPrice">$1,915</strong>
+          </div>
+          <input type="button" value="Continue shopping" class="btnContinue btn_close">
+          <a href="cartFull.html" class="btnViewCart">View your cart</a>
+        </div>
+      </form>
+    </div>
+    <div>
+      <h3>Others also considered</h3>
+      <ul>
+        <li>
+          <a href="mensCurvedHemCroppedJacketInBlack.html">
+            <img src="images/index_addtocart_02.png" alt="Curved Hem Cropped Jacket In Black" class="product-img">
+            <b class="product-name">Curved Hem Cropped Jacket In Black</b>
+            <mark class="product-color">Black</mark>
+          </a>
+          <div class="selectComponent size">
+            <i>Size</i>
+            <ul>
+              <li class="currentVal">XXS</li>
+              <li>XXS</li>
+              <li>XS</li>
+              <li>S</li>
+              <li>M</li>
+              <li>L</li>
+              <li>XL</li>
+              <li>XXL</li>
+            </ul>
+          </div>
+          <strong class="product-price">$4,760</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart">
+        </li>
+        <li>
+          <a href="mensWideSleeveBlazerInChocolateBrown.html">
+            <img src="images/index_addtocart_03.png" alt="Wide Sleeve Blazer In Chocolate Brown" class="product-img">
+            <b class="product-name">Wide Sleeve Blazer In Chocolate Brown</b>
+            <mark class="product-color">Black | Chocolate brown</mark>
+          </a>
+          <div class="selectComponent size">
+            <i>Size</i>
+            <ul>
+              <li class="currentVal">44</li>
+              <li>44</li>
+              <li>46</li>
+              <li>48</li>
+              <li>50</li>
+              <li>52</li>
+            </ul>
+          </div>
+          <strong class="product-price">$1,915</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="panelCustomerService">
+    <div>
+      <h3>How Can We Help?</h3>
+      <ul>
+        <li><a href="customerServiceFaq.html">FAQ</a></li>
+        <li><a href="customerServiceTrackYourOrder.html">Track Your Order</a></li>
+        <li><a href="customerServiceShippingAndReturns.html">Shipping &amp; Returns</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contact Us</h3>
+      <a href="generalInformationContactUs.html">Click Here</a>
+    </div>
+  </div>
+  <div id="panelAccountLogout">
+    <div>
+      <h3>Account</h3>
+      <ul>
+        <li><a href="accountMyprofile.html">My Profile</a></li>
+        <li><a href="accountOrderAndReturns.html">Orders and Returns</a></li>
+        <li><a href="accountAddressBook.html">Address Book</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Welcome hozin shin</h3>
+      <form action="index.html">
+        <input type="submit" value="Log Out">
+      </form>
+    </div>
+  </div>
+  <div id="panelSearchBar">
+    <div>
+      <input type="button" value="close" class="material-symbols-outlined btn_close">
+      <input type="search" placeholder="What are you looking for?">
+    </div>
+  </div>
+  <div id="panelMyCart">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>My Cart (1)</h2>
+    <ol>
+      <li>
+        <img src="images/index_mycart_panel_01.png" alt="Wide Sleeve Blazer In Black">
+        <div>
+          <a href="mensWideSleeveBlazerInBlack.html">Wide Sleeve Blazer In Black</a>
+          <small>44</small>
+          <span class="qtyComponent" data-price="1915">
+            <i>Quantity</i>
+            <input type="button" value="minus">
+            <input type="number" class="qtyVal" min="1" step="1" value="1">
+            <input type="button" value="plus">
+          </span>
+          <strong class="totalPrice">$1,915</strong>
+        </div>
+      </li>
+    </ol>
+    <div>
+      <h3>Others also considered</h3>
+      <ul>
+        <li>
+          <a href="mensCurvedHemCroppedJacketInBlack.html">
+            <img src="images/index_mycart_panel_02.png" alt="Curved Hem Cropped Jacket In Black" class="product-img">
+            <b class="product-name">Curved Hem Cropped Jacket In Black</b>
+            <mark class="product-color">Black</mark>
+          </a>
+          <div class="selectComponent size">
+            <i>Size</i>
+            <ul>
+              <li class="currentVal">XXS</li>
+              <li>XXS</li>
+              <li>XS</li>
+              <li>S</li>
+              <li>M</li>
+              <li>L</li>
+              <li>XL</li>
+              <li>XXL</li>
+            </ul>
+          </div>
+          <strong class="product-price">$4,760</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart">
+        </li>
+        <li>
+          <a href="mensCorduroyCollarDenimJacketInMidBlue.html">
+            <img src="images/index_mycart_panel_03.png" alt="Corduroy Collar Denim Jacket In Mid-Blue" class="product-img">
+            <b class="product-name">Corduroy Collar Denim Jacket In Mid-Blue</b>
+            <mark class="product-color">Mid blue</mark>
+          </a>
+          <div class="selectComponent size">
+            <i>Size</i>
+            <ul>
+              <li class="currentVal">XXS</li>
+              <li>XXS</li>
+              <li>XS</li>
+              <li>S</li>
+              <li>M</li>
+              <li>L</li>
+              <li>XL</li>
+              <li>XXL</li>
+            </ul>
+          </div>
+          <strong class="product-price">$1,075</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart">
+        </li>
+      </ul>
+    </div>
+    <div>
+      <span>Subtotal</span>
+      <strong>$1,915</strong>
+      <a href="cartFull.html" class="btnViewCart">View your cart</a>
+      <input type="button" value="Continue shopping" class="btnContinue btn_close">
+    </div>
+  </div>
+
+  <header class="headerFixed">
+    <div>
+      <div>
+        <a href="aboutStores.html">Stores</a>
+        <input type="button" value="Customer Service" data-panel="panelCustomerService">
+      </div>
+      <div>
+        <h1>
+          <a href="index.html">
+            <img src="images/logo_white.png" alt="welcome jw anderson">
+          </a>
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <span>Mens</span>
+              <ol>
+                <li><a href="listPageMens.html">SEE ALL MENS</a></li>
+                <li><a href="listCardSlotPageMensJackets.html">COATS &amp; JACKETS</a></li>
+                <li><a href="listCardSlotPageMensJeans.html">JEANS</a></li>
+                <li><a href="listCardSlotPageMensKnitwear1.html">KNITWEAR</a></li>
+                <li><a href="listCardSlotPageMensShirts.html">SHIRTS</a></li>
+                <li><a href="listCardSlotPageMensSweatshirts.html">SWEATSHIRTS</a></li>
+                <li><a href="listCardSlotPageMensTops.html">TOPS</a></li>
+                <li><a href="listCardSlotPageMensTrousers.html">TROUSERS</a></li>
+                <li><a href="listCardSlotPageMensShorts.html">SHORTS</a></li>
+                <li><a href="listCardSlotPageMensShoes.html">SHOES</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageMensNew.html">
+                      <img src="images/index_category_mens_01.png" alt="mens new in">
+                      <h2>MEN’S NEW IN</h2>
+                    </a>
+                    <a href="listPageMens.html">
+                      <img src="images/index_category_mens_02.png" alt="all mens">
+                      <h2>ALL MENS</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span>Womens</span>
+              <ol>
+                <li><a href="listPageWomens.html">SEE ALL WOMENS</a></li>
+                <li><a href="listCardSlotPageWomensJackets.html">COATS &amp; JACKETS</a></li>
+                <li><a href="listCardSlotPageWomensDresses.html">DRESSES</a></li>
+                <li><a href="listCardSlotPageWomensJeans.html">JEANS</a></li>
+                <li><a href="listCardSlotPageWomensKnitwear1.html">KNITWEAR</a></li>
+                <li><a href="listCardSlotPageWomensShirts.html">SHIRTS</a></li>
+                <li><a href="listCardSlotPageWomensSkirts.html">SKIRTS</a></li>
+                <li><a href="listCardSlotPageWomensSweatshirts.html">SWEATSHIRTS</a></li>
+                <li><a href="listCardSlotPageWomensTops.html">TOPS &amp; VESTES</a></li>
+                <li><a href="listCardSlotPageWomensTrousers.html">TROUSERS</a></li>
+                <li><a href="listCardSlotPageWomensShoes.html">SHOES</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageWomensNew.html">
+                      <img src="images/index_category_womens_01.png" alt="womens new in">
+                      <h2>WOMEN’S NEW IN</h2>
+                    </a>
+                    <a href="listPageWomens.html">
+                      <img src="images/index_category_womens_02.png" alt="all womens">
+                      <h2>ALL WOMENS</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span>Bags</span>
+              <ol>
+                <li><a href="listPageBags.html">SEE ALL BAGS</a></li>
+                <li><a href="listCardSlotPageBagsTotes.html">TOTES</a></li>
+                <li><a href="listCardSlotPageBagsShoulder1.html">SHOULDER BAGS</a></li>
+                <li><a href="listCardSlotPageBagsMessenger.html">CROSSBODY &amp; MESSENGER BAGS</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageBagsNew.html">
+                      <img src="images/index_category_bags_01.png" alt="bags new in">
+                      <h2>BAGS NEW IN</h2>
+                    </a>
+                    <a href="listPageBags.html">
+                      <img src="images/index_category_bags_02.png" alt="all bags">
+                      <h2>ALL BAGS</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span>Accessories</span>
+              <ol>
+                <li><a href="listPageAccessories.html">SEE ALL ACCESSORIES</a></li>
+                <li><a href="listCardSlotPageAccHats.html">HATS &amp; BEANIES</a></li>
+                <li><a href="listCardSlotPageAccJewellery.html">FINE JEWELLERY</a></li>
+                <li><a href="listCardSlotPageAccScarves.html">SCARVES</a></li>
+                <li><a href="listCardSlotPageAccSunglasses.html">SUNGLASSES</a></li>
+                <li><a href="listCardSlotPageAccWallets.html">WALLETS</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageAccNew.html">
+                      <img src="images/index_category_acc_01.png" alt="accessories new in">
+                      <h2>ACCESSORIES NEW IN</h2>
+                    </a>
+                    <a href="listPageAccessories.html">
+                      <img src="images/index_category_acc_02.png" alt="all accessories">
+                      <h2>ALL ACCESSORIES</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span>Collaboration</span>
+              <ol>
+                <li><a href="listPageCollaboration.html">SEE ALL COLLABORATION</a></li>
+                <li><a href="listCardSlotPageCollaDean.html">DEAN SAMESHIMA</a></li>
+                <li><a href="listCardSlotPageCollaHumphries.html">HUMPHRIES WEAVING - DAMASK SILKS</a></li>
+                <li><a href="listCardSlotPageCollaJapanese1.html">JAPANESE DENIM</a></li>
+                <li><a href="listCardSlotPageCollaLochcarron.html">LOCHCARRON OF SCOTLAND</a></li>
+                <li><a href="listCardSlotPageCollaPringle.html">PRINGLE OF SCOTLAND</a></li>
+                <li><a href="listCardSlotPageCollaStephen.html">STEPHEN WALTERS</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageCollaPringle.html">
+                      <img src="images/index_category_collabo_01.png" alt="pringle of scotland">
+                      <h2>PRINGLE OF SCOTLAND</h2>
+                    </a>
+                    <a href="listCardSlotPageCollaJapanese1.html">
+                      <img src="images/index_category_collabo_02.png" alt="japanese denim">
+                      <h2>JAPANESE DENIM</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <input type="button" value="Search" data-panel="panelSearchBar">
+        <input type="button" value="Email Sign Up" data-panel="emailSignUpBox">
+        <input type="button" value="Account" data-panel="popupSignIn">
+        <input type="button" value="My Cart (1)" data-panel="panelMyCart">
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger">m</label>
+      </div>
+    </div>
+  </header>
+
+  <div class="serviceContainer">
+    <div>
+      <nav>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="customerServiceFaq.html">Customer Service</a></li>
+          <li>Shipping &amp; Returns</li>
+        </ol>
+      </nav>
+    </div>
+    <aside>
+      <input type="checkbox" id="customerMenu">
+      <label for="customerMenu">Customer Service</label>
+      <h2>Customer Service</h2>
+      <nav>
+        <ul>
+          <li><a href="customerServiceFaq.html">FAQ</a></li>
+          <li><a href="customerServiceTrackYourOrder.html">Track Your Order</a></li>
+          <li class="active">Shipping &amp; Returns</li>
+        </ul>
+      </nav>
+    </aside>
+    <article>
+      <input type="button" value="Back" class="btn_back">
+      <h3>Shipping &amp; Returns</h3>
+      <p>
+        Please note: These terms apply exclusively to purchases made via the official JW Anderson online store at
+        jwanderson.com. For purchases made at our official physical boutiques, please refer to the in&ndash;store
+        returns policy shown on your e&ndash;receipt or at point of sale. For purchases made through third&ndash;party
+        stockists or department store concessions, please contact them directly as their returns policies will apply.
+      </p>
+      <div>
+        <h4>Order Deadlines for Christmas Delivery</h4>
+        <p>UK and Europe &ndash; 1pm GMT 19th December</p>
+        <p>North America and Canada &ndash; 18th December</p>
+        <p>Rest of World &ndash; 17th December</p>
+      </div>
+      <div>
+        <h4>Delivery Options</h4>
+        <p>
+          Where available, you may select from Standard or Express delivery options at checkout. Shipping costs are
+          automatically calculated once the delivery address has been entered.
+        </p>
+      </div>
+      <div>
+        <h4>Shipping Fees &amp; Delivery Times</h4>
+        <b>Shipping Fees:</b>
+        <p>
+          Fees are calculated automatically at checkout based on delivery address, parcel size, weight and contents.
+          Shipping fees are non&ndash;refundable in the event of a return.
+        </p>
+        <b>Delivery Times:</b>
+        <p>DHL EXPRESS: 1&ndash;3 business days</p>
+        <p>DHL STANDARD: 4&ndash;7 business days</p>
+        <p>
+          Delivery times are estimates from dispatch and may be affected by customs clearance or payment verification
+          delays.
+        </p>
+      </div>
+      <div>
+        <h4>Order Processing &amp; Cut&ndash;Off Times</h4>
+        <p>
+          Orders placed Monday to Friday before 12:00 PM (UK time) will be dispatched the same day. Orders placed after
+          12:00 PM (UK time), on weekends, or during Italian public holidays will be dispatched on the next working day.
+        </p>
+      </div>
+      <div>
+        <h4>Deliveries</h4>
+        <p>
+          You will receive tracking updates via email and an estimated delivery date. You can also follow progress in
+          your account under &ldquo;My Orders&rdquo;. During sale periods, dispatch may take longer and we will notify
+          you of any delays.
+        </p>
+        <p>
+          Deliveries take place Monday to Friday between 9:00 AM and 6:00 PM. Depending on your location, courier
+          services may include:
+        </p>
+        <ul>
+          <li>No-signature delivery / Safe Place</li>
+          <li>Delivery to a neighbour, reception or security</li>
+          <li>Rescheduling a new delivery date</li>
+          <li>Redirection to a nearby DHL collection point</li>
+        </ul>
+        <p>
+          By selecting any of these options you acknowledge JW Anderson is not responsible for loss or damage once
+          delivery is completed as instructed.
+        </p>
+      </div>
+      <div>
+        <h4>RISK &amp; OWNERSHIP</h4>
+        <p>
+          Risk passes to you upon delivery. Ownership transfers once full payment, including delivery charges, has been
+          received.
+        </p>
+      </div>
+      <div>
+        <h4>DUTIES &amp; TAXES</h4>
+        <p>
+          We include the cost of taxes and duties in your order for many locations, so no additional fees are due on
+          delivery for the countries listed below:
+        </p>
+        <p>
+          European Union, USA, Canada, Brazil, Mainland China, Australia, New Zealand, Puerto Rico, Switzerland,
+          Singapore, Republic of Korea, Kuwait, Qatar, Israel, India, Norway, Saudi Arabia, Taiwan, Thailand, U.A.E.,
+          Japan, Isle of Man, Guernsey, Jersey, San Marino, and Mexico.
+        </p>
+        <p>
+          If you are ordering within your own customs zone or country/region, import duties will not be applicable;
+          however local VAT or sales taxes may apply. For the UK and the USA, these are included at checkout.
+        </p>
+        <p>
+          If a DAP (Delivery At Place) destination is selected (i.e., customers outside the countries/regions listed
+          above), the price you pay to JW Anderson will exclude import duties and sales taxes. As the recipient you must
+          pay these directly to the carrier to release your order from customs. We recommend contacting your local
+          customs office for guidance before placing a DAP order.
+        </p>
+      </div>
+      <div>
+        <h4>SHIPPING TO USA</h4>
+        <p>
+          For international orders shipped to the US, US Customs may request your IRS, EIN or SSN before enabling
+          delivery. You will normally have one week to provide this information before the order is returned to us for a
+          refund.
+        </p>
+      </div>
+      <div>
+        <h4>RETURNS POLICY</h4>
+        <b>Festive Extended Returns</b>
+        <p>
+          For Christmas gifting, online orders placed from 20 November can be returned until 5 January, provided they
+          meet our standard return conditions.
+        </p>
+        <b>Return Policy</b>
+        <p>
+          Returns must be initiated within 14 days of delivery for eligible items, which must meet the following
+          conditions:
+        </p>
+        <ul>
+          <li>
+            Unworn (except for trying on), unwashed, undamaged and unused with original tags and intact security seals.
+          </li>
+          <li>
+            Footwear should be tried on a soft surface to avoid marking soles and returned in original boxes within
+            protective outer packaging.
+          </li>
+          <li>
+            Lingerie and swimwear must be tried on over personal garments.
+          </li>
+          <li>
+            Hosiery must be unopened and in original packaging.
+          </li>
+          <li>
+            Books may be returned only if the transparent seal is unbroken.
+          </li>
+          <li>
+            Homeware (e.g., ceramics) must be unused, unopened and in original packaging.
+          </li>
+        </ul>
+        <b>Non&ndash;returnable items</b>
+        <ul>
+          <li>Personalised or made&ndash;to&ndash;order products (unless faulty)</li>
+          <li>Earrings</li>
+          <li>Socks and underwear</li>
+          <li>Opened cosmetics or items with broken hygiene seals</li>
+          <li>Edible goods (for health &amp; safety reasons)</li>
+          <li>Used homeware or unsealed books</li>
+        </ul>
+        <p>
+          Items returned outside these conditions may be declined or refunded at a reduced value. Please note: shipping
+          fees paid at checkout are non&ndash;refundable.
+        </p>
+      </div>
+      <div>
+        <h4>RETURNS PROCESS</h4>
+        <p>To return an item:</p>
+        <ul>
+          <li>Log in to your JW Anderson account.</li>
+          <li>Navigate to &ldquo;My Orders &amp; Returns&rdquo;.</li>
+          <li>Select the order and click &ldquo;Request Return&rdquo;.</li>
+          <li>Follow the prompts to generate your return label.</li>
+          <li>Download and print the label (also sent by email).</li>
+        </ul>
+        <p>Pack the item securely with original packaging, attach the label, and hand it to the courier.</p>
+        <p>International &amp; Non&ndash;European Returns:</p>
+        <p>
+          Returns from outside Europe may require additional time for customs and processing. All returns are first
+          received by our logistics partner in the Netherlands before being forwarded to JW Anderson&rsquo;s warehouse
+          for inspection. Refunds are issued once items are approved in line with our policy. We recommend keeping your
+          return tracking number.
+        </p>
+      </div>
+      <div>
+        <h4>REFUNDS</h4>
+        <p>
+          Refunds are processed once returned items are received and inspected at our warehouse. If the items meet our
+          return policy, you will receive an email confirming your refund. Please allow up to 10 working days for the
+          refund to appear in your account. Processing times may vary depending on your bank or payment provider.
+        </p>
+      </div>
+      <div>
+        <h4>CANCELLATION RIGHTS</h4>
+        <p>
+          Depending on where you live, you may be entitled to cancel under the Consumer Contracts (Information,
+          Cancellation and Additional Charges) Regulations 2013 (CCRs). If you choose this option you will be refunded
+          the full price for the Product(s) (subject to our Returns Policy) and the cost of standard delivery, but you
+          will be liable for the organisation and cost of returning the Product(s) to us. Please view our Terms and
+          Conditions for further information on cancelling an order under the CCRs or contact our customer service team
+          at <a href="mailto:help@jwanderson.com">help@jwanderson.com.</a>
+        </p>
+      </div>
+    </article>
+  </div>
+
+  <footer>
+    <div>
+      <div>
+        <div>
+          <h2>
+            <img src="images/symbol.webp" alt="jw anderson symbol">
+          </h2>
+          <cite>&copy; 2026 JW ANDERSON</cite>
+        </div>
+        <div>
+          <p>
+            Newsletters that smell nice.
+            Subscribe.
+          </p>
+          <div>
+            <form>
+              <input type="email" placeholder="Email address*" title="put your email">
+              <input type="submit" value="SUBSCRIBE">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h3>About</h3>
+          <ul>
+            <li><a href="aboutJonathan.html">Jonathan</a></li>
+            <li><a href="aboutStores.html">Stores</a></li>
+            <li><a href="aboutCareers.html">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="customerServiceFaq.html">FAQ</a></li>
+            <li><a href="customerServiceTrackYourOrder.html">Track Your Order</a></li>
+            <li><a href="customerServiceShippingAndReturns.html">Shipping &amp; Returns</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>General Information</h3>
+          <ul>
+            <li><a href="generalInformationCustomerSupport.html">Customer Support</a></li>
+            <li><a href="generalInformationPrivacyAndCookiesPolicy.html">Privacy &amp; Cookies Policy</a></li>
+            <li><a href="generalInformationTermsAndConditions.html">Terms &amp; Conditions</a></li>
+            <li><a href="generalInformationContactUs.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow us on</h3>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/jw_anderson">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

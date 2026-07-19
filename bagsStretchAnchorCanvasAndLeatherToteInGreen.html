@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JW Anderson | Bags - Totes</title>
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/jwanderson.js"></script>
+  <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+  <div id="popupSignIn">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>Sign in</h2>
+    <p>Required fields are marked with an (*).</p>
+    <form action="index_after.html">
+      <span>
+        <input type="email" id="emailAddressPopup" class="popup-input" required>
+        <label for="emailAddressPopup" class="popup-label">Email address*</label>
+      </span>
+      <span>
+        <input type="password" id="signPassword" class="popup-input" required>
+        <label for="signPassword" class="popup-label">Password*</label>
+        <input type="button" value="hiddenPassword" class="toggleBtn">
+      </span>
+      <span>
+        <input type="checkbox" id="staySignedIn">
+        <label for="staySignedIn">Stay signed in</label>
+        <input type="button" value="Forgotten password?" data-panel="popupForgottenPassword">
+      </span>
+      <input type="submit" class="btnForm" value="Sign in">
+    </form>
+    <p>
+      By logging in, you are agreeing to our <a href="generalInformationPrivacyAndCookiesPolicy.html">privacy policy</a>
+      and <a href="generalInformationTermsAndConditions.html">our terms and
+        conditions.</a>
+    </p>
+    <span>or</span>
+    <hr>
+    <p>
+      Sign in with your social media account
+    </p>
+    <div>
+      <a href="https://www.facebook.com/?locale=ko_KR" class="btnSns">Facebook</a>
+      <a href="https://myaccount.google.com/" class="btnSns">Google</a>
+    </div>
+    <p>
+      When you use Facebook or Google to login to our site, be advised that your data is governed by Facebook’s or
+      Google’s privacy policy and terms of use.
+    </p>
+    <p>
+      New to JW Anderson? <input type="button" value="Create an account" data-panel="popupCreateAccount">
+    </p>
+  </div>
+  <div id="popupForgottenPassword">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>Reset password</h2>
+    <p>
+      To have your password reset, enter your email address below. We will then send an email containing a link to reset
+      your password.
+    </p>
+    <span>
+      <input type="email" id="addressEmail" class="popup-input" required>
+      <label for="addressEmail" class="popup-label">Email address*</label>
+    </span>
+    <input type="submit" value="Send email" class="btnForm active">
+  </div>
+  <div id="popupNewPassword">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>Create new password</h2>
+    <p>
+      Create a new password to keep your account secure. Make sure your password is unique and not used on other sites.
+    </p>
+    <span>
+      <input type="password" id="newPassword" class="popup-input" required>
+      <label for="newPassword" class="popup-label">Password*</label>
+      <input type="button" value="hiddenPassword" class="toggleBtn">
+    </span>
+    <span>
+      <input type="password" id="confirmNewPassword" class="popup-input" required>
+      <label for="confirmNewPassword" class="popup-label">Confirm password*</label>
+      <input type="button" value="hiddenPassword" class="toggleBtn">
+    </span>
+    <input type="button" value="Confirm new password" class="btnForm active" data-panel="popupSignIn">
+  </div>
+  <div id="popupCreateAccount">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>Create an account</h2>
+    <p>
+      Sign up with social media or fill the form below and enjoy the benefits of having an account.
+    </p>
+    <div>
+      <a href="https://www.facebook.com/?locale=ko_KR" class="btnSns">Facebook</a>
+      <a href="https://myaccount.google.com/" class="btnSns">Google</a>
+    </div>
+    <p>
+      When you use Facebook or Google to login to our site, be advised that your data is governed by Facebook’s or
+      Google’s privacy policy and terms of use.
+    </p>
+    <span>or</span>
+    <hr>
+    <form action="index_after.html">
+      <span>
+        <input type="text" id="firstNamePopup" class="popup-input" required>
+        <label for="firstNamePopup" class="popup-label">First name*</label>
+      </span>
+      <span>
+        <input type="text" id="lastNamePopup" class="popup-input" required>
+        <label for="lastNamePopup" class="popup-label">Last name*</label>
+      </span>
+      <span>
+        <input type="email" id="emailAccount" class="popup-input" required>
+        <label for="emailAccount" class="popup-label">Email*</label>
+      </span>
+      <span>
+        <input type="password" placeholder="" id="newPasswordAccount" class="popup-input" required>
+        <label for="newPasswordAccount" class="popup-label">Password*</label>
+        <input type="button" value="hiddenPassword" class="toggleBtn">
+      </span>
+      <span>
+        <input type="password" id="confirmNewPasswordAccount" class="popup-input" required>
+        <label for="confirmNewPasswordAccount" class="popup-label">Confirm password*</label>
+        <input type="button" value="hiddenPassword" class="toggleBtn">
+      </span>
+      <input type="checkbox" id="agreeCreateAccount">
+      <label for="agreeCreateAccount">
+        <span>
+          By ticking this box, you confirm you would like to receive communications about JW Anderson news, events,
+          offers, services and also a personalised experience with customised content and advertising through our website,
+          social media and our online partners.
+        </span>
+        <span>
+          For more information visit our <a href="generalInformationPrivacyAndCookiesPolicy.html">Privacy Policy</a>. By
+          creating an account, you agree to JW Anderson’s <a href="generalInformationTermsAndConditions.html">Terms of
+            Use.</a>
+        </span>
+      </label>
+      <input type="submit" value="Create account" class="btnForm">
+    </form>
+  </div>
+  <div id="emailSignUpBox">
+    <img src="images/index_bg_sign_up.png" alt="Loafer bag in pine green alligator leather">
+    <div id="popupEmailSignUp">
+      <input type="button" value="close" class="material-symbols-outlined btn_close">
+      <h2>Subscribe to stay in&ndash;the&ndash;know</h2>
+      <p>
+        Enter your details to receive communications about our products and services, events, and cultural endeavours.
+      </p>
+      <p>
+        Subscribe to JW Anderson communications
+      </p>
+      <form>
+        <span>
+          <input type="email" id="emailSub" class="popup-input" required>
+          <label for="emailSub" class="popup-label">Email</label>
+        </span>
+        <span>
+          <input type="tel" class="onlyNumb popup-input" id="phoneNumbSub" maxlength="11" required>
+          <label for="phoneNumbSub" class="popup-label">Phone number</label>
+        </span>
+        <div>
+          <input type="checkbox" id="agreeEmailSignUp">
+          <label for="agreeEmailSignUp">
+            By submitting this form, I expressly agree to JW Anderson, directly or by third parties acting on its
+            behalf, sending me promotional &amp; marketing messages (e.g. cart reminders) - including texts or calls
+            using automated means (including for the selection or dialing of a telephone number) or pre-recorded or
+            artificial voice messages - to the mobile number I provided and to the Mobile Terms (which include an
+            arbitration provision to resolve disputes). I confirm I am the owner of the provided, and understand consent
+            is not a condition of purchase. Msg frequency varies. Msg &amp; Data Rates May Apply. Text HELP for help and
+            STOP to cancel.
+            <a href="generalInformationPrivacyAndCookiesPolicy.html">Privacy Policy</a> Notice of Financial
+            Incentives.
+          </label>
+          <p>
+            <b>Receive email communications</b>
+            By submitting this form, I confirm I am a US resident and (1) agree to JW Anderson's <a
+              href="generalInformationTermsAndConditions.html">Terms &amp;
+              Conditions</a> (which includes an arbitration provision) and Marketing Disclosure; and (2)
+            have read and acknowledge JW Anderson's <a href="generalInformationPrivacyAndCookiesPolicy.html">Privacy
+              Notice</a> and Notice of Financial
+            Incentives.
+          </p>
+        </div>
+        <input type="submit" class="btnForm" value="Submit">
+      </form>
+    </div>
+  </div>
+  <div id="popupAddToCart">
+    <div>
+      <input type="button" value="close" class="material-symbols-outlined btn_close">
+      <h2>Added product(s)</h2>
+      <form action="cartFull.html">
+        <div>
+          <img src="images/index_addtocart_01.png" alt="Wide Sleeve Blazer In Black">
+          <div>
+            <a href="mensWideSleeveBlazerInBlack.html">Wide Sleeve Blazer In Black</a>
+            <small>44</small>
+            <span class="qtyComponent" data-price="1915">
+              <i>Quantity</i>
+              <input type="button" value="minus">
+              <input type="number" class="qtyVal" min="1" step="1" value="1">
+              <input type="button" value="plus">
+            </span>
+            <strong class="totalPrice">$1,915</strong>
+          </div>
+          <input type="button" value="Continue shopping" class="btnContinue btn_close">
+          <a href="cartFull.html" class="btnViewCart">View your cart</a>
+        </div>
+      </form>
+    </div>
+    <div>
+      <h3>Others also considered</h3>
+      <ul>
+        <li>
+          <a href="mensCurvedHemCroppedJacketInBlack.html">
+            <img src="images/index_addtocart_02.png" alt="Curved Hem Cropped Jacket In Black" class="product-img">
+            <b class="product-name">Curved Hem Cropped Jacket In Black</b>
+            <mark class="product-color">Black</mark>
+          </a>
+          <div class="selectComponent size">
+            <i>Size</i>
+            <ul>
+              <li class="currentVal">XXS</li>
+              <li>XXS</li>
+              <li>XS</li>
+              <li>S</li>
+              <li>M</li>
+              <li>L</li>
+              <li>XL</li>
+              <li>XXL</li>
+            </ul>
+          </div>
+          <strong class="product-price">$4,760</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart">
+        </li>
+        <li>
+          <a href="mensWideSleeveBlazerInChocolateBrown.html">
+            <img src="images/index_addtocart_03.png" alt="Wide Sleeve Blazer In Chocolate Brown" class="product-img">
+            <b class="product-name">Wide Sleeve Blazer In Chocolate Brown</b>
+            <mark class="product-color">Black | Chocolate brown</mark>
+          </a>
+          <div class="selectComponent size">
+            <i>Size</i>
+            <ul>
+              <li class="currentVal">44</li>
+              <li>44</li>
+              <li>46</li>
+              <li>48</li>
+              <li>50</li>
+              <li>52</li>
+            </ul>
+          </div>
+          <strong class="product-price">$1,915</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="panelCustomerService">
+    <div>
+      <h3>How Can We Help?</h3>
+      <ul>
+        <li><a href="customerServiceFaq.html">FAQ</a></li>
+        <li><a href="customerServiceTrackYourOrder.html">Track Your Order</a></li>
+        <li><a href="customerServiceShippingAndReturns.html">Shipping &amp; Returns</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contact Us</h3>
+      <a href="generalInformationContactUs.html">Click Here</a>
+    </div>
+  </div>
+  <div id="panelAccountLogout">
+    <div>
+      <h3>Account</h3>
+      <ul>
+        <li><a href="accountMyprofile.html">My Profile</a></li>
+        <li><a href="accountOrderAndReturns.html">Orders and Returns</a></li>
+        <li><a href="accountAddressBook.html">Address Book</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Welcome hozin shin</h3>
+      <form action="index.html">
+        <input type="submit" value="Log Out">
+      </form>
+    </div>
+  </div>
+  <div id="panelSearchBar">
+    <div>
+      <input type="button" value="close" class="material-symbols-outlined btn_close">
+      <input type="search" placeholder="What are you looking for?">
+    </div>
+  </div>
+  <div id="panelMyCart">
+    <input type="button" value="close" class="material-symbols-outlined btn_close">
+    <h2>My Cart (1)</h2>
+    <ol>
+      <li>
+        <img src="images/index_mycart_panel_01.png" alt="Wide Sleeve Blazer In Black">
+        <div>
+          <a href="mensWideSleeveBlazerInBlack.html">Wide Sleeve Blazer In Black</a>
+          <small>44</small>
+          <span class="qtyComponent" data-price="1915">
+            <i>Quantity</i>
+            <input type="button" value="minus">
+            <input type="number" class="qtyVal" min="1" step="1" value="1">
+            <input type="button" value="plus">
+          </span>
+          <strong class="totalPrice">$1,915</strong>
+        </div>
+      </li>
+    </ol>
+    <div>
+      <h3>Others also considered</h3>
+      <ul>
+        <li>
+          <a href="mensCurvedHemCroppedJacketInBlack.html">
+            <img src="images/index_mycart_panel_02.png" alt="Curved Hem Cropped Jacket In Black" class="product-img">
+            <b class="product-name">Curved Hem Cropped Jacket In Black</b>
+            <mark class="product-color">Black</mark>
+          </a>
+          <div class="selectComponent size">
+            <i>Size</i>
+            <ul>
+              <li class="currentVal">XXS</li>
+              <li>XXS</li>
+              <li>XS</li>
+              <li>S</li>
+              <li>M</li>
+              <li>L</li>
+              <li>XL</li>
+              <li>XXL</li>
+            </ul>
+          </div>
+          <strong class="product-price">$4,760</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart">
+        </li>
+        <li>
+          <a href="mensCorduroyCollarDenimJacketInMidBlue.html">
+            <img src="images/index_mycart_panel_03.png" alt="Corduroy Collar Denim Jacket In Mid-Blue" class="product-img">
+            <b class="product-name">Corduroy Collar Denim Jacket In Mid-Blue</b>
+            <mark class="product-color">Mid blue</mark>
+          </a>
+          <div class="selectComponent size">
+            <i>Size</i>
+            <ul>
+              <li class="currentVal">XXS</li>
+              <li>XXS</li>
+              <li>XS</li>
+              <li>S</li>
+              <li>M</li>
+              <li>L</li>
+              <li>XL</li>
+              <li>XXL</li>
+            </ul>
+          </div>
+          <strong class="product-price">$1,075</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart">
+        </li>
+      </ul>
+    </div>
+    <div>
+      <span>Subtotal</span>
+      <strong>$1,915</strong>
+      <a href="cartFull.html" class="btnViewCart">View your cart</a>
+      <input type="button" value="Continue shopping" class="btnContinue btn_close">
+    </div>
+  </div>
+
+  <header class="headerFixed">
+    <div>
+      <div>
+        <a href="aboutStores.html">Stores</a>
+        <input type="button" value="Customer Service" data-panel="panelCustomerService">
+      </div>
+      <div>
+        <h1>
+          <a href="index.html">
+            <img src="images/logo_white.png" alt="welcome jw anderson">
+          </a>
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <span>Mens</span>
+              <ol>
+                <li><a href="listPageMens.html">SEE ALL MENS</a></li>
+                <li><a href="listCardSlotPageMensJackets.html">COATS &amp; JACKETS</a></li>
+                <li><a href="listCardSlotPageMensJeans.html">JEANS</a></li>
+                <li><a href="listCardSlotPageMensKnitwear1.html">KNITWEAR</a></li>
+                <li><a href="listCardSlotPageMensShirts.html">SHIRTS</a></li>
+                <li><a href="listCardSlotPageMensSweatshirts.html">SWEATSHIRTS</a></li>
+                <li><a href="listCardSlotPageMensTops.html">TOPS</a></li>
+                <li><a href="listCardSlotPageMensTrousers.html">TROUSERS</a></li>
+                <li><a href="listCardSlotPageMensShorts.html">SHORTS</a></li>
+                <li><a href="listCardSlotPageMensShoes.html">SHOES</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageMensNew.html">
+                      <img src="images/index_category_mens_01.png" alt="mens new in">
+                      <h2>MEN’S NEW IN</h2>
+                    </a>
+                    <a href="listPageMens.html">
+                      <img src="images/index_category_mens_02.png" alt="all mens">
+                      <h2>ALL MENS</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span>Womens</span>
+              <ol>
+                <li><a href="listPageWomens.html">SEE ALL WOMENS</a></li>
+                <li><a href="listCardSlotPageWomensJackets.html">COATS &amp; JACKETS</a></li>
+                <li><a href="listCardSlotPageWomensDresses.html">DRESSES</a></li>
+                <li><a href="listCardSlotPageWomensJeans.html">JEANS</a></li>
+                <li><a href="listCardSlotPageWomensKnitwear1.html">KNITWEAR</a></li>
+                <li><a href="listCardSlotPageWomensShirts.html">SHIRTS</a></li>
+                <li><a href="listCardSlotPageWomensSkirts.html">SKIRTS</a></li>
+                <li><a href="listCardSlotPageWomensSweatshirts.html">SWEATSHIRTS</a></li>
+                <li><a href="listCardSlotPageWomensTops.html">TOPS &amp; VESTES</a></li>
+                <li><a href="listCardSlotPageWomensTrousers.html">TROUSERS</a></li>
+                <li><a href="listCardSlotPageWomensShoes.html">SHOES</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageWomensNew.html">
+                      <img src="images/index_category_womens_01.png" alt="womens new in">
+                      <h2>WOMEN’S NEW IN</h2>
+                    </a>
+                    <a href="listPageWomens.html">
+                      <img src="images/index_category_womens_02.png" alt="all womens">
+                      <h2>ALL WOMENS</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span>Bags</span>
+              <ol>
+                <li><a href="listPageBags.html">SEE ALL BAGS</a></li>
+                <li><a href="listCardSlotPageBagsTotes.html">TOTES</a></li>
+                <li><a href="listCardSlotPageBagsShoulder1.html">SHOULDER BAGS</a></li>
+                <li><a href="listCardSlotPageBagsMessenger.html">CROSSBODY &amp; MESSENGER BAGS</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageBagsNew.html">
+                      <img src="images/index_category_bags_01.png" alt="bags new in">
+                      <h2>BAGS NEW IN</h2>
+                    </a>
+                    <a href="listPageBags.html">
+                      <img src="images/index_category_bags_02.png" alt="all bags">
+                      <h2>ALL BAGS</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span>Accessories</span>
+              <ol>
+                <li><a href="listPageAccessories.html">SEE ALL ACCESSORIES</a></li>
+                <li><a href="listCardSlotPageAccHats.html">HATS &amp; BEANIES</a></li>
+                <li><a href="listCardSlotPageAccJewellery.html">FINE JEWELLERY</a></li>
+                <li><a href="listCardSlotPageAccScarves.html">SCARVES</a></li>
+                <li><a href="listCardSlotPageAccSunglasses.html">SUNGLASSES</a></li>
+                <li><a href="listCardSlotPageAccWallets.html">WALLETS</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageAccNew.html">
+                      <img src="images/index_category_acc_01.png" alt="accessories new in">
+                      <h2>ACCESSORIES NEW IN</h2>
+                    </a>
+                    <a href="listPageAccessories.html">
+                      <img src="images/index_category_acc_02.png" alt="all accessories">
+                      <h2>ALL ACCESSORIES</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span>Collaboration</span>
+              <ol>
+                <li><a href="listPageCollaboration.html">SEE ALL COLLABORATION</a></li>
+                <li><a href="listCardSlotPageCollaDean.html">DEAN SAMESHIMA</a></li>
+                <li><a href="listCardSlotPageCollaHumphries.html">HUMPHRIES WEAVING - DAMASK SILKS</a></li>
+                <li><a href="listCardSlotPageCollaJapanese1.html">JAPANESE DENIM</a></li>
+                <li><a href="listCardSlotPageCollaLochcarron.html">LOCHCARRON OF SCOTLAND</a></li>
+                <li><a href="listCardSlotPageCollaPringle.html">PRINGLE OF SCOTLAND</a></li>
+                <li><a href="listCardSlotPageCollaStephen.html">STEPHEN WALTERS</a></li>
+                <li>
+                  <div>
+                    <a href="listCardSlotPageCollaPringle.html">
+                      <img src="images/index_category_collabo_01.png" alt="pringle of scotland">
+                      <h2>PRINGLE OF SCOTLAND</h2>
+                    </a>
+                    <a href="listCardSlotPageCollaJapanese1.html">
+                      <img src="images/index_category_collabo_02.png" alt="japanese denim">
+                      <h2>JAPANESE DENIM</h2>
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <input type="button" value="Search" data-panel="panelSearchBar">
+        <input type="button" value="Email Sign Up" data-panel="emailSignUpBox">
+        <input type="button" value="Account" data-panel="popupSignIn">
+        <input type="button" value="My Cart (1)" data-panel="panelMyCart">
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger">m</label>
+      </div>
+    </div>
+  </header>
+
+  <div class="detailPageContainer">
+    <div>
+      <nav>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="listPageBags.html">Bags</a></li>
+          <li><a href="listCardSlotPageBagsTotes.html">Totes</a></li>
+          <li>Stretch Anchor Canvas &amp; Leather Tote In Green</li>
+        </ol>
+      </nav>
+    </div>
+    <div>
+      <ul class="detailSlider">
+        <li>
+          <img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a01.png"
+            alt="Stretch Anchor Canvas And Leather Tote In Green">
+        </li>
+        <li>
+          <img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a02.png"
+            alt="Stretch Anchor Canvas And Leather Tote In Green">
+        </li>
+        <li>
+          <img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a03.png"
+            alt="Stretch Anchor Canvas And Leather Tote In Green">
+        </li>
+        <li>
+          <img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a04.png"
+            alt="Stretch Anchor Canvas And Leather Tote In Green">
+        </li>
+        <li>
+          <img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a05.png"
+            alt="Stretch Anchor Canvas And Leather Tote In Green">
+        </li>
+      </ul>
+      <div>
+        <h2>Stretch Anchor Canvas &amp; Leather Tote In Green</h2>
+        <strong>$835</strong>
+        <ul>
+          <li>
+            <a href="bagsStretchAnchorCanvasAndLeatherToteInOrange.html">
+              <img src="images/bagsStretchAnchorCanvasAndLeatherToteInOrange_c01.png"
+                alt="Stretch Anchor Canvas And Leather Tote In Orange">
+            </a>
+          </li>
+          <li>
+            <a href="bagsStretchAnchorCanvasAndLeatherToteInGreen.html">
+              <img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_c01.png"
+                alt="Stretch Anchor Canvas And Leather Tote In Green">
+            </a>
+          </li>
+        </ul>
+        <div>
+          <input type="button" value="Add to cart" class="btnAddToCart" data-panel="popupAddToCart">
+        </div>
+        <div>
+          <h3>Details that matter</h3>
+          <ol class="thumbPager">
+            <li class="active">
+              <a data-slide-index="0"><img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a01.png" alt="Stretch Anchor Canvas And Leather Tote In Green"></a>
+            </li>
+            <li>
+              <a data-slide-index="1"><img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a02.png" alt="Stretch Anchor Canvas And Leather Tote In Green"></a>
+            </li>
+            <li>
+              <a data-slide-index="2"><img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a03.png" alt="Stretch Anchor Canvas And Leather Tote In Green"></a>
+            </li>
+            <li>
+              <a data-slide-index="3"><img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a04.png" alt="Stretch Anchor Canvas And Leather Tote In Green"></a>
+            </li>
+            <li>
+              <a data-slide-index="4"><img src="images/bagsStretchAnchorCanvasAndLeatherToteInGreen_a05.png" alt="Stretch Anchor Canvas And Leather Tote In Green"></a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div>
+      <ul class="accComponent">
+        <li>
+          <span>DESCRIPTION</span>
+          <input type="button" value="more" class="btnToggle">
+        </li>
+        <li>
+          <p>
+            Elongated double sided anchor tote in green canvas featuring smooth calf leather anchor top handles and
+            binding. With an internal slip pocket and closing mechanism that functions as a pocket.
+          </p>
+        </li>
+      </ul>
+      <ul class="accComponent">
+        <li>
+          <span>DETAILS</span>
+          <input type="button" value="more" class="btnToggle">
+        </li>
+        <li>
+          <ul>
+            <li>
+              <b>Colour</b>
+              <mark>Green/Brown</mark>
+            </li>
+            <li>
+              <b>Dimensions</b>
+              <mark>[Width] 49cm | [Height] 25cm | [Depth] 18cm</mark>
+            </li>
+            <li>
+              <b>Composition [Main]</b>
+              <mark>100% Cotton</mark>
+            </li>
+            <li>
+              <b>Made in</b>
+              <mark>Italy</mark>
+            </li>
+            <li>
+              <b>Composition [Lining]</b>
+              <mark>100% Full Grain Calf Leather</mark>
+            </li>
+            <li>
+              <b>SKU</b>
+              <mark>HB0770FA0442588</mark>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="accComponent">
+        <li>
+          <span>SHIPPING &amp; RETURNS</span>
+          <input type="button" value="more" class="btnToggle">
+        </li>
+        <li>
+          <div>
+            <ul>
+              <li>
+                <b>Shipping</b>
+                <p>
+                  Shipping charges are calculated at checkout once a delivery address is confirmed. Standard and
+                  express shipping are offered where possible.
+                </p>
+                <p>
+                  *Some products excluded including furniture and fine jewellery.
+                </p>
+              </li>
+              <li>
+                <b>Returns</b>
+                <p>Free</p>
+                <p>
+                  You can request a return within 14 days of your delivery date.Find more information about delivery
+                  and returns.
+                </p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <p>
+                  We accept all major credit cards as well as Apple Pay, PayPal and Klarna.Find more information
+                  about payment methods.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Our customer service team is available Monday to Friday, 9am to 6pm GMT if you need to contact us
+                  about your order.
+                </p>
+              </li>
+              <li>
+                <p><a href="mailto:help@jwanderson.com">help@jwanderson.com</a></p>
+                <p><a href="tel:+442036970293">+44 20 3697 0293</a></p>
+                <p>Chat with us</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h3>You may also like</h3>
+      <ul class="sliderNew">
+        <li>
+          <input type="button" value="bookmark" class="material-symbols-outlined">
+          <a href="bagsLoaferBagInOrangeLeather.html">
+            <img src="images/detailPage_recommend_bags_totes_01.png" alt="Loafer Bag In Orange Leather" class="product-img">
+            <b class="product-name">Loafer Bag In Orange Leather</b>
+            <mark class="product-color">Black | Orange | Tan</mark>
+          </a>
+          <strong class="product-price">$1,750</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart" data-panel="popupAddToCart">
+        </li>
+        <li>
+          <input type="button" value="bookmark" class="material-symbols-outlined">
+          <a href="bagsSmallMessengerLoaferBagInChocolateBrownLeather.html">
+            <img src="images/detailPage_recommend_bags_totes_02.png"
+              alt="Small Messenger Loafer Bag In Chocolate Brown Leather" class="product-img">
+            <b class="product-name">Small Messenger Loafer Bag In Chocolate Brown Leather</b>
+            <mark class="product-color">Black | Chocolate brown | Khaki</mark>
+          </a>
+          <strong class="product-price">$1,510</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart" data-panel="popupAddToCart">
+        </li>
+        <li>
+          <input type="button" value="bookmark" class="material-symbols-outlined">
+          <a href="accLeatherLoaferBiFoldWalletInTan.html">
+            <img src="images/detailPage_recommend_bags_messenger_03.png" alt="Leather Loafer Bi Fold Wallet In Tan" class="product-img">
+            <b class="product-name">Leather Loafer Bi Fold Wallet In Tan</b>
+            <mark class="product-color">Tan | Black</mark>
+          </a>
+          <strong class="product-price">$465</strong>
+          <input type="button" value="Add to cart" class="btnAddToCart" data-panel="popupAddToCart">
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <div>
+        <div>
+          <h2>
+            <img src="images/symbol.webp" alt="jw anderson symbol">
+          </h2>
+          <cite>&copy; 2026 JW ANDERSON</cite>
+        </div>
+        <div>
+          <p>
+            Newsletters that smell nice.
+            Subscribe.
+          </p>
+          <div>
+            <form>
+              <input type="email" placeholder="Email address*" title="put your email">
+              <input type="submit" value="SUBSCRIBE">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h3>About</h3>
+          <ul>
+            <li><a href="aboutJonathan.html">Jonathan</a></li>
+            <li><a href="aboutStores.html">Stores</a></li>
+            <li><a href="aboutCareers.html">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="customerServiceFaq.html">FAQ</a></li>
+            <li><a href="customerServiceTrackYourOrder.html">Track Your Order</a></li>
+            <li><a href="customerServiceShippingAndReturns.html">Shipping &amp; Returns</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>General Information</h3>
+          <ul>
+            <li><a href="generalInformationCustomerSupport.html">Customer Support</a></li>
+            <li><a href="generalInformationPrivacyAndCookiesPolicy.html">Privacy &amp; Cookies Policy</a></li>
+            <li><a href="generalInformationTermsAndConditions.html">Terms &amp; Conditions</a></li>
+            <li><a href="generalInformationContactUs.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow us on</h3>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/jw_anderson">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

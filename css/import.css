@@ -1,0 +1,10 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* google icon */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+@import url('reset.css');
+@import url('module.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.min.css');
+@import url('global.css');
+@import url('page.css');
