@@ -679,7 +679,7 @@ section .lImgRcap div:last-of-type h4,
     border: 1px solid white;
     width: 260px;
     color: white;
-    background: url('../images/arrow_right_alt_FFFFFF.svg') no-repeat center right 45px;
+    background: url('../images/arrow_right_alt_FFFFFF.svg') no-repeat center right 25px;
     background-size: 30px;
   }
 
@@ -701,7 +701,7 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(5) figure figcaption .btnShop,
   .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
     border: 1px solid var(--gs05);
-    background: url('../images/arrow_right_alt_2D2D2D.svg') no-repeat center right 45px var(--be02);
+    background: url('../images/arrow_right_alt_2D2D2D.svg') no-repeat center right 25px var(--be02);
     background-size: 30px;
   }
 
@@ -722,7 +722,7 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop:hover,
   .listMixContainer div:nth-of-type(5) figure figcaption .btnShop:hover,
   .listMixContainer div:nth-of-type(8) figure figcaption .btnShop:hover {
-    background: url('../images/arrow_right_alt_F6F5E8.svg') no-repeat center right 45px var(--gs05);
+    background: url('../images/arrow_right_alt_F6F5E8.svg') no-repeat center right 25px var(--gs05);
     background-size: 30px;
   }
 
@@ -3867,7 +3867,7 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(5) figure figcaption .btnShop,
   .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
     border: 1px solid var(--gs05);
-    background: url('../images/arrow_right_alt_2D2D2D.svg') no-repeat center right 45px var(--be02);
+    background: url('../images/arrow_right_alt_2D2D2D.svg') no-repeat center right 245px var(--be02);
     background-size: 30px;
   }
 
@@ -3888,7 +3888,7 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop:hover,
   .listMixContainer div:nth-of-type(5) figure figcaption .btnShop:hover,
   .listMixContainer div:nth-of-type(8) figure figcaption .btnShop:hover {
-    background: url('../images/arrow_right_alt_F6F5E8.svg') no-repeat center right 45px var(--gs05);
+    background: url('../images/arrow_right_alt_F6F5E8.svg') no-repeat center right 245px var(--gs05);
     background-size: 30px;
   }
 
