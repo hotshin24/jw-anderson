@@ -267,6 +267,3172 @@ section .lImgRcap div:last-of-type h4,
   color: var(--gs05);
 }
 
+@media screen and (max-width: 767px) {
+
+  /* ########## padding & bg ##########  */
+  .indexContainer>div:nth-of-type(2),
+  .indexContainer>div:nth-of-type(3),
+  .indexContainer>div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(5),
+  .indexContainer>div:nth-of-type(6),
+  .indexContainer>div:nth-of-type(8),
+  .indexContainer>div:last-of-type,
+  .listMixContainer>div:nth-of-type(2),
+  .listMixContainer>div:nth-of-type(4),
+  .listMixContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(6),
+  .listMixContainer div:nth-of-type(8),
+  .listMixContainer div:nth-of-type(9) {
+    padding: 60px 0;
+  }
+
+  .listCardContainer>div:nth-of-type(3),
+  .detailPageContainer>div:nth-of-type(4),
+  .wishlistContainer>div:last-of-type {
+    padding: 60px 0 95px;
+  }
+
+  .listMixContainer div:nth-of-type(7),
+  .listMixContainer>div:nth-of-type(10),
+  .listCardContainer>div:nth-of-type(2)>div,
+  .detailPageContainer>div:nth-of-type(2),
+  .detailPageContainer>div:nth-of-type(3),
+  .accountContainer,
+  .cartContainer,
+  .wishlistContainer>div:nth-of-type(2),
+  .checkoutContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer {
+    padding-bottom: 60px;
+  }
+
+  /* ########## title + paragraph ##########  */
+  .indexContainer>div:nth-of-type(2) h2,
+  .indexContainer>div:nth-of-type(4) h2,
+  .indexContainer>div:nth-of-type(3) figure figcaption h2,
+  .indexContainer>div:nth-of-type(5) figure figcaption h2,
+  .indexContainer>div:nth-of-type(6) h2,
+  .indexContainer>div:nth-of-type(8) h2,
+  .listMixContainer>div:nth-of-type(2) h2,
+  .listMixContainer div:nth-of-type(5) figure figcaption h2,
+  .listMixContainer div:nth-of-type(8) figure figcaption h2,
+  .listCardContainer>div:nth-of-type(3) h2,
+  .detailPageContainer>div:nth-of-type(4) h3,
+  .wishlistContainer div:last-of-type h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+
+  .indexContainer>div:nth-of-type(2) h2,
+  .indexContainer>div:nth-of-type(4) h2,
+  .indexContainer>div:nth-of-type(6) h2,
+  .indexContainer>div:nth-of-type(8) h2,
+  .listMixContainer>div:nth-of-type(2) h2,
+  .listCardContainer>div:nth-of-type(3) h2,
+  .detailPageContainer>div:nth-of-type(4) h3,
+  .wishlistContainer div:last-of-type h2 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .indexContainer>div:nth-of-type(3) figure figcaption h2,
+  .indexContainer>div:nth-of-type(5) figure figcaption h2,
+  .listMixContainer div:nth-of-type(5) figure figcaption h2,
+  .listMixContainer div:nth-of-type(8) figure figcaption h2 {
+    margin-bottom: 20px;
+  }
+
+  .indexContainer div:nth-of-type(2) p,
+  .indexContainer div:nth-of-type(4) p,
+  .indexContainer>div:nth-of-type(3) figure figcaption p,
+  .indexContainer>div:nth-of-type(5) figure figcaption p,
+  .indexContainer>div:nth-of-type(6) p,
+  .listMixContainer>div:nth-of-type(2) p,
+  .listMixContainer div:nth-of-type(5) figure figcaption p,
+  .listMixContainer div:nth-of-type(8) figure figcaption p {
+    font-weight: 400;
+  }
+
+  .indexContainer div:nth-of-type(2) p,
+  .indexContainer div:nth-of-type(4) p,
+  .indexContainer>div:nth-of-type(6) p,
+  .listMixContainer>div:nth-of-type(2) p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .indexContainer>div:nth-of-type(3) figure figcaption p,
+  .indexContainer>div:nth-of-type(5) figure figcaption p,
+  .listMixContainer div:nth-of-type(5) figure figcaption p,
+  .listMixContainer div:nth-of-type(8) figure figcaption p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .indexContainer>div:nth-of-type(3) figure figcaption p,
+  .indexContainer>div:nth-of-type(5) figure figcaption p,
+  .listMixContainer div:nth-of-type(5) figure figcaption p,
+  .listMixContainer div:nth-of-type(8) figure figcaption p,
+  .listCardContainer>div:first-of-type div div p,
+  .listCardContainer>div:nth-of-type(2)>ul>li,
+  .wishlistContainer div:nth-of-type(2)>ul>li {
+    margin-bottom: 45px;
+  }
+
+  /* ########## selectComponent - size ##########  */
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto 15px;
+  }
+
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent ul,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent ul,
+  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent ul {
+    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be02);
+    background-size: 30px;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent ul,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent ul,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent ul,
+  .listMixContainer div:nth-of-type(4) div ul li .selectComponent.active,
+  .listMixContainer div:nth-of-type(6) ul li div.selectComponent.active,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent ul,
+  .listMixContainer div:nth-of-type(9) div ul li .selectComponent.active,
+  .listMixContainer>div:nth-of-type(10) ul li div.selectComponent.active,
+  .listCardContainer>div:nth-of-type(2) ul li .selectComponent.active,
+  .wishlistContainer div:nth-of-type(2) ul li .selectComponent.active {
+    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+    background-size: 30px;
+  }
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent.active {
+    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--gs01);
+    background-size: 30px;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active i,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active i,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active i,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent.active i,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent.active i,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active i,
+  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent.active i {
+    transform: translateY(35px);
+  }
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent.active ul,
+  .listMixContainer div:nth-of-type(4) div ul li .selectComponent.active ul,
+  .listMixContainer div:nth-of-type(6) ul li div.selectComponent.active ul,
+  .listMixContainer div:nth-of-type(9) div ul li .selectComponent.active ul,
+  .listMixContainer>div:nth-of-type(10) ul li div.selectComponent.active ul,
+  .listCardContainer>div:nth-of-type(2) ul li .selectComponent.active ul,
+  .wishlistContainer div:nth-of-type(2) ul li .selectComponent.active ul {
+    top: 100%;
+    border-top: none;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active ul,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active ul,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active ul,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent.active ul,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent.active ul,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active ul,
+  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent.active ul {
+    bottom: 100%;
+    border-bottom: none;
+  }
+
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent.active,
+  .detailPageContainer div:nth-of-type(4) li .selectComponent ul,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active,
+  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent.active {
+    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be02);
+    background-size: 30px;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active,
+  .listMixContainer div:nth-of-type(4) div ul li .selectComponent ul,
+  .listMixContainer div:nth-of-type(6) ul li div.selectComponent ul,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent.active,
+  .listMixContainer div:nth-of-type(9) div ul li .selectComponent ul,
+  .listMixContainer>div:nth-of-type(10) ul li div.selectComponent ul,
+  .listCardContainer>div:nth-of-type(2) ul li .selectComponent ul,
+  .wishlistContainer div:nth-of-type(2) ul li .selectComponent ul {
+    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+    background-size: 30px;
+  }
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent ul {
+    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--gs01);
+    background-size: 30px;
+  }
+
+  /* ########## selectComponent - sort by ##########  */
+  .listCardContainer>div:first-of-type div div.selectComponent {
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+    width: 260px;
+  }
+
+  .listCardContainer>div:first-of-type div div.selectComponent.active {
+    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+    background-size: 30px;
+  }
+
+  .listCardContainer>div:first-of-type div div.selectComponent.active ul {
+    top: 100%;
+    border-top: none;
+  }
+
+  .listCardContainer>div:first-of-type div div.selectComponent ul {
+    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+    background-size: 30px;
+  }
+
+  /* ########## selectComponent - gender ##########  */
+  .accountContainer section.editInformation form .selectComponent.active {
+    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+    background-size: 30px;
+  }
+
+  .accountContainer section.editInformation form .selectComponent.active ul {
+    top: 100%;
+    border-top: none;
+  }
+
+  .accountContainer section.editInformation form .selectComponent ul {
+    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+    background-size: 30px;
+  }
+
+  /* ########## bx slider ##########  */
+  .indexContainer div:nth-of-type(2) .bx-wrapper,
+  .indexContainer div:nth-of-type(4) .bx-wrapper,
+  .indexContainer div:nth-of-type(6) .bx-wrapper,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper,
+  .wishlistContainer div:last-of-type .bx-wrapper {
+    border: none;
+    box-shadow: none;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .sliderAcc li,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
+  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li {
+    position: relative;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
+  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
+  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type.active {
+    background: url('../images/bookmark_fill.png') no-repeat center;
+    background-size: 23px;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-prev,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-prev,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
+  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-prev {
+    left: -10px;
+    background: url('../images/chevron_backward.svg') no-repeat center;
+    background-size: 30px;
+    z-index: 0;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-next,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-next,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-next,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
+  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-next {
+    right: -10px;
+    background: url('../images/chevron_forward.svg') no-repeat center;
+    background-size: 30px;
+    z-index: 0;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-prev,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-prev,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
+  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-prev,
+  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-next,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-next,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-next,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
+  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-next {
+    top: 105.5%;
+  }
+
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-next {
+    top: 115%;
+  }
+
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+    width: 30px;
+    height: 2px;
+    background-color: var(--gs03);
+    margin: 0 6px;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+    width: 45px;
+    height: 4px;
+    background-color: var(--gs04);
+  }
+
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+    display: none;
+  }
+
+  /* ########## floatingBox ##########  */
+  .indexContainer>div:nth-of-type(3) figure,
+  .listMixContainer div:nth-of-type(5) figure,
+  .indexContainer>div:nth-of-type(5) figure,
+  .listMixContainer div:nth-of-type(8) figure {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .indexContainer>div:nth-of-type(3) figure img,
+  .listMixContainer div:nth-of-type(5) figure img,
+  .indexContainer>div:nth-of-type(5) figure img,
+  .listMixContainer div:nth-of-type(8) figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .indexContainer>div:nth-of-type(3) figure figcaption,
+  .listMixContainer div:nth-of-type(5) figure figcaption,
+  .indexContainer>div:nth-of-type(5) figure figcaption,
+  .listMixContainer div:nth-of-type(8) figure figcaption {
+    width: 260px;
+    margin: 0 auto;
+    order: -1;
+  }
+
+  /* ########## btnShop ##########  */
+  .indexContainer>div:first-of-type a.btnShop,
+  .indexContainer>div:nth-of-type(7) a.btnShop {
+    border: 1px solid white;
+    width: 260px;
+    color: white;
+    background: url('../images/arrow_right_alt_FFFFFF.svg') no-repeat center right 45px;
+    background-size: 30px;
+  }
+
+  .indexContainer>div:nth-of-type(7) a.btnShop {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .indexContainer div:first-of-type a.btnShop:hover,
+  .indexContainer>div:nth-of-type(7) a.btnShop:hover {
+    border-color: var(--gs05);
+  }
+
+  .indexContainer>div:nth-of-type(3) figure figcaption .btnShop,
+  .indexContainer>div:nth-of-type(5) figure figcaption .btnShop,
+  .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop,
+  .listMixContainer div:nth-of-type(5) figure figcaption .btnShop,
+  .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
+    border: 1px solid var(--gs05);
+    background: url('../images/arrow_right_alt_2D2D2D.svg') no-repeat center right 45px var(--be02);
+    background-size: 30px;
+  }
+
+  .indexContainer>div:nth-of-type(3) figure figcaption .btnShop,
+  .indexContainer>div:nth-of-type(5) figure figcaption .btnShop,
+  .listMixContainer div:nth-of-type(5) figure figcaption .btnShop,
+  .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+
+  .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop {
+    width: 100%;
+  }
+
+  .indexContainer>div:nth-of-type(3) figure figcaption .btnShop:hover,
+  .indexContainer>div:nth-of-type(5) figure figcaption .btnShop:hover,
+  .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop:hover,
+  .listMixContainer div:nth-of-type(5) figure figcaption .btnShop:hover,
+  .listMixContainer div:nth-of-type(8) figure figcaption .btnShop:hover {
+    background: url('../images/arrow_right_alt_F6F5E8.svg') no-repeat center right 45px var(--gs05);
+    background-size: 30px;
+  }
+
+  /* ########## 1 title content ##########  */
+  .indexContainer>div:first-of-type {
+    height: 680px;
+    color: white;
+    position: relative;
+    background: url('../images/index_bg_main.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .indexContainer>div:first-of-type h2 {
+    font-size: 29px;
+    font-weight: 400;
+    text-shadow: 0 0 5px var(--ov40);
+    top: 49.5%;
+    width: 260px;
+    text-align: center;
+  }
+
+  .indexContainer>div:first-of-type p {
+    width: 260px;
+    line-height: 23px;
+    text-align: center;
+    text-shadow: 0 0 5px var(--ov40);
+    top: 59.5%;
+  }
+
+  .indexContainer>div:first-of-type p,
+  .listMixContainer>div:first-of-type p,
+  .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type {
+    line-height: 23px;
+  }
+
+  .indexContainer>div:first-of-type a {
+    top: 84%;
+  }
+
+  .indexContainer>div:first-of-type h2,
+  .indexContainer>div:first-of-type p,
+  .indexContainer>div:first-of-type a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* ##########  6 accessories zone  ##########  */
+  .indexContainer>div:nth-of-type(6) ul::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .indexContainer>div:nth-of-type(6) ul li {
+    float: left;
+  }
+
+  .indexContainer>div:nth-of-type(6) ul li:not(:last-of-type) {
+    margin-right: 1.4%;
+  }
+
+  .indexContainer>div:nth-of-type(6) ul li a img,
+  .indexContainer>div:nth-of-type(8) ul li figure figcaption span,
+  .detailPageContainer>div:nth-of-type(2) div h2,
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(2) li:nth-of-type(2) ul li,
+  .accountContainer section h2 span,
+  .accountContainer section.myProfile div:first-of-type,
+  .accountContainer section.myProfile div:nth-of-type(2) dl:first-of-type,
+  .accountContainer section.myProfile div:nth-of-type(3) h3,
+  .accountContainer section.orderDetails div:first-of-type,
+  .accountContainer section.orderDetails>ol,
+  .accountContainer section.orderDetails>ol li:not(:last-of-type),
+  .accountContainer section.orderDetails ol li dl dt,
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li:first-of-type,
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li:nth-of-type(2),
+  .accountContainer section.addressBook ul li:not(:last-of-type),
+  .cartContainer.checkoutCompleted h2,
+  .cartContainer.checkoutCompleted>div:last-of-type,
+  .cartContainer.checkoutCompleted aside div ol li:not(:last-of-type),
+  .checkoutContainer form section div:first-of-type div:nth-of-type(3),
+  .checkoutContainer aside ol li,
+  .checkoutContainer aside ol li dl dt {
+    margin-bottom: 25px;
+  }
+
+  .indexContainer>div:nth-of-type(6) ul li a strong {
+    display: block;
+    text-align: center;
+  }
+
+  .indexContainer>div:nth-of-type(6) ul li a strong,
+  .accountContainer section.orderDetails ol li dl dt,
+  .accountContainer section.orderDetails div:nth-of-type(2) dl dt,
+  .accountContainer section.orderDetails div:nth-of-type(2) dl dd,
+  .cartContainer ol li div div:first-of-type a b,
+  .cartContainer aside div:first-of-type dl:last-of-type dt,
+  .cartContainer aside div:first-of-type dl:last-of-type dd strong,
+  .checkoutContainer aside ol li dl dt,
+  .checkoutContainer aside>dl>dt:nth-of-type(5),
+  .checkoutContainer aside>dl>dd:nth-of-type(5) {
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .cartContainer ol li div div:first-of-type a b {
+    display: inline-block;
+    width: 100px;
+    line-height: 23px;
+  }
+
+  .indexContainer>div:nth-of-type(6) ul li a:hover strong {
+    text-decoration: underline;
+  }
+
+  /* ########## 7 men & women collection  ##########  */
+  .indexContainer>div:nth-of-type(7) {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .indexContainer>div:nth-of-type(7) div:first-of-type {
+    background: url('../images/index_menCollection.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .indexContainer>div:nth-of-type(7) div:last-of-type {
+    background: url('../images/index_womenCollection.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .indexContainer>div:nth-of-type(7) div {
+    width: 100%;
+    height: 680px;
+    position: relative;
+  }
+
+  .indexContainer>div:nth-of-type(7) div h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 260px;
+  }
+
+  /* ########## 8 collaborations zone  ##########  */
+  .indexContainer>div:nth-of-type(8) ul li:not(:last-of-type) {
+    margin-bottom: 80px;
+  }
+
+  .indexContainer>div:nth-of-type(8) ul li figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .indexContainer>div:nth-of-type(8) ul li figure img,
+  .indexContainer>div:nth-of-type(8) ul li figure figcaption b,
+  .detailPageContainer>div:nth-of-type(2) div strong,
+  .detailPageContainer>div:nth-of-type(2)>div>ul,
+  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI,
+  .detailPageContainer>div:nth-of-type(3) .accComponent:not(:last-of-type),
+  .accountContainer aside h2 span,
+  .accountContainer section.myProfile div:nth-of-type(3)>p:nth-of-type(2),
+  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type,
+  .aboutContainer section ul li address div,
+  .informationContainer section div:last-of-type address div,
+  .aboutContainer article figure figcaption p:not(:last-of-type),
+  .aboutContainer article p,
+  .aboutContainer article a:first-of-type,
+  .aboutContainer section ul li address em,
+  .serviceContainer article div ol li:not(:last-of-type),
+  .serviceContainer article div:nth-of-type(3) p:first-of-type,
+  .serviceContainer article div:nth-of-type(5) p:first-of-type,
+  .serviceContainer article div:nth-of-type(5) ul,
+  .serviceContainer article div:nth-of-type(7) p:not(:last-of-type),
+  .serviceContainer article div:nth-of-type(9) p:first-of-type,
+  .serviceContainer article div:nth-of-type(9) ul,
+  .serviceContainer article div:nth-of-type(10) p:nth-of-type(2),
+  .serviceContainer section p:last-of-type,
+  .informationContainer section div:last-of-type p,
+  .informationContainer article.customerSupport div:first-of-type p:first-of-type,
+  .informationContainer article.customerSupport div:nth-of-type(2) p:not(:last-of-type),
+  .informationContainer article.customerSupport div:nth-of-type(3) p:not(:last-of-type),
+  .informationContainer article.customerSupport div:nth-of-type(4) p:first-of-type,
+  .informationContainer article.customerSupport div:nth-of-type(5) p:first-of-type,
+  .informationContainer article.privacyPolicy div:first-of-type p:not(:last-of-type),
+  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(2),
+  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(3),
+  .informationContainer article.privacyPolicy div:nth-of-type(6) p:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(8) p:not(:nth-of-type(6), :last-of-type),
+  .informationContainer article.privacyPolicy div:nth-of-type(13) p:not(:last-of-type),
+  .informationContainer article.privacyPolicy div:nth-of-type(15) p:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(2),
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(4),
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(10),
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(13),
+  .informationContainer article.privacyPolicy div:nth-of-type(17) p:not(:last-of-type),
+  .informationContainer article.privacyPolicy div:nth-of-type(18)>p:nth-of-type(2),
+  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:not(:last-of-type),
+  .informationContainer article.privacyPolicy div:nth-of-type(19) p:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(20) p:not(:last-of-type),
+  .informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(2),
+  .informationContainer article.privacyPolicy div:nth-of-type(22)>p,
+  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li,
+  .informationContainer article.termsConditions div:nth-of-type(2) p:first-of-type,
+  .informationContainer article.termsConditions div:nth-of-type(3) ul,
+  .informationContainer article.termsConditions div:nth-of-type(5) p:not(:last-of-type),
+  .informationContainer article.termsConditions div:nth-of-type(10) ul,
+  .informationContainer article.termsConditions div:nth-of-type(10) p:nth-of-type(2),
+  .informationContainer article.termsConditions div:nth-of-type(11) p:not(:last-of-type),
+  .informationContainer article.termsConditions div:nth-of-type(12) p:not(:last-of-type),
+  .informationContainer article.termsConditions div:nth-of-type(17) p:first-of-type,
+  .informationContainer article.termsSales>ol>li:first-of-type>ol>li:first-of-type,
+  .informationContainer article.termsSales>ol>li:nth-of-type(2)>ol>li:not(:last-of-type),
+  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:not(:last-of-type),
+  .informationContainer article.termsSales ol li:nth-of-type(n+4):nth-of-type(-n+7) ol li:not(:last-of-type),
+  .informationContainer article.termsSales ol li:nth-of-type(n+9):nth-of-type(-n+13)>ol>li:not(:last-of-type),
+  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:not(:last-of-type),
+  .informationContainer article.termsSales ol li:last-of-type ol>li:not(:last-of-type),
+  .informationContainer article.termsSales div address:last-of-type,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl {
+    margin-bottom: 30px;
+  }
+
+  .indexContainer>div:nth-of-type(8) ul li figure figcaption span {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .indexContainer>div:nth-of-type(8) ul li figure figcaption b {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  /* ########## 9 paragraph zone  ##########  */
+  .indexContainer>div:last-of-type blockquote {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    width: 260px;
+    margin: 0 auto;
+  }
+
+  .indexContainer>div:last-of-type blockquote i {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  /* ########## 1 sub title content ##########  */
+  .listMixContainer>div:first-of-type {
+    height: 540px;
+    color: white;
+  }
+
+  .listMixContainer.mens>div:first-of-type {
+    background: url('../images/listPage_mens_bg_01.png') no-repeat center right 34%;
+  }
+
+  .listMixContainer.womens>div:first-of-type {
+    background: url('../images/listPage_womens_bg_01.png') no-repeat center right 34%;
+  }
+
+  .listMixContainer.acc>div:first-of-type {
+    background: url('../images/listPage_acc_bg_01.png') no-repeat center right 34%;
+  }
+
+  .listMixContainer.bags>div:first-of-type {
+    background: url('../images/listPage_bags_bg_01.png') no-repeat center right 34%;
+  }
+
+  .listMixContainer.colla>div:first-of-type {
+    background: url('../images/listPage_colla_bg_01.png') no-repeat center right 34%;
+  }
+
+  .listMixContainer>div:first-of-type h2 {
+    font-size: 25px;
+    font-weight: 500;
+    transform: translateY(280px);
+  }
+
+  .listMixContainer.mens>div:first-of-type h2,
+  .listMixContainer.womens>div:first-of-type h2,
+  .listMixContainer.bags>div:first-of-type h2,
+  .listMixContainer.acc>div:first-of-type h2,
+  .listMixContainer.colla>div:first-of-type h2,
+  .listMixContainer>div:first-of-type p {
+    display: none;
+  }
+
+  /* ########## 3 video zone  ##########  */
+  .listMixContainer>div:nth-of-type(3) {
+    display: block;
+    height: auto;
+    font-size: 16px;
+  }
+  
+  .listMixContainer div:nth-of-type(3)>.videoBox {
+    display: block;
+    width: 100%;
+    height: 125vw;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .listMixContainer div:nth-of-type(3)>.videoBox .fluid-width-video-wrapper {
+    padding-top: 0;
+    height: 100%;
+  }
+
+  .listMixContainer div:nth-of-type(3)>.videoBox .fluid-width-video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type {
+    display: block;
+    width: 100%;
+    padding: 25px 0;
+    min-height: auto;
+  }
+
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin: 0 auto 20px;
+    max-width: 80%;
+  }
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div a img {
+    display: block;
+    height: 620px;
+    margin: 0 auto 20px;
+  }
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div a b {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    width: 100%;
+    max-width: 375px;
+    height: 20px;
+    margin: 0 auto 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div a mark {
+    font-style: normal;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+    max-width: 375px;
+    height: 15px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    text-align: center;
+  }
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div strong {
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .listMixContainer div:nth-of-type(3)>div:last-of-type div input[type=button] {
+    width: 100%;
+    max-width: 260px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* ########## 4 list left img men  ##########  */
+  /* ########## 9 list right img men  ##########  */
+  .listMixContainer div:nth-of-type(4) div>div,
+  .listMixContainer div:nth-of-type(9) div>div {
+    text-align: center;
+    color: white;
+    padding: 70px 0 25px;
+  }
+
+  .listMixContainer div:nth-of-type(4) div>div {
+    margin-bottom: 60px;
+  }
+
+  .listMixContainer.mens div:nth-of-type(4) div>div {
+    background: url('../images/listPage_mens_bg_02.png') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .listMixContainer.womens div:nth-of-type(4) div>div {
+    background: url('../images/listPage_womens_bg_02.png') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .listMixContainer.bags div:nth-of-type(4) div>div {
+    background: url('../images/listPage_bags_bg_02.png') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .listMixContainer.acc div:nth-of-type(4) div>div {
+    background: url('../images/listPage_acc_bg_02.png') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .listMixContainer.colla div:nth-of-type(4) div>div {
+    background: url('../images/listPage_colla_bg_02.png') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .listMixContainer.mens div:nth-of-type(9) div>div {
+    background: url('../images/listPage_mens_bg_03.png') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .listMixContainer.womens div:nth-of-type(9) div>div {
+    background: url('../images/listPage_womens_bg_03.png') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .listMixContainer.colla div:nth-of-type(9) div>div {
+    background: url('../images/listPage_colla_bg_03.png') no-repeat center center;
+    background-size: 100%;
+  }
+
+  .listMixContainer div:nth-of-type(4) div div h2,
+  .listMixContainer div:nth-of-type(9) div div h2,
+  .listCardContainer>div:first-of-type div nav,
+  .accountContainer aside h2 b,
+  .aboutContainer aside h2,
+  .serviceContainer aside h2,
+  .informationContainer aside h2,
+  .accountContainer section h2 strong,
+  .accountContainer section.editInformation form ul li input[type=text],
+  .accountContainer section.editInformation form ul li input[type=email],
+  .accountContainer section.editInformation form ul li input[type=tel],
+  .accountContainer section.editInformation form ul li input[type=date],
+  .checkoutContainer form section div:first-of-type ul li input[type=text],
+  .checkoutContainer form section div:first-of-type ul li input[type=tel],
+  .serviceContainer form ul li input[type=text],
+  .serviceContainer form ul li input[type=email],
+  .checkoutContainer form section div:first-of-type div:last-of-type,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li input[type=text] {
+    margin-bottom: 35px;
+  }
+
+  .listMixContainer div:nth-of-type(4) div div h2,
+  .listMixContainer div:nth-of-type(9) div div h2,
+  .listCardContainer>div:first-of-type div div h2 {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  .listMixContainer div:nth-of-type(4) div div p,
+  .listMixContainer div:nth-of-type(9) div div p {
+    width: 230px;
+    margin: 0 auto;
+  }
+
+  .listMixContainer div:nth-of-type(4) div div p,
+  .listMixContainer div:nth-of-type(9) div div p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .listCardContainer>div:first-of-type div div p,
+  .accountContainer section.myProfile div:nth-of-type(3) p,
+  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type p,
+  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p,
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li address,
+  .aboutContainer article figure figcaption p,
+  .aboutContainer article p,
+  .aboutContainer article a,
+  .serviceContainer article div ol li p,
+  .serviceContainer article p,
+  .serviceContainer article div p,
+  .serviceContainer article div:nth-of-type(5) ul li,
+  .serviceContainer article div:nth-of-type(9) ul li,
+  .serviceContainer article div:nth-of-type(10) ul li,
+  .serviceContainer section p,
+  .informationContainer section p,
+  .informationContainer article div p,
+  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
+  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(7) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
+  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
+  .informationContainer article.termsSales ol li ol li,
+  .informationContainer article.termsSales ol li:nth-of-type(8) p,
+  .informationContainer article.termsSales ol li:nth-of-type(15) p,
+  .informationContainer article.termsSales div ul li label,
+  .cartContainer.checkoutCompleted aside div ol li address {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent:first-of-type li:nth-of-type(2) p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .listMixContainer div:nth-of-type(9)>div>ul {
+    margin-bottom: 60px;
+  }
+
+  .listMixContainer div:nth-of-type(4) div ul li,
+  .listMixContainer div:nth-of-type(9) div ul li {
+    width: 100%;
+    position: relative;
+  }
+
+  .listMixContainer div:nth-of-type(4) div ul li:first-of-type,
+  .listMixContainer div:nth-of-type(9) div ul li:first-of-type {
+    margin-bottom: 60px;
+  }
+
+  .listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type,
+  .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type,
+  .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type,
+  .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type,
+  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+  }
+
+  .listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type.active,
+  .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type.active,
+  .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type.active,
+  .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type.active,
+  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active {
+    background: url('../images/bookmark_fill.png') no-repeat center;
+    background-size: 23px;
+  }
+
+  /* ########## 6 list right video  ##########  */
+  /* ########## 7 list three product ##########  */
+  /* ########## 10 list left video  ##########  */
+  .listMixContainer div:nth-of-type(6) ul li,
+  .listMixContainer>div:nth-of-type(10) ul li {
+    width: 100%;
+    position: relative;
+  }
+
+  .listMixContainer div:nth-of-type(7) ul li {
+    width: calc(50% - 11.25px);
+    position: relative;
+  }
+
+  .listMixContainer div:nth-of-type(7) ul li:not(:last-of-type) {
+    margin-right: 20px;
+  }
+
+  .listMixContainer div:nth-of-type(6) ul li:not(:last-of-type),
+  .listMixContainer>div:nth-of-type(10) ul li:not(:last-of-type) {
+    margin-bottom: 60px;
+  }
+
+  .listMixContainer div:nth-of-type(6) ul li:last-of-type .videoBox,
+  .listMixContainer>div:nth-of-type(10) ul li:first-of-type .videoBox {
+    width: 100%;
+    height: 615px;
+    overflow: hidden;
+  }
+
+  .listMixContainer div:nth-of-type(6) ul li:last-of-type .videoBox .fluid-width-video-wrapper,
+  .listMixContainer>div:nth-of-type(10) ul li:first-of-type .videoBox .fluid-width-video-wrapper {
+    height: 100%;
+  }
+
+  .listMixContainer div:nth-of-type(6) ul li:last-of-type .videoBox .fluid-width-video-wrapper video,
+  .listMixContainer>div:nth-of-type(10) ul li:first-of-type .videoBox .fluid-width-video-wrapper video {
+    object-fit: cover;
+  }
+
+  /* ########## 1 title  ##########  */
+  .listCardContainer>div:first-of-type,
+  .detailPageContainer>div:first-of-type {
+    padding: 80px 0 20px;
+  }
+
+  .listCardContainer>div:first-of-type div nav ol,
+  .detailPageContainer>div:first-of-type nav ol,
+  .accountContainer>div:first-of-type nav ol,
+  .aboutContainer>div:first-of-type nav ol,
+  .serviceContainer>div:first-of-type nav ol,
+  .informationContainer>div:first-of-type nav ol {
+    font-size: 0;
+  }
+
+  .listCardContainer>div:first-of-type div nav ol li,
+  .detailPageContainer>div:first-of-type nav ol li,
+  .accountContainer>div:first-of-type nav ol li,
+  .aboutContainer>div:first-of-type nav ol li,
+  .serviceContainer>div:first-of-type nav ol li,
+  .informationContainer>div:first-of-type nav ol li {
+    display: inline-block;
+    padding-right: 25px;
+    line-height: 19px;
+  }
+
+  .listCardContainer>div:first-of-type div nav ol li:last-of-type,
+  .detailPageContainer>div:first-of-type nav ol li:last-of-type,
+  .accountContainer>div:first-of-type nav ol li:last-of-type,
+  .aboutContainer>div:first-of-type nav ol li:last-of-type,
+  .serviceContainer>div:first-of-type nav ol li:last-of-type,
+  .informationContainer>div:first-of-type nav ol li:last-of-type {
+    display: inline;
+  }
+
+  .listCardContainer>div:first-of-type div nav ol li:not(:last-of-type),
+  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type),
+  .accountContainer>div:first-of-type nav ol li:not(:last-of-type),
+  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type),
+  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type),
+  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) {
+    background: url('../images/chevron_forward_400.svg') no-repeat right 2px top calc(50% - 2px);
+    background-size: 20px;
+  }
+
+  .listCardContainer>div:first-of-type div nav ol li:last-of-type,
+  .accountContainer>div:first-of-type nav ol li:last-of-type,
+  .aboutContainer>div:first-of-type nav ol li:last-of-type,
+  .serviceContainer>div:first-of-type nav ol li:last-of-type,
+  .informationContainer>div:first-of-type nav ol li:last-of-type,
+  .listCardContainer>div:first-of-type div nav ol li a,
+  .accountContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .detailPageContainer>div:first-of-type nav ol li:last-of-type,
+  .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .listCardContainer>div:first-of-type div div {
+    position: relative;
+  }
+
+  .listCardContainer>div:first-of-type div div h2,
+  .accountContainer section.myProfile div:nth-of-type(2) dl dt,
+  .accountContainer section.myProfile div:nth-of-type(3)>p:first-of-type,
+  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div,
+  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div,
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li:not(:last-of-type) mark:first-of-type,
+  .accountContainer section.addressBook ul li div:first-of-type dl dd,
+  .aboutContainer section ul li:not(:nth-of-type(4), :last-of-type) address a:first-of-type,
+  .serviceContainer article div:nth-of-type(9) p:nth-of-type(2),
+  .serviceContainer article div:nth-of-type(10) p:first-of-type,
+  .serviceContainer article div:nth-of-type(10) p:nth-of-type(3),
+  .serviceContainer article div:nth-of-type(10) ul,
+  .informationContainer article.customerSupport div:nth-of-type(3) p:last-of-type,
+  .informationContainer article.customerSupport div:nth-of-type(4) p:nth-of-type(2),
+  .informationContainer article.privacyPolicy div:nth-of-type(2) p:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(4),
+  .informationContainer article.privacyPolicy div:nth-of-type(3) p,
+  .informationContainer article.privacyPolicy div:nth-of-type(5) p,
+  .informationContainer article.privacyPolicy div:nth-of-type(7) p,
+  .informationContainer article.privacyPolicy div:nth-of-type(8) p:nth-of-type(6),
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(3),
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+5):nth-of-type(-n+9),
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(11),
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(12),
+  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+14):nth-of-type(-n+16),
+  .informationContainer article.privacyPolicy div:nth-of-type(18)>p:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(2) p:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:nth-of-type(2),
+  .informationContainer article.privacyPolicy div:nth-of-type(19) p:last-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(19) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(odd),
+  .informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(2),
+  .informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(3),
+  .informationContainer article.termsConditions div:nth-of-type(3)>p:first-of-type,
+  .informationContainer article.termsConditions div:nth-of-type(10) p:first-of-type,
+  .informationContainer article.termsConditions div:nth-of-type(14) p,
+  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:first-of-type>p:not(:last-of-type),
+  .informationContainer article.termsSales ol li:nth-of-type(13) ol>li p,
+  .informationContainer article.termsSales ol li:nth-of-type(13) ol>li ol li:not(:last-of-type),
+  .informationContainer article.termsSales div ul li,
+  .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type,
+  .cartContainer>ol>li:not(:last-of-type),
+  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dt,
+  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dd,
+  .cartContainer.cartFull aside div:first-of-type dl:last-of-type,
+  .cartContainer aside div:nth-of-type(2) h3,
+  .cartContainer aside div:last-of-type h3,
+  .cartContainer.checkoutCompleted aside div ol li mark:first-of-type,
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dd,
+  .checkoutContainer aside>dl>dt,
+  .checkoutContainer aside>dl>dd {
+    margin-bottom: 15px;
+  }
+
+  .listCardContainer>div:first-of-type div div span {
+    display: block;
+  }
+
+  .listCardContainer>div:first-of-type div div span {
+    margin-bottom: 85px;
+  }
+
+
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li,
+  .accountContainer section.orderDetails ol li dl dd:first-of-type,
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li h4,
+  .serviceContainer article div:first-of-type p:not(:last-of-type),
+  .serviceContainer article div:nth-of-type(3) p:nth-of-type(2),
+  .serviceContainer article div:nth-of-type(3) p:nth-of-type(3),
+  .informationContainer article.termsConditions div:nth-of-type(3) ul li:nth-of-type(2) p:first-of-type,
+  .cartContainer.checkoutCompleted div:first-of-type>p:nth-of-type(2),
+  .cartContainer.checkoutCompleted div:first-of-type>p:last-of-type,
+  .cartContainer aside div:not(:last-of-type),
+  .cartContainer aside div:first-of-type h3,
+  .cartContainer.checkoutCompleted aside div ol li h4,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dt,
+  .checkoutContainer aside ol li dl dd:first-of-type {
+    margin-bottom: 10px;
+  }
+
+  .listCardContainer>div:first-of-type div div span,
+  .listCardContainer>div:nth-of-type(2) div ul li.active,
+  .wishlistContainer div:nth-of-type(2)>div ul li.active,
+  .listCardContainer>div:nth-of-type(2) div ul li a,
+  .accountContainer section.editInformation,
+  .accountContainer section.orderList table thead tr th {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  /* ########## 2 list card slot  ##########  */
+  .listCardContainer>div:nth-of-type(2)>ul>li,
+  .wishlistContainer div:nth-of-type(2)>ul>li {
+    width: 100%;
+    position: relative;
+  }
+
+  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
+  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+  }
+
+  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
+  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
+  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
+    background: url('../images/bookmark_fill.png') no-repeat center;
+    background-size: 23px;
+  }
+
+  .listCardContainer>div:nth-of-type(2)>div>ul>li,
+  .wishlistContainer div:nth-of-type(2)>div>ul>li {
+    text-align: center;
+  }
+
+  .listCardContainer>div:nth-of-type(2)>div,
+  .wishlistContainer>div:nth-of-type(2)>div {
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .listCardContainer>div:nth-of-type(2)>div ul,
+  .wishlistContainer div:nth-of-type(2)>div ul {
+    font-size: 0;
+  }
+
+  .listCardContainer>div:nth-of-type(2)>div ul li,
+  .wishlistContainer div:nth-of-type(2)>div ul li {
+    display: inline-block;
+    padding: 3px 7px;
+  }
+
+  .listCardContainer>div:nth-of-type(2)>div>a {
+    position: absolute;
+  }
+
+  .listCardContainer>div:nth-of-type(2)>div>a:first-of-type {
+    top: 0px;
+    left: 0px;
+  }
+
+  .listCardContainer>div:nth-of-type(2)>div>a:last-of-type {
+    top: 0px;
+    right: 0px;
+  }
+
+  /* ########## 4 video zone  ##########  */
+
+  .listCardContainer>div:last-of-type .videoBox {
+    display: none;
+  }
+
+  /* ########## 2 image & size  ##########  */
+  /* L-img or video */
+  .detailPageContainer>div:nth-of-type(2) .bx-wrapper {
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) .bx-wrapper .bx-viewport {
+    height: auto;
+  }
+  
+  .detailPageContainer>div:nth-of-type(2) .detailSlider li img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) .detailSlider li video {
+    width: 100%;
+    height: auto;
+  }
+
+  /* R - information */
+  .detailPageContainer>div:nth-of-type(2)>div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    display: block;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div strong {
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div ul::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div>ul>li {
+    float: left;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div>ul>li:not(:nth-of-type(3n)) {
+    margin-right: 14px;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div ul li a img {
+    border: 1px solid var(--be01);
+    display: block;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div ul li a img:hover,
+  .detailPageContainer>div:nth-of-type(2)>div ul li.active a img {
+    border: 1px solid var(--gs05);
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span {
+    display: block;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span,
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
+  .accountContainer aside nav ul,
+  .aboutContainer aside nav ul,
+  .serviceContainer aside nav ul,
+  .informationContainer aside nav ul,
+  .serviceContainer article div ol li b,
+  .serviceContainer article div b,
+  .serviceContainer article div:nth-of-type(5) p:nth-of-type(2),
+  .serviceContainer section p:first-of-type,
+  .informationContainer section div b,
+  .informationContainer section div:nth-of-type(2) a,
+  .informationContainer article.customerSupport div b,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) i:not(:first-of-type, :last-of-type),
+  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li b,
+  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li b,
+  .cartContainer.checkoutCompleted div:first-of-type h2,
+  .wishlistContainer div:first-of-type h2,
+  .checkoutContainer form section>div:first-of-type,
+  .checkoutContainer form section>div:nth-of-type(2),
+  .checkoutContainer form section div:first-of-type h3,
+  .checkoutContainer aside h3,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2),
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3),
+  .checkoutContainer form section div:nth-of-type(2) div:last-of-type,
+  .checkoutContainer form section div:last-of-type span,
+  .checkoutContainer form section div:last-of-type p {
+    margin-bottom: 20px;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span label {
+    font-style: normal;
+    margin-right: 20px;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span label,
+  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span input[type=button],
+  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li,
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
+  .accountContainer aside nav ul li,
+  .aboutContainer aside nav ul li,
+  .serviceContainer aside nav ul li,
+  .informationContainer aside nav ul li,
+  .accountContainer section.myProfile div:nth-of-type(2) dl dt,
+  .accountContainer section.orderDetails ol li dl dd:first-of-type,
+  .accountContainer section.orderDetails ol li dl dd:nth-of-type(2),
+  .cartContainer ol li div div:last-of-type ul li,
+  .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span,
+  .checkoutContainer form section div:first-of-type .selectComponent ul li,
+  .checkoutContainer aside ol li dl dd:first-of-type,
+  .checkoutContainer aside ol li dl dd:nth-of-type(2) {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span input[type=button] {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI {
+    font-size: 0;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li {
+    display: inline-block;
+    padding-right: 30px;
+    cursor: pointer;
+    line-height: 35px;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li.active {
+    text-decoration: underline;
+  }
+
+  .detailPageContainer>div:nth-of-type(2)>div>div:last-of-type {
+    order: -1;
+    margin-bottom: 40px;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3 {
+    display: block;
+    margin-top: 55px;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumPager::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li {
+    float: left;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li:not(:nth-of-type(3n)) {
+    margin-right: 17px;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a img {
+    border: 1px solid var(--be01);
+    width: 75px;
+    height: 95px;
+    cursor: pointer;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a video {
+    border: 1px solid var(--be01);
+    width: 75px;
+    height: 95px;
+    cursor: pointer;
+  }
+
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active img,
+  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active video {
+    border: 1px solid var(--gs05);
+  }
+
+  /* ########## 3 information  ##########  */
+  .detailPageContainer>div:nth-of-type(3) .accComponent>li {
+    border-bottom: 1px solid var(--gs05);
+    padding: 20px 0;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent>li:last-of-type {
+    display: none;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent.active>li:last-of-type {
+    display: block;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent li:first-of-type span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent li:first-of-type input[type=button],
+  .detailPageContainer>div:nth-of-type(3) .accComponent.active li:first-of-type input[type=button] {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border: none;
+    text-indent: -9999px;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent li:first-of-type input[type=button] {
+    background: url('../images/add.svg') no-repeat center;
+    background-size: 23px;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent.active li:first-of-type input[type=button] {
+    background: url('../images/remove.svg') no-repeat center;
+    background-size: 23px;
+  }
+
+  /* details */
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(2) li:nth-of-type(2) ul::after,
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(2) li:nth-of-type(2) ul li:nth-of-type(n+5) {
+    margin-bottom: 0;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(2) li:nth-of-type(2) ul li b,
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul:first-of-type li b {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(2) li:nth-of-type(2) ul li mark {
+    font-style: normal;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  /* sphipping & returns */
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul:first-of-type li p,
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul:nth-of-type(2) li p,
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul:nth-of-type(2) li:nth-of-type(3) p a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul:first-of-type li:first-of-type p:nth-of-type(2) {
+    padding-bottom: 25px;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul:first-of-type li:nth-of-type(2) p:first-of-type,
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul:nth-of-type(2)>li:not(:last-of-type) {
+    padding-bottom: 30px;
+  }
+
+  .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul:nth-of-type(2) li:nth-of-type(3) p a {
+    text-decoration: underline;
+  }
+
+  /* ########## 4 recommend  ##########  */
+
+  .detailPageContainer>div:nth-of-type(4) ul::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .detailPageContainer div:nth-of-type(4) li {
+    float: left;
+    width: 375px;
+    position: relative;
+  }
+
+  .detailPageContainer div:nth-of-type(4) li:not(:last-of-type) {
+    margin-right: 22px;
+  }
+
+  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+  }
+
+  /* ########## collaboration  ##########  */
+  section>div:first-of-type.lCapRimg,
+  section>div:last-of-type.lImgRcap {
+    background: url('../images/detailPage_colla_bg.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  /* L-Cap R-Img */
+  section .lImgRcap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section .lImgRcap>div:last-of-type {
+    order: -1;
+  }
+
+  section .lCapRimg>div:first-of-type,
+  section .lImgRcap>div:last-of-type {
+    display: block;
+    width: 100%;
+    padding: 110px 24px;
+    min-height: auto;
+  }
+
+  section .lCapRimg div:first-of-type h3 {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  section .lCapRimg div:first-of-type h3+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 270px;
+  }
+
+  section .lCapRimg div:first-of-type div h4,
+  section .lImgRcap div:last-of-type h4 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  section .lCapRimg div:first-of-type div p,
+  section .lImgRcap div:last-of-type h4+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  section .lCapRimg div:first-of-type div p:not(:last-of-type),
+  section .lImgRcap div:last-of-type h4:not(:last-of-type)+p {
+    margin-bottom: 50px;
+  }
+
+  section .lCapRimg>img,
+  section .lImgRcap>img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  section .lCapRimg .videoBox,
+  section .lImgRcap .videoBox {
+    display: block;
+    width: 100%;
+    height: 125vw;
+    overflow: hidden;
+    position: relative;
+  }
+
+  section .lCapRimg .videoBox .fluid-width-video-wrapper,
+  section .lImgRcap .videoBox .fluid-width-video-wrapper {
+    padding-top: 0;
+    height: 100%;
+  }
+
+  section .lCapRimg .videoBox .fluid-width-video-wrapper video,
+  section .lImgRcap .videoBox .fluid-width-video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* ########## 1 navigation  ##########  */
+  .informationContainer:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .accountContainer>div:first-of-type,
+  .aboutContainer>div:first-of-type,
+  .serviceContainer>div:first-of-type,
+  .informationContainer>div:first-of-type {
+    padding: 80px 0 40px;
+  }
+
+
+  /* ########## 2 aside  ##########  */
+  .accountContainer aside input[type=checkbox],
+  .aboutContainer aside input[type=checkbox],
+  .serviceContainer aside input[type=checkbox],
+  .informationContainer aside input[type=checkbox] {
+    display: none;
+  }
+
+  .accountContainer aside input[type=checkbox]:checked ~ h2,
+  .accountContainer aside input[type=checkbox]:checked ~ nav,
+  .accountContainer aside input[type=checkbox]:checked ~ a,
+  .aboutContainer aside input[type=checkbox]:checked ~ h2,
+  .aboutContainer aside input[type=checkbox]:checked ~ nav,
+  .serviceContainer aside input[type=checkbox]:checked ~ h2,
+  .serviceContainer aside input[type=checkbox]:checked ~ nav,
+  .informationContainer aside input[type=checkbox]:checked ~ h2,
+  .informationContainer aside input[type=checkbox]:checked ~ nav {
+    display: block;
+  }
+
+  .accountContainer aside label,
+  .aboutContainer aside label,
+  .serviceContainer aside label,
+  .informationContainer aside label {
+    font-size: 15px;
+    font-weight: 400;
+    background: url('../images/menu_open.svg') no-repeat center left;
+    background-size: 30px;
+    padding-left: 40px;
+    display: block;
+    margin-bottom: 35px;
+    cursor: pointer;
+  }
+
+  .accountContainer aside h2,
+  .accountContainer aside nav,
+  .accountContainer aside a,
+  .aboutContainer aside h2,
+  .aboutContainer aside nav,
+  .serviceContainer aside h2,
+  .serviceContainer aside nav,
+  .informationContainer aside h2,
+  .informationContainer aside nav {
+    display: none;
+  }
+
+  .accountContainer aside h2,
+  .aboutContainer aside h2,
+  .serviceContainer aside h2,
+  .informationContainer aside h2 {
+    padding-left: 10px;
+  }
+
+  .accountContainer aside h2 b {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .aboutContainer aside h2,
+  .serviceContainer aside h2,
+  .informationContainer aside h2 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .accountContainer aside h2 span {
+    display: block;
+  }
+
+  .accountContainer aside h2 span,
+  .accountContainer section h2 span,
+  .accountContainer section.myProfile div:nth-of-type(3) h3,
+  .aboutContainer section ul li h4,
+  .serviceContainer article div h4,
+  .informationContainer section div h4,
+  .informationContainer article div h4,
+  .informationContainer article ol li h4,
+  .cartContainer.checkoutCompleted h2 span,
+  .listCardContainer>div:nth-of-type(2)>div>a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+
+  .accountContainer aside nav ul li,
+  .aboutContainer aside nav ul li,
+  .serviceContainer aside nav ul li,
+  .informationContainer aside nav ul li {
+    padding-left: 10px;
+    line-height: 45px;
+    border-bottom: 1px solid var(--gs05);
+    background: url('../images/chevron_forward_400.svg') no-repeat center right;
+    background-size: 30px;
+  }
+
+  .accountContainer aside nav ul li a,
+  .aboutContainer aside nav ul li a,
+  .serviceContainer aside nav ul li a,
+  .informationContainer aside nav ul a {
+    display: block;
+    width: 100%;
+  }
+
+  .accountContainer aside nav ul li:hover a,
+  .aboutContainer aside nav ul li:hover a,
+  .serviceContainer aside nav ul li:hover a,
+  .informationContainer aside nav ul li:hover a {
+    cursor: pointer;
+  }
+
+  .accountContainer aside>a {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  /* ########## 3 section - myProfile  ##########  */
+
+  .accountContainer section,
+  .aboutContainer article,
+  .aboutContainer section,
+  .serviceContainer article,
+  .serviceContainer section,
+  .informationContainer article,
+  .informationContainer section {
+    width: 100%;
+  }
+
+  .informationContainer article.termsConditions {
+    margin-bottom: 110px;
+  }
+
+  .informationContainer article.termsSales {
+    float: right;
+  }
+
+  .accountContainer section h2 {
+    position: relative;
+  }
+
+  .accountContainer section h2 strong,
+  .aboutContainer article h3,
+  .aboutContainer section h3,
+  .serviceContainer article h3,
+  .serviceContainer section h3,
+  .informationContainer article h3,
+  .informationContainer section h3,
+  .cartContainer div h2 strong,
+  .cartContainer>div a,
+  .wishlistContainer>div:first-of-type a,
+  .wishlistContainer div:first-of-type h2 strong,
+  .checkoutContainer>div:first-of-type h2 strong {
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 35px;
+  }
+
+  .accountContainer section h2 strong {
+    display: block;
+  }
+
+  .aboutContainer article h3,
+  .aboutContainer section h3,
+  .serviceContainer article h3,
+  .serviceContainer section h3,
+  .informationContainer article h3,
+  .informationContainer section h3 {
+    margin-bottom: 60px;
+  }
+
+  .accountContainer section h2 span {
+    display: block;
+  }
+
+  .accountContainer section.canceled h2 em {
+    font-style: normal;
+    padding: 5px 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+  }
+
+  .accountContainer section.canceled h2 em,
+  .accountContainer section.canceled div:nth-of-type(2)>p:last-of-type,
+  .accountContainer section.addressBook ul li div:first-of-type dl dt,
+  .cartContainer aside div:nth-of-type(2) p,
+  .cartContainer aside div:last-of-type>p,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dt {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .accountContainer section.editInformation input[type=button]:first-of-type,
+  .accountContainer section.orderDetails input[type=button]:first-of-type,
+  .aboutContainer article input[type=button],
+  .aboutContainer section input[type=button],
+  .serviceContainer article input[type=button],
+  .serviceContainer section input[type=button],
+  .informationContainer article input[type=button],
+  .informationContainer section input[type=button] {
+    border: none;
+    background-color: transparent;
+    padding: 0 0 0 15px;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 40px;
+    cursor: pointer;
+    background: url('../images/chevron_backward_400.svg') no-repeat center left -8px;
+    background-size: 25px;
+  }
+
+  .accountContainer section.myProfile div:first-of-type a {
+    display: inline-block;
+    width: 260px;
+    margin-bottom: 20px;
+  }
+
+  .accountContainer section.myProfile div:first-of-type input[type=button] {
+    width: 260px;
+  }
+
+  .accountContainer section.myProfile>div:nth-of-type(2),
+  .accountContainer section.orderDetails div:nth-of-type(2),
+  .accountContainer section.addressBook ul,
+  .aboutContainer article figure img,
+  .aboutContainer section ul li:not(:last-of-type),
+  .serviceContainer article div ol:not(:last-of-type),
+  .serviceContainer article div:not(:last-of-type),
+  .serviceContainer article>p,
+  .informationContainer section>p,
+  .informationContainer section div:first-of-type,
+  .informationContainer section div:nth-of-type(2),
+  .informationContainer article div:not(:last-of-type),
+  .informationContainer article>ol>li,
+  .cartContainer.checkoutCompleted aside div {
+    margin-bottom: 50px;
+  }
+
+  .accountContainer section.myProfile div:nth-of-type(2) dl:first-of-type,
+  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
+  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
+  .checkoutContainer form section div:first-of-type div label,
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark,
+  .cartContainer.checkoutCompleted aside div ol li mark {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .accountContainer section.myProfile div:nth-of-type(2) dl dd {
+    font-weight: 400;
+  }
+
+  .accountContainer section.myProfile div:nth-of-type(3) p a {
+    text-decoration: underline;
+  }
+
+  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div input[type=checkbox],
+  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div input[type=checkbox],
+  .checkoutContainer form section div:first-of-type div input[type=checkbox],
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type input[type=checkbox],
+  .checkoutContainer form section div:nth-of-type(3) span input[type=checkbox] {
+    display: none;
+  }
+
+  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
+  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
+  .checkoutContainer form section div:first-of-type div label,
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
+  .checkoutContainer form section>div:nth-of-type(3) span label {
+    padding-left: 25px;
+    background: url('../images/check_box_outline_blank.svg') no-repeat center left;
+    background-size: 20px;
+  }
+
+  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label.active,
+  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label.active,
+  .checkoutContainer form section div:first-of-type div label.active,
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label.active,
+  .checkoutContainer form section div:nth-of-type(3) span label.active {
+    background: url('../images/check_box.svg') no-repeat center left;
+    background-size: 20px;
+  }
+
+  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type p,
+  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p {
+    padding-left: 25px;
+  }
+
+  .accountContainer section.myProfile div:nth-of-type(3) div:first-of-type p a {
+    text-decoration: underline;
+  }
+
+  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p a {
+    text-decoration: underline;
+  }
+
+  /* ########## 3 section - editInformation  ##########  */
+  .accountContainer section.editInformation p,
+  .aboutContainer section ul li h4,
+  .serviceContainer article div h4,
+  .informationContainer section div h4,
+  .informationContainer article div h4,
+  .informationContainer article ol li h4 {
+    margin-bottom: 40px;
+  }
+
+  .accountContainer section.editInformation form ul li {
+    position: relative;
+    display: block;
+  }
+
+  .accountContainer section.editInformation form ul li input[type=text],
+  .accountContainer section.editInformation form ul li input[type=email],
+  .accountContainer section.editInformation form ul li input[type=tel],
+  .accountContainer section.editInformation form ul li input[type=date] {
+    padding: 15px 20px;
+    border: 1px solid var(--gs05);
+    width: 100%;
+  }
+
+  .accountContainer section.editInformation form ul li input[type=date] {
+    color: transparent;
+  }
+
+  .accountContainer section.editInformation form ul li input[type=date]::-webkit-calendar-picker-indicator {
+    background: url('../images/date_range.svg') no-repeat center;
+    background-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  .accountContainer section.editInformation form ul li input[type=text].filled,
+  .accountContainer section.editInformation form ul li input[type=email].filled,
+  .accountContainer section.editInformation form ul li input[type=tel].filled,
+  .accountContainer section.editInformation form ul li input[type=date].filled {
+    padding: 25px 20px 5px;
+  }
+
+  .accountContainer section.editInformation form ul li label {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+
+  .accountContainer section.editInformation form ul li label,
+  .accountContainer section.orderList table tbody tr td,
+  .accountContainer section.addressBook ul li div:first-of-type dl dd,
+  .aboutContainer section ul li address a,
+  .informationContainer section>p a,
+  .informationContainer section div:nth-of-type(2) a,
+  .informationContainer section div:last-of-type p a,
+  .informationContainer article.customerSupport div:first-of-type p:first-of-type a,
+  .informationContainer article.customerSupport div:nth-of-type(4) p:first-of-type a,
+  .informationContainer article.customerSupport div:nth-of-type(4) ul li a,
+  .informationContainer article.customerSupport div:nth-of-type(5) p:first-of-type a,
+  .informationContainer article.privacyPolicy div:first-of-type p a,
+  .informationContainer article.privacyPolicy div:nth-of-type(8) p:nth-of-type(8) a,
+  .informationContainer article.privacyPolicy div:nth-of-type(19) ul li a,
+  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li a,
+  .informationContainer article.privacyPolicy div:nth-of-type(22) p a,
+  .informationContainer article.termsConditions div:first-of-type p a,
+  .informationContainer article.termsConditions div:nth-of-type(3) ul li a,
+  .informationContainer article.termsSales ol li:nth-of-type(2) ol li a,
+  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li a,
+  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li a,
+  .informationContainer article.termsSales div p a,
+  .informationContainer article.termsSales div address div,
+  .informationContainer article.termsSales div address div a,
+  .informationContainer article.customerSupport div:nth-of-type(3) i,
+  .informationContainer article.privacyPolicy div:nth-of-type(3) i,
+  .informationContainer article.privacyPolicy div:nth-of-type(4) i,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) i,
+  .cartContainer.checkoutCompleted div:first-of-type>p:nth-of-type(2),
+  .cartContainer.checkoutCompleted div:first-of-type>p:last-of-type,
+  .cartContainer.checkoutCompleted div:last-of-type i,
+  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dt,
+  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dd,
+  .checkoutContainer form section div:first-of-type h3 em,
+  .checkoutContainer form section div:nth-of-type(2) h3 em,
+  .checkoutContainer aside h3 a,
+  .checkoutContainer form section div:first-of-type ul li label,
+  .serviceContainer form ul li label,
+  .checkoutContainer form section div:first-of-type div:nth-of-type(3) label,
+  .checkoutContainer form section div:first-of-type div:last-of-type label,
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) input[type=button],
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) label,
+  .checkoutContainer form section div:nth-of-type(2) div:last-of-type label,
+  .checkoutContainer form section div:last-of-type span label,
+  .checkoutContainer form section div:last-of-type p,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dd span,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li label,
+  .checkoutContainer aside>dl>dt,
+  .checkoutContainer aside>dl>dd {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type,
+  .checkoutContainer form section div:nth-of-type(2) div:last-of-type span {
+    position: relative;
+    display: block;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type input[type=checkbox],
+  .checkoutContainer form section div:nth-of-type(2) div:last-of-type span input[type=checkbox] {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
+  .checkoutContainer form section div:last-of-type span label {
+    display: block;
+    line-height: 20px;
+  }
+
+
+  .cartContainer.checkoutCompleted div:first-of-type>p:nth-of-type(2),
+  .cartContainer.checkoutCompleted div:first-of-type>p:last-of-type {
+    line-height: 20px;
+  }
+
+  .cartContainer.checkoutCompleted div:last-of-type i {
+    display: block;
+    line-height: 20px;
+  }
+
+  .accountContainer section.orderDetails div:first-of-type i {
+    display: block;
+    line-height: 20px;
+  }
+
+  .accountContainer section.orderList table tbody tr td:not(:first-of-type, :last-of-type),
+  .accountContainer section.orderList table thead tr th:not(:first-of-type, :last-of-type) {
+    display: none;
+  }
+
+    .accountContainer section.orderList table thead tr th:nth-of-type(2),
+  .accountContainer section.orderList table thead tr th:nth-of-type(3),
+  .accountContainer section.orderList table thead tr th:nth-of-type(5) {
+    display: none;
+  }
+
+  .accountContainer section.addressBook ul li div:first-of-type dl dd:nth-of-type(2) {
+    text-indent: 0;
+    padding-left: 25px;
+    line-height: 20px;
+  }
+
+  .accountContainer section.editInformation form ul li label.filled {
+    top: 5px;
+  }
+
+  .accountContainer section.editInformation form .selectComponent {
+    margin-bottom: 45px;
+  }
+
+  /* ########## 3 section - orderList  ##########  */
+  .accountContainer section.orderList table {
+    width: 100%;
+    text-align: center;
+  }
+
+  .accountContainer section.orderList table thead {
+    line-height: 50px;
+  }
+
+  .accountContainer section.orderList table tbody {
+    line-height: 50px;
+  }
+
+  .accountContainer section.orderList table tbody tr {
+    border-bottom: 1px solid var(--gs05);
+    background: url('../images/chevron_forward_400.svg') no-repeat center right;
+    background-size: 20px;
+  }
+
+  /* ########## 3 section - orderDetails  ##########  */
+  .accountContainer section.orderDetails div:first-of-type i {
+    font-style: normal;
+    margin-right: 45px;
+  }
+
+  .accountContainer section.orderDetails ol li img {
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .accountContainer section.canceled ol li img {
+    filter: grayscale(100%)
+  }
+
+  .accountContainer section.orderDetails ol li dl {
+    position: relative;
+  }
+
+  .accountContainer section.orderDetails ol li dl dt {
+    line-height: 23px;
+  }
+
+  .accountContainer section.orderDetails ol li dl dd:last-of-type {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .accountContainer section.orderDetails ol li dl dd:last-of-type,
+  .cartContainer ol li div div:last-of-type strong,
+  .cartContainer aside div:nth-of-type(2) h3,
+  .cartContainer aside div:last-of-type h3,
+  .checkoutContainer aside ol li dl dd:last-of-type {
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .accountContainer section.orderDetails div:nth-of-type(2) {
+    padding: 20px;
+  }
+
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li h4 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark {
+    font-style: normal;
+    background-color: transparent;
+  }
+
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark:first-of-type {
+    display: block;
+  }
+
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li address {
+    font-style: normal;
+  }
+
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li address a {
+    display: block;
+  }
+
+  .accountContainer section.orderDetails div:nth-of-type(2) dl {
+    position: relative;
+  }
+
+  .accountContainer section.orderDetails div:nth-of-type(2) dl dd {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .accountContainer section.canceled div:nth-of-type(2) dl dd {
+    text-decoration: line-through;
+  }
+
+  .accountContainer section.canceled div:nth-of-type(2)>p:last-of-type {
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .accountContainer section.orderDetails input[type=button].orderCompleted,
+  .accountContainer section.orderDetails input[type=button].trackOrder,
+  .accountContainer section.canceled a {
+    display: block;
+    width: 100%;
+  }
+
+  .accountContainer section.orderDetails input[type=button].cancelOrder,
+  .accountContainer section.orderDetails input[type=button]:nth-of-type(3) {
+    width: 260px;
+  }
+
+  .accountContainer section.orderDetails input[type=button].cancelOrder {
+    margin-bottom: 20px;
+  }
+
+  /* ########## 3 section - addressBook  ##########  */
+  .accountContainer section.addressBook ul li {
+    padding: 20px;
+    position: relative;
+  }
+
+  .accountContainer section.addressBook ul li div:first-of-type input[type=radio] {
+    display: none;
+  }
+
+  .accountContainer section.addressBook ul li div:first-of-type label {
+    font-size: 16px;
+    font-weight: 500;
+    background: url('../images/radio_button_unchecked.svg') no-repeat center left;
+    background-size: 20px;
+    padding-left: 25px;
+  }
+
+  .accountContainer section.addressBook ul li div:first-of-type label.active {
+    background: url('../images/radio_button_checked.svg') no-repeat center left;
+    background-size: 20px;
+  }
+
+  .accountContainer section.addressBook ul li div:first-of-type dl {
+    text-indent: 25px;
+    margin-top: 20px;
+  }
+
+  .accountContainer section.addressBook ul li div:first-of-type dl dt {
+    margin-bottom: 5px;
+  }
+
+  .accountContainer section.addressBook ul li div:first-of-type dl dd:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .accountContainer section.addressBook ul li div:last-of-type {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 85%;
+  }
+
+  .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
+    border: none;
+    width: 80px;
+    line-height: 30px;
+    cursor: pointer;
+  }
+
+  .accountContainer section.addressBook ul li div:last-of-type input[type=button].disabled {
+    background-color: var(--gs02);
+    cursor: default;
+  }
+
+  .accountContainer section.addressBook ul li div:last-of-type input[type=button]:last-of-type {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .accountContainer section.addressBook input[type=button] {
+    width: 100%;
+  }
+
+  /* ########## 3 article - Jonathan / careers  ##########  */
+  .aboutContainer article figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .aboutContainer article a {
+    display: block;
+    text-decoration: underline;
+  }
+
+  /* ########## 3 section - Stores  ##########  */
+  .aboutContainer section ul li {
+    padding: 20px 10px;
+  }
+
+  .aboutContainer section ul li address div,
+  .informationContainer section div:last-of-type address div {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+  }
+
+  .aboutContainer section ul li address em,
+  .serviceContainer article div ol li b,
+  .serviceContainer article div b,
+  .informationContainer section div b,
+  .informationContainer article div b {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  .informationContainer article.termsSales div address div {
+    line-height: 29px;
+  }
+
+  .aboutContainer section ul li address a,
+  .informationContainer article.termsSales div address div {
+    font-style: normal;
+  }
+
+  .aboutContainer section ul li address a,
+  .informationContainer section div:nth-of-type(2) a {
+    display: block;
+  }
+
+  .informationContainer section div a,
+  .informationContainer article.customerSupport div:first-of-type p:first-of-type a,
+  .informationContainer article.customerSupport div:nth-of-type(4) p:first-of-type a,
+  .informationContainer article.customerSupport div:nth-of-type(4) ul li a,
+  .informationContainer article.customerSupport div:nth-of-type(5) p:first-of-type a,
+  .informationContainer article.privacyPolicy div:first-of-type p a,
+  .informationContainer article.privacyPolicy div:nth-of-type(8) p:nth-of-type(8) a,
+  .informationContainer article.privacyPolicy div:nth-of-type(19) ul li a,
+  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li a,
+  .informationContainer article.privacyPolicy div:nth-of-type(22) p a,
+  .informationContainer article.termsConditions div:first-of-type p a,
+  .informationContainer article.termsConditions div:nth-of-type(3) ul li a,
+  .informationContainer article.termsSales ol li:nth-of-type(2) ol li a,
+  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li a,
+  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li a,
+  .informationContainer article.termsSales div p a,
+  .informationContainer article.termsSales div address div a {
+    text-decoration: underline;
+    overflow-wrap: break-word;
+  }
+
+  /* ########## 3 article - shipping & returns  ##########  */
+  .serviceContainer article div:nth-of-type(5) ul li,
+  .serviceContainer article div:nth-of-type(9) ul li,
+  .serviceContainer article div:nth-of-type(10) ul li,
+  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
+  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
+  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
+  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+
+  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li,
+  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li p,
+  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
+    margin-left: 25px;
+  }
+
+  .serviceContainer article div:nth-of-type(5) ul li,
+  .serviceContainer article div:nth-of-type(9) ul li,
+  .serviceContainer article div:nth-of-type(10) ul li,
+  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
+  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
+  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
+    list-style: disc;
+  }
+
+  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
+  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
+    list-style: decimal;
+  }
+
+  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li ul li {
+    list-style: '- ';
+  }
+
+  .serviceContainer article div:nth-of-type(12) p a {
+    text-decoration: underline;
+  }
+
+  /* ########## 3 section - track your order  ##########  */
+  .serviceContainer section form input[type=submit] {
+    width: 260px;
+  }
+
+  /* ########## 3 article - customer support  ##########  */
+
+  .informationContainer article.privacyPolicy div:nth-of-type(16) i {
+    display: block;
+  }
+
+  .informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) i:last-of-type {
+    text-decoration: underline;
+  }
+
+  /* ########## 3 article - terms of sale  ##########  */
+  .informationContainer article.termsSales>ol>li ol li {
+    margin-left: 25px;
+  }
+
+  .informationContainer article.termsSales div ul li input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--gs05);
+  }
+
+
+  /* ########## cart container - cart full & checkout completed ##########  */
+
+  .cartContainer>div:first-of-type,
+  .wishlistContainer>div:first-of-type,
+  .checkoutContainer>div:first-of-type {
+    padding: 140px 0 35px;
+  }
+
+  .cartContainer.cartFull div h2 strong {
+    margin-right: 35px;
+    float: left;
+  }
+
+  .cartContainer.checkoutCompleted div:last-of-type i {
+    font-style: normal;
+    margin-right: 45px;
+  }
+
+  .cartContainer>ol {
+    margin-bottom: 35px;
+  }
+
+  .cartContainer>ol>li {
+    border: 1px solid var(--gs04);
+    padding: 10px;
+  }
+
+  .cartContainer>ol>li:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .cartContainer ol li img {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .cartContainer ol li>div {
+    position: relative;
+  }
+
+  .cartContainer.cartFull ol li>div {
+    height: 235px;
+  }
+
+  .cartContainer.checkoutCompleted ol li>div {
+    height: 190px;
+  }
+
+  .cartContainer ol li div div:first-of-type {
+    position: relative;
+  }
+
+  .cartContainer ol li div div:first-of-type input[type=button] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .cartContainer ol li div div:last-of-type {
+    position: absolute;
+    left: 0;
+  }
+
+  .cartContainer.cartFull ol li div div:last-of-type {
+    bottom: 85px;
+  }
+
+  .cartContainer.checkoutCompleted ol li div div:last-of-type {
+    bottom: 35px;
+    width: 240px;
+  }
+
+  .cartContainer ol li div div:last-of-type ul {
+    font-size: 0;
+    width: 240px;
+    text-align: center;
+  }
+
+  .cartContainer ol li div div:last-of-type ul li {
+    display: inline-block;
+    line-height: 21px;
+    margin-right: 10px;
+  }
+
+  .cartContainer ol li div div:last-of-type ul li:last-of-type {
+    margin-right: 0;
+  }
+
+  .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span {
+    line-height: 40px;
+    margin-right: 0;
+  }
+
+  .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span:nth-of-type(2) {
+    float: right;
+  }
+
+  .cartContainer ol li div div:last-of-type span.qtyComponent {
+    position: absolute;
+    top: 65px;
+    left: 0;
+  }
+
+  .cartContainer ol li div div:last-of-type span.qtyComponent i {
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 5px;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+  }
+
+  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-outer-spin-button,
+  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number] {
+    border: 1px solid var(--gs05);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    width: 90px;
+  }
+
+  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button] {
+    position: absolute;
+    top: 20px;
+    border: none;
+    background-color: transparent;
+    text-indent: -9999px;
+  }
+
+  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:first-of-type {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: url('../images/remove.svg') no-repeat center;
+    background-size: 13px;
+    cursor: pointer;
+  }
+
+  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:last-of-type {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url('../images/add.svg') no-repeat center;
+    background-size: 13px;
+    cursor: pointer;
+  }
+
+  .cartContainer ol li div div:last-of-type strong {
+    position: absolute;
+    right: 0;
+  }
+
+  .cartContainer.cartFull ol li div div:last-of-type strong {
+    top: 75px;
+  }
+
+  .cartContainer.checkoutCompleted ol li div div:last-of-type strong {
+    top: 55px;
+  }
+
+  .cartContainer aside div:first-of-type,
+  .cartContainer aside div:nth-of-type(2),
+  .cartContainer aside div:last-of-type {
+    padding: 20px;
+  }
+
+  .cartContainer aside div:first-of-type h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .cartContainer aside div:first-of-type dl:first-of-type {
+    position: relative;
+  }
+
+  .cartContainer aside div:first-of-type dl:first-of-type dd {
+    position: absolute;
+    right: 0;
+  }
+
+  .cartContainer aside div:first-of-type dl:first-of-type dd:first-of-type {
+    top: 0;
+  }
+
+  .cartContainer aside div:first-of-type dl:first-of-type dd:nth-of-type(2) {
+    top: 30px;
+  }
+
+  .cartContainer.cartFull aside div:first-of-type dl:first-of-type>dd:nth-of-type(3) {
+    top: 60px;
+  }
+
+  .cartContainer.cartFull aside div:first-of-type dl:last-of-type {
+    position: relative;
+  }
+
+  .cartContainer aside div:first-of-type dl:last-of-type dd strong {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .cartContainer aside div:first-of-type>a,
+  .cartContainer.checkoutCompleted aside>a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+  }
+
+  .cartContainer aside div:nth-of-type(2) p,
+  .cartContainer aside div:last-of-type>p {
+    line-height: 18px;
+  }
+
+  .cartContainer.checkoutCompleted aside div ol li h4 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .cartContainer.checkoutCompleted aside div ol li mark {
+    font-style: normal;
+    background-color: transparent;
+  }
+
+  .cartContainer.checkoutCompleted aside div ol li mark:first-of-type {
+    display: block;
+  }
+
+  .cartContainer.checkoutCompleted aside div ol li address {
+    font-style: normal;
+  }
+
+  .cartContainer.checkoutCompleted aside div ol li address a {
+    display: block;
+  }
+
+  .cartContainer.checkoutCompleted aside div dl {
+    position: relative;
+  }
+
+  /* ########## wishlist container ##########  */
+  .wishlistContainer>div:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .wishlistContainer>div:first-of-type a {
+    float: left;
+    margin-right: 35px;
+  }
+
+  /* ########## checkout container ##########  */
+
+  .checkoutContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .checkoutContainer>div:first-of-type {
+    order: -2;
+  }
+
+  .checkoutContainer form section>div:first-of-type,
+  .checkoutContainer form section>div:nth-of-type(2) {
+    padding: 20px 10px;
+  }
+
+  .checkoutContainer form section>div:first-of-type {
+    font-size: 0;
+  }
+
+  .checkoutContainer form section div:first-of-type h3,
+  .checkoutContainer form section div:nth-of-type(2) h3,
+  .checkoutContainer aside h3 {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .checkoutContainer form section div:first-of-type h3,
+  .checkoutContainer aside h3 {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .checkoutContainer form section div:first-of-type h3 em,
+  .checkoutContainer form section div:nth-of-type(2) h3 em,
+  .checkoutContainer aside h3 a {
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .checkoutContainer form section>div:first-of-type>ul {
+    font-size: 0;
+  }
+
+  .checkoutContainer form section>div:first-of-type>ul>li {
+    position: relative;
+    display: inline-block;
+  }
+
+  .serviceContainer form ul li {
+    position: relative;
+  }
+
+  .checkoutContainer form section>div:first-of-type>ul>li:nth-of-type(2n+1) {
+    margin-right: 22px;
+  }
+
+  .checkoutContainer form section div:first-of-type ul li input[type=text],
+  .checkoutContainer form section div:first-of-type ul li input[type=tel],
+  .serviceContainer form ul li input[type=text],
+  .serviceContainer form ul li input[type=email] {
+    padding: 15px 20px;
+    border: 1px solid var(--gs05);
+  }
+
+  .checkoutContainer form section div:first-of-type ul li input[type=text],
+  .checkoutContainer form section div:first-of-type ul li input[type=tel] {
+    width: 240px;
+  }
+
+  .serviceContainer form ul li input[type=text],
+  .serviceContainer form ul li input[type=email] {
+    width: 260px;
+  }
+
+  .checkoutContainer form section div:first-of-type ul li input[type=text].filled,
+  .checkoutContainer form section div:first-of-type ul li input[type=tel].filled,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li input[type=text].filled,
+  .serviceContainer form ul li input[type=text].filled,
+  .serviceContainer form ul li input[type=email].filled {
+    padding: 25px 20px 5px;
+  }
+
+  .checkoutContainer form section div:first-of-type ul li label,
+  .serviceContainer form ul li label {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+
+  .checkoutContainer form section div:first-of-type ul li label.filled,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li label.filled,
+  .serviceContainer form ul li label.filled {
+    top: 5px;
+  }
+
+  .checkoutContainer form section div:first-of-type .selectComponent {
+    border: 1px solid var(--gs05);
+    margin-bottom: 35px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+    background-size: 30px;
+  }
+
+  .checkoutContainer form section div:first-of-type .selectComponent:first-of-type {
+    margin-right: 22px;
+  }
+
+  .checkoutContainer form section div:first-of-type .selectComponent ul {
+    overflow: hidden;
+    height: 48px;
+    cursor: pointer;
+  }
+
+  .checkoutContainer form section div:first-of-type .selectComponent.active ul {
+    display: block;
+    overflow: visible;
+    height: auto;
+    z-index: 10;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    border: 1px solid var(--gs05);
+    top: 100%;
+    border-top: none;
+  }
+
+  .checkoutContainer form section div:first-of-type .selectComponent ul {
+    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+    background-size: 30px;
+  }
+
+  .checkoutContainer form section div:first-of-type .selectComponent ul li {
+    line-height: 30px;
+    padding: 10px 20px;
+  }
+
+  .checkoutContainer form section div:first-of-type .selectComponent.active ul li {
+    padding: 0 20px;
+  }
+
+  .checkoutContainer form section div:first-of-type .selectComponent.active ul li:hover {
+    text-decoration: underline;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div {
+    display: none;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type {
+    margin-top: 20px;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) {
+    padding: 20px;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) input[type=button] {
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3),
+  .checkoutContainer form section div:nth-of-type(2) div:last-of-type {
+    border: 1px solid var(--gs03);
+    padding: 20px;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) input[type=radio]+label {
+    display: block;
+    height: 18px;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) input[type=radio],
+  .checkoutContainer form section div:nth-of-type(2) div:last-of-type input[type=radio] {
+    display: none;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) label:not(ul li label),
+  .checkoutContainer form section div:nth-of-type(2) div:last-of-type label {
+    background: url('../images/radio_button_unchecked.svg') no-repeat center left;
+    background-size: 20px;
+    padding-left: 25px;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) label.active,
+  .checkoutContainer form section div:nth-of-type(2) div:last-of-type label.active {
+    background: url('../images/radio_button_checked.svg') no-repeat center left;
+    background-size: 20px;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul {
+    font-size: 0;
+    margin-top: 20px;
+    display: none;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) input[type=radio]:checked+ul {
+    display: block;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:first-of-type,
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:last-of-type {
+    position: relative;
+    display: block;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:nth-of-type(2),
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:nth-of-type(3) {
+    position: relative;
+    display: inline-block;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:nth-of-type(2) {
+    margin-right: 22px;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li input[type=text] {
+    padding: 15px 20px;
+    border: 1px solid var(--gs05);
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:last-of-type input[type=text] {
+    margin-bottom: 0;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:first-of-type input[type=text],
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:last-of-type input[type=text] {
+    width: 100%;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:nth-of-type(2) input[type=text],
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li:nth-of-type(3) input[type=text] {
+    width: 200px;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li label {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+
+  .checkoutContainer form section div:nth-of-type(2) div:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .checkoutContainer form section>div:last-of-type {
+    padding: 20px;
+  }
+
+  .checkoutContainer form section div:last-of-type span {
+    display: block;
+  }
+
+  .checkoutContainer form section div:last-of-type p {
+    line-height: 20px;
+  }
+
+  .checkoutContainer form section div:last-of-type p a,
+  .checkoutContainer form section div:last-of-type span label a {
+    text-decoration: underline;
+  }
+
+  .checkoutContainer aside {
+    padding: 20px 10px;
+    order: -1;
+    margin-bottom: 50px;
+  }
+
+  .checkoutContainer aside h3 a {
+    text-decoration: underline;
+  }
+
+  .checkoutContainer aside ol li img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .checkoutContainer aside ol li dl {
+    position: relative;
+  }
+
+  .checkoutContainer aside ol li dl dt {
+    line-height: 23px;
+  }
+
+  .checkoutContainer aside ol li dl dd:last-of-type {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .checkoutContainer aside>dl {
+    position: relative;
+  }
+
+  .checkoutContainer aside>dl>dd {
+    position: absolute;
+    right: 0;
+  }
+
+  .checkoutContainer aside>dl>dd:first-of-type {
+    top: 0;
+  }
+
+  .checkoutContainer aside>dl>dd:nth-of-type(2) {
+    top: 30px;
+  }
+
+  .checkoutContainer aside>dl>dd:nth-of-type(3) {
+    top: 60px;
+  }
+
+  .checkoutContainer aside>dl>dd:nth-of-type(4) {
+    top: 90px;
+  }
+
+  .checkoutContainer aside>dl>dd:nth-of-type(5) {
+    top: 120px;
+  }
+
+  .checkoutContainer aside>dl>dt:nth-of-type(5),
+  .checkoutContainer aside>dl>dd:nth-of-type(5) {
+    margin-bottom: 0;
+  }
+
+
+
+
+
+
+
+
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 
   /* ########## padding & bg ##########  */
@@ -282,11 +3448,14 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer>div:nth-of-type(5),
   .listMixContainer div:nth-of-type(6),
   .listMixContainer div:nth-of-type(8),
-  .listMixContainer div:nth-of-type(9),
+  .listMixContainer div:nth-of-type(9) {
+    padding: 110px 0;
+  }
+
   .listCardContainer>div:nth-of-type(3),
   .detailPageContainer>div:nth-of-type(4),
   .wishlistContainer>div:last-of-type {
-    padding: 110px 0;
+    padding: 110px 0 145px;
   }
 
   .listMixContainer div:nth-of-type(7),
@@ -357,6 +3526,7 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(6) p,
   .listMixContainer>div:nth-of-type(2) p {
     font-size: 16px;
+    font-weight: 400;
     line-height: 22px;
     text-align: center;
     margin-bottom: 30px;
@@ -566,10 +3736,10 @@ section .lImgRcap div:last-of-type h4,
   .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-prev,
   .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
   .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-prev {
-    left: -30px;
+    left: -10px;
     top: 53%;
     background: url('../images/chevron_backward.svg') no-repeat center;
-    background-size: 50px;
+    background-size: 30px;
     z-index: 0;
   }
 
@@ -581,11 +3751,33 @@ section .lImgRcap div:last-of-type h4,
   .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-next,
   .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
   .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-next {
-    right: -30px;
+    right: -10px;
     top: 53%;
     background: url('../images/chevron_forward.svg') no-repeat center;
-    background-size: 50px;
+    background-size: 30px;
     z-index: 0;
+  }
+
+  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-prev,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-prev,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
+  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-prev,
+  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
+  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
+  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
+  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-next,
+  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-next,
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
+  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-next {
+    top: 104.5%;
+  }
+
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
+  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-next {
+    top: 115%;
   }
 
   .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
@@ -767,15 +3959,15 @@ section .lImgRcap div:last-of-type h4,
   .accountContainer section.myProfile div:nth-of-type(2) dl:first-of-type,
   .accountContainer section.myProfile div:nth-of-type(3) h3,
   .accountContainer section.orderDetails div:first-of-type,
-  .accountContainer section.orderDetails ol,
-  .accountContainer section.orderDetails ol li:not(:last-of-type),
+  .accountContainer section.orderDetails>ol,
+  .accountContainer section.orderDetails>ol li:not(:last-of-type),
   .accountContainer section.orderDetails ol li dl dt,
   .accountContainer section.orderDetails div:nth-of-type(2) ol li:first-of-type,
   .accountContainer section.orderDetails div:nth-of-type(2) ol li:nth-of-type(2),
   .accountContainer section.addressBook ul li:not(:last-of-type),
   .cartContainer.checkoutCompleted h2,
   .cartContainer.checkoutCompleted>div:last-of-type,
-  .cartContainer.checkoutCompleted aside div ol li,
+  .cartContainer.checkoutCompleted aside div ol li:not(:last-of-type),
   .checkoutContainer form section div:first-of-type div:nth-of-type(3),
   .checkoutContainer aside ol li,
   .checkoutContainer aside ol li dl dt {
@@ -813,10 +4005,12 @@ section .lImgRcap div:last-of-type h4,
 
   .indexContainer>div:nth-of-type(7) div:first-of-type {
     background: url('../images/index_menCollection.png') no-repeat center center;
+    background-size: cover;
   }
 
   .indexContainer>div:nth-of-type(7) div:last-of-type {
     background: url('../images/index_womenCollection.png') no-repeat center center;
+    background-size: cover;
   }
 
   .indexContainer>div:nth-of-type(7) div {
@@ -945,13 +4139,13 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 700;
     display: block;
     text-align: center;
+    margin-top: 35px;
   }
 
   /* ########## 1 sub title content ##########  */
   .listMixContainer>div:first-of-type {
     height: 540px;
     color: white;
-    /* position: relative; */
   }
 
   .listMixContainer.mens>div:first-of-type {
@@ -1035,7 +4229,7 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(3)>div:last-of-type {
     display: block;
     width: 100%;
-    padding: 3% 0;
+    padding: 50px 0;
     min-height: auto;
   }
 
@@ -1317,11 +4511,13 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 1 title  ##########  */
-  .listCardContainer>div:first-of-type {
+  .listCardContainer>div:first-of-type,
+  .detailPageContainer>div:first-of-type {
     padding: 80px 0 20px;
   }
 
   .listCardContainer>div:first-of-type div nav ol,
+  .detailPageContainer>div:first-of-type nav ol,
   .accountContainer>div:first-of-type nav ol,
   .aboutContainer>div:first-of-type nav ol,
   .serviceContainer>div:first-of-type nav ol,
@@ -1330,20 +4526,23 @@ section .lImgRcap div:last-of-type h4,
   }
 
   .listCardContainer>div:first-of-type div nav ol li,
+  .detailPageContainer>div:first-of-type nav ol li,
   .accountContainer>div:first-of-type nav ol li,
   .aboutContainer>div:first-of-type nav ol li,
   .serviceContainer>div:first-of-type nav ol li,
   .informationContainer>div:first-of-type nav ol li {
     display: inline-block;
     padding-right: 25px;
+    line-height: 19px;
   }
 
   .listCardContainer>div:first-of-type div nav ol li:not(:last-of-type),
+  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type),
   .accountContainer>div:first-of-type nav ol li:not(:last-of-type),
   .aboutContainer>div:first-of-type nav ol li:not(:last-of-type),
   .serviceContainer>div:first-of-type nav ol li:not(:last-of-type),
   .informationContainer>div:first-of-type nav ol li:not(:last-of-type) {
-    background: url('../images/chevron_forward_400.svg') no-repeat center right 2px;
+    background: url('../images/chevron_forward_400.svg') no-repeat right 2px top calc(50% - 2px);
     background-size: 20px;
   }
 
@@ -1538,31 +4737,8 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  /* ########## 1 navigation  ##########  */
-  .detailPageContainer>div:first-of-type {
-    padding: 80px 0 40px;
-  }
-
-  .detailPageContainer>div:first-of-type nav ol {
-    font-size: 0;
-  }
-
-  .detailPageContainer>div:first-of-type nav ol li {
-    display: inline-block;
-    padding-right: 25px;
-  }
-
-  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type) {
-    background: url('../images/chevron_forward_400.svg') no-repeat center right 2px;
-    background-size: 20px;
-  }
-
   /* ########## 2 image & size  ##########  */
   /* L-img or video */
-  .detailPageContainer>div:nth-of-type(2) {
-    /* display: flex; */
-  }
-
   .detailPageContainer>div:nth-of-type(2) .bx-wrapper {
     border: none;
     box-shadow: none;
@@ -1572,10 +4748,6 @@ section .lImgRcap div:last-of-type h4,
 
   .detailPageContainer>div:nth-of-type(2) .bx-wrapper .bx-viewport {
     height: auto;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) .bx-wrapper .bx-viewport {
-    /* margin-bottom: 55px; */
   }
 
   .detailPageContainer>div:nth-of-type(2) .detailSlider li img {
@@ -1822,6 +4994,7 @@ section .lImgRcap div:last-of-type h4,
     background-color: transparent;
     font-size: 14px;
     font-weight: 400;
+    line-height: 20px;
   }
 
   /* sphipping & returns */
@@ -2223,8 +5396,6 @@ section .lImgRcap div:last-of-type h4,
   .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
   .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
   .checkoutContainer form section div:first-of-type div label,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
-  .checkoutContainer form section>div:nth-of-type(3) span label,
   .accountContainer section.orderDetails div:nth-of-type(2) ol li mark,
   .cartContainer.checkoutCompleted aside div ol li mark {
     font-size: 15px;
@@ -2370,7 +5541,7 @@ section .lImgRcap div:last-of-type h4,
   .serviceContainer form ul li label,
   .checkoutContainer form section div:first-of-type div:nth-of-type(3) label,
   .checkoutContainer form section div:first-of-type div:last-of-type label,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type,
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
   .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) input[type=button],
   .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) label,
   .checkoutContainer form section div:nth-of-type(2) div:last-of-type label,
@@ -2827,6 +5998,10 @@ section .lImgRcap div:last-of-type h4,
     display: inline-block;
     line-height: 40px;
     margin-right: 20px;
+  }
+
+  .cartContainer ol li div div:last-of-type ul li:last-of-type {
+    margin-right: 0;
   }
 
   .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span {
@@ -3369,6 +6544,10 @@ section .lImgRcap div:last-of-type h4,
     padding: 110px 0;
   }
 
+  .wishlistContainer>div:last-of-type {
+    padding: 110px 0 145px;
+  }
+
   .listCardContainer>div:nth-of-type(3) {
     padding: 110px 345px;
   }
@@ -3441,6 +6620,7 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(6) p,
   .listMixContainer>div:nth-of-type(2) p {
     font-size: 16px;
+    font-weight: 400;
     line-height: 22px;
     text-align: center;
     margin-bottom: 30px;
@@ -3884,7 +7064,7 @@ section .lImgRcap div:last-of-type h4,
   .accountContainer section.addressBook ul li:not(:last-of-type),
   .cartContainer.checkoutCompleted h2,
   .cartContainer.checkoutCompleted>div:last-of-type,
-  .cartContainer.checkoutCompleted aside div ol li,
+  .cartContainer.checkoutCompleted aside div ol li:not(:last-of-type),
   .checkoutContainer form section div:first-of-type div:nth-of-type(3),
   .checkoutContainer aside ol li,
   .checkoutContainer aside ol li dl dt {
@@ -3923,10 +7103,12 @@ section .lImgRcap div:last-of-type h4,
 
   .indexContainer>div:nth-of-type(7) div:first-of-type {
     background: url('../images/index_menCollection.png') no-repeat center center;
+    background-size: cover;
   }
 
   .indexContainer>div:nth-of-type(7) div:last-of-type {
     background: url('../images/index_womenCollection.png') no-repeat center center;
+    background-size: cover;
   }
 
   .indexContainer>div:nth-of-type(7) div {
@@ -4065,13 +7247,13 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 700;
     display: block;
     text-align: center;
+    margin-top: 35px;
   }
 
   /* ########## 1 sub title content ##########  */
   .listMixContainer>div:first-of-type {
     height: 540px;
     color: white;
-    /* position: relative; */
   }
 
   .listMixContainer.mens>div:first-of-type {
@@ -4448,7 +7630,12 @@ section .lImgRcap div:last-of-type h4,
     padding: 140px 345px 20px;
   }
 
+  .detailPageContainer>div:first-of-type {
+    padding: 140px 0 40px;
+  }
+
   .listCardContainer>div:first-of-type div nav ol,
+  .detailPageContainer>div:first-of-type nav ol,
   .accountContainer>div:first-of-type nav ol,
   .aboutContainer>div:first-of-type nav ol,
   .serviceContainer>div:first-of-type nav ol,
@@ -4457,20 +7644,23 @@ section .lImgRcap div:last-of-type h4,
   }
 
   .listCardContainer>div:first-of-type div nav ol li,
+  .detailPageContainer>div:first-of-type nav ol li,
   .accountContainer>div:first-of-type nav ol li,
   .aboutContainer>div:first-of-type nav ol li,
   .serviceContainer>div:first-of-type nav ol li,
   .informationContainer>div:first-of-type nav ol li {
     display: inline-block;
     padding-right: 25px;
+    line-height: 19px;
   }
 
   .listCardContainer>div:first-of-type div nav ol li:not(:last-of-type),
+  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type),
   .accountContainer>div:first-of-type nav ol li:not(:last-of-type),
   .aboutContainer>div:first-of-type nav ol li:not(:last-of-type),
   .serviceContainer>div:first-of-type nav ol li:not(:last-of-type),
   .informationContainer>div:first-of-type nav ol li:not(:last-of-type) {
-    background: url('../images/chevron_forward_400.svg') no-repeat center right 2px;
+    background: url('../images/chevron_forward_400.svg') no-repeat right 2px top calc(50% - 2px);
     background-size: 20px;
   }
 
@@ -4698,25 +7888,6 @@ section .lImgRcap div:last-of-type h4,
 
   .listCardContainer div:last-of-type .videoBox .fluid-width-video-wrapper video {
     object-fit: cover;
-  }
-
-  /* ########## 1 navigation  ##########  */
-  .detailPageContainer>div:first-of-type {
-    padding: 140px 0 40px;
-  }
-
-  .detailPageContainer>div:first-of-type nav ol {
-    font-size: 0;
-  }
-
-  .detailPageContainer>div:first-of-type nav ol li {
-    display: inline-block;
-    padding-right: 25px;
-  }
-
-  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type) {
-    background: url('../images/chevron_forward_400.svg') no-repeat center right 2px;
-    background-size: 20px;
   }
 
   /* ########## 2 image & size  ##########  */
@@ -4991,6 +8162,7 @@ section .lImgRcap div:last-of-type h4,
     background-color: transparent;
     font-size: 14px;
     font-weight: 400;
+    line-height: 20px;
   }
 
   /* sphipping & returns */
@@ -5372,8 +8544,6 @@ section .lImgRcap div:last-of-type h4,
   .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
   .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
   .checkoutContainer form section div:first-of-type div label,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
-  .checkoutContainer form section>div:nth-of-type(3) span label,
   .accountContainer section.orderDetails div:nth-of-type(2) ol li mark,
   .cartContainer.checkoutCompleted aside div ol li mark {
     font-size: 15px;
@@ -5519,7 +8689,7 @@ section .lImgRcap div:last-of-type h4,
   .serviceContainer form ul li label,
   .checkoutContainer form section div:first-of-type div:nth-of-type(3) label,
   .checkoutContainer form section div:first-of-type div:last-of-type label,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type,
+  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
   .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) input[type=button],
   .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) label,
   .checkoutContainer form section div:nth-of-type(2) div:last-of-type label,
@@ -6000,6 +9170,10 @@ section .lImgRcap div:last-of-type h4,
     display: inline-block;
     line-height: 40px;
     margin-right: 20px;
+  }
+
+  .cartContainer ol li div div:last-of-type ul li:last-of-type {
+    margin-right: 0;
   }
 
   .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span {
