@@ -189,8 +189,6 @@ header.headerFixedBar>div div:nth-of-type(3) input[type=button] {
   color: var(--gs05);
 }
 
-
-
 /* ########## font ##########  */
 body,
 .indexContainer>div:last-of-type blockquote i,
@@ -267,7 +265,6 @@ header>div div:nth-of-type(3)::before {
 
 .btnSns {
   display: inline-block;
-  width: 210px;
   border: 1px solid var(--gs05);
   transition: 0.35s;
 }
@@ -304,6 +301,1279 @@ header>div div:nth-of-type(3)::before {
   padding-right: 35px;
 }
 
+/* ########## product info ##########  */
+
+.product-img {
+  margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-name {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+  height: 45px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.product-color {
+  font-style: normal;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ########## selectComponent ##########  */
+.selectComponent.size,
+.selectComponent.cancel,
+.selectComponent.exchange,
+.selectComponent.country,
+.selectComponent.state,
+.selectComponent.sort,
+.selectComponent.gender {
+  border: 1px solid var(--gs05);
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.selectComponent.size,
+.selectComponent.cancel,
+.selectComponent.exchange,
+.selectComponent.sort {
+  height: 40px;
+}
+
+.selectComponent.country,
+.selectComponent.state,
+.selectComponent.gender {
+  height: 50px;
+}
+
+#popupAddToCart div:last-of-type ul li div.selectComponent.active,
+#panelMyCart>div:first-of-type ul li div.selectComponent.active {
+  background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be02);
+  background-size: 30px;
+}
+
+.selectComponent.size i,
+.selectComponent.sort i {
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 5px;
+  position: absolute;
+  top: -5px;
+  left: 15px;
+}
+
+.selectComponent.size ul,
+.selectComponent.cancel ul,
+.selectComponent.exchange ul,
+.selectComponent.country ul,
+.selectComponent.state ul,
+.selectComponent.sort ul,
+.selectComponent.gender ul {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.selectComponent.size ul,
+.selectComponent.cancel ul,
+.selectComponent.exchange ul,
+.selectComponent.sort ul {
+  height: 38px;
+}
+
+.selectComponent.country ul,
+.selectComponent.state ul,
+.selectComponent.gender ul {
+  height: 48px;
+}
+
+.selectComponent.size.active ul,
+.selectComponent.cancel.active ul,
+.selectComponent.exchange.active ul,
+.selectComponent.country.active ul,
+.selectComponent.state.active ul,
+.selectComponent.sort.active ul,
+.selectComponent.gender.active ul {
+  display: block;
+  overflow: visible;
+  height: auto;
+  z-index: 10;
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  border: 1px solid var(--gs05);
+}
+
+#popupAddToCart div:last-of-type ul li div.selectComponent.active ul,
+#panelMyCart>div:first-of-type ul li div.selectComponent.active ul {
+  top: 100%;
+  border-top: none;
+}
+
+#popupAddToCart div:last-of-type ul li div.selectComponent ul,
+#panelMyCart>div:first-of-type ul li div.selectComponent ul {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be02);
+  background-size: 30px;
+}
+
+.selectComponent.size ul li,
+.selectComponent.cancel ul li,
+.selectComponent.exchange ul li,
+.selectComponent.country ul li,
+.selectComponent.state ul li,
+.selectComponent.sort ul li,
+.selectComponent.gender ul li {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.selectComponent.size ul li,
+.selectComponent.cancel ul li,
+.selectComponent.exchange ul li,
+.selectComponent.sort ul li {
+  padding: 5px 20px;
+}
+
+.selectComponent.country ul li,
+.selectComponent.state ul li,
+.selectComponent.gender ul li {
+  padding: 10px 20px;
+}
+
+.selectComponent.size.active ul li,
+.selectComponent.cancel.active ul li,
+.selectComponent.exchange.active ul li,
+.selectComponent.country.active ul li,
+.selectComponent.state.active ul li,
+.selectComponent.sort.active ul li,
+.selectComponent.gender.active ul li {
+  padding: 0 20px;
+}
+
+.selectComponent.size.active ul li:hover,
+.selectComponent.cancel.active ul li:hover,
+.selectComponent.exchange.active ul li:hover,
+.selectComponent.country.active ul li:hover,
+.selectComponent.state.active ul li:hover,
+.selectComponent.sort.active ul li:hover,
+.selectComponent.gender.active ul li:hover {
+  text-decoration: underline;
+}
+
+/* ########## selectComponent - cancel & exchange ##########  */
+#popupCancelOrder div.selectComponent.active,
+#popupExchangeRequest div.selectComponent.active {
+  background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+#popupCancelOrder div.selectComponent.active ul,
+#popupExchangeRequest div.selectComponent.active ul {
+  top: 100%;
+  border-top: none;
+}
+
+#popupCancelOrder div.selectComponent ul,
+#popupExchangeRequest div.selectComponent ul {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+/* ########## selectComponent - state & country ##########  */
+#popupAddNewAddress form,
+#popupEditAddressHome form,
+#popupEditAddressOffice form,
+#popupCreateAccount,
+#popupAddNewAddress form ul,
+#popupEditAddressHome form ul,
+#popupEditAddressOffice form ul,
+footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
+  font-size: 0;
+}
+
+#popupAddNewAddress form div.selectComponent,
+#popupEditAddressHome form div.selectComponent,
+#popupEditAddressOffice form div.selectComponent {
+  margin-bottom: 35px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#popupAddNewAddress form div.selectComponent:first-of-type,
+#popupEditAddressHome form div.selectComponent:first-of-type,
+#popupEditAddressOffice form div.selectComponent:first-of-type {
+  margin-right: 10px;
+  background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+#popupAddNewAddress form div.selectComponent:nth-of-type(2) ul,
+#popupEditAddressHome form div.selectComponent:nth-of-type(2) ul,
+#popupEditAddressOffice form div.selectComponent:nth-of-type(2) ul {
+  background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+#popupAddNewAddress form div.selectComponent:first-of-type.active ul,
+#popupEditAddressHome form div.selectComponent:first-of-type.active ul,
+#popupEditAddressOffice form div.selectComponent:first-of-type.active ul {
+  top: 100%;
+  border-top: none;
+}
+
+#popupAddNewAddress form div.selectComponent:nth-of-type(2).active ul,
+#popupEditAddressHome form div.selectComponent:nth-of-type(2).active ul,
+#popupEditAddressOffice form div.selectComponent:nth-of-type(2).active ul {
+  bottom: 100%;
+  border-bottom: none;
+}
+
+#popupAddNewAddress form div.selectComponent:first-of-type ul,
+#popupEditAddressHome form div.selectComponent:first-of-type ul,
+#popupEditAddressOffice form div.selectComponent:first-of-type ul,
+#popupAddNewAddress form div.selectComponent:nth-of-type(2).active,
+#popupEditAddressHome form div.selectComponent:nth-of-type(2).active,
+#popupEditAddressOffice form div.selectComponent:nth-of-type(2).active {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+#popupCancelOrder div.selectComponent,
+#popupExchangeRequest div.selectComponent {
+  margin-bottom: 50px;
+}
+
+#popupSignIn,
+#popupForgottenPassword,
+#popupNewPassword,
+#popupCreateAccount,
+#popupChangePassword,
+#popupCancelOrder,
+#popupExchangeRequest,
+#popupTrackOrder,
+#popupAddNewAddress,
+#popupEditAddressHome,
+#popupEditAddressOffice {
+  box-shadow: 0 0px 10px var(--ov40);
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+#popupEmailSignUp,
+#popupAddToCart {
+  box-shadow: 0 0px 10px var(--ov40);
+}
+
+#emailSignUpBox,
+#popupAddToCart,
+[id*=popupSize] {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+#popupSignIn.active,
+#popupForgottenPassword.active,
+#popupNewPassword.active,
+#popupCreateAccount.active,
+#popupAddToCart.active,
+#panelCustomerService.active,
+#panelAccountLogout.active,
+#panelSearchBar.active,
+#panelMyCart.active,
+#popupChangePassword.active,
+#popupCancelOrder.active,
+#popupExchangeRequest.active,
+#popupTrackOrder.active,
+#popupAddNewAddress.active,
+#popupEditAddressHome.active,
+#popupEditAddressOffice.active,
+[id*=popupSize].active {
+  display: block;
+}
+
+#popupSignIn h2,
+#popupForgottenPassword h2,
+#popupNewPassword h2,
+#popupCreateAccount h2,
+#popupEmailSignUp h2,
+#popupAddToCart>div:first-of-type h2,
+#popupChangePassword h2,
+#popupCancelOrder h2,
+#popupExchangeRequest h2,
+#popupTrackOrder h2,
+#popupAddNewAddress h2,
+#popupEditAddressHome h2,
+#popupEditAddressOffice h2,
+[id*=popupSize] h2 {
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#popupAddToCart>div:first-of-type h2 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--gs05);
+}
+
+#popupSignIn>input[type=button],
+#popupForgottenPassword input[type=button],
+#popupNewPassword input[type=button].btn_close,
+#popupCreateAccount input[type=button],
+#popupEmailSignUp input[type=button],
+#popupAddToCart>div:first-of-type>input[type=button],
+#panelSearchBar div input[type=button],
+#panelMyCart>input[type=button],
+#popupChangePassword input[type=button],
+#popupCancelOrder input[type=button]:first-of-type,
+#popupExchangeRequest input[type=button]:first-of-type,
+#popupTrackOrder input[type=button],
+#popupAddNewAddress input[type=button],
+#popupEditAddressHome input[type=button],
+#popupEditAddressOffice input[type=button],
+[id*=popupSize] h2 input[type=button] {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#panelMyCart {
+  box-shadow: 0 0px 10px var(--ov40);
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+#panelMyCart h2 {
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid var(--gs05);
+  position: relative;
+}
+
+#panelMyCart>input[type=button] {
+  z-index: 1;
+}
+
+#popupSignIn form span:first-of-type,
+#popupSignIn form span:nth-of-type(2),
+#popupForgottenPassword span,
+#popupNewPassword span,
+#popupCreateAccount form span:nth-of-type(3),
+#popupCreateAccount form span:nth-of-type(4),
+#popupCreateAccount form span:last-of-type,
+#popupEmailSignUp form span,
+#popupChangePassword form span {
+  position: relative;
+  display: block;
+}
+
+
+
+#popupCreateAccount form>span:first-of-type {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+#popupCreateAccount form>span:nth-of-type(2),
+#popupAddNewAddress form>ul>li,
+#popupEditAddressHome form>ul>li,
+#popupEditAddressOffice form>ul>li {
+  position: relative;
+  display: inline-block;
+}
+
+#popupAddNewAddress form ul li:nth-of-type(2n+1),
+#popupEditAddressHome form ul li:nth-of-type(2n+1),
+#popupEditAddressOffice form ul li:nth-of-type(2n+1) {
+  margin-right: 10px;
+}
+
+.popup-input {
+  padding: 15px 20px;
+  border: 1px solid var(--gs05);
+  margin-bottom: 35px;
+}
+
+.popup-input.filled,
+#popupEditAddressHome form ul li input.valid,
+#popupEditAddressOffice form ul li input.valid {
+  padding: 25px 20px 5px;
+}
+
+#popupSignIn form span:first-of-type input[type=email],
+#popupSignIn form span:nth-of-type(2) input[type=password],
+#popupSignIn form span:nth-of-type(2) input[type=text],
+#popupForgottenPassword span input[type=email],
+#popupNewPassword span:first-of-type input[type=password],
+#popupNewPassword span:first-of-type input[type=text],
+#popupNewPassword span:last-of-type input[type=password],
+#popupNewPassword span:last-of-type input[type=text],
+#popupCreateAccount form span input[type=email],
+#popupCreateAccount form span:nth-of-type(4) input[type=password],
+#popupCreateAccount form span:nth-of-type(4) input[type=text],
+#popupCreateAccount form span:last-of-type input[type=password],
+#popupCreateAccount form span:last-of-type input[type=text],
+#popupEmailSignUp form span input[type=email],
+#popupEmailSignUp form span input[type=tel],
+#popupChangePassword form span input[type=password],
+#popupChangePassword form span input[type=text] {
+  width: 100%;
+}
+
+#popupSignIn form span:nth-of-type(2) input[type=password],
+#popupNewPassword span:first-of-type input[type=password],
+#popupNewPassword span:last-of-type input[type=password],
+#popupCreateAccount form span:nth-of-type(4) input[type=password],
+#popupCreateAccount form span:last-of-type input[type=password],
+#popupChangePassword form span input[type=password] {
+  padding-right: 50px;
+}
+
+.popup-label {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.popup-label.filled,
+#popupEditAddressHome form ul li input.valid+label,
+#popupEditAddressOffice form ul li input.valid+label {
+  top: 5px;
+}
+
+.toggleBtn {
+  width: 23px;
+  height: 20px;
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  border: none;
+  background: url('../images/visibility_off.svg') no-repeat center;
+  background-size: 23px;
+  text-indent: -9999px;
+}
+
+.toggleBtn.active {
+  background: url('../images/visibility.svg') no-repeat center;
+  background-size: 23px;
+}
+
+#popupSignIn p,
+#popupSignIn span label,
+#popupSignIn span>input[type=button],
+#popupSignIn p:last-of-type input[type=button],
+#popupForgottenPassword p,
+#popupNewPassword p,
+#popupCreateAccount p,
+#popupCreateAccount form label span,
+#popupEmailSignUp p,
+#popupEmailSignUp form div label,
+#popupCancelOrder p,
+#popupExchangeRequest p,
+#popupTrackOrder ol:last-of-type li p,
+#popupTrackOrder p,
+#popupAddNewAddress p,
+#popupEditAddressHome p,
+#popupEditAddressOffice p,
+#popupAddNewAddress form div:last-of-type label,
+#popupEditAddressHome form div:last-of-type label,
+#popupEditAddressOffice form div:last-of-type label,
+[id*=popupSize] div:first-of-type h3,
+[id*=popupSize] div:last-of-type p,
+[id*=popupSize] div:last-of-type p a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#popupSignIn span>input[type=button],
+#popupSignIn p:last-of-type input[type=button] {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#popupSignIn span>input[type=button] {
+  float: right;
+}
+
+#popupForgottenPassword p,
+#popupNewPassword p {
+  margin-bottom: 30px;
+}
+
+#popupCreateAccount p,
+#popupAddNewAddress p,
+#popupEditAddressHome p,
+#popupEditAddressOffice p {
+  margin-bottom: 20px;
+}
+
+#popupCancelOrder p,
+#popupExchangeRequest p,
+[id*=popupSize] div:first-of-type {
+  margin-bottom: 40px;
+}
+
+#popupAddNewAddress form div:last-of-type label,
+#popupEditAddressHome form div:last-of-type label,
+#popupEditAddressOffice form div:last-of-type label {
+  background: url('../images/check_box_outline_blank.svg') no-repeat;
+  background-size: 20px;
+  padding-left: 25px;
+  background-position: center left;
+}
+
+[id*=popupSize] div:first-of-type h3,
+[id*=popupSize] div:last-of-type p,
+[id*=popupSize] div:last-of-type p a {
+  margin-bottom: 10px;
+}
+
+[id*=popupSize] div:last-of-type p a {
+  text-decoration: underline;
+}
+
+#popupSignIn form span:last-of-type input[type=checkbox],
+#popupCreateAccount form input[type=checkbox],
+#popupEmailSignUp form div input[type=checkbox],
+#popupAddNewAddress form div:last-of-type input[type=checkbox],
+#popupEditAddressHome form div:last-of-type input[type=checkbox],
+#popupEditAddressOffice form div:last-of-type input[type=checkbox] {
+  display: none;
+}
+
+#popupSignIn form span:last-of-type label {
+  background: url('../images/check_box_outline_blank.svg') no-repeat;
+  background-size: 20px;
+  padding-left: 25px;
+  background-position: center left;
+}
+
+#popupSignIn form span:last-of-type label.active,
+#popupCreateAccount form label.active,
+#popupEmailSignUp form div label.active,
+#popupAddNewAddress form div:last-of-type label.active,
+#popupEditAddressHome form div:last-of-type label.active,
+#popupEditAddressOffice form div:last-of-type label.active {
+  background: url('../images/check_box.svg') no-repeat;
+  background-size: 20px;
+}
+
+#popupSignIn form span:last-of-type label.active,
+#popupAddNewAddress form div:last-of-type label.active,
+#popupEditAddressHome form div:last-of-type label.active,
+#popupEditAddressOffice form div:last-of-type label.active {
+  background-position: center left;
+}
+
+#popupCreateAccount form>label,
+#popupEmailSignUp form div label {
+  background: url('../images/check_box_outline_blank.svg') no-repeat;
+  background-size: 20px;
+}
+
+#popupCreateAccount form>label {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 160px;
+  position: relative;
+}
+
+#popupEmailSignUp form div label,
+#popupEmailSignUp form div p {
+  padding-left: 25px;
+}
+
+#popupEmailSignUp form div p {
+  margin-bottom: 20px;
+  display: block;
+}
+
+#popupEmailSignUp form div label,
+#popupEmailSignUp form div label.active {
+  background-position: top left;
+}
+
+#popupEmailSignUp form div label {
+  margin-bottom: 20px;
+  display: block;
+}
+
+#popupAddToCart>div:first-of-type div>div span.qtyComponent {
+  position: absolute;
+  right: 0;
+}
+
+#panelMyCart ol li>div>span.qtyComponent {
+  position: absolute;
+  left: 90px;
+}
+
+#popupAddToCart>div:first-of-type div>div span.qtyComponent i,
+#panelMyCart ol li>div>span.qtyComponent i {
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 5px;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+}
+
+#popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number]::-webkit-outer-spin-button,
+#popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number]::-webkit-inner-spin-button,
+#panelMyCart ol li>div>span.qtyComponent input[type=number]::-webkit-outer-spin-button,
+#panelMyCart ol li>div>span.qtyComponent input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number],
+#panelMyCart ol li>div>span.qtyComponent input[type=number] {
+  border: 1px solid var(--gs05);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+  width: 90px;
+}
+
+#popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button],
+#panelMyCart ol li>div>span.qtyComponent input[type=button] {
+  position: absolute;
+  top: 20px;
+  border: none;
+  background-color: transparent;
+  text-indent: -9999px;
+}
+
+#popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button]:first-of-type,
+#panelMyCart ol li>div>span.qtyComponent input[type=button]:first-of-type {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: url('../images/remove.svg') no-repeat center;
+  background-size: 13px;
+  cursor: pointer;
+}
+
+#popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button]:last-of-type,
+#panelMyCart ol li>div>span.qtyComponent input[type=button]:last-of-type {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url('../images/add.svg') no-repeat center;
+  background-size: 13px;
+  cursor: pointer;
+}
+
+#popupSignIn p:not(:nth-of-type(4), :last-of-type),
+#popupSignIn form span:last-of-type,
+#popupSignIn input[type=submit],
+#popupEmailSignUp p:nth-of-type(2),
+header>div div:nth-of-type(2) nav>ul>li>ol>li div a img {
+  margin-bottom: 20px;
+}
+
+#popupCreateAccount form>label span {
+  position: absolute;
+  left: 25px;
+}
+
+#popupSignIn p:nth-of-type(2) a,
+#popupCreateAccount form>label span a,
+#popupEmailSignUp form div label a,
+#popupEmailSignUp form div p a,
+header>div div:nth-of-type(2) nav>ul>li>ol>li:hover>a {
+  text-decoration: underline;
+}
+
+#popupSignIn>span,
+#popupCreateAccount>span:first-of-type {
+  position: absolute;
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+#popupSignIn div {
+  font-size: 0;
+  margin-bottom: 15px;
+}
+
+#popupCreateAccount div {
+  margin-bottom: 15px;
+}
+
+#panelCustomerService,
+#panelAccountLogout {
+  border: 1px solid var(--gs03);
+  border-radius: 3px;
+  display: none;
+  position: fixed;
+  z-index: 100;
+}
+
+#panelAccountLogout {
+  gap: 70px;
+}
+
+#panelCustomerService div h3,
+#panelAccountLogout div h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+#panelMyCart ol li>div a {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#panelMyCart ol li>div small {
+  position: absolute;
+  left: 90px;
+}
+
+#popupSignIn div a:first-of-type,
+#popupCreateAccount div a:first-of-type {
+  margin-right: 10px;
+}
+
+#popupEmailSignUp>p:first-of-type {
+  margin-bottom: 4px;
+}
+
+#popupEmailSignUp form div p b {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+#popupAddToCart>div:first-of-type div::after,
+#popupTrackOrder ol:first-of-type li:after,
+#panelMyCart ol li:after,
+footer>div div:first-of-type:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#popupAddToCart>div:first-of-type div img,
+#panelMyCart ol li img {
+  float: left;
+  margin-right: 20px;
+}
+
+#popupAddToCart>div:first-of-type,
+#popupAddToCart>div:first-of-type div>div,
+#popupAddToCart>div:last-of-type>ul>li,
+#panelMyCart ol li>div {
+  position: relative;
+}
+
+#popupAddToCart>div:first-of-type div>div a {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#popupTrackOrder ol:first-of-type li dl dt {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 23px;
+}
+
+#popupAddToCart>div:first-of-type div>div small {
+  position: absolute;
+  top: 55px;
+  left: 90px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#popupAddToCart>div:first-of-type div>div strong {
+  font-size: 17px;
+  font-weight: 500;
+  position: absolute;
+  right: 120px;
+}
+
+#popupTrackOrder div:first-of-type p,
+#popupTrackOrder ol:first-of-type li dl dd:first-of-type,
+#popupTrackOrder ol:first-of-type li dl dd:nth-of-type(2),
+#panelCustomerService div:last-of-type a,
+#panelAccountLogout div:last-of-type input[type=submit],
+#panelMyCart ol li>div small,
+#panelMyCart>div:last-of-type span,
+#panelMyCart>div:last-of-type strong {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#popupTrackOrder div:first-of-type p {
+  margin-bottom: 10px;
+}
+
+#panelCustomerService div:last-of-type,
+#panelAccountLogout div:last-of-type {
+  border-right: none;
+}
+
+#panelCustomerService div:last-of-type a {
+  display: inline-block;
+  width: 130px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid var(--gs05);
+}
+
+#panelAccountLogout div:last-of-type input[type=submit] {
+  border: none;
+  text-decoration: underline;
+  padding-left: 30px;
+  background: url('../images/mode_off_on.svg') no-repeat center left 5px;
+  background-size: 18px;
+  cursor: pointer;
+}
+
+#panelMyCart>div:last-of-type strong {
+  float: right;
+}
+
+#popupTrackOrder ol:first-of-type,
+#popupAddNewAddress form div:last-of-type,
+#popupEditAddressHome form div:last-of-type,
+#popupEditAddressOffice form div:last-of-type,
+#panelMyCart>div:first-of-type {
+  margin-bottom: 35px;
+}
+
+#popupAddToCart div:last-of-type h3,
+#panelMyCart>div:first-of-type h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#panelMyCart>div:first-of-type>ul>li {
+  position: relative;
+}
+
+#popupTrackOrder div:first-of-type,
+#popupTrackOrder div:last-of-type,
+#popupTrackOrder ol:last-of-type,
+[id*=popupSize] table {
+  margin-bottom: 25px;
+}
+
+#popupTrackOrder ol:last-of-type {
+  padding: 20px;
+}
+
+#popupCancelOrder a,
+#popupExchangeRequest a {
+  display: block;
+}
+
+#popupTrackOrder div:first-of-type div div {
+  display: inline-block;
+  height: 5px;
+  background-color: var(--gs03);
+}
+
+#popupTrackOrder div:first-of-type div div:not(:last-of-type) {
+  margin-right: 8px;
+}
+
+#popupTrackOrder div:first-of-type div div span {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#popupTrackOrder ol:first-of-type li img {
+  float: left;
+  margin-right: 25px;
+}
+
+#popupTrackOrder ol:first-of-type li dl dd {
+  line-height: 20px;
+}
+
+#popupTrackOrder ol:first-of-type li dl dd:last-of-type,
+#panelMyCart ol li>div strong {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#popupTrackOrder div:last-of-type i {
+  font-style: normal;
+}
+
+#popupTrackOrder div:last-of-type i,
+header>div div:nth-of-type(2) nav>ul>li>ol>li:not(:first-of-type)>a,
+footer>div div:nth-of-type(2) div ul li a,
+footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email]::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#popupTrackOrder ol:last-of-type li {
+  padding: 5px 0;
+}
+
+#popupTrackOrder ol:last-of-type li:first-of-type {
+  padding-top: 0;
+}
+
+#popupTrackOrder ol:last-of-type li:last-of-type {
+  padding-bottom: 0;
+}
+
+#popupTrackOrder ol:last-of-type li:not(:last-of-type) {
+  border-bottom: 1px solid var(--gs03);
+}
+
+#panelCustomerService::before,
+#panelAccountLogout::before {
+  content: '';
+  border-style: solid;
+  position: absolute;
+  border-color: transparent transparent var(--gs03) transparent;
+  border-width: 11px 11px;
+  top: -23px;
+}
+
+#panelCustomerService::before {
+  left: 49px;
+}
+
+#panelAccountLogout::before {
+  right: 49px;
+}
+
+#panelCustomerService::after,
+#panelAccountLogout::after {
+  content: '';
+  border-style: solid;
+  border-color: transparent transparent var(--be01) transparent;
+  border-width: 10px 10px;
+  position: absolute;
+  top: -20px;
+}
+
+#panelCustomerService::after {
+  left: 50px;
+}
+
+#panelAccountLogout::after {
+  right: 50px;
+}
+
+#panelCustomerService div:first-of-type ul {
+  margin-right: 290px;
+}
+
+#panelCustomerService div:first-of-type ul li,
+#panelAccountLogout div:first-of-type ul li {
+  padding-bottom: 15px;
+}
+
+#panelCustomerService div:first-of-type ul li a,
+#panelAccountLogout div:first-of-type ul li a {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#panelSearchBar {
+  width: 100%;
+  box-shadow: 0 10px 10px var(--ov10);
+  display: none;
+  position: fixed;
+  left: 0;
+  z-index: 10;
+}
+
+#panelSearchBar div {
+  padding: 55px 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+#panelSearchBar div input[type=search] {
+  border: none;
+  border-bottom: 1px solid var(--gs04);
+  background-color: transparent;
+  padding: 15px 0;
+  padding-right: 40px;
+  width: 100%;
+  font-size: 18px;
+  background: url('../images/search.svg') no-repeat center right 10px;
+  background-size: 20px;
+}
+
+#panelSearchBar div input[type=search]::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#panelMyCart ol:hover {
+  background: url('../images/delete.svg') no-repeat top 35px right 20px;
+  cursor: pointer;
+}
+
+#panelMyCart ol li>div strong {
+  position: absolute;
+  right: 0;
+}
+
+#panelMyCart>div:last-of-type {
+  padding: 20px 15px;
+  border-top: 1px solid var(--gs05);
+}
+
+#panelMyCart>div:last-of-type a.btnViewCart {
+  width: 100%;
+  margin: 20px 0 15px;
+}
+
+[id*=popupSize] {
+  width: 650px;
+  padding: 60px 70px;
+  box-shadow: 0 0px 10px var(--ov40);
+}
+
+[id*=popupSize] table {
+  width: 100%;
+}
+
+[id*=popupSize] table tr td {
+  padding: 5px 19px;
+  text-align: center;
+  border-bottom: 1px solid var(--gs05);
+}
+
+[id*=popupSize] table tr td:first-of-type {
+  padding-left: 0;
+}
+
+[id*=popupSize] table tr td:last-of-type {
+  padding-right: 0;
+}
+
+[id*=popupSize] div:first-of-type p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+header>div {
+  transition: 1s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}
+
+header>div div:nth-of-type(2) h1 a img {
+  filter: drop-shadow(0 0 5px var(--ov40));
+}
+
+header>div div:nth-of-type(2) nav>ul>li>span {
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  cursor: pointer;
+}
+
+header>div div:nth-of-type(2) nav>ul>li>ol {
+  display: none;
+  width: 100%;
+}
+
+header>div div:nth-of-type(3) {
+  text-align: right;
+}
+
+header>div div:nth-of-type(3) input[type=button] {
+  text-shadow: 0 0 5px var(--ov40);
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+header>div div:nth-of-type(3) input[type=checkbox] {
+  display: none;
+}
+
+header>div:hover,
+header.scrolled>div,
+header.headerFixed>div,
+header.headerFixedBar>div {
+  border-bottom: 2px solid var(--be02);
+}
+
+header>div:hover div:nth-of-type(2) h1,
+header.scrolled>div div:nth-of-type(2) h1,
+header.headerFixed>div div:nth-of-type(2) h1,
+header.headerFixedBar>div div:nth-of-type(2) h1 {
+  filter: brightness(0) saturate(100%) invert(18%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(91%);
+}
+
+header>div:hover div:first-child a,
+header>div:hover div:first-of-type input[type=button],
+header>div:hover div:nth-of-type(2) nav>ul>li>span,
+header>div:hover div:nth-of-type(3)::before,
+header>div:hover div:nth-of-type(3) input[type=button],
+header.scrolled>div div:first-child a,
+header.scrolled>div div:first-of-type input[type=button],
+header.scrolled>div div:nth-of-type(2) nav>ul>li>span,
+header.scrolled>div div:nth-of-type(3)::before,
+header.scrolled>div div:nth-of-type(3) input[type=button],
+header.headerFixed>div div:first-child a,
+header.headerFixed>div div:first-of-type input[type=button],
+header.headerFixed>div div:nth-of-type(2) nav>ul>li>span,
+header.headerFixed>div div:nth-of-type(3)::before,
+header.headerFixed>div div:nth-of-type(3) input[type=button],
+header.headerFixedBar>div div:first-child a,
+header.headerFixedBar>div div:first-of-type input[type=button],
+header.headerFixedBar>div div:nth-of-type(2) nav>ul>li>span,
+header.headerFixedBar>div div:nth-of-type(3)::before,
+header.headerFixedBar>div div:nth-of-type(3) input[type=button] {
+  text-shadow: none;
+}
+
+header>div:hover div:nth-of-type(2) h1 a img,
+header.scrolled>div div:nth-of-type(2) h1 a img,
+header.headerFixed>div div:nth-of-type(2) h1 a img,
+header.headerFixedBar>div div:nth-of-type(2) h1 a img {
+  filter: none;
+}
+
+footer {
+  background-color: var(--gs06);
+}
+
+footer>div {
+  padding: 60px 0;
+}
+
+footer>div>div:first-of-type {
+  margin-bottom: 50px;
+}
+
+footer>div div:first-of-type div:first-of-type h2 img {
+  filter: brightness(0) saturate(100%) invert(88%) sepia(65%) saturate(108%) hue-rotate(337deg) brightness(108%) contrast(104%);
+  max-width: 100px;
+  padding-left: 20px;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 20px;
+}
+
+footer>div div:first-of-type>div:first-of-type {
+  float: left;
+}
+
+footer>div div:first-of-type div:first-of-type cite {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer>div div:first-of-type div:nth-of-type(2) {
+  float: right;
+}
+
+footer>div div:first-of-type div:nth-of-type(2) p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email] {
+  border: 1px solid var(--gs03);
+  padding: 15px 20px;
+}
+
+footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=submit] {
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid var(--gs05);
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+footer>div div:nth-of-type(2) div h3 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+footer>div div:nth-of-type(2) div ul li {
+  padding-bottom: 20px;
+}
+
+
 @media screen and (max-width: 767px) {
   .btnSns {
     width: 125px;
@@ -322,14 +1592,7 @@ header>div div:nth-of-type(3)::before {
   #popupEditAddressHome,
   #popupEditAddressOffice {
     width: 280px;
-    box-shadow: 0 0px 10px var(--ov40);
     padding: 60px 10px;
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
     max-height: 85vh;
     overflow-y: auto;
   }
@@ -337,7 +1600,6 @@ header>div div:nth-of-type(3)::before {
   #popupEmailSignUp,
   #popupAddToCart {
     width: 280px;
-    box-shadow: 0 0px 10px var(--ov40);
   }
 
   #popupEmailSignUp {
@@ -349,151 +1611,11 @@ header>div div:nth-of-type(3)::before {
   #emailSignUpBox,
   #popupAddToCart,
   [id*=popupSize] {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
     max-height: 85vh;
     overflow-y: auto;
   }
 
-  #popupSignIn.active,
-  #popupForgottenPassword.active,
-  #popupNewPassword.active,
-  #popupCreateAccount.active,
-  #popupAddToCart.active,
-  #panelCustomerService.active,
-  #panelAccountLogout.active,
-  #panelSearchBar.active,
-  #panelMyCart.active,
-  #popupChangePassword.active,
-  #popupCancelOrder.active,
-  #popupExchangeRequest.active,
-  #popupTrackOrder.active,
-  #popupAddNewAddress.active,
-  #popupEditAddressHome.active,
-  #popupEditAddressOffice.active,
-  [id*=popupSize].active {
-    display: block;
-  }
-
-  #popupSignIn h2,
-  #popupForgottenPassword h2,
-  #popupNewPassword h2,
-  #popupCreateAccount h2,
-  #popupEmailSignUp h2,
-  #popupAddToCart>div:first-of-type h2,
-  #popupChangePassword h2,
-  #popupCancelOrder h2,
-  #popupExchangeRequest h2,
-  #popupTrackOrder h2,
-  #popupAddNewAddress h2,
-  #popupEditAddressHome h2,
-  #popupEditAddressOffice h2,
-  [id*=popupSize] h2 {
-    font-size: 31px;
-    font-weight: 400;
-    line-height: 37px;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  #popupSignIn>input[type=button],
-  #popupForgottenPassword input[type=button],
-  #popupNewPassword input[type=button].btn_close,
-  #popupCreateAccount input[type=button],
-  #popupEmailSignUp input[type=button],
-  #popupAddToCart>div:first-of-type>input[type=button],
-  #panelSearchBar div input[type=button],
-  #panelMyCart>input[type=button],
-  #popupChangePassword input[type=button],
-  #popupCancelOrder input[type=button]:first-of-type,
-  #popupExchangeRequest input[type=button]:first-of-type,
-  #popupTrackOrder input[type=button],
-  #popupAddNewAddress input[type=button],
-  #popupEditAddressHome input[type=button],
-  #popupEditAddressOffice input[type=button],
-  [id*=popupSize] h2 input[type=button] {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 15px;
-    right: 10px;
-    cursor: pointer;
-  }
-
   /* ########## popup 인풋 공통 ##########  */
-
-  #popupSignIn form span:first-of-type,
-  #popupSignIn form span:nth-of-type(2),
-  #popupForgottenPassword span,
-  #popupNewPassword span,
-  #popupCreateAccount form span:nth-of-type(3),
-  #popupCreateAccount form span:nth-of-type(4),
-  #popupCreateAccount form span:last-of-type,
-  #popupEmailSignUp form span,
-  #popupChangePassword form span {
-    position: relative;
-    display: block;
-  }
-
-  #popupCreateAccount,
-  #popupAddNewAddress form ul,
-  #popupEditAddressHome form ul,
-  #popupEditAddressOffice form ul {
-    font-size: 0;
-  }
-
-  #popupCreateAccount form span:first-of-type,
-  #popupCreateAccount form span:nth-of-type(2),
-  #popupAddNewAddress form>ul>li,
-  #popupEditAddressHome form>ul>li,
-  #popupEditAddressOffice form>ul>li {
-    position: relative;
-    display: inline-block;
-  }
-
-  #popupCreateAccount form span:first-of-type,
-  #popupAddNewAddress form ul li:nth-of-type(2n+1),
-  #popupEditAddressHome form ul li:nth-of-type(2n+1),
-  #popupEditAddressOffice form ul li:nth-of-type(2n+1) {
-    margin-right: 10px;
-  }
-
-  .popup-input {
-    padding: 15px 20px;
-    border: 1px solid var(--gs05);
-    margin-bottom: 35px;
-  }
-
-  .popup-input.filled,
-  #popupEditAddressHome form ul li input.valid,
-  #popupEditAddressOffice form ul li input.valid {
-    padding: 25px 20px 5px;
-  }
-
-  #popupSignIn form span:first-of-type input[type=email],
-  #popupSignIn form span:nth-of-type(2) input[type=password],
-  #popupSignIn form span:nth-of-type(2) input[type=text],
-  #popupForgottenPassword span input[type=email],
-  #popupNewPassword span:first-of-type input[type=password],
-  #popupNewPassword span:first-of-type input[type=text],
-  #popupNewPassword span:last-of-type input[type=password],
-  #popupNewPassword span:last-of-type input[type=text],
-  #popupCreateAccount form span input[type=email],
-  #popupCreateAccount form span:nth-of-type(4) input[type=password],
-  #popupCreateAccount form span:nth-of-type(4) input[type=text],
-  #popupCreateAccount form span:last-of-type input[type=password],
-  #popupCreateAccount form span:last-of-type input[type=text],
-  #popupEmailSignUp form span input[type=email],
-  #popupEmailSignUp form span input[type=tel],
-  #popupChangePassword form span input[type=password],
-  #popupChangePassword form span input[type=text] {
-    width: 100%;
-  }
-
   #popupCreateAccount span input[type=text],
   #popupAddNewAddress form ul li input[type=text],
   #popupEditAddressHome form ul li input[type=text],
@@ -504,229 +1626,17 @@ header>div div:nth-of-type(3)::before {
     width: 260px;
   }
 
-  #popupSignIn form span:nth-of-type(2) input[type=password],
-  #popupNewPassword span:first-of-type input[type=password],
-  #popupNewPassword span:last-of-type input[type=password],
-  #popupCreateAccount form span:nth-of-type(4) input[type=password],
-  #popupCreateAccount form span:last-of-type input[type=password],
-  #popupChangePassword form span input[type=password] {
-    padding-right: 50px;
-  }
-
-  .popup-label {
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    font-size: 14px;
-    font-weight: 400;
-  }
-
-  .popup-label.filled,
-  #popupEditAddressHome form ul li input.valid+label,
-  #popupEditAddressOffice form ul li input.valid+label {
-    top: 5px;
-  }
-
-  .toggleBtn {
-    width: 23px;
-    height: 20px;
-    position: absolute;
-    top: 13px;
-    right: 15px;
-    border: none;
-    background: url('../images/visibility_off.svg') no-repeat center;
-    background-size: 23px;
-    text-indent: -9999px;
-  }
-
-  .toggleBtn.active {
-    background: url('../images/visibility.svg') no-repeat center;
-    background-size: 23px;
-  }
-
-  /* ########## popup 본문 공통 ##########  */
-
-  #popupSignIn p,
-  #popupSignIn span label,
-  #popupSignIn span>input[type=button],
-  #popupSignIn p:last-of-type input[type=button],
-  #popupForgottenPassword p,
-  #popupNewPassword p,
-  #popupCreateAccount p,
-  #popupCreateAccount form label span,
-  #popupEmailSignUp p,
-  #popupEmailSignUp form div label,
-  #popupCancelOrder p,
-  #popupExchangeRequest p,
-  #popupTrackOrder ol:last-of-type li p,
-  #popupTrackOrder p,
-  #popupAddNewAddress p,
-  #popupEditAddressHome p,
-  #popupEditAddressOffice p,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label,
-  [id*=popupSize] div:first-of-type h3,
-  [id*=popupSize] div:last-of-type p,
-  [id*=popupSize] div:last-of-type p a {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-  }
-
-  /* ########## popup checkbox ##########  */
-
-  #popupSignIn form span:last-of-type input[type=checkbox],
-  #popupCreateAccount form input[type=checkbox],
-  #popupEmailSignUp form div input[type=checkbox],
-  #popupAddNewAddress form div:last-of-type input[type=checkbox],
-  #popupEditAddressHome form div:last-of-type input[type=checkbox],
-  #popupEditAddressOffice form div:last-of-type input[type=checkbox] {
-    display: none;
-  }
-
-  #popupSignIn form span:last-of-type label,
-  #popupCreateAccount form>label,
-  #popupEmailSignUp form div label,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label {
-    background: url('../images/check_box_outline_blank.svg') no-repeat;
-    background-size: 20px;
-  }
-
-  #popupCreateAccount form>label {
-    display: block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 160px;
-  }
-
-  #popupSignIn form span:last-of-type label,
-  #popupEmailSignUp form div label,
-  #popupEmailSignUp form div p,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label {
-    padding-left: 25px;
-  }
-
-  #popupSignIn form span:last-of-type label.active,
-  #popupCreateAccount form label.active,
-  #popupEmailSignUp form div label.active,
-  #popupAddNewAddress form div:last-of-type label.active,
-  #popupEditAddressHome form div:last-of-type label.active,
-  #popupEditAddressOffice form div:last-of-type label.active {
-    background: url('../images/check_box.svg') no-repeat;
-    background-size: 20px;
-  }
-
-  #popupSignIn form span:last-of-type label,
-  #popupSignIn form span:last-of-type label.active,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupAddNewAddress form div:last-of-type label.active,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label.active,
-  #popupEditAddressOffice form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label.active {
-    background-position: center left;
-  }
-
-  #popupEmailSignUp form div label,
-  #popupEmailSignUp form div label.active {
-    background-position: top left;
-  }
-
   /* ########## qtyComponent ##########  */
   #popupAddToCart>div:first-of-type div>div span.qtyComponent {
-    position: absolute;
     top: 60px;
-    right: 0;
   }
 
   #panelMyCart ol li>div>span.qtyComponent {
-    position: absolute;
     top: 75px;
-    left: 90px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent i,
-  #panelMyCart ol li>div>span.qtyComponent i {
-    font-style: normal;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0 5px;
-    position: absolute;
-    top: -5px;
-    left: 5px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number]::-webkit-outer-spin-button,
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number]::-webkit-inner-spin-button,
-  #panelMyCart ol li>div>span.qtyComponent input[type=number]::-webkit-outer-spin-button,
-  #panelMyCart ol li>div>span.qtyComponent input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number],
-  #panelMyCart ol li>div>span.qtyComponent input[type=number] {
-    border: 1px solid var(--gs05);
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px;
-    text-align: center;
-    width: 90px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button],
-  #panelMyCart ol li>div>span.qtyComponent input[type=button] {
-    position: absolute;
-    top: 20px;
-    border: none;
-    background-color: transparent;
-    text-indent: -9999px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button]:first-of-type,
-  #panelMyCart ol li>div>span.qtyComponent input[type=button]:first-of-type {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: url('../images/remove.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button]:last-of-type,
-  #panelMyCart ol li>div>span.qtyComponent input[type=button]:last-of-type {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: url('../images/add.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
   }
 
   /* ########## product info ##########  */
-  .product-img {
-    margin-bottom: 15px;
-    width: 100%;
-    height: auto;
-    display: block;
-  }
 
-  .product-name {
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 23px;
-    text-align: center;
-    height: 45px;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-  }
 
   #popupAddToCart div:last-of-type ul li a b {
     width: 100%;
@@ -734,21 +1644,6 @@ header>div div:nth-of-type(3)::before {
 
   #panelMyCart>div:first-of-type ul li a b {
     width: 100%;
-  }
-
-  .product-color {
-    font-style: normal;
-    background-color: transparent;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: center;
-    height: 40px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-    margin-bottom: 15px;
   }
 
   #popupAddToCart div:last-of-type ul li a mark {
@@ -759,257 +1654,14 @@ header>div div:nth-of-type(3)::before {
     width: 100%;
   }
 
-  .product-price {
-    display: block;
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  /* ########## selectComponent ##########  */
-  .selectComponent.size,
-  .selectComponent.cancel,
-  .selectComponent.exchange,
-  .selectComponent.country,
-  .selectComponent.state,
-  .selectComponent.sort,
-  .selectComponent.gender {
-    border: 1px solid var(--gs05);
-    margin-bottom: 15px;
-    position: relative;
-    cursor: pointer;
-  }
-
-  .selectComponent.size,
-  .selectComponent.cancel,
-  .selectComponent.exchange,
-  .selectComponent.sort {
-    height: 40px;
-  }
-
-  .selectComponent.country,
-  .selectComponent.state,
-  .selectComponent.gender {
-    height: 50px;
-  }
-
-  #popupAddToCart div:last-of-type ul li div.selectComponent.active,
-  #panelMyCart>div:first-of-type ul li div.selectComponent.active {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be02);
-    background-size: 30px;
-  }
-
-  .selectComponent.size i,
-  .selectComponent.sort i {
-    font-style: normal;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0 5px;
-    position: absolute;
-    top: -5px;
-    left: 15px;
-  }
-
-  .selectComponent.size ul,
-  .selectComponent.cancel ul,
-  .selectComponent.exchange ul,
-  .selectComponent.country ul,
-  .selectComponent.state ul,
-  .selectComponent.sort ul,
-  .selectComponent.gender ul {
-    overflow: hidden;
-    cursor: pointer;
-  }
-
-  .selectComponent.size ul,
-  .selectComponent.cancel ul,
-  .selectComponent.exchange ul,
-  .selectComponent.sort ul {
-    height: 38px;
-  }
-
-  .selectComponent.country ul,
-  .selectComponent.state ul,
-  .selectComponent.gender ul {
-    height: 48px;
-  }
-
-  .selectComponent.size.active ul,
-  .selectComponent.cancel.active ul,
-  .selectComponent.exchange.active ul,
-  .selectComponent.country.active ul,
-  .selectComponent.state.active ul,
-  .selectComponent.sort.active ul,
-  .selectComponent.gender.active ul {
-    display: block;
-    overflow: visible;
-    height: auto;
-    z-index: 10;
-    position: absolute;
-    left: -1px;
-    right: -1px;
-    border: 1px solid var(--gs05);
-  }
-
-  #popupAddToCart div:last-of-type ul li div.selectComponent.active ul,
-  #panelMyCart>div:first-of-type ul li div.selectComponent.active ul {
-    top: 100%;
-    border-top: none;
-  }
-
-  #popupAddToCart div:last-of-type ul li div.selectComponent ul,
-  #panelMyCart>div:first-of-type ul li div.selectComponent ul {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be02);
-    background-size: 30px;
-  }
-
-  .selectComponent.size ul li,
-  .selectComponent.cancel ul li,
-  .selectComponent.exchange ul li,
-  .selectComponent.country ul li,
-  .selectComponent.state ul li,
-  .selectComponent.sort ul li,
-  .selectComponent.gender ul li {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 30px;
-  }
-
-  .selectComponent.size ul li,
-  .selectComponent.cancel ul li,
-  .selectComponent.exchange ul li,
-  .selectComponent.sort ul li {
-    padding: 5px 20px;
-  }
-
-  .selectComponent.country ul li,
-  .selectComponent.state ul li,
-  .selectComponent.gender ul li {
-    padding: 10px 20px;
-  }
-
-  .selectComponent.size.active ul li,
-  .selectComponent.cancel.active ul li,
-  .selectComponent.exchange.active ul li,
-  .selectComponent.country.active ul li,
-  .selectComponent.state.active ul li,
-  .selectComponent.sort.active ul li,
-  .selectComponent.gender.active ul li {
-    padding: 0 20px;
-  }
-
-  .selectComponent.size.active ul li:hover,
-  .selectComponent.cancel.active ul li:hover,
-  .selectComponent.exchange.active ul li:hover,
-  .selectComponent.country.active ul li:hover,
-  .selectComponent.state.active ul li:hover,
-  .selectComponent.sort.active ul li:hover,
-  .selectComponent.gender.active ul li:hover {
-    text-decoration: underline;
-  }
-
-  /* ########## selectComponent - cancel & exchange ##########  */
-  #popupCancelOrder div.selectComponent.active,
-  #popupExchangeRequest div.selectComponent.active {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupCancelOrder div.selectComponent.active ul,
-  #popupExchangeRequest div.selectComponent.active ul {
-    top: 100%;
-    border-top: none;
-  }
-
-  #popupCancelOrder div.selectComponent ul,
-  #popupExchangeRequest div.selectComponent ul {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
   /* ########## selectComponent - state & country ##########  */
-  #popupAddNewAddress form,
-  #popupEditAddressHome form,
-  #popupEditAddressOffice form {
-    font-size: 0;
-  }
-
   #popupAddNewAddress form div.selectComponent,
   #popupEditAddressHome form div.selectComponent,
   #popupEditAddressOffice form div.selectComponent {
-    margin-bottom: 35px;
-    display: inline-block;
     width: 100%;
-    vertical-align: top;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type,
-  #popupEditAddressHome form div.selectComponent:first-of-type,
-  #popupEditAddressOffice form div.selectComponent:first-of-type {
-    margin-right: 10px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type,
-  #popupEditAddressHome form div.selectComponent:first-of-type,
-  #popupEditAddressOffice form div.selectComponent:first-of-type {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:nth-of-type(2) ul,
-  #popupEditAddressHome form div.selectComponent:nth-of-type(2) ul,
-  #popupEditAddressOffice form div.selectComponent:nth-of-type(2) ul {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type.active ul,
-  #popupEditAddressHome form div.selectComponent:first-of-type.active ul,
-  #popupEditAddressOffice form div.selectComponent:first-of-type.active ul {
-    top: 100%;
-    border-top: none;
-  }
-
-  #popupAddNewAddress form div.selectComponent:nth-of-type(2).active ul,
-  #popupEditAddressHome form div.selectComponent:nth-of-type(2).active ul,
-  #popupEditAddressOffice form div.selectComponent:nth-of-type(2).active ul {
-    bottom: 100%;
-    border-bottom: none;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type ul,
-  #popupEditAddressHome form div.selectComponent:first-of-type ul,
-  #popupEditAddressOffice form div.selectComponent:first-of-type ul {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:nth-of-type(2).active,
-  #popupEditAddressHome form div.selectComponent:nth-of-type(2).active,
-  #popupEditAddressOffice form div.selectComponent:nth-of-type(2).active {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
   }
 
   /* ########## popup sign in ##########  */
-
-  #popupSignIn p:not(:nth-of-type(4), :last-of-type),
-  #popupSignIn form span:last-of-type,
-  #popupSignIn input[type=submit],
-  #popupCreateAccount p,
-  #popupCreateAccount form>label span,
-  #popupEmailSignUp p:nth-of-type(2),
-  #popupEmailSignUp form div label,
-  #popupEmailSignUp form div p,
-  #popupAddNewAddress p,
-  #popupEditAddressHome p,
-  #popupEditAddressOffice p,
-  header>div div:nth-of-type(2) nav>ul>li>ol>li div a img,
-  footer>div div:first-of-type div:first-of-type h2 img {
-    margin-bottom: 20px;
-  }
-
   #popupAddToCart>div:first-of-type div>div {
     margin-bottom: 50px;
   }
@@ -1018,55 +1670,9 @@ header>div div:nth-of-type(3)::before {
     display: block;
   }
 
-  #popupSignIn span>input[type=button],
-  #popupSignIn p:last-of-type input[type=button] {
-    border: none;
-    background-color: transparent;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
-  #popupSignIn span>input[type=button] {
-    float: right;
-  }
-
-  #popupSignIn p:nth-of-type(2) a {
-    text-decoration: underline;
-  }
-
   #popupSignIn>span {
-    position: absolute;
     top: 513px;
     left: 128px;
-    padding: 0 5px;
-  }
-
-  #popupSignIn hr {
-    margin: 20px 0;
-  }
-
-  #popupSignIn div {
-    font-size: 0;
-  }
-
-  #popupSignIn div,
-  #popupCreateAccount div,
-  #panelCustomerService div h3,
-  #panelAccountLogout div h3,
-  #panelMyCart ol li>div a,
-  footer>div div:first-of-type div:nth-of-type(2) p {
-    margin-bottom: 15px;
-  }
-
-  #popupSignIn div a:first-of-type {
-    margin-right: 10px;
-  }
-
-  /* ########## popup forgotten password ##########  */
-  #popupForgottenPassword p,
-  #popupNewPassword p,
-  footer>div div:nth-of-type(2) div h3 {
-    margin-bottom: 30px;
   }
 
   /* ########## popup new password ##########  */
@@ -1075,36 +1681,25 @@ header>div div:nth-of-type(3)::before {
   }
 
   /* ########## popup create account ##########  */
-  #popupCreateAccount div a:first-of-type {
-    margin-right: 10px;
-  }
-
   #popupCreateAccount>span:first-of-type {
-    position: absolute;
     top: 363px;
     left: 128px;
-    padding: 0 5px;
-    font-size: 16px;
-  }
-
-  #popupCreateAccount hr {
-    margin: 20px 0;
   }
 
   #popupCreateAccount form>label {
-    position: relative;
     margin-bottom: 280px;
   }
 
   #popupCreateAccount form>label span {
     width: 230px;
-    position: absolute;
-    top: 0;
-    left: 25px;
   }
 
-  #popupCreateAccount form>label span a {
-    text-decoration: underline;
+  #popupCreateAccount form>label span:first-of-type {
+    top: 0;
+  }
+
+  #popupCreateAccount form>label span:last-of-type {
+    top: 190px;
   }
 
   /* ########## popup email sign up ##########  */
@@ -1117,106 +1712,22 @@ header>div div:nth-of-type(3)::before {
     display: none;
   }
 
-  #popupEmailSignUp>p:first-of-type {
-    margin-bottom: 4px;
-  }
-
   #popupEmailSignUp form div label {
-    display: block;
     width: 230px;
-  }
-
-  #popupEmailSignUp form div label a {
-    text-decoration: underline;
   }
 
   #popupEmailSignUp form div p {
-    display: block;
     width: 230px;
-  }
-
-  #popupEmailSignUp form div p b {
-    display: block;
-    font-weight: 400;
-    margin-bottom: 4px;
-  }
-
-  #popupEmailSignUp form div p a {
-    text-decoration: underline;
   }
 
   /* ########## popup add to cart ##########  */
 
   #popupAddToCart>div:first-of-type {
     padding: 60px 10px 20px;
-    position: relative;
-  }
-
-  #popupAddToCart>div:first-of-type h2 {
-    padding-bottom: 15px;
-    border-bottom: 1px solid var(--gs05);
-  }
-
-  #popupAddToCart>div:first-of-type div::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #popupAddToCart>div:first-of-type div img {
-    float: left;
-    margin-right: 20px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div {
-    position: relative;
-  }
-
-  #popupAddToCart>div:first-of-type div>div a {
-    display: block;
-  }
-
-  #popupAddToCart>div:first-of-type div>div a,
-  #popupTrackOrder ol:first-of-type li dl dt,
-  #panelMyCart ol li>div a {
-    font-size: 17px;
-    font-weight: 700;
-  }
-
-  #popupAddToCart>div:first-of-type div>div small {
-    position: absolute;
-    top: 55px;
-    left: 90px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div small,
-  #popupTrackOrder div:first-of-type p,
-  #popupTrackOrder ol:first-of-type li dl dd:first-of-type,
-  #popupTrackOrder ol:first-of-type li dl dd:nth-of-type(2),
-  #panelCustomerService div h3,
-  #panelAccountLogout div h3,
-  #panelCustomerService div:last-of-type a,
-  #panelAccountLogout div:last-of-type input[type=submit],
-  #panelMyCart ol li>div small,
-  #panelMyCart>div:last-of-type span,
-  #panelMyCart>div:last-of-type strong,
-  footer>div div:first-of-type div:nth-of-type(2) p,
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=submit] {
-    font-size: 15px;
-    font-weight: 500;
   }
 
   #popupAddToCart>div:first-of-type div>div strong {
-    position: absolute;
     top: 85px;
-    right: 120px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div strong,
-  #popupTrackOrder ol:first-of-type li dl dd:last-of-type,
-  #panelMyCart ol li>div strong {
-    font-size: 17px;
-    font-weight: 500;
   }
 
   #popupAddToCart>div:first-of-type div>input[type=button] {
@@ -1232,105 +1743,15 @@ header>div div:nth-of-type(3)::before {
     padding: 30px 10px 60px;
   }
 
-  #popupTrackOrder ol:first-of-type,
-  #popupAddNewAddress form div:last-of-type,
-  #popupEditAddressHome form div:last-of-type,
-  #popupEditAddressOffice form div:last-of-type,
-  #panelMyCart>div:first-of-type {
-    margin-bottom: 35px;
-  }
-
-  #popupAddToCart div:last-of-type h3,
-  #panelMyCart>div:first-of-type h3 {
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-  }
-
-  #popupAddToCart div:last-of-type h3,
-  #panelMyCart>div:first-of-type h3,
-  #popupTrackOrder div:first-of-type,
-  #popupTrackOrder div:last-of-type,
-  #popupTrackOrder ol:last-of-type,
-  [id*=popupSize] table {
-    margin-bottom: 25px;
-  }
-
-  #popupAddToCart>div:last-of-type>ul>li {
-    position: relative;
-  }
-
   #popupAddToCart>div:last-of-type>ul>li:first-of-type {
     margin-bottom: 25px;
   }
 
-  /* ########## popup candel order & exchange request ##########  */
-  #popupCancelOrder p,
-  #popupExchangeRequest p,
-  [id*=popupSize] div:first-of-type {
-    margin-bottom: 40px;
-  }
-
-  #popupCancelOrder div.selectComponent,
-  #popupExchangeRequest div.selectComponent {
-    margin-bottom: 50px;
-  }
-
-  #popupCancelOrder a,
-  #popupExchangeRequest a {
-    display: block;
-  }
-
   /* ########## track order ##########  */
-  #popupTrackOrder div:first-of-type p,
-  #popupTrackOrder ol:first-of-type li dl dt,
-  [id*=popupSize] div:first-of-type h3,
-  [id*=popupSize] div:last-of-type p,
-  [id*=popupSize] div:last-of-type p a {
-    margin-bottom: 10px;
-  }
 
   #popupTrackOrder div:first-of-type div div {
-    display: inline-block;
     width: 78px;
-    height: 5px;
-    background-color: var(--gs03);
     vertical-align: top;
-  }
-
-  #popupTrackOrder div:first-of-type div div:not(:last-of-type) {
-    margin-right: 8px;
-  }
-
-  #popupTrackOrder div:first-of-type div div span {
-    display: inline-block;
-    margin-top: 15px;
-  }
-
-  #popupTrackOrder div:first-of-type div div span,
-  [id*=popupSize] div:first-of-type p,
-  footer>div div:first-of-type div:first-of-type cite {
-    font-size: 12px;
-    font-weight: 400;
-  }
-
-  #popupTrackOrder ol:first-of-type li:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #popupTrackOrder ol:first-of-type li img {
-    float: left;
-    margin-right: 25px;
-  }
-
-  #popupTrackOrder ol:first-of-type li dl dt {
-    line-height: 23px;
-  }
-
-  #popupTrackOrder ol:first-of-type li dl dd {
-    line-height: 20px;
   }
 
   #popupTrackOrder ol:first-of-type li dl dd:last-of-type {
@@ -1339,99 +1760,23 @@ header>div div:nth-of-type(3)::before {
   }
 
   #popupTrackOrder div:last-of-type i {
-    font-style: normal;
     display: block;
-  }
-
-  #popupTrackOrder div:last-of-type i,
-  header>div div:nth-of-type(2) nav>ul>li>ol>li:not(:first-of-type)>a,
-  footer>div div:nth-of-type(2) div ul li a,
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email]::placeholder {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-  }
-
-  #popupTrackOrder ol:last-of-type {
-    padding: 20px;
-  }
-
-  #popupTrackOrder ol:last-of-type li {
-    padding: 5px 0;
-  }
-
-  #popupTrackOrder ol:last-of-type li:first-of-type {
-    padding-top: 0;
-  }
-
-  #popupTrackOrder ol:last-of-type li:last-of-type {
-    padding-bottom: 0;
-  }
-
-  #popupTrackOrder ol:last-of-type li:not(:last-of-type) {
-    border-bottom: 1px solid var(--gs03);
   }
 
   /* ########## panel customer service & account logout ##########  */
   #panelCustomerService,
   #panelAccountLogout {
-    border: 1px solid var(--gs03);
-    border-radius: 3px;
-    display: none;
-    position: fixed;
     top: 55px;
-    z-index: 100;
   }
 
   #panelCustomerService {
-    width: 900px;
-    padding: 45px 50px 30px;
-    gap: 150px;
-    left: 140px;
+    display: none;
   }
 
   #panelAccountLogout {
     width: 260px;
     padding: 20px;
-    gap: 70px;
     right: 8px;
-  }
-
-  #panelCustomerService::before,
-  #panelAccountLogout::before {
-    content: '';
-    border-style: solid;
-    position: absolute;
-    border-color: transparent transparent var(--gs03) transparent;
-    border-width: 11px 11px;
-    top: -23px;
-  }
-
-  #panelCustomerService::before {
-    left: 49px;
-  }
-
-  #panelAccountLogout::before {
-    right: 49px;
-  }
-
-  #panelCustomerService::after,
-  #panelAccountLogout::after {
-    content: '';
-    border-style: solid;
-    position: absolute;
-    border-color: transparent transparent var(--be01) transparent;
-    border-width: 10px 10px;
-    position: absolute;
-    top: -20px;
-  }
-
-  #panelCustomerService::after {
-    left: 50px;
-  }
-
-  #panelAccountLogout::after {
-    right: 50px;
   }
 
   #panelCustomerService div {
@@ -1443,205 +1788,55 @@ header>div div:nth-of-type(3)::before {
     margin-bottom: 30px;
   }
 
-  #panelCustomerService div:first-of-type ul {
-    margin-right: 290px;
-  }
-
-  #panelCustomerService div:first-of-type ul li,
-  #panelAccountLogout div:first-of-type ul li {
-    padding-bottom: 15px;
-  }
-
-  #panelCustomerService div:first-of-type ul li a,
-  #panelAccountLogout div:first-of-type ul li a {
-    font-size: 13px;
-    font-weight: 400;
-  }
-
-  #panelCustomerService div:last-of-type,
-  #panelAccountLogout div:last-of-type {
-    border-right: none;
-  }
-
   #panelCustomerService div:last-of-type {
     padding-left: 150px;
   }
 
-  #panelCustomerService div:last-of-type a {
-    display: inline-block;
-    width: 130px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    border: 1px solid var(--gs05);
-  }
-
-  #panelAccountLogout div:last-of-type input[type=submit] {
-    border: none;
-    text-decoration: underline;
-    padding-left: 30px;
-    background: url('../images/mode_off_on.svg') no-repeat center left 5px;
-    background-size: 18px;
-    cursor: pointer;
-  }
-
   /* ########## panel search bar ##########  */
   #panelSearchBar {
-    width: 100%;
-    box-shadow: 0 10px 10px var(--ov10);
-    display: none;
-    position: fixed;
     top: 62px;
-    left: 0;
-    z-index: 10;
   }
 
   #panelSearchBar div {
-    padding: 55px 0;
     width: 260px;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  #panelSearchBar div input[type=search] {
-    border: none;
-    border-bottom: 1px solid var(--gs04);
-    background-color: transparent;
-    padding: 15px 0;
-    padding-right: 40px;
-    width: 100%;
-    font-size: 18px;
-    background: url('../images/search.svg') no-repeat center right 10px;
-    background-size: 20px;
-  }
-
-  #panelSearchBar div input[type=search]::placeholder {
-    font-size: 18px;
-    font-weight: 400;
   }
 
   /* ########## panel my cart ##########  */
   #panelMyCart {
     width: 280px;
-    box-shadow: 0 0px 10px var(--ov40);
-    display: none;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 10;
     max-height: 85vh;
     overflow-y: auto;
   }
 
-  #panelMyCart>input[type=button] {
-    z-index: 1;
-  }
-
   #panelMyCart h2 {
-    font-size: 18px;
-    font-weight: 400;
     padding: 20px 10px;
-    border-bottom: 1px solid var(--gs05);
-    position: relative;
   }
 
   #panelMyCart ol {
     padding: 25px 10px 70px;
   }
 
-  #panelMyCart ol:hover {
-    background: url('../images/delete.svg') no-repeat top 35px right 20px;
-    cursor: pointer;
-  }
-
-  #panelMyCart ol li:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #panelMyCart ol li img {
-    float: left;
-    margin-right: 20px;
-  }
-
-  #panelMyCart ol li>div {
-    position: relative;
-  }
-
   #panelMyCart ol li>div small {
-    position: absolute;
     top: 45px;
-    left: 90px;
   }
 
   #panelMyCart ol li>div strong {
-    position: absolute;
     top: 90px;
-    right: 0;
   }
 
   #panelMyCart>div:first-of-type {
     padding: 25px 10px;
   }
 
-
-  #panelMyCart>div:first-of-type>ul>li {
-    position: relative;
-  }
-
   #panelMyCart>div:first-of-type ul li:first-of-type {
     margin-bottom: 25px;
-  }
-
-  #panelMyCart>div:last-of-type {
-    padding: 20px 15px;
-    border-top: 1px solid var(--gs05);
-  }
-
-  #panelMyCart>div:last-of-type strong {
-    float: right;
-  }
-
-  #panelMyCart>div:last-of-type a.btnViewCart {
-    width: 100%;
-    margin: 20px 0 15px;
   }
 
   /* ########## popup size ##########  */
 
   [id*=popupSize] {
-    width: 650px;
-    padding: 60px 70px;
-    box-shadow: 0 0px 10px var(--ov40);
     max-width: 100vw;
     overflow-x: auto;
-  }
-
-  [id*=popupSize] table {
-    width: 100%;
-  }
-
-  [id*=popupSize] table tr td {
-    padding: 5px 19px;
-    text-align: center;
-    border-bottom: 1px solid var(--gs05);
-  }
-
-  [id*=popupSize] table tr td:first-of-type {
-    padding-left: 0;
-  }
-
-  [id*=popupSize] table tr td:last-of-type {
-    padding-right: 0;
-  }
-
-  [id*=popupSize] div:first-of-type p {
-    line-height: 18px;
-  }
-
-  [id*=popupSize] div:last-of-type p a {
-    text-decoration: underline;
   }
 
   /* ########## contents area ##########  */
@@ -1680,13 +1875,7 @@ header>div div:nth-of-type(3)::before {
 
   /* ########## header ##########  */
   header>div {
-    transition: 1s;
     padding: 20px 2.9%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    display: flex;
   }
 
   header>div>div:first-child {
@@ -1702,7 +1891,6 @@ header>div div:nth-of-type(3)::before {
   }
 
   header>div div:nth-of-type(2) h1 a img {
-    filter: drop-shadow(0 0 5px var(--ov40));
     max-width: 120px;
   }
 
@@ -1720,7 +1908,7 @@ header>div div:nth-of-type(3)::before {
     z-index: 50px;
     overflow-y: auto;
   }
-  
+
   header>div div:nth-of-type(2) nav>ul>li {
     border-bottom: 2px solid var(--be02);
     position: relative;
@@ -1744,18 +1932,12 @@ header>div div:nth-of-type(3)::before {
   }
 
   header>div div:nth-of-type(2) nav>ul>li>span {
-    font-size: 15px;
-    font-weight: 700;
     line-height: 60px;
-    display: block;
     padding: 0 10px;
-    cursor: pointer;
   }
 
   header>div div:nth-of-type(2) nav>ul>li>ol {
-    display: none;
     position: static;
-    width: 100%;
     box-shadow: none;
     background-color: var(--be02);
   }
@@ -1784,16 +1966,11 @@ header>div div:nth-of-type(3)::before {
     font-weight: 700;
   }
 
-  header>div div:nth-of-type(2) nav>ul>li>ol>li:hover>a {
-    text-decoration: underline;
-  }
-
   header>div div:nth-of-type(2) nav>ul>li>ol>li div {
     display: none;
   }
 
   header>div div:nth-of-type(3) {
-    text-align: right;
     flex: 55%;
   }
 
@@ -1801,11 +1978,6 @@ header>div div:nth-of-type(3)::before {
     text-indent: -9999px;
     width: 20px;
     height: 20px;
-    text-shadow: 0 0 5px var(--ov40);
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    cursor: pointer;
     margin-left: 2%;
   }
 
@@ -1829,29 +2001,14 @@ header>div div:nth-of-type(3)::before {
     background-size: 20px;
   }
 
-  header>div div:nth-of-type(3) input[type=checkbox] {
-    display: none;
-  }
-
   header>div div:nth-of-type(3) label {
     color: transparent;
     background: url('../images/menu_FFFFFF.svg') no-repeat center center;
     background-size: 20px;
     cursor: pointer;
     margin-left: 5%;
-  } 
-  
-  header>div:hover,
-  header.scrolled>div,
-  header.headerFixed>div,
-  header.headerFixedBar>div {
-    border-bottom: 2px solid var(--be02);
   }
 
-  header>div:hover div:nth-of-type(2) h1,
-  header.scrolled>div div:nth-of-type(2) h1,
-  header.headerFixed>div div:nth-of-type(2) h1,
-  header.headerFixedBar>div div:nth-of-type(2) h1,
   header>div:hover div:nth-of-type(3) input[type=button],
   header.scrolled>div div:nth-of-type(3) input[type=button],
   header.headerFixed>div div:nth-of-type(3) input[type=button],
@@ -1863,124 +2020,29 @@ header>div div:nth-of-type(3)::before {
     filter: brightness(0) saturate(100%) invert(18%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(91%);
   }
 
-  header>div:hover div:first-child a,
-  header>div:hover div:first-of-type input[type=button],
-  header>div:hover div:nth-of-type(2) nav>ul>li>span,
-  header>div:hover div:nth-of-type(3)::before,
-  header>div:hover div:nth-of-type(3) input[type=button],
-  header.scrolled>div div:first-child a,
-  header.scrolled>div div:first-of-type input[type=button],
-  header.scrolled>div div:nth-of-type(2) nav>ul>li>span,
-  header.scrolled>div div:nth-of-type(3)::before,
-  header.scrolled>div div:nth-of-type(3) input[type=button],
-  header.headerFixed>div div:first-child a,
-  header.headerFixed>div div:first-of-type input[type=button],
-  header.headerFixed>div div:nth-of-type(2) nav>ul>li>span,
-  header.headerFixed>div div:nth-of-type(3)::before,
-  header.headerFixed>div div:nth-of-type(3) input[type=button],
-  header.headerFixedBar>div div:first-child a,
-  header.headerFixedBar>div div:first-of-type input[type=button],
-  header.headerFixedBar>div div:nth-of-type(2) nav>ul>li>span,
-  header.headerFixedBar>div div:nth-of-type(3)::before,
-  header.headerFixedBar>div div:nth-of-type(3) input[type=button] {
-    text-shadow: none;
-  }
-
-  header>div:hover div:nth-of-type(2) h1 a img,
-  header.scrolled>div div:nth-of-type(2) h1 a img,
-  header.headerFixed>div div:nth-of-type(2) h1 a img,
-  header.headerFixedBar>div div:nth-of-type(2) h1 a img {
-    filter: none;
-  }
-
   /* ########## footer ##########  */
-  footer {
-    background-color: var(--gs06);
-  }
-
-  footer>div {
-    padding: 60px 0;
-  }
-
-  footer>div div:first-of-type:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  footer>div>div:first-of-type {
-    margin-bottom: 50px;
-  }
-
   footer>div div:first-of-type>div:first-of-type {
-    float: left;
     margin-bottom: 50px;
-  }
-
-  footer>div div:first-of-type div:first-of-type h2 img {
-    filter: brightness(0) saturate(100%) invert(88%) sepia(65%) saturate(108%) hue-rotate(337deg) brightness(108%) contrast(104%);
-    max-width: 100px;
-    padding-left: 20px;
-    position: relative;
-    z-index: 0;
-  }
-
-  footer>div div:first-of-type div:first-of-type cite {
-    font-style: normal;
   }
 
   footer>div div:first-of-type div:nth-of-type(2) {
-    float: right;
     width: 260px;
   }
 
-  footer>div div:first-of-type div:nth-of-type(2) p {
-    line-height: 20px;
-    width: 250px;
-  }
-
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
-    font-size: 0;
-  }
-
   footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email] {
-    border: 1px solid var(--gs03);
-    padding: 15px 20px;
     width: 58%;
-  }
-
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=submit] {
-    border: 1px solid var(--gs05);
-    padding: 15px 10px;
-    cursor: pointer;
-  }
-
-  footer>div>div:nth-of-type(2) {
-    /* display: flex;
-    flex-wrap: wrap; */
-  }
-
-  footer>div>div:nth-of-type(2) div {
-    /* flex: none;
-    width: 50%; */
   }
 
   footer>div>div:nth-of-type(2) div:not(:last-of-type) {
     margin-bottom: 60px;
   }
 
-  footer>div div:nth-of-type(2) div h3 {
-    font-size: 19px;
-    font-weight: 700;
-  }
-
-  footer>div div:nth-of-type(2) div ul li {
-    padding-bottom: 20px;
-  }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .btnSns {
+    width: 210px;
+  }
 
   /* ########## popup 헤더 공통 ##########  */
   #popupSignIn,
@@ -1995,172 +2057,19 @@ header>div div:nth-of-type(3)::before {
   #popupEditAddressHome,
   #popupEditAddressOffice {
     width: 570px;
-    box-shadow: 0 0px 10px var(--ov40);
     padding: 60px 70px;
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
   }
 
   #popupEmailSignUp,
   #popupAddToCart {
     width: 570px;
-    box-shadow: 0 0px 10px var(--ov40);
   }
 
   #popupEmailSignUp {
     padding: 60px 70px;
   }
 
-  #emailSignUpBox,
-  #popupAddToCart,
-  [id*=popupSize] {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-  }
-
-  #popupSignIn.active,
-  #popupForgottenPassword.active,
-  #popupNewPassword.active,
-  #popupCreateAccount.active,
-  #popupAddToCart.active,
-  #panelCustomerService.active,
-  #panelAccountLogout.active,
-  #panelSearchBar.active,
-  #panelMyCart.active,
-  #popupChangePassword.active,
-  #popupCancelOrder.active,
-  #popupExchangeRequest.active,
-  #popupTrackOrder.active,
-  #popupAddNewAddress.active,
-  #popupEditAddressHome.active,
-  #popupEditAddressOffice.active,
-  [id*=popupSize].active {
-    display: block;
-  }
-
-  #popupSignIn h2,
-  #popupForgottenPassword h2,
-  #popupNewPassword h2,
-  #popupCreateAccount h2,
-  #popupEmailSignUp h2,
-  #popupAddToCart>div:first-of-type h2,
-  #popupChangePassword h2,
-  #popupCancelOrder h2,
-  #popupExchangeRequest h2,
-  #popupTrackOrder h2,
-  #popupAddNewAddress h2,
-  #popupEditAddressHome h2,
-  #popupEditAddressOffice h2,
-  [id*=popupSize] h2 {
-    font-size: 31px;
-    font-weight: 400;
-    line-height: 37px;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  #popupSignIn>input[type=button],
-  #popupForgottenPassword input[type=button],
-  #popupNewPassword input[type=button].btn_close,
-  #popupCreateAccount input[type=button],
-  #popupEmailSignUp input[type=button],
-  #popupAddToCart>div:first-of-type>input[type=button],
-  #panelSearchBar div input[type=button],
-  #panelMyCart>input[type=button],
-  #popupChangePassword input[type=button],
-  #popupCancelOrder input[type=button]:first-of-type,
-  #popupExchangeRequest input[type=button]:first-of-type,
-  #popupTrackOrder input[type=button],
-  #popupAddNewAddress input[type=button],
-  #popupEditAddressHome input[type=button],
-  #popupEditAddressOffice input[type=button],
-  [id*=popupSize] h2 input[type=button] {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 15px;
-    right: 10px;
-    cursor: pointer;
-  }
-
   /* ########## popup 인풋 공통 ##########  */
-
-  #popupSignIn form span:first-of-type,
-  #popupSignIn form span:nth-of-type(2),
-  #popupForgottenPassword span,
-  #popupNewPassword span,
-  #popupCreateAccount form span:nth-of-type(3),
-  #popupCreateAccount form span:nth-of-type(4),
-  #popupCreateAccount form span:last-of-type,
-  #popupEmailSignUp form span,
-  #popupChangePassword form span {
-    position: relative;
-    display: block;
-  }
-
-  #popupCreateAccount,
-  #popupAddNewAddress form ul,
-  #popupEditAddressHome form ul,
-  #popupEditAddressOffice form ul {
-    font-size: 0;
-  }
-
-  #popupCreateAccount form span:first-of-type,
-  #popupCreateAccount form span:nth-of-type(2),
-  #popupAddNewAddress form>ul>li,
-  #popupEditAddressHome form>ul>li,
-  #popupEditAddressOffice form>ul>li {
-    position: relative;
-    display: inline-block;
-  }
-
-  #popupCreateAccount form span:first-of-type,
-  #popupAddNewAddress form ul li:nth-of-type(2n+1),
-  #popupEditAddressHome form ul li:nth-of-type(2n+1),
-  #popupEditAddressOffice form ul li:nth-of-type(2n+1) {
-    margin-right: 10px;
-  }
-
-  .popup-input {
-    padding: 15px 20px;
-    border: 1px solid var(--gs05);
-    margin-bottom: 35px;
-  }
-
-  .popup-input.filled,
-  #popupEditAddressHome form ul li input.valid,
-  #popupEditAddressOffice form ul li input.valid {
-    padding: 25px 20px 5px;
-  }
-
-  #popupSignIn form span:first-of-type input[type=email],
-  #popupSignIn form span:nth-of-type(2) input[type=password],
-  #popupSignIn form span:nth-of-type(2) input[type=text],
-  #popupForgottenPassword span input[type=email],
-  #popupNewPassword span:first-of-type input[type=password],
-  #popupNewPassword span:first-of-type input[type=text],
-  #popupNewPassword span:last-of-type input[type=password],
-  #popupNewPassword span:last-of-type input[type=text],
-  #popupCreateAccount form span input[type=email],
-  #popupCreateAccount form span:nth-of-type(4) input[type=password],
-  #popupCreateAccount form span:nth-of-type(4) input[type=text],
-  #popupCreateAccount form span:last-of-type input[type=password],
-  #popupCreateAccount form span:last-of-type input[type=text],
-  #popupEmailSignUp form span input[type=email],
-  #popupEmailSignUp form span input[type=tel],
-  #popupChangePassword form span input[type=password],
-  #popupChangePassword form span input[type=text] {
-    width: 100%;
-  }
-
   #popupCreateAccount span input[type=text],
   #popupAddNewAddress form ul li input[type=text],
   #popupEditAddressHome form ul li input[type=text],
@@ -2171,251 +2080,22 @@ header>div div:nth-of-type(3)::before {
     width: 210px;
   }
 
-  #popupSignIn form span:nth-of-type(2) input[type=password],
-  #popupNewPassword span:first-of-type input[type=password],
-  #popupNewPassword span:last-of-type input[type=password],
-  #popupCreateAccount form span:nth-of-type(4) input[type=password],
-  #popupCreateAccount form span:last-of-type input[type=password],
-  #popupChangePassword form span input[type=password] {
-    padding-right: 50px;
-  }
-
-  .popup-label {
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    font-size: 14px;
-    font-weight: 400;
-  }
-
-  .popup-label.filled,
-  #popupEditAddressHome form ul li input.valid+label,
-  #popupEditAddressOffice form ul li input.valid+label {
-    top: 5px;
-  }
-
-  .toggleBtn {
-    width: 23px;
-    height: 20px;
-    position: absolute;
-    top: 13px;
-    right: 15px;
-    border: none;
-    background: url('../images/visibility_off.svg') no-repeat center;
-    background-size: 23px;
-    text-indent: -9999px;
-  }
-
-  .toggleBtn.active {
-    background: url('../images/visibility.svg') no-repeat center;
-    background-size: 23px;
-  }
-
-  /* ########## popup 본문 공통 ##########  */
-
-  #popupSignIn p,
-  #popupSignIn span label,
-  #popupSignIn span>input[type=button],
-  #popupSignIn p:last-of-type input[type=button],
-  #popupForgottenPassword p,
-  #popupNewPassword p,
-  #popupCreateAccount p,
-  #popupCreateAccount form label span,
-  #popupEmailSignUp p,
-  #popupEmailSignUp form div label,
-  #popupCancelOrder p,
-  #popupExchangeRequest p,
-  #popupTrackOrder ol:last-of-type li p,
-  #popupTrackOrder p,
-  #popupAddNewAddress p,
-  #popupEditAddressHome p,
-  #popupEditAddressOffice p,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label,
-  [id*=popupSize] div:first-of-type h3,
-  [id*=popupSize] div:last-of-type p,
-  [id*=popupSize] div:last-of-type p a {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-  }
-
-  /* ########## popup checkbox ##########  */
-
-  #popupSignIn form span:last-of-type input[type=checkbox],
-  #popupCreateAccount form input[type=checkbox],
-  #popupEmailSignUp form div input[type=checkbox],
-  #popupAddNewAddress form div:last-of-type input[type=checkbox],
-  #popupEditAddressHome form div:last-of-type input[type=checkbox],
-  #popupEditAddressOffice form div:last-of-type input[type=checkbox] {
-    display: none;
-  }
-
-  #popupSignIn form span:last-of-type label,
-  #popupCreateAccount form>label,
-  #popupEmailSignUp form div label,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label {
-    background: url('../images/check_box_outline_blank.svg') no-repeat;
-    background-size: 20px;
-  }
-
-  #popupCreateAccount form>label {
-    display: block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 160px;
-  }
-
-  #popupSignIn form span:last-of-type label,
-  #popupEmailSignUp form div label,
-  #popupEmailSignUp form div p,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label {
-    padding-left: 25px;
-  }
-
-  #popupSignIn form span:last-of-type label.active,
-  #popupCreateAccount form label.active,
-  #popupEmailSignUp form div label.active,
-  #popupAddNewAddress form div:last-of-type label.active,
-  #popupEditAddressHome form div:last-of-type label.active,
-  #popupEditAddressOffice form div:last-of-type label.active {
-    background: url('../images/check_box.svg') no-repeat;
-    background-size: 20px;
-  }
-
-  #popupSignIn form span:last-of-type label,
-  #popupSignIn form span:last-of-type label.active,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupAddNewAddress form div:last-of-type label.active,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label.active,
-  #popupEditAddressOffice form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label.active {
-    background-position: center left;
-  }
-
-  #popupEmailSignUp form div label,
-  #popupEmailSignUp form div label.active {
-    background-position: top left;
-  }
-
   /* ########## qtyComponent ##########  */
   #popupAddToCart>div:first-of-type div>div span.qtyComponent {
-    position: absolute;
     top: 30px;
-    right: 0;
   }
 
   #panelMyCart ol li>div>span.qtyComponent {
-    position: absolute;
     top: 55px;
-    left: 90px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent i,
-  #panelMyCart ol li>div>span.qtyComponent i {
-    font-style: normal;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0 5px;
-    position: absolute;
-    top: -5px;
-    left: 5px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number]::-webkit-outer-spin-button,
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number]::-webkit-inner-spin-button,
-  #panelMyCart ol li>div>span.qtyComponent input[type=number]::-webkit-outer-spin-button,
-  #panelMyCart ol li>div>span.qtyComponent input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number],
-  #panelMyCart ol li>div>span.qtyComponent input[type=number] {
-    border: 1px solid var(--gs05);
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px;
-    text-align: center;
-    width: 90px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button],
-  #panelMyCart ol li>div>span.qtyComponent input[type=button] {
-    position: absolute;
-    top: 20px;
-    border: none;
-    background-color: transparent;
-    text-indent: -9999px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button]:first-of-type,
-  #panelMyCart ol li>div>span.qtyComponent input[type=button]:first-of-type {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: url('../images/remove.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button]:last-of-type,
-  #panelMyCart ol li>div>span.qtyComponent input[type=button]:last-of-type {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: url('../images/add.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
   }
 
   /* ########## product info ##########  */
-  .product-img {
-    margin-bottom: 15px;
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .product-name {
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 23px;
-    text-align: center;
-    height: 45px;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-  }
-
   #popupAddToCart div:last-of-type ul li a b {
     width: 202px;
   }
 
   #panelMyCart>div:first-of-type ul li a b {
     width: 150px;
-  }
-
-  .product-color {
-    font-style: normal;
-    background-color: transparent;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: center;
-    height: 40px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-    margin-bottom: 15px;
   }
 
   #popupAddToCart div:last-of-type ul li a mark {
@@ -2426,255 +2106,17 @@ header>div div:nth-of-type(3)::before {
     width: 150px;
   }
 
-  .product-price {
-    display: block;
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  /* ########## selectComponent ##########  */
-  .selectComponent.size,
-  .selectComponent.cancel,
-  .selectComponent.exchange,
-  .selectComponent.country,
-  .selectComponent.state,
-  .selectComponent.sort,
-  .selectComponent.gender {
-    border: 1px solid var(--gs05);
-    margin-bottom: 15px;
-    position: relative;
-    cursor: pointer;
-  }
-
-  .selectComponent.size,
-  .selectComponent.cancel,
-  .selectComponent.exchange,
-  .selectComponent.sort {
-    height: 40px;
-  }
-
-  .selectComponent.country,
-  .selectComponent.state,
-  .selectComponent.gender {
-    height: 50px;
-  }
-
-  #popupAddToCart div:last-of-type ul li div.selectComponent.active,
-  #panelMyCart>div:first-of-type ul li div.selectComponent.active {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be02);
-    background-size: 30px;
-  }
-
-  .selectComponent.size i,
-  .selectComponent.sort i {
-    font-style: normal;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0 5px;
-    position: absolute;
-    top: -5px;
-    left: 15px;
-  }
-
-  .selectComponent.size ul,
-  .selectComponent.cancel ul,
-  .selectComponent.exchange ul,
-  .selectComponent.country ul,
-  .selectComponent.state ul,
-  .selectComponent.sort ul,
-  .selectComponent.gender ul {
-    overflow: hidden;
-    cursor: pointer;
-  }
-
-  .selectComponent.size ul,
-  .selectComponent.cancel ul,
-  .selectComponent.exchange ul,
-  .selectComponent.sort ul {
-    height: 38px;
-  }
-
-  .selectComponent.country ul,
-  .selectComponent.state ul,
-  .selectComponent.gender ul {
-    height: 48px;
-  }
-
-  .selectComponent.size.active ul,
-  .selectComponent.cancel.active ul,
-  .selectComponent.exchange.active ul,
-  .selectComponent.country.active ul,
-  .selectComponent.state.active ul,
-  .selectComponent.sort.active ul,
-  .selectComponent.gender.active ul {
-    display: block;
-    overflow: visible;
-    height: auto;
-    z-index: 10;
-    position: absolute;
-    left: -1px;
-    right: -1px;
-    border: 1px solid var(--gs05);
-  }
-
-  #popupAddToCart div:last-of-type ul li div.selectComponent.active ul,
-  #panelMyCart>div:first-of-type ul li div.selectComponent.active ul {
-    top: 100%;
-    border-top: none;
-  }
-
-  #popupAddToCart div:last-of-type ul li div.selectComponent ul,
-  #panelMyCart>div:first-of-type ul li div.selectComponent ul {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be02);
-    background-size: 30px;
-  }
-
-  .selectComponent.size ul li,
-  .selectComponent.cancel ul li,
-  .selectComponent.exchange ul li,
-  .selectComponent.country ul li,
-  .selectComponent.state ul li,
-  .selectComponent.sort ul li,
-  .selectComponent.gender ul li {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 30px;
-  }
-
-  .selectComponent.size ul li,
-  .selectComponent.cancel ul li,
-  .selectComponent.exchange ul li,
-  .selectComponent.sort ul li {
-    padding: 5px 20px;
-  }
-
-  .selectComponent.country ul li,
-  .selectComponent.state ul li,
-  .selectComponent.gender ul li {
-    padding: 10px 20px;
-  }
-
-  .selectComponent.size.active ul li,
-  .selectComponent.cancel.active ul li,
-  .selectComponent.exchange.active ul li,
-  .selectComponent.country.active ul li,
-  .selectComponent.state.active ul li,
-  .selectComponent.sort.active ul li,
-  .selectComponent.gender.active ul li {
-    padding: 0 20px;
-  }
-
-  .selectComponent.size.active ul li:hover,
-  .selectComponent.cancel.active ul li:hover,
-  .selectComponent.exchange.active ul li:hover,
-  .selectComponent.country.active ul li:hover,
-  .selectComponent.state.active ul li:hover,
-  .selectComponent.sort.active ul li:hover,
-  .selectComponent.gender.active ul li:hover {
-    text-decoration: underline;
-  }
-
-  /* ########## selectComponent - cancel & exchange ##########  */
-  #popupCancelOrder div.selectComponent.active,
-  #popupExchangeRequest div.selectComponent.active {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupCancelOrder div.selectComponent.active ul,
-  #popupExchangeRequest div.selectComponent.active ul {
-    top: 100%;
-    border-top: none;
-  }
-
-  #popupCancelOrder div.selectComponent ul,
-  #popupExchangeRequest div.selectComponent ul {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
   /* ########## selectComponent - state & country ##########  */
-  #popupAddNewAddress form,
-  #popupEditAddressHome form,
-  #popupEditAddressOffice form {
-    font-size: 0;
-  }
+
 
   #popupAddNewAddress form div.selectComponent,
   #popupEditAddressHome form div.selectComponent,
   #popupEditAddressOffice form div.selectComponent {
-    margin-bottom: 35px;
-    display: inline-block;
     width: 210px;
-    vertical-align: top;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type,
-  #popupEditAddressHome form div.selectComponent:first-of-type,
-  #popupEditAddressOffice form div.selectComponent:first-of-type {
-    margin-right: 10px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type,
-  #popupEditAddressHome form div.selectComponent:first-of-type,
-  #popupEditAddressOffice form div.selectComponent:first-of-type {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:nth-of-type(2) ul,
-  #popupEditAddressHome form div.selectComponent:nth-of-type(2) ul,
-  #popupEditAddressOffice form div.selectComponent:nth-of-type(2) ul {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type.active ul,
-  #popupEditAddressHome form div.selectComponent:first-of-type.active ul,
-  #popupEditAddressOffice form div.selectComponent:first-of-type.active ul {
-    top: 100%;
-    border-top: none;
-  }
-
-  #popupAddNewAddress form div.selectComponent:nth-of-type(2).active ul,
-  #popupEditAddressHome form div.selectComponent:nth-of-type(2).active ul,
-  #popupEditAddressOffice form div.selectComponent:nth-of-type(2).active ul {
-    bottom: 100%;
-    border-bottom: none;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type ul,
-  #popupEditAddressHome form div.selectComponent:first-of-type ul,
-  #popupEditAddressOffice form div.selectComponent:first-of-type ul {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:nth-of-type(2).active,
-  #popupEditAddressHome form div.selectComponent:nth-of-type(2).active,
-  #popupEditAddressOffice form div.selectComponent:nth-of-type(2).active {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
   }
 
   /* ########## popup sign in ##########  */
-
-  #popupSignIn p:not(:nth-of-type(4), :last-of-type),
-  #popupSignIn form span:last-of-type,
-  #popupSignIn input[type=submit],
-  #popupCreateAccount p,
-  #popupCreateAccount form>label span,
-  #popupEmailSignUp p:nth-of-type(2),
-  #popupEmailSignUp form div label,
-  #popupEmailSignUp form div p,
-  #popupAddToCart>div:first-of-type div>div,
-  #popupAddNewAddress p,
-  #popupEditAddressHome p,
-  #popupEditAddressOffice p,
-  header>div div:nth-of-type(2) nav>ul>li>ol>li div a img,
-  footer>div div:first-of-type div:first-of-type h2 img {
+  #popupAddToCart>div:first-of-type div>div {
     margin-bottom: 20px;
   }
 
@@ -2682,55 +2124,9 @@ header>div div:nth-of-type(3)::before {
     display: block;
   }
 
-  #popupSignIn span>input[type=button],
-  #popupSignIn p:last-of-type input[type=button] {
-    border: none;
-    background-color: transparent;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
-  #popupSignIn span>input[type=button] {
-    float: right;
-  }
-
-  #popupSignIn p:nth-of-type(2) a {
-    text-decoration: underline;
-  }
-
   #popupSignIn>span {
-    position: absolute;
     top: 495px;
     left: 273px;
-    padding: 0 5px;
-  }
-
-  #popupSignIn hr {
-    margin: 20px 0;
-  }
-
-  #popupSignIn div {
-    font-size: 0;
-  }
-
-  #popupSignIn div,
-  #popupCreateAccount div,
-  #panelCustomerService div h3,
-  #panelAccountLogout div h3,
-  #panelMyCart ol li>div a,
-  footer>div div:first-of-type div:nth-of-type(2) p {
-    margin-bottom: 15px;
-  }
-
-  #popupSignIn div a:first-of-type {
-    margin-right: 10px;
-  }
-
-  /* ########## popup forgotten password ##########  */
-  #popupForgottenPassword p,
-  #popupNewPassword p,
-  footer>div div:nth-of-type(2) div h3 {
-    margin-bottom: 30px;
   }
 
   /* ########## popup new password ##########  */
@@ -2739,35 +2135,21 @@ header>div div:nth-of-type(3)::before {
   }
 
   /* ########## popup create account ##########  */
-  #popupCreateAccount div a:first-of-type {
-    margin-right: 10px;
-  }
-
   #popupCreateAccount>span:first-of-type {
-    position: absolute;
     top: 325px;
     left: 273px;
-    padding: 0 5px;
-    font-size: 16px;
-  }
-
-  #popupCreateAccount hr {
-    margin: 20px 0;
-  }
-
-  #popupCreateAccount form>label {
-    position: relative;
   }
 
   #popupCreateAccount form>label span {
     width: 405px;
-    position: absolute;
-    top: 0;
-    left: 25px;
   }
 
-  #popupCreateAccount form>label span a {
-    text-decoration: underline;
+  #popupCreateAccount form>label span:first-of-type {
+    top: 0;
+  }
+
+  #popupCreateAccount form>label span:last-of-type {
+    top: 120px;
   }
 
   /* ########## popup email sign up ##########  */
@@ -2780,106 +2162,22 @@ header>div div:nth-of-type(3)::before {
     display: none;
   }
 
-  #popupEmailSignUp>p:first-of-type {
-    margin-bottom: 4px;
-  }
-
   #popupEmailSignUp form div label {
-    display: block;
     width: 430px;
-  }
-
-  #popupEmailSignUp form div label a {
-    text-decoration: underline;
   }
 
   #popupEmailSignUp form div p {
-    display: block;
     width: 430px;
-  }
-
-  #popupEmailSignUp form div p b {
-    display: block;
-    font-weight: 400;
-    margin-bottom: 4px;
-  }
-
-  #popupEmailSignUp form div p a {
-    text-decoration: underline;
   }
 
   /* ########## popup add to cart ##########  */
 
   #popupAddToCart>div:first-of-type {
     padding: 60px 70px 20px;
-    position: relative;
-  }
-
-  #popupAddToCart>div:first-of-type h2 {
-    padding-bottom: 15px;
-    border-bottom: 1px solid var(--gs05);
-  }
-
-  #popupAddToCart>div:first-of-type div::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #popupAddToCart>div:first-of-type div img {
-    float: left;
-    margin-right: 20px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div {
-    position: relative;
-  }
-
-  #popupAddToCart>div:first-of-type div>div a {
-    display: block;
-  }
-
-  #popupAddToCart>div:first-of-type div>div a,
-  #popupTrackOrder ol:first-of-type li dl dt,
-  #panelMyCart ol li>div a {
-    font-size: 17px;
-    font-weight: 700;
-  }
-
-  #popupAddToCart>div:first-of-type div>div small {
-    position: absolute;
-    top: 55px;
-    left: 90px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div small,
-  #popupTrackOrder div:first-of-type p,
-  #popupTrackOrder ol:first-of-type li dl dd:first-of-type,
-  #popupTrackOrder ol:first-of-type li dl dd:nth-of-type(2),
-  #panelCustomerService div h3,
-  #panelAccountLogout div h3,
-  #panelCustomerService div:last-of-type a,
-  #panelAccountLogout div:last-of-type input[type=submit],
-  #panelMyCart ol li>div small,
-  #panelMyCart>div:last-of-type span,
-  #panelMyCart>div:last-of-type strong,
-  footer>div div:first-of-type div:nth-of-type(2) p,
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=submit] {
-    font-size: 15px;
-    font-weight: 500;
   }
 
   #popupAddToCart>div:first-of-type div>div strong {
-    position: absolute;
     top: 55px;
-    right: 120px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div strong,
-  #popupTrackOrder ol:first-of-type li dl dd:last-of-type,
-  #panelMyCart ol li>div strong {
-    font-size: 17px;
-    font-weight: 500;
   }
 
   #popupAddToCart>div:first-of-type div>input[type=button] {
@@ -2896,30 +2194,6 @@ header>div div:nth-of-type(3)::before {
     padding: 30px 70px 60px;
   }
 
-  #popupTrackOrder ol:first-of-type,
-  #popupAddNewAddress form div:last-of-type,
-  #popupEditAddressHome form div:last-of-type,
-  #popupEditAddressOffice form div:last-of-type,
-  #panelMyCart>div:first-of-type {
-    margin-bottom: 35px;
-  }
-
-  #popupAddToCart div:last-of-type h3,
-  #panelMyCart>div:first-of-type h3 {
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-  }
-
-  #popupAddToCart div:last-of-type h3,
-  #panelMyCart>div:first-of-type h3,
-  #popupTrackOrder div:first-of-type,
-  #popupTrackOrder div:last-of-type,
-  #popupTrackOrder ol:last-of-type,
-  [id*=popupSize] table {
-    margin-bottom: 25px;
-  }
-
   #popupAddToCart div:last-of-type ul::after {
     content: '';
     display: block;
@@ -2928,177 +2202,36 @@ header>div div:nth-of-type(3)::before {
 
   #popupAddToCart>div:last-of-type>ul>li {
     float: left;
-    position: relative;
   }
 
   #popupAddToCart div:last-of-type ul li:first-of-type {
     margin-right: 24px;
   }
 
-  /* ########## popup candel order & exchange request ##########  */
-  #popupCancelOrder p,
-  #popupExchangeRequest p,
-  [id*=popupSize] div:first-of-type {
-    margin-bottom: 40px;
-  }
-
-  #popupCancelOrder div.selectComponent,
-  #popupExchangeRequest div.selectComponent {
-    margin-bottom: 50px;
-  }
-
-  #popupCancelOrder a,
-  #popupExchangeRequest a {
-    display: block;
-  }
-
   /* ########## track order ##########  */
-  #popupTrackOrder div:first-of-type p,
-  #popupTrackOrder ol:first-of-type li dl dt,
-  [id*=popupSize] div:first-of-type h3,
-  [id*=popupSize] div:last-of-type p,
-  [id*=popupSize] div:last-of-type p a {
-    margin-bottom: 10px;
-  }
 
   #popupTrackOrder div:first-of-type div div {
-    display: inline-block;
     width: 135px;
-    height: 5px;
-    background-color: var(--gs03);
-  }
-
-  #popupTrackOrder div:first-of-type div div:not(:last-of-type) {
-    margin-right: 8px;
-  }
-
-  #popupTrackOrder div:first-of-type div div span {
-    display: inline-block;
-    margin-top: 15px;
-  }
-
-  #popupTrackOrder div:first-of-type div div span,
-  [id*=popupSize] div:first-of-type p,
-  footer>div div:first-of-type div:first-of-type cite {
-    font-size: 12px;
-    font-weight: 400;
-  }
-
-  #popupTrackOrder ol:first-of-type li:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #popupTrackOrder ol:first-of-type li img {
-    float: left;
-    margin-right: 25px;
-  }
-
-  #popupTrackOrder ol:first-of-type li dl dt {
-    line-height: 23px;
-  }
-
-  #popupTrackOrder ol:first-of-type li dl dd {
-    line-height: 20px;
-  }
-
-  #popupTrackOrder div:last-of-type i {
-    font-style: normal;
-  }
-
-  #popupTrackOrder div:last-of-type i,
-  header>div div:nth-of-type(2) nav>ul>li>ol>li:not(:first-of-type)>a,
-  footer>div div:nth-of-type(2) div ul li a,
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email]::placeholder {
-    font-size: 14px;
-    font-weight: 400;
   }
 
   #popupTrackOrder div:last-of-type i:last-of-type {
     float: right;
   }
 
-  #popupTrackOrder ol:last-of-type {
-    padding: 20px;
-  }
-
-  #popupTrackOrder ol:last-of-type li {
-    padding: 5px 0;
-  }
-
-  #popupTrackOrder ol:last-of-type li:first-of-type {
-    padding-top: 0;
-  }
-
-  #popupTrackOrder ol:last-of-type li:last-of-type {
-    padding-bottom: 0;
-  }
-
-  #popupTrackOrder ol:last-of-type li:not(:last-of-type) {
-    border-bottom: 1px solid var(--gs03);
-  }
-
   /* ########## panel customer service & account logout ##########  */
   #panelCustomerService,
   #panelAccountLogout {
-    border: 1px solid var(--gs03);
-    border-radius: 3px;
-    display: none;
-    position: fixed;
     top: 55px;
-    z-index: 100;
   }
 
   #panelCustomerService {
-    width: 900px;
-    padding: 45px 50px 30px;
-    gap: 150px;
-    left: 140px;
+    display: none;
   }
 
   #panelAccountLogout {
     width: 560px;
     padding: 45px 70px 30px;
-    gap: 70px;
     right: 52px;
-  }
-
-  #panelCustomerService::before,
-  #panelAccountLogout::before {
-    content: '';
-    border-style: solid;
-    position: absolute;
-    border-color: transparent transparent var(--gs03) transparent;
-    border-width: 11px 11px;
-    top: -23px;
-  }
-
-  #panelCustomerService::before {
-    left: 49px;
-  }
-
-  #panelAccountLogout::before {
-    right: 49px;
-  }
-
-  #panelCustomerService::after,
-  #panelAccountLogout::after {
-    content: '';
-    border-style: solid;
-    position: absolute;
-    border-color: transparent transparent var(--be01) transparent;
-    border-width: 10px 10px;
-    position: absolute;
-    top: -20px;
-  }
-
-  #panelCustomerService::after {
-    left: 50px;
-  }
-
-  #panelAccountLogout::after {
-    right: 50px;
   }
 
   #panelCustomerService div,
@@ -3107,28 +2240,8 @@ header>div div:nth-of-type(3)::before {
     border-right: 1px solid var(--gs05);
   }
 
-  #panelCustomerService div:first-of-type ul {
-    margin-right: 290px;
-  }
-
   #panelAccountLogout div:first-of-type ul {
     margin-right: 100px;
-  }
-
-  #panelCustomerService div:first-of-type ul li,
-  #panelAccountLogout div:first-of-type ul li {
-    padding-bottom: 15px;
-  }
-
-  #panelCustomerService div:first-of-type ul li a,
-  #panelAccountLogout div:first-of-type ul li a {
-    font-size: 13px;
-    font-weight: 400;
-  }
-
-  #panelCustomerService div:last-of-type,
-  #panelAccountLogout div:last-of-type {
-    border-right: none;
   }
 
   #panelCustomerService div:last-of-type {
@@ -3139,116 +2252,34 @@ header>div div:nth-of-type(3)::before {
     padding-left: 70px;
   }
 
-  #panelCustomerService div:last-of-type a {
-    display: inline-block;
-    width: 130px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    border: 1px solid var(--gs05);
-  }
-
-  #panelAccountLogout div:last-of-type input[type=submit] {
-    border: none;
-    text-decoration: underline;
-    padding-left: 30px;
-    background: url('../images/mode_off_on.svg') no-repeat center left 5px;
-    background-size: 18px;
-    cursor: pointer;
-  }
-
   /* ########## panel search bar ##########  */
   #panelSearchBar {
-    width: 100%;
-    box-shadow: 0 10px 10px var(--ov10);
-    display: none;
-    position: fixed;
     top: 62px;
-    left: 0;
-    z-index: 10;
   }
 
   #panelSearchBar div {
-    padding: 55px 0;
     width: 700px;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  #panelSearchBar div input[type=search] {
-    border: none;
-    border-bottom: 1px solid var(--gs04);
-    background-color: transparent;
-    padding: 15px 0;
-    padding-right: 40px;
-    width: 100%;
-    font-size: 18px;
-    background: url('../images/search.svg') no-repeat center right 10px;
-    background-size: 20px;
-  }
-
-  #panelSearchBar div input[type=search]::placeholder {
-    font-size: 18px;
-    font-weight: 400;
   }
 
   /* ########## panel my cart ##########  */
   #panelMyCart {
     width: 405px;
-    box-shadow: 0 0px 10px var(--ov40);
-    display: none;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 10;
-  }
-
-  #panelMyCart>input[type=button] {
-    z-index: 1;
   }
 
   #panelMyCart h2 {
-    font-size: 18px;
-    font-weight: 400;
     padding: 20px;
-    border-bottom: 1px solid var(--gs05);
-    position: relative;
   }
 
   #panelMyCart ol {
     padding: 25px 20px 50px;
   }
 
-  #panelMyCart ol:hover {
-    background: url('../images/delete.svg') no-repeat top 35px right 20px;
-    cursor: pointer;
-  }
-
-  #panelMyCart ol li:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #panelMyCart ol li img {
-    float: left;
-    margin-right: 20px;
-  }
-
-  #panelMyCart ol li>div {
-    position: relative;
-  }
-
   #panelMyCart ol li>div small {
-    position: absolute;
     top: 25px;
-    left: 90px;
   }
 
   #panelMyCart ol li>div strong {
-    position: absolute;
     top: 70px;
-    right: 0;
   }
 
   #panelMyCart>div:first-of-type {
@@ -3263,59 +2294,10 @@ header>div div:nth-of-type(3)::before {
 
   #panelMyCart>div:first-of-type>ul>li {
     float: left;
-    position: relative;
   }
 
   #panelMyCart>div:first-of-type ul li:first-of-type {
     margin-right: 20px;
-  }
-
-  #panelMyCart>div:last-of-type {
-    padding: 20px 15px;
-    border-top: 1px solid var(--gs05);
-  }
-
-  #panelMyCart>div:last-of-type strong {
-    float: right;
-  }
-
-  #panelMyCart>div:last-of-type a.btnViewCart {
-    width: 100%;
-    margin: 20px 0 15px;
-  }
-
-  /* ########## popup size ##########  */
-
-  [id*=popupSize] {
-    width: 650px;
-    padding: 60px 70px;
-    box-shadow: 0 0px 10px var(--ov40);
-  }
-
-  [id*=popupSize] table {
-    width: 100%;
-  }
-
-  [id*=popupSize] table tr td {
-    padding: 5px 19px;
-    text-align: center;
-    border-bottom: 1px solid var(--gs05);
-  }
-
-  [id*=popupSize] table tr td:first-of-type {
-    padding-left: 0;
-  }
-
-  [id*=popupSize] table tr td:last-of-type {
-    padding-right: 0;
-  }
-
-  [id*=popupSize] div:first-of-type p {
-    line-height: 18px;
-  }
-
-  [id*=popupSize] div:last-of-type p a {
-    text-decoration: underline;
   }
 
   /* ########## contents area ##########  */
@@ -3354,13 +2336,7 @@ header>div div:nth-of-type(3)::before {
 
   /* ########## header ##########  */
   header>div {
-    transition: 1s;
     padding: 20px 2.9%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    display: flex;
   }
 
   header>div>div:first-child {
@@ -3376,7 +2352,6 @@ header>div div:nth-of-type(3)::before {
   }
 
   header>div div:nth-of-type(2) h1 a img {
-    filter: drop-shadow(0 0 5px var(--ov40));
     max-width: 135px;
   }
 
@@ -3394,7 +2369,7 @@ header>div div:nth-of-type(3)::before {
     z-index: 50px;
     overflow-y: auto;
   }
-  
+
   header>div div:nth-of-type(2) nav>ul>li {
     border-bottom: 2px solid var(--be02);
     position: relative;
@@ -3418,18 +2393,12 @@ header>div div:nth-of-type(3)::before {
   }
 
   header>div div:nth-of-type(2) nav>ul>li>span {
-    font-size: 15px;
-    font-weight: 700;
     line-height: 60px;
-    display: block;
     padding: 0 24px;
-    cursor: pointer;
   }
 
   header>div div:nth-of-type(2) nav>ul>li>ol {
-    display: none;
     position: static;
-    width: 100%;
     box-shadow: none;
     background-color: var(--be02);
   }
@@ -3458,16 +2427,11 @@ header>div div:nth-of-type(3)::before {
     font-weight: 700;
   }
 
-  header>div div:nth-of-type(2) nav>ul>li>ol>li:hover>a {
-    text-decoration: underline;
-  }
-
   header>div div:nth-of-type(2) nav>ul>li>ol>li div {
     display: none;
   }
 
   header>div div:nth-of-type(3) {
-    text-align: right;
     flex: 55%;
   }
 
@@ -3475,11 +2439,6 @@ header>div div:nth-of-type(3)::before {
     text-indent: -9999px;
     width: 20px;
     height: 20px;
-    text-shadow: 0 0 5px var(--ov40);
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    cursor: pointer;
     margin-left: 5%;
   }
 
@@ -3503,29 +2462,14 @@ header>div div:nth-of-type(3)::before {
     background-size: 20px;
   }
 
-  header>div div:nth-of-type(3) input[type=checkbox] {
-    display: none;
-  }
-
   header>div div:nth-of-type(3) label {
     color: transparent;
     background: url('../images/menu_FFFFFF.svg') no-repeat center center;
     background-size: 20px;
     cursor: pointer;
     margin-left: 5%;
-  } 
-  
-  header>div:hover,
-  header.scrolled>div,
-  header.headerFixed>div,
-  header.headerFixedBar>div {
-    border-bottom: 2px solid var(--be02);
   }
 
-  header>div:hover div:nth-of-type(2) h1,
-  header.scrolled>div div:nth-of-type(2) h1,
-  header.headerFixed>div div:nth-of-type(2) h1,
-  header.headerFixedBar>div div:nth-of-type(2) h1,
   header>div:hover div:nth-of-type(3) input[type=button],
   header.scrolled>div div:nth-of-type(3) input[type=button],
   header.headerFixed>div div:nth-of-type(3) input[type=button],
@@ -3537,95 +2481,13 @@ header>div div:nth-of-type(3)::before {
     filter: brightness(0) saturate(100%) invert(18%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(91%);
   }
 
-  header>div:hover div:first-child a,
-  header>div:hover div:first-of-type input[type=button],
-  header>div:hover div:nth-of-type(2) nav>ul>li>span,
-  header>div:hover div:nth-of-type(3)::before,
-  header>div:hover div:nth-of-type(3) input[type=button],
-  header.scrolled>div div:first-child a,
-  header.scrolled>div div:first-of-type input[type=button],
-  header.scrolled>div div:nth-of-type(2) nav>ul>li>span,
-  header.scrolled>div div:nth-of-type(3)::before,
-  header.scrolled>div div:nth-of-type(3) input[type=button],
-  header.headerFixed>div div:first-child a,
-  header.headerFixed>div div:first-of-type input[type=button],
-  header.headerFixed>div div:nth-of-type(2) nav>ul>li>span,
-  header.headerFixed>div div:nth-of-type(3)::before,
-  header.headerFixed>div div:nth-of-type(3) input[type=button],
-  header.headerFixedBar>div div:first-child a,
-  header.headerFixedBar>div div:first-of-type input[type=button],
-  header.headerFixedBar>div div:nth-of-type(2) nav>ul>li>span,
-  header.headerFixedBar>div div:nth-of-type(3)::before,
-  header.headerFixedBar>div div:nth-of-type(3) input[type=button] {
-    text-shadow: none;
-  }
-
-  header>div:hover div:nth-of-type(2) h1 a img,
-  header.scrolled>div div:nth-of-type(2) h1 a img,
-  header.headerFixed>div div:nth-of-type(2) h1 a img,
-  header.headerFixedBar>div div:nth-of-type(2) h1 a img {
-    filter: none;
-  }
-
   /* ########## footer ##########  */
-  footer {
-    background-color: var(--gs06);
-  }
-
-  footer>div {
-    padding: 60px 0;
-  }
-
-  footer>div div:first-of-type:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  footer>div>div:first-of-type {
-    margin-bottom: 50px;
-  }
-
-  footer>div div:first-of-type>div:first-of-type {
-    float: left;
-  }
-
-  footer>div div:first-of-type div:first-of-type h2 img {
-    filter: brightness(0) saturate(100%) invert(88%) sepia(65%) saturate(108%) hue-rotate(337deg) brightness(108%) contrast(104%);
-    max-width: 100px;
-    padding-left: 20px;
-    position: relative;
-    z-index: 0;
-  }
-
-  footer>div div:first-of-type div:first-of-type cite {
-    font-style: normal;
-  }
-
   footer>div div:first-of-type div:nth-of-type(2) {
-    float: right;
     width: 400px;
   }
 
-  footer>div div:first-of-type div:nth-of-type(2) p {
-    line-height: 20px;
-    width: 250px;
-  }
-
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
-    font-size: 0;
-  }
-
   footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email] {
-    border: 1px solid var(--gs03);
-    padding: 15px 20px;
     width: 72.5%;
-  }
-
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=submit] {
-    border: 1px solid var(--gs05);
-    padding: 15px 10px;
-    cursor: pointer;
   }
 
   footer>div>div:nth-of-type(2) {
@@ -3643,18 +2505,12 @@ header>div div:nth-of-type(3)::before {
     margin-bottom: 60px;
   }
 
-  footer>div div:nth-of-type(2) div h3 {
-    font-size: 19px;
-    font-weight: 700;
-  }
-
-  footer>div div:nth-of-type(2) div ul li {
-    padding-bottom: 20px;
-  }
-
 }
 
 @media screen and (min-width: 1280px) {
+  .btnSns {
+    width: 210px;
+  }
 
   /* ########## popup 헤더 공통 ##########  */
   #popupSignIn,
@@ -3669,172 +2525,19 @@ header>div div:nth-of-type(3)::before {
   #popupEditAddressHome,
   #popupEditAddressOffice {
     width: 570px;
-    box-shadow: 0 0px 10px var(--ov40);
     padding: 60px 70px;
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
   }
 
   #popupEmailSignUp,
   #popupAddToCart {
     width: 570px;
-    box-shadow: 0 0px 10px var(--ov40);
   }
 
   #popupEmailSignUp {
     padding: 60px 70px;
   }
 
-  #emailSignUpBox,
-  #popupAddToCart,
-  [id*=popupSize] {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-  }
-
-  #popupSignIn.active,
-  #popupForgottenPassword.active,
-  #popupNewPassword.active,
-  #popupCreateAccount.active,
-  #popupAddToCart.active,
-  #panelCustomerService.active,
-  #panelAccountLogout.active,
-  #panelSearchBar.active,
-  #panelMyCart.active,
-  #popupChangePassword.active,
-  #popupCancelOrder.active,
-  #popupExchangeRequest.active,
-  #popupTrackOrder.active,
-  #popupAddNewAddress.active,
-  #popupEditAddressHome.active,
-  #popupEditAddressOffice.active,
-  [id*=popupSize].active {
-    display: block;
-  }
-
-  #popupSignIn h2,
-  #popupForgottenPassword h2,
-  #popupNewPassword h2,
-  #popupCreateAccount h2,
-  #popupEmailSignUp h2,
-  #popupAddToCart>div:first-of-type h2,
-  #popupChangePassword h2,
-  #popupCancelOrder h2,
-  #popupExchangeRequest h2,
-  #popupTrackOrder h2,
-  #popupAddNewAddress h2,
-  #popupEditAddressHome h2,
-  #popupEditAddressOffice h2,
-  [id*=popupSize] h2 {
-    font-size: 31px;
-    font-weight: 400;
-    line-height: 37px;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  #popupSignIn>input[type=button],
-  #popupForgottenPassword input[type=button],
-  #popupNewPassword input[type=button].btn_close,
-  #popupCreateAccount input[type=button],
-  #popupEmailSignUp input[type=button],
-  #popupAddToCart>div:first-of-type>input[type=button],
-  #panelSearchBar div input[type=button],
-  #panelMyCart>input[type=button],
-  #popupChangePassword input[type=button],
-  #popupCancelOrder input[type=button]:first-of-type,
-  #popupExchangeRequest input[type=button]:first-of-type,
-  #popupTrackOrder input[type=button],
-  #popupAddNewAddress input[type=button],
-  #popupEditAddressHome input[type=button],
-  #popupEditAddressOffice input[type=button],
-  [id*=popupSize] h2 input[type=button] {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 15px;
-    right: 10px;
-    cursor: pointer;
-  }
-
   /* ########## popup 인풋 공통 ##########  */
-
-  #popupSignIn form span:first-of-type,
-  #popupSignIn form span:nth-of-type(2),
-  #popupForgottenPassword span,
-  #popupNewPassword span,
-  #popupCreateAccount form span:nth-of-type(3),
-  #popupCreateAccount form span:nth-of-type(4),
-  #popupCreateAccount form span:last-of-type,
-  #popupEmailSignUp form span,
-  #popupChangePassword form span {
-    position: relative;
-    display: block;
-  }
-
-  #popupCreateAccount,
-  #popupAddNewAddress form ul,
-  #popupEditAddressHome form ul,
-  #popupEditAddressOffice form ul {
-    font-size: 0;
-  }
-
-  #popupCreateAccount form span:first-of-type,
-  #popupCreateAccount form span:nth-of-type(2),
-  #popupAddNewAddress form>ul>li,
-  #popupEditAddressHome form>ul>li,
-  #popupEditAddressOffice form>ul>li {
-    position: relative;
-    display: inline-block;
-  }
-
-  #popupCreateAccount form span:first-of-type,
-  #popupAddNewAddress form ul li:nth-of-type(2n+1),
-  #popupEditAddressHome form ul li:nth-of-type(2n+1),
-  #popupEditAddressOffice form ul li:nth-of-type(2n+1) {
-    margin-right: 10px;
-  }
-
-  .popup-input {
-    padding: 15px 20px;
-    border: 1px solid var(--gs05);
-    margin-bottom: 35px;
-  }
-
-  .popup-input.filled,
-  #popupEditAddressHome form ul li input.valid,
-  #popupEditAddressOffice form ul li input.valid {
-    padding: 25px 20px 5px;
-  }
-
-  #popupSignIn form span:first-of-type input[type=email],
-  #popupSignIn form span:nth-of-type(2) input[type=password],
-  #popupSignIn form span:nth-of-type(2) input[type=text],
-  #popupForgottenPassword span input[type=email],
-  #popupNewPassword span:first-of-type input[type=password],
-  #popupNewPassword span:first-of-type input[type=text],
-  #popupNewPassword span:last-of-type input[type=password],
-  #popupNewPassword span:last-of-type input[type=text],
-  #popupCreateAccount form span input[type=email],
-  #popupCreateAccount form span:nth-of-type(4) input[type=password],
-  #popupCreateAccount form span:nth-of-type(4) input[type=text],
-  #popupCreateAccount form span:last-of-type input[type=password],
-  #popupCreateAccount form span:last-of-type input[type=text],
-  #popupEmailSignUp form span input[type=email],
-  #popupEmailSignUp form span input[type=tel],
-  #popupChangePassword form span input[type=password],
-  #popupChangePassword form span input[type=text] {
-    width: 100%;
-  }
-
   #popupCreateAccount span input[type=text],
   #popupAddNewAddress form ul li input[type=text],
   #popupEditAddressHome form ul li input[type=text],
@@ -3845,251 +2548,22 @@ header>div div:nth-of-type(3)::before {
     width: 210px;
   }
 
-  #popupSignIn form span:nth-of-type(2) input[type=password],
-  #popupNewPassword span:first-of-type input[type=password],
-  #popupNewPassword span:last-of-type input[type=password],
-  #popupCreateAccount form span:nth-of-type(4) input[type=password],
-  #popupCreateAccount form span:last-of-type input[type=password],
-  #popupChangePassword form span input[type=password] {
-    padding-right: 50px;
-  }
-
-  .popup-label {
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    font-size: 14px;
-    font-weight: 400;
-  }
-
-  .popup-label.filled,
-  #popupEditAddressHome form ul li input.valid+label,
-  #popupEditAddressOffice form ul li input.valid+label {
-    top: 5px;
-  }
-
-  .toggleBtn {
-    width: 23px;
-    height: 20px;
-    position: absolute;
-    top: 13px;
-    right: 15px;
-    border: none;
-    background: url('../images/visibility_off.svg') no-repeat center;
-    background-size: 23px;
-    text-indent: -9999px;
-  }
-
-  .toggleBtn.active {
-    background: url('../images/visibility.svg') no-repeat center;
-    background-size: 23px;
-  }
-
-  /* ########## popup 본문 공통 ##########  */
-
-  #popupSignIn p,
-  #popupSignIn span label,
-  #popupSignIn span>input[type=button],
-  #popupSignIn p:last-of-type input[type=button],
-  #popupForgottenPassword p,
-  #popupNewPassword p,
-  #popupCreateAccount p,
-  #popupCreateAccount form label span,
-  #popupEmailSignUp p,
-  #popupEmailSignUp form div label,
-  #popupCancelOrder p,
-  #popupExchangeRequest p,
-  #popupTrackOrder ol:last-of-type li p,
-  #popupTrackOrder p,
-  #popupAddNewAddress p,
-  #popupEditAddressHome p,
-  #popupEditAddressOffice p,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label,
-  [id*=popupSize] div:first-of-type h3,
-  [id*=popupSize] div:last-of-type p,
-  [id*=popupSize] div:last-of-type p a {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-  }
-
-  /* ########## popup checkbox ##########  */
-
-  #popupSignIn form span:last-of-type input[type=checkbox],
-  #popupCreateAccount form input[type=checkbox],
-  #popupEmailSignUp form div input[type=checkbox],
-  #popupAddNewAddress form div:last-of-type input[type=checkbox],
-  #popupEditAddressHome form div:last-of-type input[type=checkbox],
-  #popupEditAddressOffice form div:last-of-type input[type=checkbox] {
-    display: none;
-  }
-
-  #popupSignIn form span:last-of-type label,
-  #popupCreateAccount form>label,
-  #popupEmailSignUp form div label,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label {
-    background: url('../images/check_box_outline_blank.svg') no-repeat;
-    background-size: 20px;
-  }
-
-  #popupCreateAccount form>label {
-    display: block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 160px;
-  }
-
-  #popupSignIn form span:last-of-type label,
-  #popupEmailSignUp form div label,
-  #popupEmailSignUp form div p,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label {
-    padding-left: 25px;
-  }
-
-  #popupSignIn form span:last-of-type label.active,
-  #popupCreateAccount form label.active,
-  #popupEmailSignUp form div label.active,
-  #popupAddNewAddress form div:last-of-type label.active,
-  #popupEditAddressHome form div:last-of-type label.active,
-  #popupEditAddressOffice form div:last-of-type label.active {
-    background: url('../images/check_box.svg') no-repeat;
-    background-size: 20px;
-  }
-
-  #popupSignIn form span:last-of-type label,
-  #popupSignIn form span:last-of-type label.active,
-  #popupAddNewAddress form div:last-of-type label,
-  #popupAddNewAddress form div:last-of-type label.active,
-  #popupEditAddressHome form div:last-of-type label,
-  #popupEditAddressHome form div:last-of-type label.active,
-  #popupEditAddressOffice form div:last-of-type label,
-  #popupEditAddressOffice form div:last-of-type label.active {
-    background-position: center left;
-  }
-
-  #popupEmailSignUp form div label,
-  #popupEmailSignUp form div label.active {
-    background-position: top left;
-  }
-
   /* ########## qtyComponent ##########  */
   #popupAddToCart>div:first-of-type div>div span.qtyComponent {
-    position: absolute;
     top: 30px;
-    right: 0;
   }
 
   #panelMyCart ol li>div>span.qtyComponent {
-    position: absolute;
     top: 55px;
-    left: 90px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent i,
-  #panelMyCart ol li>div>span.qtyComponent i {
-    font-style: normal;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0 5px;
-    position: absolute;
-    top: -5px;
-    left: 5px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number]::-webkit-outer-spin-button,
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number]::-webkit-inner-spin-button,
-  #panelMyCart ol li>div>span.qtyComponent input[type=number]::-webkit-outer-spin-button,
-  #panelMyCart ol li>div>span.qtyComponent input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=number],
-  #panelMyCart ol li>div>span.qtyComponent input[type=number] {
-    border: 1px solid var(--gs05);
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px;
-    text-align: center;
-    width: 90px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button],
-  #panelMyCart ol li>div>span.qtyComponent input[type=button] {
-    position: absolute;
-    top: 20px;
-    border: none;
-    background-color: transparent;
-    text-indent: -9999px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button]:first-of-type,
-  #panelMyCart ol li>div>span.qtyComponent input[type=button]:first-of-type {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: url('../images/remove.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
-  }
-
-  #popupAddToCart>div:first-of-type div>div span.qtyComponent input[type=button]:last-of-type,
-  #panelMyCart ol li>div>span.qtyComponent input[type=button]:last-of-type {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: url('../images/add.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
   }
 
   /* ########## product info ##########  */
-  .product-img {
-    margin-bottom: 15px;
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .product-name {
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 23px;
-    text-align: center;
-    height: 45px;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-  }
-
   #popupAddToCart div:last-of-type ul li a b {
     width: 202px;
   }
 
   #panelMyCart>div:first-of-type ul li a b {
     width: 150px;
-  }
-
-  .product-color {
-    font-style: normal;
-    background-color: transparent;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: center;
-    height: 40px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-    margin-bottom: 15px;
   }
 
   #popupAddToCart div:last-of-type ul li a mark {
@@ -4100,255 +2574,16 @@ header>div div:nth-of-type(3)::before {
     width: 150px;
   }
 
-  .product-price {
-    display: block;
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  /* ########## selectComponent ##########  */
-  .selectComponent.size,
-  .selectComponent.cancel,
-  .selectComponent.exchange,
-  .selectComponent.country,
-  .selectComponent.state,
-  .selectComponent.sort,
-  .selectComponent.gender {
-    border: 1px solid var(--gs05);
-    margin-bottom: 15px;
-    position: relative;
-    cursor: pointer;
-  }
-
-  .selectComponent.size,
-  .selectComponent.cancel,
-  .selectComponent.exchange,
-  .selectComponent.sort {
-    height: 40px;
-  }
-
-  .selectComponent.country,
-  .selectComponent.state,
-  .selectComponent.gender {
-    height: 50px;
-  }
-
-  #popupAddToCart div:last-of-type ul li div.selectComponent.active,
-  #panelMyCart>div:first-of-type ul li div.selectComponent.active {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be02);
-    background-size: 30px;
-  }
-
-  .selectComponent.size i,
-  .selectComponent.sort i {
-    font-style: normal;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0 5px;
-    position: absolute;
-    top: -5px;
-    left: 15px;
-  }
-
-  .selectComponent.size ul,
-  .selectComponent.cancel ul,
-  .selectComponent.exchange ul,
-  .selectComponent.country ul,
-  .selectComponent.state ul,
-  .selectComponent.sort ul,
-  .selectComponent.gender ul {
-    overflow: hidden;
-    cursor: pointer;
-  }
-
-  .selectComponent.size ul,
-  .selectComponent.cancel ul,
-  .selectComponent.exchange ul,
-  .selectComponent.sort ul {
-    height: 38px;
-  }
-
-  .selectComponent.country ul,
-  .selectComponent.state ul,
-  .selectComponent.gender ul {
-    height: 48px;
-  }
-
-  .selectComponent.size.active ul,
-  .selectComponent.cancel.active ul,
-  .selectComponent.exchange.active ul,
-  .selectComponent.country.active ul,
-  .selectComponent.state.active ul,
-  .selectComponent.sort.active ul,
-  .selectComponent.gender.active ul {
-    display: block;
-    overflow: visible;
-    height: auto;
-    z-index: 10;
-    position: absolute;
-    left: -1px;
-    right: -1px;
-    border: 1px solid var(--gs05);
-  }
-
-  #popupAddToCart div:last-of-type ul li div.selectComponent.active ul,
-  #panelMyCart>div:first-of-type ul li div.selectComponent.active ul {
-    top: 100%;
-    border-top: none;
-  }
-
-  #popupAddToCart div:last-of-type ul li div.selectComponent ul,
-  #panelMyCart>div:first-of-type ul li div.selectComponent ul {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be02);
-    background-size: 30px;
-  }
-
-  .selectComponent.size ul li,
-  .selectComponent.cancel ul li,
-  .selectComponent.exchange ul li,
-  .selectComponent.country ul li,
-  .selectComponent.state ul li,
-  .selectComponent.sort ul li,
-  .selectComponent.gender ul li {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 30px;
-  }
-
-  .selectComponent.size ul li,
-  .selectComponent.cancel ul li,
-  .selectComponent.exchange ul li,
-  .selectComponent.sort ul li {
-    padding: 5px 20px;
-  }
-
-  .selectComponent.country ul li,
-  .selectComponent.state ul li,
-  .selectComponent.gender ul li {
-    padding: 10px 20px;
-  }
-
-  .selectComponent.size.active ul li,
-  .selectComponent.cancel.active ul li,
-  .selectComponent.exchange.active ul li,
-  .selectComponent.country.active ul li,
-  .selectComponent.state.active ul li,
-  .selectComponent.sort.active ul li,
-  .selectComponent.gender.active ul li {
-    padding: 0 20px;
-  }
-
-  .selectComponent.size.active ul li:hover,
-  .selectComponent.cancel.active ul li:hover,
-  .selectComponent.exchange.active ul li:hover,
-  .selectComponent.country.active ul li:hover,
-  .selectComponent.state.active ul li:hover,
-  .selectComponent.sort.active ul li:hover,
-  .selectComponent.gender.active ul li:hover {
-    text-decoration: underline;
-  }
-
-  /* ########## selectComponent - cancel & exchange ##########  */
-  #popupCancelOrder div.selectComponent.active,
-  #popupExchangeRequest div.selectComponent.active {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupCancelOrder div.selectComponent.active ul,
-  #popupExchangeRequest div.selectComponent.active ul {
-    top: 100%;
-    border-top: none;
-  }
-
-  #popupCancelOrder div.selectComponent ul,
-  #popupExchangeRequest div.selectComponent ul {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
 
   /* ########## selectComponent - state & country ##########  */
-  #popupAddNewAddress form,
-  #popupEditAddressHome form,
-  #popupEditAddressOffice form {
-    font-size: 0;
-  }
-
   #popupAddNewAddress form div.selectComponent,
   #popupEditAddressHome form div.selectComponent,
   #popupEditAddressOffice form div.selectComponent {
-    margin-bottom: 35px;
-    display: inline-block;
     width: 210px;
-    vertical-align: top;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type,
-  #popupEditAddressHome form div.selectComponent:first-of-type,
-  #popupEditAddressOffice form div.selectComponent:first-of-type {
-    margin-right: 10px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type,
-  #popupEditAddressHome form div.selectComponent:first-of-type,
-  #popupEditAddressOffice form div.selectComponent:first-of-type {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:nth-of-type(2) ul,
-  #popupEditAddressHome form div.selectComponent:nth-of-type(2) ul,
-  #popupEditAddressOffice form div.selectComponent:nth-of-type(2) ul {
-    background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type.active ul,
-  #popupEditAddressHome form div.selectComponent:first-of-type.active ul,
-  #popupEditAddressOffice form div.selectComponent:first-of-type.active ul {
-    top: 100%;
-    border-top: none;
-  }
-
-  #popupAddNewAddress form div.selectComponent:nth-of-type(2).active ul,
-  #popupEditAddressHome form div.selectComponent:nth-of-type(2).active ul,
-  #popupEditAddressOffice form div.selectComponent:nth-of-type(2).active ul {
-    bottom: 100%;
-    border-bottom: none;
-  }
-
-  #popupAddNewAddress form div.selectComponent:first-of-type ul,
-  #popupEditAddressHome form div.selectComponent:first-of-type ul,
-  #popupEditAddressOffice form div.selectComponent:first-of-type ul {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
-  }
-
-  #popupAddNewAddress form div.selectComponent:nth-of-type(2).active,
-  #popupEditAddressHome form div.selectComponent:nth-of-type(2).active,
-  #popupEditAddressOffice form div.selectComponent:nth-of-type(2).active {
-    background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
-    background-size: 30px;
   }
 
   /* ########## popup sign in ##########  */
-
-  #popupSignIn p:not(:nth-of-type(4), :last-of-type),
-  #popupSignIn form span:last-of-type,
-  #popupSignIn input[type=submit],
-  #popupCreateAccount p,
-  #popupCreateAccount form>label span,
-  #popupEmailSignUp p:nth-of-type(2),
-  #popupEmailSignUp form div label,
-  #popupEmailSignUp form div p,
-  #popupAddToCart>div:first-of-type div>div,
-  #popupAddNewAddress p,
-  #popupEditAddressHome p,
-  #popupEditAddressOffice p,
-  header>div div:nth-of-type(2) nav>ul>li>ol>li div a img,
-  footer>div div:first-of-type div:first-of-type h2 img {
+  #popupAddToCart>div:first-of-type div>div {
     margin-bottom: 20px;
   }
 
@@ -4356,55 +2591,9 @@ header>div div:nth-of-type(3)::before {
     display: block;
   }
 
-  #popupSignIn span>input[type=button],
-  #popupSignIn p:last-of-type input[type=button] {
-    border: none;
-    background-color: transparent;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
-  #popupSignIn span>input[type=button] {
-    float: right;
-  }
-
-  #popupSignIn p:nth-of-type(2) a {
-    text-decoration: underline;
-  }
-
   #popupSignIn>span {
-    position: absolute;
     top: 495px;
     left: 273px;
-    padding: 0 5px;
-  }
-
-  #popupSignIn hr {
-    margin: 20px 0;
-  }
-
-  #popupSignIn div {
-    font-size: 0;
-  }
-
-  #popupSignIn div,
-  #popupCreateAccount div,
-  #panelCustomerService div h3,
-  #panelAccountLogout div h3,
-  #panelMyCart ol li>div a,
-  footer>div div:first-of-type div:nth-of-type(2) p {
-    margin-bottom: 15px;
-  }
-
-  #popupSignIn div a:first-of-type {
-    margin-right: 10px;
-  }
-
-  /* ########## popup forgotten password ##########  */
-  #popupForgottenPassword p,
-  #popupNewPassword p,
-  footer>div div:nth-of-type(2) div h3 {
-    margin-bottom: 30px;
   }
 
   /* ########## popup new password ##########  */
@@ -4413,35 +2602,21 @@ header>div div:nth-of-type(3)::before {
   }
 
   /* ########## popup create account ##########  */
-  #popupCreateAccount div a:first-of-type {
-    margin-right: 10px;
-  }
-
   #popupCreateAccount>span:first-of-type {
-    position: absolute;
     top: 325px;
     left: 273px;
-    padding: 0 5px;
-    font-size: 16px;
-  }
-
-  #popupCreateAccount hr {
-    margin: 20px 0;
-  }
-
-  #popupCreateAccount form>label {
-    position: relative;
   }
 
   #popupCreateAccount form>label span {
     width: 405px;
-    position: absolute;
-    top: 0;
-    left: 25px;
   }
 
-  #popupCreateAccount form>label span a {
-    text-decoration: underline;
+  #popupCreateAccount form>label span:first-of-type {
+    top: 0;
+  }
+
+  #popupCreateAccount form>label span:last-of-type {
+    top: 120px;
   }
 
   /* ########## popup email sign up ##########  */
@@ -4457,106 +2632,22 @@ header>div div:nth-of-type(3)::before {
     object-fit: cover;
   }
 
-  #popupEmailSignUp>p:first-of-type {
-    margin-bottom: 4px;
-  }
-
   #popupEmailSignUp form div label {
-    display: block;
     width: 430px;
-  }
-
-  #popupEmailSignUp form div label a {
-    text-decoration: underline;
   }
 
   #popupEmailSignUp form div p {
-    display: block;
     width: 430px;
-  }
-
-  #popupEmailSignUp form div p b {
-    display: block;
-    font-weight: 400;
-    margin-bottom: 4px;
-  }
-
-  #popupEmailSignUp form div p a {
-    text-decoration: underline;
   }
 
   /* ########## popup add to cart ##########  */
 
   #popupAddToCart>div:first-of-type {
     padding: 60px 70px 20px;
-    position: relative;
-  }
-
-  #popupAddToCart>div:first-of-type h2 {
-    padding-bottom: 15px;
-    border-bottom: 1px solid var(--gs05);
-  }
-
-  #popupAddToCart>div:first-of-type div::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #popupAddToCart>div:first-of-type div img {
-    float: left;
-    margin-right: 20px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div {
-    position: relative;
-  }
-
-  #popupAddToCart>div:first-of-type div>div a {
-    display: block;
-  }
-
-  #popupAddToCart>div:first-of-type div>div a,
-  #popupTrackOrder ol:first-of-type li dl dt,
-  #panelMyCart ol li>div a {
-    font-size: 17px;
-    font-weight: 700;
-  }
-
-  #popupAddToCart>div:first-of-type div>div small {
-    position: absolute;
-    top: 55px;
-    left: 90px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div small,
-  #popupTrackOrder div:first-of-type p,
-  #popupTrackOrder ol:first-of-type li dl dd:first-of-type,
-  #popupTrackOrder ol:first-of-type li dl dd:nth-of-type(2),
-  #panelCustomerService div h3,
-  #panelAccountLogout div h3,
-  #panelCustomerService div:last-of-type a,
-  #panelAccountLogout div:last-of-type input[type=submit],
-  #panelMyCart ol li>div small,
-  #panelMyCart>div:last-of-type span,
-  #panelMyCart>div:last-of-type strong,
-  footer>div div:first-of-type div:nth-of-type(2) p,
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=submit] {
-    font-size: 15px;
-    font-weight: 500;
   }
 
   #popupAddToCart>div:first-of-type div>div strong {
-    position: absolute;
     top: 55px;
-    right: 120px;
-  }
-
-  #popupAddToCart>div:first-of-type div>div strong,
-  #popupTrackOrder ol:first-of-type li dl dd:last-of-type,
-  #panelMyCart ol li>div strong {
-    font-size: 17px;
-    font-weight: 500;
   }
 
   #popupAddToCart>div:first-of-type div>input[type=button] {
@@ -4573,30 +2664,6 @@ header>div div:nth-of-type(3)::before {
     padding: 30px 70px 60px;
   }
 
-  #popupTrackOrder ol:first-of-type,
-  #popupAddNewAddress form div:last-of-type,
-  #popupEditAddressHome form div:last-of-type,
-  #popupEditAddressOffice form div:last-of-type,
-  #panelMyCart>div:first-of-type {
-    margin-bottom: 35px;
-  }
-
-  #popupAddToCart div:last-of-type h3,
-  #panelMyCart>div:first-of-type h3 {
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-  }
-
-  #popupAddToCart div:last-of-type h3,
-  #panelMyCart>div:first-of-type h3,
-  #popupTrackOrder div:first-of-type,
-  #popupTrackOrder div:last-of-type,
-  #popupTrackOrder ol:last-of-type,
-  [id*=popupSize] table {
-    margin-bottom: 25px;
-  }
-
   #popupAddToCart div:last-of-type ul::after {
     content: '';
     display: block;
@@ -4605,127 +2672,25 @@ header>div div:nth-of-type(3)::before {
 
   #popupAddToCart>div:last-of-type>ul>li {
     float: left;
-    position: relative;
   }
 
   #popupAddToCart div:last-of-type ul li:first-of-type {
     margin-right: 24px;
   }
 
-  /* ########## popup candel order & exchange request ##########  */
-  #popupCancelOrder p,
-  #popupExchangeRequest p,
-  [id*=popupSize] div:first-of-type {
-    margin-bottom: 40px;
-  }
-
-  #popupCancelOrder div.selectComponent,
-  #popupExchangeRequest div.selectComponent {
-    margin-bottom: 50px;
-  }
-
-  #popupCancelOrder a,
-  #popupExchangeRequest a {
-    display: block;
-  }
-
   /* ########## track order ##########  */
-  #popupTrackOrder div:first-of-type p,
-  #popupTrackOrder ol:first-of-type li dl dt,
-  [id*=popupSize] div:first-of-type h3,
-  [id*=popupSize] div:last-of-type p,
-  [id*=popupSize] div:last-of-type p a,
-  header>div div:nth-of-type(2) h1 {
-    margin-bottom: 10px;
-  }
-
   #popupTrackOrder div:first-of-type div div {
-    display: inline-block;
     width: 135px;
-    height: 5px;
-    background-color: var(--gs03);
-  }
-
-  #popupTrackOrder div:first-of-type div div:not(:last-of-type) {
-    margin-right: 8px;
-  }
-
-  #popupTrackOrder div:first-of-type div div span {
-    display: inline-block;
-    margin-top: 15px;
-  }
-
-  #popupTrackOrder div:first-of-type div div span,
-  [id*=popupSize] div:first-of-type p,
-  footer>div div:first-of-type div:first-of-type cite {
-    font-size: 12px;
-    font-weight: 400;
-  }
-
-  #popupTrackOrder ol:first-of-type li:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #popupTrackOrder ol:first-of-type li img {
-    float: left;
-    margin-right: 25px;
-  }
-
-  #popupTrackOrder ol:first-of-type li dl dt {
-    line-height: 23px;
-  }
-
-  #popupTrackOrder ol:first-of-type li dl dd {
-    line-height: 20px;
-  }
-
-  #popupTrackOrder div:last-of-type i {
-    font-style: normal;
-  }
-
-  #popupTrackOrder div:last-of-type i,
-  header>div div:nth-of-type(2) nav>ul>li>ol>li:not(:first-of-type)>a,
-  footer>div div:nth-of-type(2) div ul li a,
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email]::placeholder {
-    font-size: 14px;
-    font-weight: 400;
   }
 
   #popupTrackOrder div:last-of-type i:last-of-type {
     float: right;
   }
 
-  #popupTrackOrder ol:last-of-type {
-    padding: 20px;
-  }
-
-  #popupTrackOrder ol:last-of-type li {
-    padding: 5px 0;
-  }
-
-  #popupTrackOrder ol:last-of-type li:first-of-type {
-    padding-top: 0;
-  }
-
-  #popupTrackOrder ol:last-of-type li:last-of-type {
-    padding-bottom: 0;
-  }
-
-  #popupTrackOrder ol:last-of-type li:not(:last-of-type) {
-    border-bottom: 1px solid var(--gs03);
-  }
-
   /* ########## panel customer service & account logout ##########  */
   #panelCustomerService,
   #panelAccountLogout {
-    border: 1px solid var(--gs03);
-    border-radius: 3px;
-    display: none;
-    position: fixed;
     top: 65px;
-    z-index: 100;
   }
 
   #panelCustomerService {
@@ -4738,45 +2703,7 @@ header>div div:nth-of-type(3)::before {
   #panelAccountLogout {
     width: 760px;
     padding: 45px 70px 30px;
-    gap: 70px;
     right: 120px;
-  }
-
-  #panelCustomerService::before,
-  #panelAccountLogout::before {
-    content: '';
-    border-style: solid;
-    position: absolute;
-    border-color: transparent transparent var(--gs03) transparent;
-    border-width: 11px 11px;
-    top: -23px;
-  }
-
-  #panelCustomerService::before {
-    left: 49px;
-  }
-
-  #panelAccountLogout::before {
-    right: 49px;
-  }
-
-  #panelCustomerService::after,
-  #panelAccountLogout::after {
-    content: '';
-    border-style: solid;
-    position: absolute;
-    border-color: transparent transparent var(--be01) transparent;
-    border-width: 10px 10px;
-    position: absolute;
-    top: -20px;
-  }
-
-  #panelCustomerService::after {
-    left: 50px;
-  }
-
-  #panelAccountLogout::after {
-    right: 50px;
   }
 
   #panelCustomerService div,
@@ -4785,28 +2712,8 @@ header>div div:nth-of-type(3)::before {
     border-right: 1px solid var(--gs05);
   }
 
-  #panelCustomerService div:first-of-type ul {
-    margin-right: 290px;
-  }
-
   #panelAccountLogout div:first-of-type ul {
     margin-right: 200px;
-  }
-
-  #panelCustomerService div:first-of-type ul li,
-  #panelAccountLogout div:first-of-type ul li {
-    padding-bottom: 15px;
-  }
-
-  #panelCustomerService div:first-of-type ul li a,
-  #panelAccountLogout div:first-of-type ul li a {
-    font-size: 13px;
-    font-weight: 400;
-  }
-
-  #panelCustomerService div:last-of-type,
-  #panelAccountLogout div:last-of-type {
-    border-right: none;
   }
 
   #panelCustomerService div:last-of-type {
@@ -4817,116 +2724,34 @@ header>div div:nth-of-type(3)::before {
     padding-left: 70px;
   }
 
-  #panelCustomerService div:last-of-type a {
-    display: inline-block;
-    width: 130px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    border: 1px solid var(--gs05);
-  }
-
-  #panelAccountLogout div:last-of-type input[type=submit] {
-    border: none;
-    text-decoration: underline;
-    padding-left: 30px;
-    background: url('../images/mode_off_on.svg') no-repeat center left 5px;
-    background-size: 18px;
-    cursor: pointer;
-  }
-
   /* ########## panel search bar ##########  */
   #panelSearchBar {
-    width: 100%;
-    box-shadow: 0 10px 10px var(--ov10);
-    display: none;
-    position: fixed;
     top: 116px;
-    left: 0;
-    z-index: 10;
   }
 
   #panelSearchBar div {
-    padding: 55px 0;
     width: 700px;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  #panelSearchBar div input[type=search] {
-    border: none;
-    border-bottom: 1px solid var(--gs04);
-    background-color: transparent;
-    padding: 15px 0;
-    padding-right: 40px;
-    width: 100%;
-    font-size: 18px;
-    background: url('../images/search.svg') no-repeat center right 10px;
-    background-size: 20px;
-  }
-
-  #panelSearchBar div input[type=search]::placeholder {
-    font-size: 18px;
-    font-weight: 400;
   }
 
   /* ########## panel my cart ##########  */
   #panelMyCart {
     width: 405px;
-    box-shadow: 0 0px 10px var(--ov40);
-    display: none;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 10;
-  }
-
-  #panelMyCart>input[type=button] {
-    z-index: 1;
   }
 
   #panelMyCart h2 {
-    font-size: 18px;
-    font-weight: 400;
     padding: 20px;
-    border-bottom: 1px solid var(--gs05);
-    position: relative;
   }
 
   #panelMyCart ol {
     padding: 25px 20px 50px;
   }
 
-  #panelMyCart ol:hover {
-    background: url('../images/delete.svg') no-repeat top 35px right 20px;
-    cursor: pointer;
-  }
-
-  #panelMyCart ol li:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #panelMyCart ol li img {
-    float: left;
-    margin-right: 20px;
-  }
-
-  #panelMyCart ol li>div {
-    position: relative;
-  }
-
   #panelMyCart ol li>div small {
-    position: absolute;
     top: 25px;
-    left: 90px;
   }
 
   #panelMyCart ol li>div strong {
-    position: absolute;
     top: 70px;
-    right: 0;
   }
 
   #panelMyCart>div:first-of-type {
@@ -4941,59 +2766,10 @@ header>div div:nth-of-type(3)::before {
 
   #panelMyCart>div:first-of-type>ul>li {
     float: left;
-    position: relative;
   }
 
   #panelMyCart>div:first-of-type ul li:first-of-type {
     margin-right: 20px;
-  }
-
-  #panelMyCart>div:last-of-type {
-    padding: 20px 15px;
-    border-top: 1px solid var(--gs05);
-  }
-
-  #panelMyCart>div:last-of-type strong {
-    float: right;
-  }
-
-  #panelMyCart>div:last-of-type a.btnViewCart {
-    width: 100%;
-    margin: 20px 0 15px;
-  }
-
-  /* ########## popup size ##########  */
-
-  [id*=popupSize] {
-    width: 650px;
-    padding: 60px 70px;
-    box-shadow: 0 0px 10px var(--ov40);
-  }
-
-  [id*=popupSize] table {
-    width: 100%;
-  }
-
-  [id*=popupSize] table tr td {
-    padding: 5px 19px;
-    text-align: center;
-    border-bottom: 1px solid var(--gs05);
-  }
-
-  [id*=popupSize] table tr td:first-of-type {
-    padding-left: 0;
-  }
-
-  [id*=popupSize] table tr td:last-of-type {
-    padding-right: 0;
-  }
-
-  [id*=popupSize] div:first-of-type p {
-    line-height: 18px;
-  }
-
-  [id*=popupSize] div:last-of-type p a {
-    text-decoration: underline;
   }
 
   /* ########## contents area ##########  */
@@ -5029,13 +2805,7 @@ header>div div:nth-of-type(3)::before {
 
   /* ########## header ##########  */
   header>div {
-    transition: 1s;
     padding: 20px 3.9% 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    display: flex;
   }
 
   header>div>div:first-child {
@@ -5049,15 +2819,13 @@ header>div div:nth-of-type(3)::before {
     font-size: 13px;
     font-weight: 700;
     color: white;
-    text-shadow: 0 0 5px var(--ov40);
   }
 
   header>div div:first-child a {
     margin-right: 3.5%;
   }
 
-  header>div div:first-of-type input[type=button],
-  header>div div:nth-of-type(3) input[type=button] {
+  header>div div:first-of-type input[type=button] {
     border: none;
     background-color: transparent;
     padding: 0;
@@ -5071,10 +2839,7 @@ header>div div:nth-of-type(3)::before {
   header>div div:nth-of-type(2) h1 {
     max-width: 288px;
     margin: 0 auto;
-  }
-
-  header>div div:nth-of-type(2) h1 a img {
-    filter: drop-shadow(0 0 5px var(--ov40));
+    margin-bottom: 10px;
   }
 
   header>div div:nth-of-type(2) nav {
@@ -5095,21 +2860,16 @@ header>div div:nth-of-type(3)::before {
   }
 
   header>div div:nth-of-type(2) nav>ul>li>span {
-    font-size: 15px;
-    font-weight: 700;
     display: block;
     padding: 20px 17px;
-    cursor: pointer;
     color: white;
     text-shadow: 0 0 5px var(--ov40);
   }
 
   header>div div:nth-of-type(2) nav>ul>li>ol {
-    display: none;
     position: absolute;
     top: 116px;
     left: 0px;
-    width: 100%;
     text-align: left;
     box-shadow: 0 10px 10px var(--ov10);
   }
@@ -5144,10 +2904,6 @@ header>div div:nth-of-type(3)::before {
     font-weight: 700;
   }
 
-  header>div div:nth-of-type(2) nav>ul>li>ol>li:hover>a {
-    text-decoration: underline;
-  }
-
   header>div div:nth-of-type(2) nav>ul>li>ol>li div {
     display: inline-block;
     position: absolute;
@@ -5166,7 +2922,6 @@ header>div div:nth-of-type(3)::before {
 
   header>div div:nth-of-type(3) {
     margin-top: 20px;
-    text-align: right;
     flex: 29%;
   }
 
@@ -5174,7 +2929,7 @@ header>div div:nth-of-type(3)::before {
     margin-left: 3.5%;
   }
 
-  header>div div:nth-of-type(3) input[type=checkbox], header>div div:nth-of-type(3) label {
+  header>div div:nth-of-type(3) label {
     display: none;
   }
 
@@ -5188,109 +2943,13 @@ header>div div:nth-of-type(3)::before {
     margin-top: -10px;
   }
 
-  header>div:hover,
-  header.scrolled>div,
-  header.headerFixed>div,
-  header.headerFixedBar>div {
-    border-bottom: 2px solid var(--be02);
-  }
-
-  header>div:hover div:nth-of-type(2) h1,
-  header.scrolled>div div:nth-of-type(2) h1,
-  header.headerFixed>div div:nth-of-type(2) h1,
-  header.headerFixedBar>div div:nth-of-type(2) h1 {
-    filter: brightness(0) saturate(100%) invert(18%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(91%);
-  }
-
-  header>div:hover div:first-child a,
-  header>div:hover div:first-of-type input[type=button],
-  header>div:hover div:nth-of-type(2) nav>ul>li>span,
-  header>div:hover div:nth-of-type(3)::before,
-  header>div:hover div:nth-of-type(3) input[type=button],
-  header.scrolled>div div:first-child a,
-  header.scrolled>div div:first-of-type input[type=button],
-  header.scrolled>div div:nth-of-type(2) nav>ul>li>span,
-  header.scrolled>div div:nth-of-type(3)::before,
-  header.scrolled>div div:nth-of-type(3) input[type=button],
-  header.headerFixed>div div:first-child a,
-  header.headerFixed>div div:first-of-type input[type=button],
-  header.headerFixed>div div:nth-of-type(2) nav>ul>li>span,
-  header.headerFixed>div div:nth-of-type(3)::before,
-  header.headerFixed>div div:nth-of-type(3) input[type=button],
-  header.headerFixedBar>div div:first-child a,
-  header.headerFixedBar>div div:first-of-type input[type=button],
-  header.headerFixedBar>div div:nth-of-type(2) nav>ul>li>span,
-  header.headerFixedBar>div div:nth-of-type(3)::before,
-  header.headerFixedBar>div div:nth-of-type(3) input[type=button] {
-    text-shadow: none;
-  }
-
-  header>div:hover div:nth-of-type(2) h1 a img,
-  header.scrolled>div div:nth-of-type(2) h1 a img,
-  header.headerFixed>div div:nth-of-type(2) h1 a img,
-  header.headerFixedBar>div div:nth-of-type(2) h1 a img {
-    filter: none;
-  }
-
   /* ########## footer ##########  */
-  footer {
-    background-color: var(--gs06);
-  }
-
-  footer>div {
-    padding: 60px 0;
-  }
-
-  footer>div div:first-of-type:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  footer>div>div:first-of-type {
-    margin-bottom: 50px;
-  }
-
-  footer>div div:first-of-type>div:first-of-type {
-    float: left;
-  }
-
-  footer>div div:first-of-type div:first-of-type h2 img {
-    filter: brightness(0) saturate(100%) invert(88%) sepia(65%) saturate(108%) hue-rotate(337deg) brightness(108%) contrast(104%);
-    max-width: 100px;
-    padding-left: 20px;
-    position: relative;
-    z-index: 0;
-  }
-
-  footer>div div:first-of-type div:first-of-type cite {
-    font-style: normal;
-  }
-
   footer>div div:first-of-type div:nth-of-type(2) {
-    float: right;
     width: 400px;
   }
 
-  footer>div div:first-of-type div:nth-of-type(2) p {
-    line-height: 20px;
-    width: 250px;
-  }
-
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
-    font-size: 0;
-  }
-
   footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email] {
-    border: 1px solid var(--gs03);
-    padding: 15px 20px;
     width: 72.5%;
-  }
-
-  footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=submit] {
-    border: 1px solid var(--gs05);
-    padding: 15px 10px;
-    cursor: pointer;
   }
 
   footer>div>div:nth-of-type(2) {
@@ -5299,15 +2958,6 @@ header>div div:nth-of-type(3)::before {
 
   footer>div div:nth-of-type(2) div {
     flex: 1;
-  }
-
-  footer>div div:nth-of-type(2) div h3 {
-    font-size: 19px;
-    font-weight: 700;
-  }
-
-  footer>div div:nth-of-type(2) div ul li {
-    padding-bottom: 20px;
   }
 
 }
