@@ -38,9 +38,9 @@
   --sp140: 140px;
   --sp150: 150px;
 
-  --gutter: clamp(15px, 4vw, 40px);
-  --section-y: clamp(40px, 8vw, 90px);
-  --block-gap: clamp(20px, 4vw, 50px);
+  --gutter: 10px;
+  --gutter-header: 2.9%;
+  --section-y: 60px;
 
   --c-bg: var(--be01);
   --c-surface: var(--be02);

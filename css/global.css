@@ -584,6 +584,24 @@ header>div div:nth-of-type(3)::before {
   z-index: 100;
 }
 
+#popupSignIn,
+#popupForgottenPassword,
+#popupNewPassword,
+#popupCreateAccount,
+#popupChangePassword,
+#popupCancelOrder,
+#popupExchangeRequest,
+#popupTrackOrder,
+#popupAddNewAddress,
+#popupEditAddressHome,
+#popupEditAddressOffice {
+  padding: var(--section-y) var(--gutter);
+}
+
+#popupEmailSignUp {
+  padding: var(--section-y) var(--gutter);
+}
+
 #popupEmailSignUp,
 #popupAddToCart {
   box-shadow: 0 0px 10px var(--ov40);
@@ -621,6 +639,10 @@ header>div div:nth-of-type(3)::before {
 #popupExchangeRequest a,
 #popupSignIn form span:last-of-type {
   display: block;
+}
+
+#popupAddToCart>div:first-of-type {
+  padding: var(--section-y) var(--gutter) 20px;
 }
 
 #popupSignIn h2,
@@ -1132,6 +1154,10 @@ header>div div:nth-of-type(3)::before {
   right: 120px;
 }
 
+#popupAddToCart>div:last-of-type {
+  padding: 30px var(--gutter) var(--section-y);
+}
+
 #popupTrackOrder div:first-of-type p,
 #popupTrackOrder ol:first-of-type li dl dd:first-of-type,
 #popupTrackOrder ol:first-of-type li dl dd:nth-of-type(2),
@@ -1365,7 +1391,7 @@ header>div div:nth-of-type(3)::before {
 
 [id*=popupSize] {
   width: 650px;
-  padding: 60px 70px;
+  padding: var(--section-y) var(--gutter);
   box-shadow: 0 0px 10px var(--ov40);
 }
 
@@ -1410,6 +1436,7 @@ header>div {
   width: 100%;
   z-index: 1;
   display: flex;
+  padding: 20px var(--gutter-header);
 }
 
 header>div div:nth-of-type(2) h1 a img {
@@ -1486,7 +1513,7 @@ footer {
 }
 
 footer>div {
-  padding: 60px 0;
+  padding: var(--section-y) 0;
 }
 
 footer>div div:first-of-type:after {
@@ -1575,7 +1602,6 @@ footer>div div:nth-of-type(2) div ul li {
   #popupEditAddressHome,
   #popupEditAddressOffice {
     width: 280px;
-    padding: 60px 10px;
     max-height: 85vh;
     overflow-y: auto;
   }
@@ -1586,7 +1612,6 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #popupEmailSignUp {
-    padding: 60px 10px;
     max-height: 85vh;
     overflow-y: auto;
     position: relative;
@@ -1672,10 +1697,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 230px;
   }
 
-  #popupAddToCart>div:first-of-type {
-    padding: 60px 10px 20px;
-  }
-
   #popupAddToCart>div:first-of-type div>div strong {
     top: 85px;
   }
@@ -1687,10 +1708,6 @@ footer>div div:nth-of-type(2) div ul li {
 
   #popupAddToCart>div:first-of-type div a.btnViewCart {
     width: 100%;
-  }
-
-  #popupAddToCart>div:last-of-type {
-    padding: 30px 10px 60px;
   }
 
   #popupAddToCart>div:last-of-type>ul>li:first-of-type,
@@ -1746,11 +1763,11 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelMyCart h2 {
-    padding: 20px 10px;
+    padding: 20px var(--gutter);
   }
 
   #panelMyCart ol {
-    padding: 25px 10px 70px;
+    padding: 25px var(--gutter) 70px;
   }
 
   #panelMyCart ol li>div small {
@@ -1762,7 +1779,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelMyCart>div:first-of-type {
-    padding: 25px 10px;
+    padding: 25px var(--gutter);
   }
 
   [id*=popupSize] {
@@ -1801,10 +1818,6 @@ footer>div div:nth-of-type(2) div ul li {
   footer>div {
     width: 260px;
     margin: 0 auto;
-  }
-
-  header>div {
-    padding: 20px 2.9%;
   }
 
   header>div>div:first-child {
@@ -1964,6 +1977,10 @@ footer>div div:nth-of-type(2) div ul li {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  :root {
+    --gutter: 70px;
+  }
+
   .btnSns {
     width: 210px;
   }
@@ -1980,16 +1997,11 @@ footer>div div:nth-of-type(2) div ul li {
   #popupEditAddressHome,
   #popupEditAddressOffice {
     width: 570px;
-    padding: 60px 70px;
   }
 
   #popupEmailSignUp,
   #popupAddToCart {
     width: 570px;
-  }
-
-  #popupEmailSignUp {
-    padding: 60px 70px;
   }
 
   #popupCreateAccount span input[type=text],
@@ -2062,10 +2074,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 430px;
   }
 
-  #popupAddToCart>div:first-of-type {
-    padding: 60px 70px 20px;
-  }
-
   #popupAddToCart>div:first-of-type div>div strong {
     top: 55px;
   }
@@ -2078,10 +2086,6 @@ footer>div div:nth-of-type(2) div ul li {
   #popupAddToCart>div:first-of-type div a.btnViewCart {
     width: 202px;
     float: right;
-  }
-
-  #popupAddToCart>div:last-of-type {
-    padding: 30px 70px 60px;
   }
 
   #popupAddToCart div:last-of-type ul::after,
@@ -2115,7 +2119,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   #panelAccountLogout {
     width: 560px;
-    padding: 45px 70px 30px;
+    padding: 45px var(--gutter) 30px;
     right: 52px;
   }
 
@@ -2133,7 +2137,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelAccountLogout div:last-of-type {
-    padding-left: 70px;
+    padding-left: var(--gutter);
   }
 
   #panelSearchBar {
@@ -2203,10 +2207,6 @@ footer>div div:nth-of-type(2) div ul li {
   footer>div {
     width: 720px;
     margin: 0 auto;
-  }
-
-  header>div {
-    padding: 20px 2.9%;
   }
 
   header>div>div:first-child {
@@ -2367,12 +2367,17 @@ footer>div div:nth-of-type(2) div ul li {
 
   footer>div>div:nth-of-type(2) div:first-of-type,
   footer>div>div:nth-of-type(2) div:nth-of-type(2) {
-    margin-bottom: 60px;
+    margin-bottom: var(--section-y);
   }
 
 }
 
 @media screen and (min-width: 1280px) {
+  :root {
+    --gutter: 70px;
+    --gutter-header: 3.9%;
+  }
+
   .btnSns {
     width: 210px;
   }
@@ -2389,16 +2394,11 @@ footer>div div:nth-of-type(2) div ul li {
   #popupEditAddressHome,
   #popupEditAddressOffice {
     width: 570px;
-    padding: 60px 70px;
   }
 
   #popupEmailSignUp,
   #popupAddToCart {
     width: 570px;
-  }
-
-  #popupEmailSignUp {
-    padding: 60px 70px;
   }
 
   #popupCreateAccount span input[type=text],
@@ -2474,10 +2474,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 430px;
   }
 
-  #popupAddToCart>div:first-of-type {
-    padding: 60px 70px 20px;
-  }
-
   #popupAddToCart>div:first-of-type div>div strong {
     top: 55px;
   }
@@ -2490,10 +2486,6 @@ footer>div div:nth-of-type(2) div ul li {
   #popupAddToCart>div:first-of-type div a.btnViewCart {
     width: 202px;
     float: right;
-  }
-
-  #popupAddToCart>div:last-of-type {
-    padding: 30px 70px 60px;
   }
 
   #popupAddToCart div:last-of-type ul::after,
@@ -2534,7 +2526,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   #panelAccountLogout {
     width: 760px;
-    padding: 45px 70px 30px;
+    padding: 45px var(--gutter) 30px;
     right: 120px;
   }
 
@@ -2552,7 +2544,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelAccountLogout div:last-of-type {
-    padding-left: 70px;
+    padding-left: var(--gutter);
   }
 
   #panelSearchBar {
@@ -2622,7 +2614,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   header>div {
-    padding: 20px 3.9% 0;
+    padding: 20px var(--gutter-header) 0;
   }
 
   header>div>div:first-child,
