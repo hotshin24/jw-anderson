@@ -190,7 +190,6 @@ header.headerFixedBar>div div:nth-of-type(3) input[type=button] {
   text-shadow: none;
 }
 
-/* ########## font ##########  */
 body,
 .indexContainer>div:last-of-type blockquote i,
 [class*=btn]:not(.btn_close),
@@ -225,7 +224,6 @@ header>div div:nth-of-type(3)::before {
   font-family: 'material symbols outlined';
 }
 
-/* ########## btn ##########  */
 .btnForm,
 .btnSns,
 .btnAddToCart,
@@ -302,8 +300,6 @@ header>div div:nth-of-type(3)::before {
   padding-right: 35px;
 }
 
-/* ########## product info ##########  */
-
 .product-img {
   margin-bottom: 15px;
   width: 100%;
@@ -347,7 +343,6 @@ header>div div:nth-of-type(3)::before {
   margin-bottom: 20px;
 }
 
-/* ########## selectComponent ##########  */
 .selectComponent.size,
 .selectComponent.cancel,
 .selectComponent.exchange,
@@ -489,7 +484,6 @@ header>div div:nth-of-type(3)::before {
   text-decoration: underline;
 }
 
-/* ########## selectComponent - cancel & exchange ##########  */
 #popupCancelOrder div.selectComponent.active,
 #popupExchangeRequest div.selectComponent.active {
   background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
@@ -508,15 +502,13 @@ header>div div:nth-of-type(3)::before {
   background-size: 30px;
 }
 
-/* ########## selectComponent - state & country ##########  */
 #popupAddNewAddress form,
 #popupEditAddressHome form,
 #popupEditAddressOffice form,
 #popupCreateAccount,
 #popupAddNewAddress form ul,
 #popupEditAddressHome form ul,
-#popupEditAddressOffice form ul,
-footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
+#popupEditAddressOffice form ul {
   font-size: 0;
 }
 
@@ -867,6 +859,7 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
   margin-bottom: 40px;
 }
 
+#popupSignIn form span:last-of-type label,
 #popupAddNewAddress form div:last-of-type label,
 #popupEditAddressHome form div:last-of-type label,
 #popupEditAddressOffice form div:last-of-type label {
@@ -876,16 +869,6 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
   background-position: center left;
 }
 
-[id*=popupSize] div:first-of-type h3,
-[id*=popupSize] div:last-of-type p,
-[id*=popupSize] div:last-of-type p a {
-  margin-bottom: 10px;
-}
-
-[id*=popupSize] div:last-of-type p a {
-  text-decoration: underline;
-}
-
 #popupSignIn form span:last-of-type input[type=checkbox],
 #popupCreateAccount form input[type=checkbox],
 #popupEmailSignUp form div input[type=checkbox],
@@ -893,13 +876,6 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
 #popupEditAddressHome form div:last-of-type input[type=checkbox],
 #popupEditAddressOffice form div:last-of-type input[type=checkbox] {
   display: none;
-}
-
-#popupSignIn form span:last-of-type label {
-  background: url('../images/check_box_outline_blank.svg') no-repeat;
-  background-size: 20px;
-  padding-left: 25px;
-  background-position: center left;
 }
 
 #popupSignIn form span:last-of-type label.active,
@@ -938,7 +914,8 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
   padding-left: 25px;
 }
 
-#popupEmailSignUp form div p {
+#popupEmailSignUp form div p,
+#popupEmailSignUp form div label {
   margin-bottom: 20px;
   display: block;
 }
@@ -946,11 +923,6 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
 #popupEmailSignUp form div label,
 #popupEmailSignUp form div label.active {
   background-position: top left;
-}
-
-#popupEmailSignUp form div label {
-  margin-bottom: 20px;
-  display: block;
 }
 
 #popupAddToCart>div:first-of-type div>div span.qtyComponent {
@@ -1023,8 +995,7 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
 #popupSignIn p:not(:nth-of-type(4), :last-of-type),
 #popupSignIn form span:last-of-type,
 #popupSignIn input[type=submit],
-#popupEmailSignUp p:nth-of-type(2),
-header>div div:nth-of-type(2) nav>ul>li>ol>li div a img {
+#popupEmailSignUp p:nth-of-type(2) {
   margin-bottom: 20px;
 }
 
@@ -1040,8 +1011,7 @@ header>div div:nth-of-type(2) nav>ul>li>ol>li div a img {
 #popupSignIn p:nth-of-type(2) a,
 #popupCreateAccount form>label span a,
 #popupEmailSignUp form div label a,
-#popupEmailSignUp form div p a,
-header>div div:nth-of-type(2) nav>ul>li>ol>li:hover>a {
+#popupEmailSignUp form div p a {
   text-decoration: underline;
 }
 
@@ -1114,8 +1084,7 @@ header>div div:nth-of-type(2) nav>ul>li>ol>li:hover>a {
 
 #popupAddToCart>div:first-of-type div::after,
 #popupTrackOrder ol:first-of-type li:after,
-#panelMyCart ol li:after,
-footer>div div:first-of-type:after {
+#panelMyCart ol li:after {
   content: '';
   display: block;
   clear: both;
@@ -1130,7 +1099,8 @@ footer>div div:first-of-type:after {
 #popupAddToCart>div:first-of-type,
 #popupAddToCart>div:first-of-type div>div,
 #popupAddToCart>div:last-of-type>ul>li,
-#panelMyCart ol li>div {
+#panelMyCart ol li>div,
+#panelMyCart>div:first-of-type>ul>li {
   position: relative;
 }
 
@@ -1221,10 +1191,6 @@ footer>div div:first-of-type:after {
   margin-bottom: 25px;
 }
 
-#panelMyCart>div:first-of-type>ul>li {
-  position: relative;
-}
-
 #popupTrackOrder div:first-of-type,
 #popupTrackOrder div:last-of-type,
 #popupTrackOrder ol:last-of-type,
@@ -1272,10 +1238,7 @@ footer>div div:first-of-type:after {
   font-style: normal;
 }
 
-#popupTrackOrder div:last-of-type i,
-header>div div:nth-of-type(2) nav>ul>li>ol>li:not(:first-of-type)>a,
-footer>div div:nth-of-type(2) div ul li a,
-footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email]::placeholder {
+#popupTrackOrder div:last-of-type i {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
@@ -1430,6 +1393,16 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=ema
   line-height: 18px;
 }
 
+[id*=popupSize] div:first-of-type h3,
+[id*=popupSize] div:last-of-type p,
+[id*=popupSize] div:last-of-type p a {
+  margin-bottom: 10px;
+}
+
+[id*=popupSize] div:last-of-type p a {
+  text-decoration: underline;
+}
+
 header>div {
   transition: 1s;
   position: fixed;
@@ -1453,6 +1426,22 @@ header>div div:nth-of-type(2) nav>ul>li>span {
 header>div div:nth-of-type(2) nav>ul>li>ol {
   display: none;
   width: 100%;
+}
+
+header>div div:nth-of-type(2) nav>ul>li>ol>li:hover>a {
+  text-decoration: underline;
+}
+
+header>div div:nth-of-type(2) nav>ul>li>ol>li:not(:first-of-type)>a,
+footer>div div:nth-of-type(2) div ul li a,
+footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email]::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+header>div div:nth-of-type(2) nav>ul>li>ol>li div a img {
+  margin-bottom: 20px;
 }
 
 header>div div:nth-of-type(3) {
@@ -1500,6 +1489,12 @@ footer>div {
   padding: 60px 0;
 }
 
+footer>div div:first-of-type:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 footer>div>div:first-of-type {
   margin-bottom: 50px;
 }
@@ -1535,6 +1530,10 @@ footer>div div:first-of-type div:nth-of-type(2) p {
   margin-bottom: 15px;
 }
 
+footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
+  font-size: 0;
+}
+
 footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email] {
   border: 1px solid var(--gs03);
   padding: 15px 20px;
@@ -1564,7 +1563,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 125px;
   }
 
-  /* ########## popup 헤더 공통 ##########  */
   #popupSignIn,
   #popupForgottenPassword,
   #popupNewPassword,
@@ -1600,7 +1598,6 @@ footer>div div:nth-of-type(2) div ul li {
     overflow-y: auto;
   }
 
-  /* ########## popup 인풋 공통 ##########  */
   #popupCreateAccount span input[type=text],
   #popupAddNewAddress form ul li input[type=text],
   #popupEditAddressHome form ul li input[type=text],
@@ -1611,7 +1608,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 260px;
   }
 
-  /* ########## qtyComponent ##########  */
   #popupAddToCart>div:first-of-type div>div span.qtyComponent {
     top: 60px;
   }
@@ -1620,33 +1616,19 @@ footer>div div:nth-of-type(2) div ul li {
     top: 75px;
   }
 
-  /* ########## product info ##########  */
-
-
-  #popupAddToCart div:last-of-type ul li a b {
-    width: 100%;
-  }
-
-  #panelMyCart>div:first-of-type ul li a b {
-    width: 100%;
-  }
-
-  #popupAddToCart div:last-of-type ul li a mark {
-    width: 100%;
-  }
-
+  #popupAddToCart div:last-of-type ul li a b,
+  #panelMyCart>div:first-of-type ul li a b,
+  #popupAddToCart div:last-of-type ul li a mark,
   #panelMyCart>div:first-of-type ul li a mark {
     width: 100%;
   }
 
-  /* ########## selectComponent - state & country ##########  */
   #popupAddNewAddress form div.selectComponent,
   #popupEditAddressHome form div.selectComponent,
   #popupEditAddressOffice form div.selectComponent {
     width: 100%;
   }
 
-  /* ########## popup sign in ##########  */
   #popupAddToCart>div:first-of-type div>div {
     margin-bottom: 50px;
   }
@@ -1656,12 +1638,10 @@ footer>div div:nth-of-type(2) div ul li {
     left: 128px;
   }
 
-  /* ########## popup new password ##########  */
   #popupNewPassword {
     position: relative;
   }
 
-  /* ########## popup create account ##########  */
   #popupCreateAccount>span:first-of-type {
     top: 363px;
     left: 128px;
@@ -1679,8 +1659,6 @@ footer>div div:nth-of-type(2) div ul li {
     top: 190px;
   }
 
-  /* ########## popup email sign up ##########  */
-
   #emailSignUpBox.active {
     display: block;
   }
@@ -1689,15 +1667,10 @@ footer>div div:nth-of-type(2) div ul li {
     display: none;
   }
 
-  #popupEmailSignUp form div label {
-    width: 230px;
-  }
-
+  #popupEmailSignUp form div label,
   #popupEmailSignUp form div p {
     width: 230px;
   }
-
-  /* ########## popup add to cart ##########  */
 
   #popupAddToCart>div:first-of-type {
     padding: 60px 10px 20px;
@@ -1720,11 +1693,10 @@ footer>div div:nth-of-type(2) div ul li {
     padding: 30px 10px 60px;
   }
 
-  #popupAddToCart>div:last-of-type>ul>li:first-of-type {
+  #popupAddToCart>div:last-of-type>ul>li:first-of-type,
+  #panelMyCart>div:first-of-type ul li:first-of-type {
     margin-bottom: 25px;
   }
-
-  /* ########## track order ##########  */
 
   #popupTrackOrder div:first-of-type div div {
     width: 78px;
@@ -1740,7 +1712,6 @@ footer>div div:nth-of-type(2) div ul li {
     display: block;
   }
 
-  /* ########## panel customer service & account logout ##########  */
   #panelCustomerService,
   #panelAccountLogout {
     top: 55px;
@@ -1760,7 +1731,6 @@ footer>div div:nth-of-type(2) div ul li {
     padding-left: 150px;
   }
 
-  /* ########## panel search bar ##########  */
   #panelSearchBar {
     top: 62px;
   }
@@ -1769,7 +1739,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 260px;
   }
 
-  /* ########## panel my cart ##########  */
   #panelMyCart {
     width: 280px;
     max-height: 85vh;
@@ -1796,18 +1765,11 @@ footer>div div:nth-of-type(2) div ul li {
     padding: 25px 10px;
   }
 
-  #panelMyCart>div:first-of-type ul li:first-of-type {
-    margin-bottom: 25px;
-  }
-
-  /* ########## popup size ##########  */
-
   [id*=popupSize] {
     max-width: 100vw;
     overflow-x: auto;
   }
 
-  /* ########## contents area ##########  */
   .indexContainer>div:nth-of-type(2),
   .indexContainer>div:nth-of-type(4),
   .indexContainer>div:nth-of-type(6),
@@ -1841,7 +1803,6 @@ footer>div div:nth-of-type(2) div ul li {
     margin: 0 auto;
   }
 
-  /* ########## header ##########  */
   header>div {
     padding: 20px 2.9%;
   }
@@ -1854,10 +1815,7 @@ footer>div div:nth-of-type(2) div ul li {
     flex: 45%;
   }
 
-  header>div div:nth-of-type(2) h1 {
-    max-width: 120px;
-  }
-
+  header>div div:nth-of-type(2) h1,
   header>div div:nth-of-type(2) h1 a img {
     max-width: 120px;
   }
@@ -1987,7 +1945,6 @@ footer>div div:nth-of-type(2) div ul li {
     filter: brightness(0) saturate(100%) invert(18%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(91%);
   }
 
-  /* ########## footer ##########  */
   footer>div div:first-of-type>div:first-of-type {
     margin-bottom: 50px;
   }
@@ -2011,7 +1968,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 210px;
   }
 
-  /* ########## popup 헤더 공통 ##########  */
   #popupSignIn,
   #popupForgottenPassword,
   #popupNewPassword,
@@ -2036,18 +1992,19 @@ footer>div div:nth-of-type(2) div ul li {
     padding: 60px 70px;
   }
 
-  /* ########## popup 인풋 공통 ##########  */
   #popupCreateAccount span input[type=text],
   #popupAddNewAddress form ul li input[type=text],
   #popupEditAddressHome form ul li input[type=text],
   #popupEditAddressOffice form ul li input[type=text],
   #popupAddNewAddress form ul li input[type=tel],
   #popupEditAddressHome form ul li input[type=tel],
-  #popupEditAddressOffice form ul li input[type=tel] {
+  #popupEditAddressOffice form ul li input[type=tel],
+  #popupAddNewAddress form div.selectComponent,
+  #popupEditAddressHome form div.selectComponent,
+  #popupEditAddressOffice form div.selectComponent {
     width: 210px;
   }
 
-  /* ########## qtyComponent ##########  */
   #popupAddToCart>div:first-of-type div>div span.qtyComponent {
     top: 30px;
   }
@@ -2056,33 +2013,16 @@ footer>div div:nth-of-type(2) div ul li {
     top: 55px;
   }
 
-  /* ########## product info ##########  */
-  #popupAddToCart div:last-of-type ul li a b {
-    width: 202px;
-  }
-
-  #panelMyCart>div:first-of-type ul li a b {
-    width: 150px;
-  }
-
+  #popupAddToCart div:last-of-type ul li a b,
   #popupAddToCart div:last-of-type ul li a mark {
     width: 202px;
   }
 
+  #panelMyCart>div:first-of-type ul li a b,
   #panelMyCart>div:first-of-type ul li a mark {
     width: 150px;
   }
 
-  /* ########## selectComponent - state & country ##########  */
-
-
-  #popupAddNewAddress form div.selectComponent,
-  #popupEditAddressHome form div.selectComponent,
-  #popupEditAddressOffice form div.selectComponent {
-    width: 210px;
-  }
-
-  /* ########## popup sign in ##########  */
   #popupAddToCart>div:first-of-type div>div {
     margin-bottom: 20px;
   }
@@ -2092,12 +2032,10 @@ footer>div div:nth-of-type(2) div ul li {
     left: 273px;
   }
 
-  /* ########## popup new password ##########  */
   #popupNewPassword {
     position: relative;
   }
 
-  /* ########## popup create account ##########  */
   #popupCreateAccount>span:first-of-type {
     top: 325px;
     left: 273px;
@@ -2111,8 +2049,6 @@ footer>div div:nth-of-type(2) div ul li {
     top: 120px;
   }
 
-  /* ########## popup email sign up ##########  */
-
   #emailSignUpBox.active {
     display: block;
   }
@@ -2121,15 +2057,10 @@ footer>div div:nth-of-type(2) div ul li {
     display: none;
   }
 
-  #popupEmailSignUp form div label {
-    width: 430px;
-  }
-
+  #popupEmailSignUp form div label,
   #popupEmailSignUp form div p {
     width: 430px;
   }
-
-  /* ########## popup add to cart ##########  */
 
   #popupAddToCart>div:first-of-type {
     padding: 60px 70px 20px;
@@ -2153,21 +2084,21 @@ footer>div div:nth-of-type(2) div ul li {
     padding: 30px 70px 60px;
   }
 
-  #popupAddToCart div:last-of-type ul::after {
+  #popupAddToCart div:last-of-type ul::after,
+  #panelMyCart>div:first-of-type ul::after {
     content: '';
     display: block;
     clear: both;
   }
 
-  #popupAddToCart>div:last-of-type>ul>li {
+  #popupAddToCart>div:last-of-type>ul>li,
+  #panelMyCart>div:first-of-type>ul>li {
     float: left;
   }
 
   #popupAddToCart div:last-of-type ul li:first-of-type {
     margin-right: 24px;
   }
-
-  /* ########## track order ##########  */
 
   #popupTrackOrder div:first-of-type div div {
     width: 135px;
@@ -2177,7 +2108,6 @@ footer>div div:nth-of-type(2) div ul li {
     float: right;
   }
 
-  /* ########## panel customer service & account logout ##########  */
   #panelCustomerService,
   #panelAccountLogout {
     top: 55px;
@@ -2206,7 +2136,6 @@ footer>div div:nth-of-type(2) div ul li {
     padding-left: 70px;
   }
 
-  /* ########## panel search bar ##########  */
   #panelSearchBar {
     top: 62px;
   }
@@ -2215,7 +2144,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 700px;
   }
 
-  /* ########## panel my cart ##########  */
   #panelMyCart {
     width: 405px;
   }
@@ -2240,21 +2168,10 @@ footer>div div:nth-of-type(2) div ul li {
     padding: 25px 40px;
   }
 
-  #panelMyCart>div:first-of-type ul::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #panelMyCart>div:first-of-type>ul>li {
-    float: left;
-  }
-
   #panelMyCart>div:first-of-type ul li:first-of-type {
     margin-right: 20px;
   }
 
-  /* ########## contents area ##########  */
   .indexContainer>div:nth-of-type(2),
   .indexContainer>div:nth-of-type(4),
   .indexContainer>div:nth-of-type(6),
@@ -2288,7 +2205,6 @@ footer>div div:nth-of-type(2) div ul li {
     margin: 0 auto;
   }
 
-  /* ########## header ##########  */
   header>div {
     padding: 20px 2.9%;
   }
@@ -2301,10 +2217,7 @@ footer>div div:nth-of-type(2) div ul li {
     flex: 45%;
   }
 
-  header>div div:nth-of-type(2) h1 {
-    max-width: 135px;
-  }
-
+  header>div div:nth-of-type(2) h1,
   header>div div:nth-of-type(2) h1 a img {
     max-width: 135px;
   }
@@ -2434,7 +2347,6 @@ footer>div div:nth-of-type(2) div ul li {
     filter: brightness(0) saturate(100%) invert(18%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(91%);
   }
 
-  /* ########## footer ##########  */
   footer>div div:first-of-type div:nth-of-type(2) {
     width: 400px;
   }
@@ -2465,7 +2377,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 210px;
   }
 
-  /* ########## popup 헤더 공통 ##########  */
   #popupSignIn,
   #popupForgottenPassword,
   #popupNewPassword,
@@ -2490,18 +2401,19 @@ footer>div div:nth-of-type(2) div ul li {
     padding: 60px 70px;
   }
 
-  /* ########## popup 인풋 공통 ##########  */
   #popupCreateAccount span input[type=text],
   #popupAddNewAddress form ul li input[type=text],
   #popupEditAddressHome form ul li input[type=text],
   #popupEditAddressOffice form ul li input[type=text],
   #popupAddNewAddress form ul li input[type=tel],
   #popupEditAddressHome form ul li input[type=tel],
-  #popupEditAddressOffice form ul li input[type=tel] {
+  #popupEditAddressOffice form ul li input[type=tel],
+  #popupAddNewAddress form div.selectComponent,
+  #popupEditAddressHome form div.selectComponent,
+  #popupEditAddressOffice form div.selectComponent {
     width: 210px;
   }
 
-  /* ########## qtyComponent ##########  */
   #popupAddToCart>div:first-of-type div>div span.qtyComponent {
     top: 30px;
   }
@@ -2510,32 +2422,16 @@ footer>div div:nth-of-type(2) div ul li {
     top: 55px;
   }
 
-  /* ########## product info ##########  */
-  #popupAddToCart div:last-of-type ul li a b {
-    width: 202px;
-  }
-
-  #panelMyCart>div:first-of-type ul li a b {
-    width: 150px;
-  }
-
+  #popupAddToCart div:last-of-type ul li a b,
   #popupAddToCart div:last-of-type ul li a mark {
     width: 202px;
   }
 
+  #panelMyCart>div:first-of-type ul li a b,
   #panelMyCart>div:first-of-type ul li a mark {
     width: 150px;
   }
 
-
-  /* ########## selectComponent - state & country ##########  */
-  #popupAddNewAddress form div.selectComponent,
-  #popupEditAddressHome form div.selectComponent,
-  #popupEditAddressOffice form div.selectComponent {
-    width: 210px;
-  }
-
-  /* ########## popup sign in ##########  */
   #popupAddToCart>div:first-of-type div>div {
     margin-bottom: 20px;
   }
@@ -2545,12 +2441,10 @@ footer>div div:nth-of-type(2) div ul li {
     left: 273px;
   }
 
-  /* ########## popup new password ##########  */
   #popupNewPassword {
     position: relative;
   }
 
-  /* ########## popup create account ##########  */
   #popupCreateAccount>span:first-of-type {
     top: 325px;
     left: 273px;
@@ -2564,8 +2458,6 @@ footer>div div:nth-of-type(2) div ul li {
     top: 120px;
   }
 
-  /* ########## popup email sign up ##########  */
-
   #emailSignUpBox.active {
     display: flex;
     align-items: flex-start;
@@ -2577,15 +2469,10 @@ footer>div div:nth-of-type(2) div ul li {
     object-fit: cover;
   }
 
-  #popupEmailSignUp form div label {
-    width: 430px;
-  }
-
+  #popupEmailSignUp form div label,
   #popupEmailSignUp form div p {
     width: 430px;
   }
-
-  /* ########## popup add to cart ##########  */
 
   #popupAddToCart>div:first-of-type {
     padding: 60px 70px 20px;
@@ -2609,13 +2496,15 @@ footer>div div:nth-of-type(2) div ul li {
     padding: 30px 70px 60px;
   }
 
-  #popupAddToCart div:last-of-type ul::after {
+  #popupAddToCart div:last-of-type ul::after,
+  #panelMyCart>div:first-of-type ul::after {
     content: '';
     display: block;
     clear: both;
   }
 
-  #popupAddToCart>div:last-of-type>ul>li {
+  #popupAddToCart>div:last-of-type>ul>li,
+  #panelMyCart>div:first-of-type>ul>li {
     float: left;
   }
 
@@ -2623,7 +2512,6 @@ footer>div div:nth-of-type(2) div ul li {
     margin-right: 24px;
   }
 
-  /* ########## track order ##########  */
   #popupTrackOrder div:first-of-type div div {
     width: 135px;
   }
@@ -2632,7 +2520,6 @@ footer>div div:nth-of-type(2) div ul li {
     float: right;
   }
 
-  /* ########## panel customer service & account logout ##########  */
   #panelCustomerService,
   #panelAccountLogout {
     top: 65px;
@@ -2668,7 +2555,6 @@ footer>div div:nth-of-type(2) div ul li {
     padding-left: 70px;
   }
 
-  /* ########## panel search bar ##########  */
   #panelSearchBar {
     top: 116px;
   }
@@ -2677,7 +2563,6 @@ footer>div div:nth-of-type(2) div ul li {
     width: 700px;
   }
 
-  /* ########## panel my cart ##########  */
   #panelMyCart {
     width: 405px;
   }
@@ -2702,21 +2587,10 @@ footer>div div:nth-of-type(2) div ul li {
     padding: 25px 40px;
   }
 
-  #panelMyCart>div:first-of-type ul::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  #panelMyCart>div:first-of-type>ul>li {
-    float: left;
-  }
-
   #panelMyCart>div:first-of-type ul li:first-of-type {
     margin-right: 20px;
   }
 
-  /* ########## contents area ##########  */
   .indexContainer>div:nth-of-type(2),
   .indexContainer>div:nth-of-type(4),
   .indexContainer>div:nth-of-type(6),
@@ -2747,12 +2621,12 @@ footer>div div:nth-of-type(2) div ul li {
     margin: 0 auto;
   }
 
-  /* ########## header ##########  */
   header>div {
     padding: 20px 3.9% 0;
   }
 
-  header>div>div:first-child {
+  header>div>div:first-child,
+  header>div div:nth-of-type(3) {
     margin-top: 20px;
     flex: 29%;
   }
@@ -2816,7 +2690,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   header>div div:nth-of-type(2) nav>ul>li>ol {
     position: absolute;
-    top: 116px;
+    top: 128px;
     left: 0px;
     text-align: left;
     box-shadow: 0 10px 10px var(--ov10);
@@ -2868,11 +2742,6 @@ footer>div div:nth-of-type(2) div ul li {
     margin-right: 80px;
   }
 
-  header>div div:nth-of-type(3) {
-    margin-top: 20px;
-    flex: 29%;
-  }
-
   header>div div:nth-of-type(3) input[type=button] {
     margin-left: 3.5%;
   }
@@ -2891,7 +2760,6 @@ footer>div div:nth-of-type(2) div ul li {
     margin-top: -10px;
   }
 
-  /* ########## footer ##########  */
   footer>div div:first-of-type div:nth-of-type(2) {
     width: 400px;
   }
