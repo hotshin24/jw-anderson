@@ -187,6 +187,7 @@ header.headerFixedBar>div div:nth-of-type(2) nav>ul>li>span,
 header.headerFixedBar>div div:nth-of-type(3)::before,
 header.headerFixedBar>div div:nth-of-type(3) input[type=button] {
   color: var(--gs05);
+  text-shadow: none;
 }
 
 /* ########## font ##########  */
@@ -623,7 +624,10 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
 #popupAddNewAddress.active,
 #popupEditAddressHome.active,
 #popupEditAddressOffice.active,
-[id*=popupSize].active {
+[id*=popupSize].active,
+#popupCancelOrder a,
+#popupExchangeRequest a,
+#popupSignIn form span:last-of-type {
   display: block;
 }
 
@@ -1029,6 +1033,10 @@ header>div div:nth-of-type(2) nav>ul>li>ol>li div a img {
   left: 25px;
 }
 
+#popupCreateAccount form>label span:first-of-type {
+  top: 0;
+}
+
 #popupSignIn p:nth-of-type(2) a,
 #popupCreateAccount form>label span a,
 #popupEmailSignUp form div label a,
@@ -1064,6 +1072,11 @@ header>div div:nth-of-type(2) nav>ul>li>ol>li:hover>a {
 
 #panelAccountLogout {
   gap: 70px;
+}
+
+#panelCustomerService div {
+  float: left;
+  border-right: 1px solid var(--gs05);
 }
 
 #panelCustomerService div h3,
@@ -1221,11 +1234,6 @@ footer>div div:first-of-type:after {
 
 #popupTrackOrder ol:last-of-type {
   padding: 20px;
-}
-
-#popupCancelOrder a,
-#popupExchangeRequest a {
-  display: block;
 }
 
 #popupTrackOrder div:first-of-type div div {
@@ -1477,29 +1485,6 @@ header.headerFixedBar>div div:nth-of-type(2) h1 {
   filter: brightness(0) saturate(100%) invert(18%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(91%);
 }
 
-header>div:hover div:first-child a,
-header>div:hover div:first-of-type input[type=button],
-header>div:hover div:nth-of-type(2) nav>ul>li>span,
-header>div:hover div:nth-of-type(3)::before,
-header>div:hover div:nth-of-type(3) input[type=button],
-header.scrolled>div div:first-child a,
-header.scrolled>div div:first-of-type input[type=button],
-header.scrolled>div div:nth-of-type(2) nav>ul>li>span,
-header.scrolled>div div:nth-of-type(3)::before,
-header.scrolled>div div:nth-of-type(3) input[type=button],
-header.headerFixed>div div:first-child a,
-header.headerFixed>div div:first-of-type input[type=button],
-header.headerFixed>div div:nth-of-type(2) nav>ul>li>span,
-header.headerFixed>div div:nth-of-type(3)::before,
-header.headerFixed>div div:nth-of-type(3) input[type=button],
-header.headerFixedBar>div div:first-child a,
-header.headerFixedBar>div div:first-of-type input[type=button],
-header.headerFixedBar>div div:nth-of-type(2) nav>ul>li>span,
-header.headerFixedBar>div div:nth-of-type(3)::before,
-header.headerFixedBar>div div:nth-of-type(3) input[type=button] {
-  text-shadow: none;
-}
-
 header>div:hover div:nth-of-type(2) h1 a img,
 header.scrolled>div div:nth-of-type(2) h1 a img,
 header.headerFixed>div div:nth-of-type(2) h1 a img,
@@ -1606,9 +1591,9 @@ footer>div div:nth-of-type(2) div ul li {
     padding: 60px 10px;
     max-height: 85vh;
     overflow-y: auto;
+    position: relative;
   }
 
-  #emailSignUpBox,
   #popupAddToCart,
   [id*=popupSize] {
     max-height: 85vh;
@@ -1666,10 +1651,6 @@ footer>div div:nth-of-type(2) div ul li {
     margin-bottom: 50px;
   }
 
-  #popupSignIn form span:last-of-type {
-    display: block;
-  }
-
   #popupSignIn>span {
     top: 513px;
     left: 128px;
@@ -1692,10 +1673,6 @@ footer>div div:nth-of-type(2) div ul li {
 
   #popupCreateAccount form>label span {
     width: 230px;
-  }
-
-  #popupCreateAccount form>label span:first-of-type {
-    top: 0;
   }
 
   #popupCreateAccount form>label span:last-of-type {
@@ -1769,19 +1746,10 @@ footer>div div:nth-of-type(2) div ul li {
     top: 55px;
   }
 
-  #panelCustomerService {
-    display: none;
-  }
-
   #panelAccountLogout {
     width: 260px;
     padding: 20px;
     right: 8px;
-  }
-
-  #panelCustomerService div {
-    float: left;
-    border-right: 1px solid var(--gs05);
   }
 
   #panelAccountLogout div:first-of-type {
@@ -1958,7 +1926,6 @@ footer>div div:nth-of-type(2) div ul li {
     position: static;
     font-size: 14px;
     font-weight: 400;
-    color: var(--gs05);
     text-decoration: none;
   }
 
@@ -2120,10 +2087,6 @@ footer>div div:nth-of-type(2) div ul li {
     margin-bottom: 20px;
   }
 
-  #popupSignIn form span:last-of-type {
-    display: block;
-  }
-
   #popupSignIn>span {
     top: 495px;
     left: 273px;
@@ -2142,10 +2105,6 @@ footer>div div:nth-of-type(2) div ul li {
 
   #popupCreateAccount form>label span {
     width: 405px;
-  }
-
-  #popupCreateAccount form>label span:first-of-type {
-    top: 0;
   }
 
   #popupCreateAccount form>label span:last-of-type {
@@ -2224,17 +2183,12 @@ footer>div div:nth-of-type(2) div ul li {
     top: 55px;
   }
 
-  #panelCustomerService {
-    display: none;
-  }
-
   #panelAccountLogout {
     width: 560px;
     padding: 45px 70px 30px;
     right: 52px;
   }
 
-  #panelCustomerService div,
   #panelAccountLogout div {
     float: left;
     border-right: 1px solid var(--gs05);
@@ -2419,7 +2373,6 @@ footer>div div:nth-of-type(2) div ul li {
     position: static;
     font-size: 14px;
     font-weight: 400;
-    color: var(--gs05);
     text-decoration: none;
   }
 
@@ -2587,10 +2540,6 @@ footer>div div:nth-of-type(2) div ul li {
     margin-bottom: 20px;
   }
 
-  #popupSignIn form span:last-of-type {
-    display: block;
-  }
-
   #popupSignIn>span {
     top: 495px;
     left: 273px;
@@ -2609,10 +2558,6 @@ footer>div div:nth-of-type(2) div ul li {
 
   #popupCreateAccount form>label span {
     width: 405px;
-  }
-
-  #popupCreateAccount form>label span:first-of-type {
-    top: 0;
   }
 
   #popupCreateAccount form>label span:last-of-type {
@@ -2706,7 +2651,6 @@ footer>div div:nth-of-type(2) div ul li {
     right: 120px;
   }
 
-  #panelCustomerService div,
   #panelAccountLogout div {
     float: left;
     border-right: 1px solid var(--gs05);
@@ -2814,6 +2758,11 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   header>div div:first-child a,
+  header>div div:first-of-type input[type=button] {
+    text-shadow: 0 0 5px var(--ov40);
+  }
+
+  header>div div:first-child a,
   header>div div:first-of-type input[type=button],
   header>div div:nth-of-type(3) input[type=button] {
     font-size: 13px;
@@ -2860,7 +2809,6 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   header>div div:nth-of-type(2) nav>ul>li>span {
-    display: block;
     padding: 20px 17px;
     color: white;
     text-shadow: 0 0 5px var(--ov40);
