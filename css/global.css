@@ -642,7 +642,7 @@ header>div div:nth-of-type(3)::before {
 }
 
 #popupAddToCart>div:first-of-type {
-  padding: var(--section-y) var(--gutter) 20px;
+  padding: var(--section-y) var(--gutter) var(--sp20);
 }
 
 #popupSignIn h2,
@@ -1155,7 +1155,7 @@ header>div div:nth-of-type(3)::before {
 }
 
 #popupAddToCart>div:last-of-type {
-  padding: 30px var(--gutter) var(--section-y);
+  padding: var(--sp30) var(--gutter) var(--section-y);
 }
 
 #popupTrackOrder div:first-of-type p,
@@ -1435,7 +1435,7 @@ header>div {
   width: 100%;
   z-index: 1;
   display: flex;
-  padding: 20px var(--gutter-header);
+  padding: var(--sp20) var(--gutter-header);
 }
 
 header>div div:nth-of-type(2) h1 a img {
@@ -1762,11 +1762,11 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelMyCart h2 {
-    padding: 20px var(--gutter);
+    padding: var(--sp20) var(--gutter);
   }
 
   #panelMyCart ol {
-    padding: 25px var(--gutter) 70px;
+    padding: var(--sp25) var(--gutter) var(--sp70);
   }
 
   #panelMyCart ol li>div small {
@@ -1778,7 +1778,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelMyCart>div:first-of-type {
-    padding: 25px var(--gutter);
+    padding: var(--sp25) var(--gutter);
   }
 
   [id*=popupSize] {
@@ -2118,7 +2118,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   #panelAccountLogout {
     width: 560px;
-    padding: 45px var(--gutter) 30px;
+    padding: var(--sp45) var(--gutter) var(--sp30);
     right: 52px;
   }
 
@@ -2525,7 +2525,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   #panelAccountLogout {
     width: 760px;
-    padding: 45px var(--gutter) 30px;
+    padding: var(--sp45) var(--gutter) var(--sp30);
     right: 120px;
   }
 
@@ -2547,7 +2547,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelSearchBar {
-    top: 116px;
+    top: 128px;
   }
 
   #panelSearchBar div {
@@ -2613,7 +2613,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   header>div {
-    padding: 20px var(--gutter-header) 0;
+    padding: var(--sp20) var(--gutter-header) 0;
   }
 
   header>div>div:first-child,
