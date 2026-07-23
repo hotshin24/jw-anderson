@@ -561,7 +561,7 @@ header>div div:nth-of-type(3)::before {
 
 #popupCancelOrder div.selectComponent,
 #popupExchangeRequest div.selectComponent {
-  margin-bottom: var(--sp05);
+  margin-bottom: var(--sp50);
 }
 
 #popupSignIn,
@@ -1355,8 +1355,8 @@ header>div div:nth-of-type(3)::before {
   border: none;
   border-bottom: 1px solid var(--gs04);
   background-color: transparent;
-  padding: 15px 0;
-  padding-right: 40px;
+  padding: var(--sp15) 0;
+  padding-right: var(--sp40);
   width: 100%;
   font-size: 18px;
   background: url('../images/search.svg') no-repeat center right 10px;
@@ -1379,13 +1379,13 @@ header>div div:nth-of-type(3)::before {
 }
 
 #panelMyCart>div:last-of-type {
-  padding: 20px 15px;
+  padding: var(--sp20) var(--sp15);
   border-top: 1px solid var(--gs05);
 }
 
 #panelMyCart>div:last-of-type a.btnViewCart {
   width: 100%;
-  margin: 20px 0 15px;
+  margin: var(--sp20) 0 var(--sp15);
 }
 
 [id*=popupSize] {
@@ -1399,7 +1399,7 @@ header>div div:nth-of-type(3)::before {
 }
 
 [id*=popupSize] table tr td {
-  padding: 5px 19px;
+  padding: var(--sp05) 19px;
   text-align: center;
   border-bottom: 1px solid var(--gs05);
 }
@@ -1421,7 +1421,7 @@ header>div div:nth-of-type(3)::before {
 [id*=popupSize] div:first-of-type h3,
 [id*=popupSize] div:last-of-type p,
 [id*=popupSize] div:last-of-type p a {
-  margin-bottom: 10px;
+  margin-bottom: var(--sp10);
 }
 
 [id*=popupSize] div:last-of-type p a {
@@ -1467,7 +1467,7 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=ema
 }
 
 header>div div:nth-of-type(2) nav>ul>li>ol>li div a img {
-  margin-bottom: 20px;
+  margin-bottom: var(--sp20);
 }
 
 header>div div:nth-of-type(3) {
@@ -1522,16 +1522,16 @@ footer>div div:first-of-type:after {
 }
 
 footer>div>div:first-of-type {
-  margin-bottom: 50px;
+  margin-bottom: var(--sp50);
 }
 
 footer>div div:first-of-type div:first-of-type h2 img {
   filter: brightness(0) saturate(100%) invert(88%) sepia(65%) saturate(108%) hue-rotate(337deg) brightness(108%) contrast(104%);
   max-width: 100px;
-  padding-left: 20px;
+  padding-left: var(--sp20);
   position: relative;
   z-index: 0;
-  margin-bottom: 20px;
+  margin-bottom: var(--sp20);
 }
 
 footer>div div:first-of-type>div:first-of-type {
@@ -1553,7 +1553,7 @@ footer>div div:first-of-type div:nth-of-type(2) p {
   font-weight: 500;
   line-height: 20px;
   width: 250px;
-  margin-bottom: 15px;
+  margin-bottom: var(--sp15);
 }
 
 footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
@@ -1562,25 +1562,25 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type {
 
 footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=email] {
   border: 1px solid var(--gs03);
-  padding: 15px 20px;
+  padding: var(--sp15) var(--sp20);
 }
 
 footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=submit] {
   font-size: 15px;
   font-weight: 500;
   border: 1px solid var(--gs05);
-  padding: 15px 10px;
+  padding: var(--sp15) var(--sp10);
   cursor: pointer;
 }
 
 footer>div div:nth-of-type(2) div h3 {
   font-size: 19px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: var(--sp30);
 }
 
 footer>div div:nth-of-type(2) div ul li {
-  padding-bottom: 20px;
+  padding-bottom: var(--sp20);
 }
 
 
@@ -1654,7 +1654,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #popupAddToCart>div:first-of-type div>div {
-    margin-bottom: 50px;
+    margin-bottom: var(--sp50);
   }
 
   #popupSignIn>span {
@@ -1702,7 +1702,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   #popupAddToCart>div:first-of-type div>input[type=button] {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: var(--sp15);
   }
 
   #popupAddToCart>div:first-of-type div a.btnViewCart {
@@ -1711,7 +1711,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   #popupAddToCart>div:last-of-type>ul>li:first-of-type,
   #panelMyCart>div:first-of-type ul li:first-of-type {
-    margin-bottom: 25px;
+    margin-bottom: var(--sp25);
   }
 
   #popupTrackOrder div:first-of-type div div {
@@ -1720,7 +1720,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #popupTrackOrder ol:first-of-type li dl dd:last-of-type {
-    margin-top: 10px;
+    margin-top: var(--sp10);
     text-align: right;
   }
 
@@ -1735,16 +1735,16 @@ footer>div div:nth-of-type(2) div ul li {
 
   #panelAccountLogout {
     width: 260px;
-    padding: 20px;
+    padding: var(--sp20);
     right: 8px;
   }
 
   #panelAccountLogout div:first-of-type {
-    margin-bottom: 30px;
+    margin-bottom: var(--sp30);
   }
 
   #panelCustomerService div:last-of-type {
-    padding-left: 150px;
+    padding-left: var(--sp150);
   }
 
   #panelSearchBar {
@@ -1871,7 +1871,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   header>div div:nth-of-type(2) nav>ul>li>span {
     line-height: 60px;
-    padding: 0 10px;
+    padding: 0 var(--sp10);
   }
 
   header>div div:nth-of-type(2) nav>ul>li>ol {
@@ -1885,7 +1885,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   header>div div:nth-of-type(2) nav>ul>li>ol>li {
-    padding: 7px 10px;
+    padding: 7px var(--sp10);
   }
 
   header>div div:nth-of-type(2) nav>ul>li>ol>li:last-of-type {
@@ -1958,7 +1958,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   footer>div div:first-of-type>div:first-of-type {
-    margin-bottom: 50px;
+    margin-bottom: var(--sp50);
   }
 
   footer>div div:first-of-type div:nth-of-type(2) {
@@ -1970,7 +1970,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   footer>div>div:nth-of-type(2) div:not(:last-of-type) {
-    margin-bottom: 60px;
+    margin-bottom: var(--sp60);
   }
 
 }
@@ -2035,7 +2035,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #popupAddToCart>div:first-of-type div>div {
-    margin-bottom: 20px;
+    margin-bottom: var(--sp20);
   }
 
   #popupSignIn>span {
@@ -2132,7 +2132,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelCustomerService div:last-of-type {
-    padding-left: 50px;
+    padding-left: var(--sp50);
   }
 
   #panelAccountLogout div:last-of-type {
@@ -2152,11 +2152,11 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelMyCart h2 {
-    padding: 20px;
+    padding: var(--sp20);
   }
 
   #panelMyCart ol {
-    padding: 25px 20px 50px;
+    padding: var(--sp25) var(--sp20) var(--sp50);
   }
 
   #panelMyCart ol li>div small {
@@ -2168,11 +2168,11 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelMyCart>div:first-of-type {
-    padding: 25px 40px;
+    padding: var(--sp25) var(--sp40);
   }
 
   #panelMyCart>div:first-of-type ul li:first-of-type {
-    margin-right: 20px;
+    margin-right: var(--sp20);
   }
 
   .indexContainer>div:nth-of-type(2),
@@ -2432,7 +2432,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #popupAddToCart>div:first-of-type div>div {
-    margin-bottom: 20px;
+    margin-bottom: var(--sp20);
   }
 
   #popupSignIn>span {
@@ -2518,7 +2518,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   #panelCustomerService {
     width: 900px;
-    padding: 45px 50px 30px;
+    padding: var(--sp45) var(--sp50) var(--sp30);
     gap: 150px;
     left: 140px;
   }
@@ -2539,7 +2539,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelCustomerService div:last-of-type {
-    padding-left: 150px;
+    padding-left: var(--sp150);
   }
 
   #panelAccountLogout div:last-of-type {
@@ -2559,11 +2559,11 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelMyCart h2 {
-    padding: 20px;
+    padding: var(--sp20);
   }
 
   #panelMyCart ol {
-    padding: 25px 20px 50px;
+    padding: var(--sp25) var(--sp20) var(--sp50);
   }
 
   #panelMyCart ol li>div small {
@@ -2575,11 +2575,11 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   #panelMyCart>div:first-of-type {
-    padding: 25px 40px;
+    padding: var(--sp25) var(--sp40);
   }
 
   #panelMyCart>div:first-of-type ul li:first-of-type {
-    margin-right: 20px;
+    margin-right: var(--sp20);
   }
 
   .indexContainer>div:nth-of-type(2),
@@ -2618,7 +2618,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   header>div>div:first-child,
   header>div div:nth-of-type(3) {
-    margin-top: 20px;
+    margin-top: var(--sp20);
     flex: 29%;
   }
 
@@ -2653,7 +2653,7 @@ footer>div div:nth-of-type(2) div ul li {
   header>div div:nth-of-type(2) h1 {
     max-width: 288px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: var(--sp10);
   }
 
   header>div div:nth-of-type(2) nav {
@@ -2674,7 +2674,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   header>div div:nth-of-type(2) nav>ul>li>span {
-    padding: 20px 17px;
+    padding: var(--sp20) 17px;
     color: white;
     text-shadow: 0 0 5px var(--ov40);
   }
@@ -2689,7 +2689,7 @@ footer>div div:nth-of-type(2) div ul li {
 
   header>div div:nth-of-type(2) nav>ul>li:first-child>ol,
   header>div div:nth-of-type(2) nav>ul>li:nth-child(2)>ol {
-    padding-bottom: 40px;
+    padding-bottom: var(--sp40);
   }
 
   header>div div:nth-of-type(2) nav>ul>li:nth-child(3)>ol,
@@ -2703,7 +2703,7 @@ footer>div div:nth-of-type(2) div ul li {
   }
 
   header>div div:nth-of-type(2) nav>ul>li>ol>li {
-    padding: 15px;
+    padding: var(--sp15);
   }
 
   header>div div:nth-of-type(2) nav>ul>li>ol>li>a {
