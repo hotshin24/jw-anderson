@@ -386,37 +386,37 @@ header>div div:nth-of-type(3)::before {
   left: 15px;
 }
 
-.selectComponent.size ul,
-.selectComponent.cancel ul,
-.selectComponent.exchange ul,
-.selectComponent.country ul,
-.selectComponent.state ul,
-.selectComponent.sort ul,
-.selectComponent.gender ul {
+:is(.selectComponent.size,
+.selectComponent.cancel,
+.selectComponent.exchange,
+.selectComponent.country,
+.selectComponent.state,
+.selectComponent.sort,
+.selectComponent.gender) ul {
   overflow: hidden;
   cursor: pointer;
 }
 
-.selectComponent.size ul,
-.selectComponent.cancel ul,
-.selectComponent.exchange ul,
-.selectComponent.sort ul {
+:is(.selectComponent.size,
+.selectComponent.cancel,
+.selectComponent.exchange,
+.selectComponent.sort) ul {
   height: 38px;
 }
 
-.selectComponent.country ul,
-.selectComponent.state ul,
-.selectComponent.gender ul {
+:is(.selectComponent.country,
+.selectComponent.state,
+.selectComponent.gender) ul {
   height: 48px;
 }
 
-.selectComponent.size.active ul,
-.selectComponent.cancel.active ul,
-.selectComponent.exchange.active ul,
-.selectComponent.country.active ul,
-.selectComponent.state.active ul,
-.selectComponent.sort.active ul,
-.selectComponent.gender.active ul {
+:is(.selectComponent.size.active,
+.selectComponent.cancel.active,
+.selectComponent.exchange.active,
+.selectComponent.country.active,
+.selectComponent.state.active,
+.selectComponent.sort.active,
+.selectComponent.gender.active) ul {
   display: block;
   overflow: visible;
   height: auto;
@@ -439,48 +439,48 @@ header>div div:nth-of-type(3)::before {
   background-size: 30px;
 }
 
-.selectComponent.size ul li,
-.selectComponent.cancel ul li,
-.selectComponent.exchange ul li,
-.selectComponent.country ul li,
-.selectComponent.state ul li,
-.selectComponent.sort ul li,
-.selectComponent.gender ul li {
+:is(.selectComponent.size,
+.selectComponent.cancel,
+.selectComponent.exchange,
+.selectComponent.country,
+.selectComponent.state,
+.selectComponent.sort,
+.selectComponent.gender) ul li {
   font-size: 15px;
   font-weight: 500;
   line-height: 30px;
 }
 
-.selectComponent.size ul li,
-.selectComponent.cancel ul li,
-.selectComponent.exchange ul li,
-.selectComponent.sort ul li {
+:is(.selectComponent.size,
+.selectComponent.cancel,
+.selectComponent.exchange,
+.selectComponent.sort) ul li {
   padding: var(--sp05) var(--sp20);
 }
 
-.selectComponent.country ul li,
-.selectComponent.state ul li,
-.selectComponent.gender ul li {
+:is(.selectComponent.country,
+.selectComponent.state,
+.selectComponent.gender) ul li {
   padding: var(--sp10) var(--sp20);
 }
 
-.selectComponent.size.active ul li,
-.selectComponent.cancel.active ul li,
-.selectComponent.exchange.active ul li,
-.selectComponent.country.active ul li,
-.selectComponent.state.active ul li,
-.selectComponent.sort.active ul li,
-.selectComponent.gender.active ul li {
+:is(.selectComponent.size.active,
+.selectComponent.cancel.active,
+.selectComponent.exchange.active,
+.selectComponent.country.active,
+.selectComponent.state.active,
+.selectComponent.sort.active,
+.selectComponent.gender.active) ul li {
   padding: 0 var(--sp20);
 }
 
-.selectComponent.size.active ul li:hover,
-.selectComponent.cancel.active ul li:hover,
-.selectComponent.exchange.active ul li:hover,
-.selectComponent.country.active ul li:hover,
-.selectComponent.state.active ul li:hover,
-.selectComponent.sort.active ul li:hover,
-.selectComponent.gender.active ul li:hover {
+:is(.selectComponent.size.active,
+.selectComponent.cancel.active,
+.selectComponent.exchange.active,
+.selectComponent.country.active,
+.selectComponent.state.active,
+.selectComponent.sort.active,
+.selectComponent.gender.active) ul li:hover {
   text-decoration: underline;
 }
 
@@ -512,39 +512,39 @@ header>div div:nth-of-type(3)::before {
   font-size: 0;
 }
 
-#popupAddNewAddress form div.selectComponent,
-#popupEditAddressHome form div.selectComponent,
-#popupEditAddressOffice form div.selectComponent {
+:is(#popupAddNewAddress,
+#popupEditAddressHome,
+#popupEditAddressOffice) form div.selectComponent {
   margin-bottom: var(--sp35);
   display: inline-block;
   vertical-align: top;
 }
 
-#popupAddNewAddress form div.selectComponent:first-of-type,
-#popupEditAddressHome form div.selectComponent:first-of-type,
-#popupEditAddressOffice form div.selectComponent:first-of-type {
+:is(#popupAddNewAddress,
+#popupEditAddressHome,
+#popupEditAddressOffice) form div.selectComponent:first-of-type {
   margin-right: var(--sp10);
   background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
   background-size: 30px;
 }
 
-#popupAddNewAddress form div.selectComponent:nth-of-type(2) ul,
-#popupEditAddressHome form div.selectComponent:nth-of-type(2) ul,
-#popupEditAddressOffice form div.selectComponent:nth-of-type(2) ul {
+:is(#popupAddNewAddress,
+#popupEditAddressHome,
+#popupEditAddressOffice) form div.selectComponent:nth-of-type(2) ul {
   background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
   background-size: 30px;
 }
 
-#popupAddNewAddress form div.selectComponent:first-of-type.active ul,
-#popupEditAddressHome form div.selectComponent:first-of-type.active ul,
-#popupEditAddressOffice form div.selectComponent:first-of-type.active ul {
+:is(#popupAddNewAddress,
+#popupEditAddressHome,
+#popupEditAddressOffice) form div.selectComponent:first-of-type.active ul {
   top: 100%;
   border-top: none;
 }
 
-#popupAddNewAddress form div.selectComponent:nth-of-type(2).active ul,
-#popupEditAddressHome form div.selectComponent:nth-of-type(2).active ul,
-#popupEditAddressOffice form div.selectComponent:nth-of-type(2).active ul {
+:is(#popupAddNewAddress,
+#popupEditAddressHome,
+#popupEditAddressOffice) form div.selectComponent:nth-of-type(2).active ul {
   bottom: 100%;
   border-bottom: none;
 }
@@ -745,9 +745,9 @@ header>div div:nth-of-type(3)::before {
   display: inline-block;
 }
 
-#popupAddNewAddress form ul li:nth-of-type(2n+1),
-#popupEditAddressHome form ul li:nth-of-type(2n+1),
-#popupEditAddressOffice form ul li:nth-of-type(2n+1) {
+:is(#popupAddNewAddress,
+#popupEditAddressHome,
+#popupEditAddressOffice) form ul li:nth-of-type(2n+1) {
   margin-right: var(--sp10);
 }
 
@@ -868,10 +868,10 @@ header>div div:nth-of-type(3)::before {
   margin-bottom: var(--sp30);
 }
 
-#popupCreateAccount p,
-#popupAddNewAddress p,
-#popupEditAddressHome p,
-#popupEditAddressOffice p {
+:is(#popupCreateAccount,
+#popupAddNewAddress,
+#popupEditAddressHome,
+#popupEditAddressOffice) p {
   margin-bottom: var(--sp20);
 }
 
@@ -1493,17 +1493,17 @@ header.headerFixedBar>div {
   border-bottom: 2px solid var(--be02);
 }
 
-header>div:hover div:nth-of-type(2) h1,
-header.scrolled>div div:nth-of-type(2) h1,
-header.headerFixed>div div:nth-of-type(2) h1,
-header.headerFixedBar>div div:nth-of-type(2) h1 {
+:is(header>div:hover,
+header.scrolled>div,
+header.headerFixed>div,
+header.headerFixedBar>div) div:nth-of-type(2) h1 {
   filter: brightness(0) saturate(100%) invert(18%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(94%) contrast(91%);
 }
 
-header>div:hover div:nth-of-type(2) h1 a img,
-header.scrolled>div div:nth-of-type(2) h1 a img,
-header.headerFixed>div div:nth-of-type(2) h1 a img,
-header.headerFixedBar>div div:nth-of-type(2) h1 a img {
+:is(header>div:hover,
+header.scrolled>div,
+header.headerFixed>div,
+header.headerFixedBar>div) div:nth-of-type(2) h1 a img {
   filter: none;
 }
 
@@ -1647,9 +1647,9 @@ footer>div div:nth-of-type(2) div ul li {
     width: 100%;
   }
 
-  #popupAddNewAddress form div.selectComponent,
-  #popupEditAddressHome form div.selectComponent,
-  #popupEditAddressOffice form div.selectComponent {
+  :is(#popupAddNewAddress,
+  #popupEditAddressHome,
+  #popupEditAddressOffice) form div.selectComponent {
     width: 100%;
   }
 
@@ -2692,9 +2692,9 @@ footer>div div:nth-of-type(2) div ul li {
     padding-bottom: var(--sp40);
   }
 
-  header>div div:nth-of-type(2) nav>ul>li:nth-child(3)>ol,
-  header>div div:nth-of-type(2) nav>ul>li:nth-child(4)>ol,
-  header>div div:nth-of-type(2) nav>ul>li:nth-child(5)>ol {
+  header>div div:nth-of-type(2) :is(nav>ul>li:nth-child(3)>ol,
+  nav>ul>li:nth-child(4)>ol,
+  nav>ul>li:nth-child(5)>ol) {
     height: 280px;
   }
 
