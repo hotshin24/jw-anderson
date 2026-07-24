@@ -580,6 +580,286 @@ section .lImgRcap div:last-of-type h4,
   cursor: pointer;
 }
 
+.indexContainer>div:nth-of-type(3) figure figcaption p,
+.indexContainer>div:nth-of-type(5) figure figcaption p,
+.listMixContainer div:nth-of-type(5) figure figcaption p,
+.listMixContainer div:nth-of-type(8) figure figcaption p,
+.listCardContainer>div:first-of-type div div p,
+.listCardContainer>div:nth-of-type(2)>ul>li,
+.wishlistContainer div:nth-of-type(2)>ul>li {
+  margin-bottom: 45px;
+}
+
+.indexContainer>div:first-of-type p,
+.listMixContainer>div:first-of-type p,
+.cartContainer.checkoutCompleted div:first-of-type>p:first-of-type {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.indexContainer>div:nth-of-type(8) ul li figure img,
+.indexContainer>div:nth-of-type(8) ul li figure figcaption b,
+.detailPageContainer>div:nth-of-type(2) div strong,
+.detailPageContainer>div:nth-of-type(2)>div>ul,
+.detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI,
+.detailPageContainer>div:nth-of-type(3) .accComponent:not(:last-of-type),
+.accountContainer aside h2 span,
+.accountContainer section.myProfile div:nth-of-type(3)>p:nth-of-type(2),
+.accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type,
+.aboutContainer section ul li address div,
+.informationContainer section div:last-of-type address div,
+.aboutContainer article figure figcaption p:not(:last-of-type),
+.aboutContainer article p,
+.aboutContainer article a:first-of-type,
+.aboutContainer section ul li address em,
+.serviceContainer article div ol li:not(:last-of-type),
+.serviceContainer article div:nth-of-type(3) p:first-of-type,
+.serviceContainer article div:nth-of-type(5) p:first-of-type,
+.serviceContainer article div:nth-of-type(5) ul,
+.serviceContainer article div:nth-of-type(7) p:not(:last-of-type),
+.serviceContainer article div:nth-of-type(9) p:first-of-type,
+.serviceContainer article div:nth-of-type(9) ul,
+.serviceContainer article div:nth-of-type(10) p:nth-of-type(2),
+.serviceContainer section p:last-of-type,
+.informationContainer section div:last-of-type p,
+.informationContainer article.customerSupport div:first-of-type p:first-of-type,
+.informationContainer article.customerSupport div:nth-of-type(2) p:not(:last-of-type),
+.informationContainer article.customerSupport div:nth-of-type(3) p:not(:last-of-type),
+.informationContainer article.customerSupport div:nth-of-type(4) p:first-of-type,
+.informationContainer article.customerSupport div:nth-of-type(5) p:first-of-type,
+.informationContainer article.privacyPolicy div:first-of-type p:not(:last-of-type),
+.informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(2),
+.informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(3),
+.informationContainer article.privacyPolicy div:nth-of-type(6) p:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(8) p:not(:nth-of-type(6), :last-of-type),
+.informationContainer article.privacyPolicy div:nth-of-type(13) p:not(:last-of-type),
+.informationContainer article.privacyPolicy div:nth-of-type(15) p:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(2),
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(4),
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(10),
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(13),
+.informationContainer article.privacyPolicy div:nth-of-type(17) p:not(:last-of-type),
+.informationContainer article.privacyPolicy div:nth-of-type(18)>p:nth-of-type(2),
+.informationContainer article.privacyPolicy div:nth-of-type(18) ol li:not(:last-of-type),
+.informationContainer article.privacyPolicy div:nth-of-type(19) p:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(20) p:not(:last-of-type),
+.informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(2),
+.informationContainer article.privacyPolicy div:nth-of-type(22)>p,
+.informationContainer article.privacyPolicy div:nth-of-type(22) ol li,
+.informationContainer article.termsConditions div:nth-of-type(2) p:first-of-type,
+.informationContainer article.termsConditions div:nth-of-type(3) ul,
+.informationContainer article.termsConditions div:nth-of-type(5) p:not(:last-of-type),
+.informationContainer article.termsConditions div:nth-of-type(10) ul,
+.informationContainer article.termsConditions div:nth-of-type(10) p:nth-of-type(2),
+.informationContainer article.termsConditions div:nth-of-type(11) p:not(:last-of-type),
+.informationContainer article.termsConditions div:nth-of-type(12) p:not(:last-of-type),
+.informationContainer article.termsConditions div:nth-of-type(17) p:first-of-type,
+.informationContainer article.termsSales>ol>li:first-of-type>ol>li:first-of-type,
+.informationContainer article.termsSales>ol>li:nth-of-type(2)>ol>li:not(:last-of-type),
+.informationContainer article.termsSales ol li:nth-of-type(3) ol>li:not(:last-of-type),
+.informationContainer article.termsSales ol li:nth-of-type(n+4):nth-of-type(-n+7) ol li:not(:last-of-type),
+.informationContainer article.termsSales ol li:nth-of-type(n+9):nth-of-type(-n+13)>ol>li:not(:last-of-type),
+.informationContainer article.termsSales ol li:nth-of-type(16) ol>li:not(:last-of-type),
+.informationContainer article.termsSales ol li:last-of-type ol>li:not(:last-of-type),
+.informationContainer article.termsSales div address:last-of-type,
+.checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl {
+  margin-bottom: 30px;
+}
+
+.listMixContainer>div:first-of-type {
+  height: 540px;
+  color: white;
+}
+
+.listMixContainer>div:first-of-type h2 {
+  font-size: 25px;
+  font-weight: 500;
+  transform: translateY(280px);
+}
+
+.listMixContainer div:nth-of-type(4) div div h2,
+.listMixContainer div:nth-of-type(9) div div h2,
+.listCardContainer>div:first-of-type div nav,
+.accountContainer aside h2 b,
+.aboutContainer aside h2,
+.serviceContainer aside h2,
+.informationContainer aside h2,
+.accountContainer section h2 strong,
+.accountContainer section.editInformation form ul li input[type=text],
+.accountContainer section.editInformation form ul li input[type=email],
+.accountContainer section.editInformation form ul li input[type=tel],
+.accountContainer section.editInformation form ul li input[type=date],
+.checkoutContainer form section div:first-of-type ul li input[type=text],
+.checkoutContainer form section div:first-of-type ul li input[type=tel],
+.serviceContainer form ul li input[type=text],
+.serviceContainer form ul li input[type=email],
+.checkoutContainer form section div:first-of-type div:last-of-type,
+.checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li input[type=text] {
+  margin-bottom: 35px;
+}
+
+.listCardContainer>div:first-of-type div div {
+  position: relative;
+}
+
+.listCardContainer>div:first-of-type div div h2,
+.accountContainer section.myProfile div:nth-of-type(2) dl dt,
+.accountContainer section.myProfile div:nth-of-type(3)>p:first-of-type,
+.accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div,
+.accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div,
+.accountContainer section.orderDetails div:nth-of-type(2) ol li:not(:last-of-type) mark:first-of-type,
+.accountContainer section.addressBook ul li div:first-of-type dl dd,
+.aboutContainer section ul li:not(:nth-of-type(4), :last-of-type) address a:first-of-type,
+.serviceContainer article div:nth-of-type(9) p:nth-of-type(2),
+.serviceContainer article div:nth-of-type(10) p:first-of-type,
+.serviceContainer article div:nth-of-type(10) p:nth-of-type(3),
+.serviceContainer article div:nth-of-type(10) ul,
+.informationContainer article.customerSupport div:nth-of-type(3) p:last-of-type,
+.informationContainer article.customerSupport div:nth-of-type(4) p:nth-of-type(2),
+.informationContainer article.privacyPolicy div:nth-of-type(2) p:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(4),
+.informationContainer article.privacyPolicy div:nth-of-type(3) p,
+.informationContainer article.privacyPolicy div:nth-of-type(5) p,
+.informationContainer article.privacyPolicy div:nth-of-type(7) p,
+.informationContainer article.privacyPolicy div:nth-of-type(8) p:nth-of-type(6),
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(3),
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+5):nth-of-type(-n+9),
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(11),
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(12),
+.informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+14):nth-of-type(-n+16),
+.informationContainer article.privacyPolicy div:nth-of-type(18)>p:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(2) p:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:nth-of-type(2),
+.informationContainer article.privacyPolicy div:nth-of-type(19) p:last-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(19) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(odd),
+.informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(2),
+.informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(3),
+.informationContainer article.termsConditions div:nth-of-type(3)>p:first-of-type,
+.informationContainer article.termsConditions div:nth-of-type(10) p:first-of-type,
+.informationContainer article.termsConditions div:nth-of-type(14) p,
+.informationContainer article.termsSales ol li:nth-of-type(3) ol>li:first-of-type>p:not(:last-of-type),
+.informationContainer article.termsSales ol li:nth-of-type(13) ol>li p,
+.informationContainer article.termsSales ol li:nth-of-type(13) ol>li ol li:not(:last-of-type),
+.informationContainer article.termsSales div ul li,
+.cartContainer.checkoutCompleted div:first-of-type>p:first-of-type,
+.cartContainer>ol>li:not(:last-of-type),
+.cartContainer.cartFull aside div:first-of-type dl:first-of-type dt,
+.cartContainer.cartFull aside div:first-of-type dl:first-of-type dd,
+.cartContainer.cartFull aside div:first-of-type dl:last-of-type,
+.cartContainer aside div:nth-of-type(2) h3,
+.cartContainer aside div:last-of-type h3,
+.cartContainer.checkoutCompleted aside div ol li mark:first-of-type,
+.checkoutContainer form section div:nth-of-type(2) div:first-of-type,
+.checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dd,
+.checkoutContainer aside>dl>dt,
+.checkoutContainer aside>dl>dd {
+  margin-bottom: 15px;
+}
+
+.listCardContainer>div:first-of-type div div span {
+  display: block;
+}
+
+.listCardContainer>div:first-of-type div div span,
+.listCardContainer>div:nth-of-type(2) div ul li.active,
+.wishlistContainer div:nth-of-type(2)>div ul li.active,
+.listCardContainer>div:nth-of-type(2) div ul li a,
+.accountContainer section.editInformation,
+.accountContainer section.orderList table thead tr th {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.detailPageContainer>div:nth-of-type(2)>div div:first-of-type span,
+.detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
+.accountContainer aside nav ul,
+.aboutContainer aside nav ul,
+.serviceContainer aside nav ul,
+.informationContainer aside nav ul,
+.serviceContainer article div ol li b,
+.serviceContainer article div b,
+.serviceContainer article div:nth-of-type(5) p:nth-of-type(2),
+.serviceContainer section p:first-of-type,
+.informationContainer section div b,
+.informationContainer section div:nth-of-type(2) a,
+.informationContainer article.customerSupport div b,
+.informationContainer article.privacyPolicy div:nth-of-type(16) i:not(:first-of-type, :last-of-type),
+.informationContainer article.privacyPolicy div:nth-of-type(18) ol li b,
+.informationContainer article.privacyPolicy div:nth-of-type(22) ol li b,
+.cartContainer.checkoutCompleted div:first-of-type h2,
+.wishlistContainer div:first-of-type h2,
+.checkoutContainer form section>div:first-of-type,
+.checkoutContainer form section>div:nth-of-type(2),
+.checkoutContainer form section div:first-of-type h3,
+.checkoutContainer aside h3,
+.checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2),
+.checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3),
+.checkoutContainer form section div:nth-of-type(2) div:last-of-type,
+.checkoutContainer form section div:last-of-type span,
+.checkoutContainer form section div:last-of-type p {
+  margin-bottom: 20px;
+}
+
+.accountContainer section.myProfile div:nth-of-type(2) dl:first-of-type,
+.accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
+.accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
+.checkoutContainer form section div:first-of-type div label,
+.accountContainer section.orderDetails div:nth-of-type(2) ol li mark,
+.cartContainer.checkoutCompleted aside div ol li mark {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div input[type=checkbox],
+.accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div input[type=checkbox],
+.checkoutContainer form section div:first-of-type div input[type=checkbox],
+.checkoutContainer form section div:nth-of-type(2) div:first-of-type input[type=checkbox],
+.checkoutContainer form section div:nth-of-type(3) span input[type=checkbox] {
+  display: none;
+}
+
+.accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
+.accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
+.checkoutContainer form section div:first-of-type div label,
+.checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
+.checkoutContainer form section>div:nth-of-type(3) span label {
+  padding-left: 25px;
+  background: url('../images/check_box_outline_blank.svg') no-repeat center left;
+  background-size: 20px;
+}
+
+.accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label.active,
+.accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label.active,
+.checkoutContainer form section div:first-of-type div label.active,
+.checkoutContainer form section div:nth-of-type(2) div:first-of-type label.active,
+.checkoutContainer form section div:nth-of-type(3) span label.active {
+  background: url('../images/check_box.svg') no-repeat center left;
+  background-size: 20px;
+}
+
+.accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type p,
+.accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p {
+  padding-left: 25px;
+}
+
+.checkoutContainer form section>div:first-of-type,
+.checkoutContainer form section>div:first-of-type>ul {
+  font-size: 0;
+}
+
+.checkoutContainer form section>div:first-of-type>ul>li {
+  position: relative;
+  display: inline-block;
+}
+
+.checkoutContainer form section>div:first-of-type>ul>li:nth-of-type(2n+1) {
+  margin-right: 22px;
+}
+
 @media screen and (max-width: 767px) {
 
   /* ########## padding & bg ##########  */
@@ -686,16 +966,6 @@ section .lImgRcap div:last-of-type h4,
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-  }
-
-  .indexContainer>div:nth-of-type(3) figure figcaption p,
-  .indexContainer>div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(8) figure figcaption p,
-  .listCardContainer>div:first-of-type div div p,
-  .listCardContainer>div:nth-of-type(2)>ul>li,
-  .wishlistContainer div:nth-of-type(2)>ul>li {
-    margin-bottom: 45px;
   }
 
   /* ########## selectComponent - size ##########  */
@@ -860,13 +1130,6 @@ section .lImgRcap div:last-of-type h4,
     top: 59.5%;
   }
 
-  .indexContainer>div:first-of-type p,
-  .listMixContainer>div:first-of-type p,
-  .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type {
-    font-size: 17px;
-    font-weight: 400;
-  }
-
   .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type {
     line-height: 23px;
   }
@@ -997,76 +1260,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  .indexContainer>div:nth-of-type(8) ul li figure img,
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption b,
-  .detailPageContainer>div:nth-of-type(2) div strong,
-  .detailPageContainer>div:nth-of-type(2)>div>ul,
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI,
-  .detailPageContainer>div:nth-of-type(3) .accComponent:not(:last-of-type),
-  .accountContainer aside h2 span,
-  .accountContainer section.myProfile div:nth-of-type(3)>p:nth-of-type(2),
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type,
-  .aboutContainer section ul li address div,
-  .informationContainer section div:last-of-type address div,
-  .aboutContainer article figure figcaption p:not(:last-of-type),
-  .aboutContainer article p,
-  .aboutContainer article a:first-of-type,
-  .aboutContainer section ul li address em,
-  .serviceContainer article div ol li:not(:last-of-type),
-  .serviceContainer article div:nth-of-type(3) p:first-of-type,
-  .serviceContainer article div:nth-of-type(5) p:first-of-type,
-  .serviceContainer article div:nth-of-type(5) ul,
-  .serviceContainer article div:nth-of-type(7) p:not(:last-of-type),
-  .serviceContainer article div:nth-of-type(9) p:first-of-type,
-  .serviceContainer article div:nth-of-type(9) ul,
-  .serviceContainer article div:nth-of-type(10) p:nth-of-type(2),
-  .serviceContainer section p:last-of-type,
-  .informationContainer section div:last-of-type p,
-  .informationContainer article.customerSupport div:first-of-type p:first-of-type,
-  .informationContainer article.customerSupport div:nth-of-type(2) p:not(:last-of-type),
-  .informationContainer article.customerSupport div:nth-of-type(3) p:not(:last-of-type),
-  .informationContainer article.customerSupport div:nth-of-type(4) p:first-of-type,
-  .informationContainer article.customerSupport div:nth-of-type(5) p:first-of-type,
-  .informationContainer article.privacyPolicy div:first-of-type p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(3),
-  .informationContainer article.privacyPolicy div:nth-of-type(6) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) p:not(:nth-of-type(6), :last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(13) p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(15) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(4),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(10),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(13),
-  .informationContainer article.privacyPolicy div:nth-of-type(17) p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(18)>p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(19) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(20) p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(22)>p,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li,
-  .informationContainer article.termsConditions div:nth-of-type(2) p:first-of-type,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul,
-  .informationContainer article.termsConditions div:nth-of-type(5) p:not(:last-of-type),
-  .informationContainer article.termsConditions div:nth-of-type(10) ul,
-  .informationContainer article.termsConditions div:nth-of-type(10) p:nth-of-type(2),
-  .informationContainer article.termsConditions div:nth-of-type(11) p:not(:last-of-type),
-  .informationContainer article.termsConditions div:nth-of-type(12) p:not(:last-of-type),
-  .informationContainer article.termsConditions div:nth-of-type(17) p:first-of-type,
-  .informationContainer article.termsSales>ol>li:first-of-type>ol>li:first-of-type,
-  .informationContainer article.termsSales>ol>li:nth-of-type(2)>ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(n+4):nth-of-type(-n+7) ol li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(n+9):nth-of-type(-n+13)>ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:last-of-type ol>li:not(:last-of-type),
-  .informationContainer article.termsSales div address:last-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl {
-    margin-bottom: 30px;
-  }
-
   .indexContainer>div:nth-of-type(8) ul li figure figcaption span {
     display: block;
     font-size: 18px;
@@ -1099,11 +1292,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 1 sub title content ##########  */
-  .listMixContainer>div:first-of-type {
-    height: 540px;
-    color: white;
-  }
-
   .listMixContainer.mens>div:first-of-type {
     background: url('../images/listPage_mens_bg_01.png') no-repeat center right 34%;
   }
@@ -1122,12 +1310,6 @@ section .lImgRcap div:last-of-type h4,
 
   .listMixContainer.colla>div:first-of-type {
     background: url('../images/listPage_colla_bg_01.png') no-repeat center right 34%;
-  }
-
-  .listMixContainer>div:first-of-type h2 {
-    font-size: 25px;
-    font-weight: 500;
-    transform: translateY(280px);
   }
 
   .listMixContainer.mens>div:first-of-type h2,
@@ -1289,27 +1471,6 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer.colla div:nth-of-type(9) div>div {
     background: url('../images/listPage_colla_bg_03.png') no-repeat center center;
     background-size: 100%;
-  }
-
-  .listMixContainer div:nth-of-type(4) div div h2,
-  .listMixContainer div:nth-of-type(9) div div h2,
-  .listCardContainer>div:first-of-type div nav,
-  .accountContainer aside h2 b,
-  .aboutContainer aside h2,
-  .serviceContainer aside h2,
-  .informationContainer aside h2,
-  .accountContainer section h2 strong,
-  .accountContainer section.editInformation form ul li input[type=text],
-  .accountContainer section.editInformation form ul li input[type=email],
-  .accountContainer section.editInformation form ul li input[type=tel],
-  .accountContainer section.editInformation form ul li input[type=date],
-  .checkoutContainer form section div:first-of-type ul li input[type=text],
-  .checkoutContainer form section div:first-of-type ul li input[type=tel],
-  .serviceContainer form ul li input[type=text],
-  .serviceContainer form ul li input[type=email],
-  .checkoutContainer form section div:first-of-type div:last-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li input[type=text] {
-    margin-bottom: 35px;
   }
 
   .listMixContainer div:nth-of-type(4) div div h2,
@@ -1520,71 +1681,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 500;
   }
 
-  .listCardContainer>div:first-of-type div div {
-    position: relative;
-  }
-
-  .listCardContainer>div:first-of-type div div h2,
-  .accountContainer section.myProfile div:nth-of-type(2) dl dt,
-  .accountContainer section.myProfile div:nth-of-type(3)>p:first-of-type,
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div,
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li:not(:last-of-type) mark:first-of-type,
-  .accountContainer section.addressBook ul li div:first-of-type dl dd,
-  .aboutContainer section ul li:not(:nth-of-type(4), :last-of-type) address a:first-of-type,
-  .serviceContainer article div:nth-of-type(9) p:nth-of-type(2),
-  .serviceContainer article div:nth-of-type(10) p:first-of-type,
-  .serviceContainer article div:nth-of-type(10) p:nth-of-type(3),
-  .serviceContainer article div:nth-of-type(10) ul,
-  .informationContainer article.customerSupport div:nth-of-type(3) p:last-of-type,
-  .informationContainer article.customerSupport div:nth-of-type(4) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(4),
-  .informationContainer article.privacyPolicy div:nth-of-type(3) p,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) p,
-  .informationContainer article.privacyPolicy div:nth-of-type(7) p,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) p:nth-of-type(6),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(3),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+5):nth-of-type(-n+9),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(11),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(12),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+14):nth-of-type(-n+16),
-  .informationContainer article.privacyPolicy div:nth-of-type(18)>p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(2) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(19) p:last-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(19) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(odd),
-  .informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(2),
-  .informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(3),
-  .informationContainer article.termsConditions div:nth-of-type(3)>p:first-of-type,
-  .informationContainer article.termsConditions div:nth-of-type(10) p:first-of-type,
-  .informationContainer article.termsConditions div:nth-of-type(14) p,
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:first-of-type>p:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(13) ol>li p,
-  .informationContainer article.termsSales ol li:nth-of-type(13) ol>li ol li:not(:last-of-type),
-  .informationContainer article.termsSales div ul li,
-  .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type,
-  .cartContainer>ol>li:not(:last-of-type),
-  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dt,
-  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dd,
-  .cartContainer.cartFull aside div:first-of-type dl:last-of-type,
-  .cartContainer aside div:nth-of-type(2) h3,
-  .cartContainer aside div:last-of-type h3,
-  .cartContainer.checkoutCompleted aside div ol li mark:first-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dd,
-  .checkoutContainer aside>dl>dt,
-  .checkoutContainer aside>dl>dd {
-    margin-bottom: 15px;
-  }
-
-  .listCardContainer>div:first-of-type div div span {
-    display: block;
-  }
-
   .listCardContainer>div:first-of-type div div span {
     margin-bottom: 85px;
   }
@@ -1605,16 +1701,6 @@ section .lImgRcap div:last-of-type h4,
   .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dt,
   .checkoutContainer aside ol li dl dd:first-of-type {
     margin-bottom: 10px;
-  }
-
-  .listCardContainer>div:first-of-type div div span,
-  .listCardContainer>div:nth-of-type(2) div ul li.active,
-  .wishlistContainer div:nth-of-type(2)>div ul li.active,
-  .listCardContainer>div:nth-of-type(2) div ul li a,
-  .accountContainer section.editInformation,
-  .accountContainer section.orderList table thead tr th {
-    font-size: 14px;
-    font-weight: 500;
   }
 
   /* ########## 2 list card slot  ##########  */
@@ -1755,36 +1841,6 @@ section .lImgRcap div:last-of-type h4,
 
   .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span {
     display: block;
-  }
-
-  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span,
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
-  .accountContainer aside nav ul,
-  .aboutContainer aside nav ul,
-  .serviceContainer aside nav ul,
-  .informationContainer aside nav ul,
-  .serviceContainer article div ol li b,
-  .serviceContainer article div b,
-  .serviceContainer article div:nth-of-type(5) p:nth-of-type(2),
-  .serviceContainer section p:first-of-type,
-  .informationContainer section div b,
-  .informationContainer section div:nth-of-type(2) a,
-  .informationContainer article.customerSupport div b,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:not(:first-of-type, :last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li b,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li b,
-  .cartContainer.checkoutCompleted div:first-of-type h2,
-  .wishlistContainer div:first-of-type h2,
-  .checkoutContainer form section>div:first-of-type,
-  .checkoutContainer form section>div:nth-of-type(2),
-  .checkoutContainer form section div:first-of-type h3,
-  .checkoutContainer aside h3,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2),
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3),
-  .checkoutContainer form section div:nth-of-type(2) div:last-of-type,
-  .checkoutContainer form section div:last-of-type span,
-  .checkoutContainer form section div:last-of-type p {
-    margin-bottom: 20px;
   }
 
   .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span label {
@@ -2340,54 +2396,12 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 50px;
   }
 
-  .accountContainer section.myProfile div:nth-of-type(2) dl:first-of-type,
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
-  .checkoutContainer form section div:first-of-type div label,
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark,
-  .cartContainer.checkoutCompleted aside div ol li mark {
-    font-size: 15px;
-    font-weight: 400;
-  }
-
   .accountContainer section.myProfile div:nth-of-type(2) dl dd {
     font-weight: 400;
   }
 
   .accountContainer section.myProfile div:nth-of-type(3) p a {
     text-decoration: underline;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div input[type=checkbox],
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div input[type=checkbox],
-  .checkoutContainer form section div:first-of-type div input[type=checkbox],
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type input[type=checkbox],
-  .checkoutContainer form section div:nth-of-type(3) span input[type=checkbox] {
-    display: none;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
-  .checkoutContainer form section div:first-of-type div label,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
-  .checkoutContainer form section>div:nth-of-type(3) span label {
-    padding-left: 25px;
-    background: url('../images/check_box_outline_blank.svg') no-repeat center left;
-    background-size: 20px;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label.active,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label.active,
-  .checkoutContainer form section div:first-of-type div label.active,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label.active,
-  .checkoutContainer form section div:nth-of-type(3) span label.active {
-    background: url('../images/check_box.svg') no-repeat center left;
-    background-size: 20px;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type p,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p {
-    padding-left: 25px;
   }
 
   .accountContainer section.myProfile div:nth-of-type(3) div:first-of-type p a {
@@ -3153,10 +3167,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 20px 10px;
   }
 
-  .checkoutContainer form section>div:first-of-type {
-    font-size: 0;
-  }
-
   .checkoutContainer form section div:first-of-type h3,
   .checkoutContainer form section div:nth-of-type(2) h3,
   .checkoutContainer aside h3 {
@@ -3181,21 +3191,8 @@ section .lImgRcap div:last-of-type h4,
     right: 0;
   }
 
-  .checkoutContainer form section>div:first-of-type>ul {
-    font-size: 0;
-  }
-
-  .checkoutContainer form section>div:first-of-type>ul>li {
-    position: relative;
-    display: inline-block;
-  }
-
   .serviceContainer form ul li {
     position: relative;
-  }
-
-  .checkoutContainer form section>div:first-of-type>ul>li:nth-of-type(2n+1) {
-    margin-right: 22px;
   }
 
   .checkoutContainer form section div:first-of-type ul li input[type=text],
@@ -3553,16 +3550,6 @@ section .lImgRcap div:last-of-type h4,
     line-height: 23px;
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption p,
-  .indexContainer>div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(8) figure figcaption p,
-  .listCardContainer>div:first-of-type div div p,
-  .listCardContainer>div:nth-of-type(2)>ul>li,
-  .wishlistContainer div:nth-of-type(2)>ul>li {
-    margin-bottom: 45px;
-  }
-
   /* ########## selectComponent - size ##########  */
   .listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent {
     width: 100%;
@@ -3725,13 +3712,6 @@ section .lImgRcap div:last-of-type h4,
     top: 74.5%;
   }
 
-  .indexContainer>div:first-of-type p,
-  .listMixContainer>div:first-of-type p,
-  .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type {
-    font-size: 17px;
-    font-weight: 400;
-  }
-
   .indexContainer>div:first-of-type a {
     top: 81%;
   }
@@ -3850,76 +3830,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  .indexContainer>div:nth-of-type(8) ul li figure img,
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption b,
-  .detailPageContainer>div:nth-of-type(2) div strong,
-  .detailPageContainer>div:nth-of-type(2)>div>ul,
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI,
-  .detailPageContainer>div:nth-of-type(3) .accComponent:not(:last-of-type),
-  .accountContainer aside h2 span,
-  .accountContainer section.myProfile div:nth-of-type(3)>p:nth-of-type(2),
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type,
-  .aboutContainer section ul li address div,
-  .informationContainer section div:last-of-type address div,
-  .aboutContainer article figure figcaption p:not(:last-of-type),
-  .aboutContainer article p,
-  .aboutContainer article a:first-of-type,
-  .aboutContainer section ul li address em,
-  .serviceContainer article div ol li:not(:last-of-type),
-  .serviceContainer article div:nth-of-type(3) p:first-of-type,
-  .serviceContainer article div:nth-of-type(5) p:first-of-type,
-  .serviceContainer article div:nth-of-type(5) ul,
-  .serviceContainer article div:nth-of-type(7) p:not(:last-of-type),
-  .serviceContainer article div:nth-of-type(9) p:first-of-type,
-  .serviceContainer article div:nth-of-type(9) ul,
-  .serviceContainer article div:nth-of-type(10) p:nth-of-type(2),
-  .serviceContainer section p:last-of-type,
-  .informationContainer section div:last-of-type p,
-  .informationContainer article.customerSupport div:first-of-type p:first-of-type,
-  .informationContainer article.customerSupport div:nth-of-type(2) p:not(:last-of-type),
-  .informationContainer article.customerSupport div:nth-of-type(3) p:not(:last-of-type),
-  .informationContainer article.customerSupport div:nth-of-type(4) p:first-of-type,
-  .informationContainer article.customerSupport div:nth-of-type(5) p:first-of-type,
-  .informationContainer article.privacyPolicy div:first-of-type p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(3),
-  .informationContainer article.privacyPolicy div:nth-of-type(6) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) p:not(:nth-of-type(6), :last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(13) p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(15) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(4),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(10),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(13),
-  .informationContainer article.privacyPolicy div:nth-of-type(17) p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(18)>p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(19) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(20) p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(22)>p,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li,
-  .informationContainer article.termsConditions div:nth-of-type(2) p:first-of-type,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul,
-  .informationContainer article.termsConditions div:nth-of-type(5) p:not(:last-of-type),
-  .informationContainer article.termsConditions div:nth-of-type(10) ul,
-  .informationContainer article.termsConditions div:nth-of-type(10) p:nth-of-type(2),
-  .informationContainer article.termsConditions div:nth-of-type(11) p:not(:last-of-type),
-  .informationContainer article.termsConditions div:nth-of-type(12) p:not(:last-of-type),
-  .informationContainer article.termsConditions div:nth-of-type(17) p:first-of-type,
-  .informationContainer article.termsSales>ol>li:first-of-type>ol>li:first-of-type,
-  .informationContainer article.termsSales>ol>li:nth-of-type(2)>ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(n+4):nth-of-type(-n+7) ol li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(n+9):nth-of-type(-n+13)>ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:last-of-type ol>li:not(:last-of-type),
-  .informationContainer article.termsSales div address:last-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl {
-    margin-bottom: 30px;
-  }
-
   .indexContainer>div:nth-of-type(8) ul li figure figcaption span {
     display: block;
     font-size: 18px;
@@ -3952,11 +3862,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 1 sub title content ##########  */
-  .listMixContainer>div:first-of-type {
-    height: 540px;
-    color: white;
-  }
-
   .listMixContainer.mens>div:first-of-type {
     background: url('../images/listPage_mens_bg_01.png') no-repeat center center;
   }
@@ -3975,12 +3880,6 @@ section .lImgRcap div:last-of-type h4,
 
   .listMixContainer.colla>div:first-of-type {
     background: url('../images/listPage_colla_bg_01.png') no-repeat center center;
-  }
-
-  .listMixContainer>div:first-of-type h2 {
-    font-size: 25px;
-    font-weight: 500;
-    transform: translateY(280px);
   }
 
   .listMixContainer.mens>div:first-of-type h2,
@@ -4156,27 +4055,6 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer.colla div:nth-of-type(9) div>div {
     background: url('../images/listPage_colla_bg_03.png') no-repeat center center;
     background-size: 100%;
-  }
-
-  .listMixContainer div:nth-of-type(4) div div h2,
-  .listMixContainer div:nth-of-type(9) div div h2,
-  .listCardContainer>div:first-of-type div nav,
-  .accountContainer aside h2 b,
-  .aboutContainer aside h2,
-  .serviceContainer aside h2,
-  .informationContainer aside h2,
-  .accountContainer section h2 strong,
-  .accountContainer section.editInformation form ul li input[type=text],
-  .accountContainer section.editInformation form ul li input[type=email],
-  .accountContainer section.editInformation form ul li input[type=tel],
-  .accountContainer section.editInformation form ul li input[type=date],
-  .checkoutContainer form section div:first-of-type ul li input[type=text],
-  .checkoutContainer form section div:first-of-type ul li input[type=tel],
-  .serviceContainer form ul li input[type=text],
-  .serviceContainer form ul li input[type=email],
-  .checkoutContainer form section div:first-of-type div:last-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li input[type=text] {
-    margin-bottom: 35px;
   }
 
   .listMixContainer div:nth-of-type(4) div div h2,
@@ -4372,71 +4250,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 500;
   }
 
-  .listCardContainer>div:first-of-type div div {
-    position: relative;
-  }
-
-  .listCardContainer>div:first-of-type div div h2,
-  .accountContainer section.myProfile div:nth-of-type(2) dl dt,
-  .accountContainer section.myProfile div:nth-of-type(3)>p:first-of-type,
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div,
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li:not(:last-of-type) mark:first-of-type,
-  .accountContainer section.addressBook ul li div:first-of-type dl dd,
-  .aboutContainer section ul li:not(:nth-of-type(4), :last-of-type) address a:first-of-type,
-  .serviceContainer article div:nth-of-type(9) p:nth-of-type(2),
-  .serviceContainer article div:nth-of-type(10) p:first-of-type,
-  .serviceContainer article div:nth-of-type(10) p:nth-of-type(3),
-  .serviceContainer article div:nth-of-type(10) ul,
-  .informationContainer article.customerSupport div:nth-of-type(3) p:last-of-type,
-  .informationContainer article.customerSupport div:nth-of-type(4) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(4),
-  .informationContainer article.privacyPolicy div:nth-of-type(3) p,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) p,
-  .informationContainer article.privacyPolicy div:nth-of-type(7) p,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) p:nth-of-type(6),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(3),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+5):nth-of-type(-n+9),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(11),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(12),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+14):nth-of-type(-n+16),
-  .informationContainer article.privacyPolicy div:nth-of-type(18)>p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(2) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(19) p:last-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(19) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(odd),
-  .informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(2),
-  .informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(3),
-  .informationContainer article.termsConditions div:nth-of-type(3)>p:first-of-type,
-  .informationContainer article.termsConditions div:nth-of-type(10) p:first-of-type,
-  .informationContainer article.termsConditions div:nth-of-type(14) p,
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:first-of-type>p:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(13) ol>li p,
-  .informationContainer article.termsSales ol li:nth-of-type(13) ol>li ol li:not(:last-of-type),
-  .informationContainer article.termsSales div ul li,
-  .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type,
-  .cartContainer>ol>li:not(:last-of-type),
-  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dt,
-  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dd,
-  .cartContainer.cartFull aside div:first-of-type dl:last-of-type,
-  .cartContainer aside div:nth-of-type(2) h3,
-  .cartContainer aside div:last-of-type h3,
-  .cartContainer.checkoutCompleted aside div ol li mark:first-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dd,
-  .checkoutContainer aside>dl>dt,
-  .checkoutContainer aside>dl>dd {
-    margin-bottom: 15px;
-  }
-
-  .listCardContainer>div:first-of-type div div span {
-    display: block;
-  }
-
   .listCardContainer>div:first-of-type div div span,
   .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li,
   .accountContainer section.orderDetails ol li dl dd:first-of-type,
@@ -4453,16 +4266,6 @@ section .lImgRcap div:last-of-type h4,
   .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dt,
   .checkoutContainer aside ol li dl dd:first-of-type {
     margin-bottom: 10px;
-  }
-
-  .listCardContainer>div:first-of-type div div span,
-  .listCardContainer>div:nth-of-type(2) div ul li.active,
-  .wishlistContainer div:nth-of-type(2)>div ul li.active,
-  .listCardContainer>div:nth-of-type(2) div ul li a,
-  .accountContainer section.editInformation,
-  .accountContainer section.orderList table thead tr th {
-    font-size: 14px;
-    font-weight: 500;
   }
 
   /* ########## 2 list card slot  ##########  */
@@ -4614,36 +4417,6 @@ section .lImgRcap div:last-of-type h4,
 
   .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span {
     display: block;
-  }
-
-  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span,
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
-  .accountContainer aside nav ul,
-  .aboutContainer aside nav ul,
-  .serviceContainer aside nav ul,
-  .informationContainer aside nav ul,
-  .serviceContainer article div ol li b,
-  .serviceContainer article div b,
-  .serviceContainer article div:nth-of-type(5) p:nth-of-type(2),
-  .serviceContainer section p:first-of-type,
-  .informationContainer section div b,
-  .informationContainer section div:nth-of-type(2) a,
-  .informationContainer article.customerSupport div b,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:not(:first-of-type, :last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li b,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li b,
-  .cartContainer.checkoutCompleted div:first-of-type h2,
-  .wishlistContainer div:first-of-type h2,
-  .checkoutContainer form section>div:first-of-type,
-  .checkoutContainer form section>div:nth-of-type(2),
-  .checkoutContainer form section div:first-of-type h3,
-  .checkoutContainer aside h3,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2),
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3),
-  .checkoutContainer form section div:nth-of-type(2) div:last-of-type,
-  .checkoutContainer form section div:last-of-type span,
-  .checkoutContainer form section div:last-of-type p {
-    margin-bottom: 20px;
   }
 
   .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span label {
@@ -5200,54 +4973,12 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 50px;
   }
 
-  .accountContainer section.myProfile div:nth-of-type(2) dl:first-of-type,
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
-  .checkoutContainer form section div:first-of-type div label,
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark,
-  .cartContainer.checkoutCompleted aside div ol li mark {
-    font-size: 15px;
-    font-weight: 400;
-  }
-
   .accountContainer section.myProfile div:nth-of-type(2) dl dd {
     font-weight: 400;
   }
 
   .accountContainer section.myProfile div:nth-of-type(3) p a {
     text-decoration: underline;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div input[type=checkbox],
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div input[type=checkbox],
-  .checkoutContainer form section div:first-of-type div input[type=checkbox],
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type input[type=checkbox],
-  .checkoutContainer form section div:nth-of-type(3) span input[type=checkbox] {
-    display: none;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
-  .checkoutContainer form section div:first-of-type div label,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
-  .checkoutContainer form section>div:nth-of-type(3) span label {
-    padding-left: 25px;
-    background: url('../images/check_box_outline_blank.svg') no-repeat center left;
-    background-size: 20px;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label.active,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label.active,
-  .checkoutContainer form section div:first-of-type div label.active,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label.active,
-  .checkoutContainer form section div:nth-of-type(3) span label.active {
-    background: url('../images/check_box.svg') no-repeat center left;
-    background-size: 20px;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type p,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p {
-    padding-left: 25px;
   }
 
   .accountContainer section.myProfile div:nth-of-type(3) div:first-of-type p a {
@@ -5940,10 +5671,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 20px;
   }
 
-  .checkoutContainer form section>div:first-of-type {
-    font-size: 0;
-  }
-
   .checkoutContainer form section div:first-of-type h3,
   .checkoutContainer form section div:nth-of-type(2) h3,
   .checkoutContainer aside h3 {
@@ -5968,21 +5695,8 @@ section .lImgRcap div:last-of-type h4,
     right: 0;
   }
 
-  .checkoutContainer form section>div:first-of-type>ul {
-    font-size: 0;
-  }
-
-  .checkoutContainer form section>div:first-of-type>ul>li {
-    position: relative;
-    display: inline-block;
-  }
-
   .serviceContainer form ul li {
     position: relative;
-  }
-
-  .checkoutContainer form section>div:first-of-type>ul>li:nth-of-type(2n+1) {
-    margin-right: 22px;
   }
 
   .checkoutContainer form section div:first-of-type ul li input[type=text],
@@ -6348,16 +6062,6 @@ section .lImgRcap div:last-of-type h4,
     line-height: 23px;
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption p,
-  .indexContainer>div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(8) figure figcaption p,
-  .listCardContainer>div:first-of-type div div p,
-  .listCardContainer>div:nth-of-type(2)>ul>li,
-  .wishlistContainer div:nth-of-type(2)>ul>li {
-    margin-bottom: 45px;
-  }
-
   /* ########## selectComponent - size ##########  */
   .listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent {
     width: 100%;
@@ -6523,13 +6227,6 @@ section .lImgRcap div:last-of-type h4,
     top: 78.5%;
   }
 
-  .indexContainer>div:first-of-type p,
-  .listMixContainer>div:first-of-type p,
-  .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type {
-    font-size: 17px;
-    font-weight: 400;
-  }
-
   .indexContainer>div:first-of-type a {
     top: 85%;
   }
@@ -6658,76 +6355,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  .indexContainer>div:nth-of-type(8) ul li figure img,
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption b,
-  .detailPageContainer>div:nth-of-type(2) div strong,
-  .detailPageContainer>div:nth-of-type(2)>div>ul,
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI,
-  .detailPageContainer>div:nth-of-type(3) .accComponent:not(:last-of-type),
-  .accountContainer aside h2 span,
-  .accountContainer section.myProfile div:nth-of-type(3)>p:nth-of-type(2),
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type,
-  .aboutContainer section ul li address div,
-  .informationContainer section div:last-of-type address div,
-  .aboutContainer article figure figcaption p:not(:last-of-type),
-  .aboutContainer article p,
-  .aboutContainer article a:first-of-type,
-  .aboutContainer section ul li address em,
-  .serviceContainer article div ol li:not(:last-of-type),
-  .serviceContainer article div:nth-of-type(3) p:first-of-type,
-  .serviceContainer article div:nth-of-type(5) p:first-of-type,
-  .serviceContainer article div:nth-of-type(5) ul,
-  .serviceContainer article div:nth-of-type(7) p:not(:last-of-type),
-  .serviceContainer article div:nth-of-type(9) p:first-of-type,
-  .serviceContainer article div:nth-of-type(9) ul,
-  .serviceContainer article div:nth-of-type(10) p:nth-of-type(2),
-  .serviceContainer section p:last-of-type,
-  .informationContainer section div:last-of-type p,
-  .informationContainer article.customerSupport div:first-of-type p:first-of-type,
-  .informationContainer article.customerSupport div:nth-of-type(2) p:not(:last-of-type),
-  .informationContainer article.customerSupport div:nth-of-type(3) p:not(:last-of-type),
-  .informationContainer article.customerSupport div:nth-of-type(4) p:first-of-type,
-  .informationContainer article.customerSupport div:nth-of-type(5) p:first-of-type,
-  .informationContainer article.privacyPolicy div:first-of-type p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(3),
-  .informationContainer article.privacyPolicy div:nth-of-type(6) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) p:not(:nth-of-type(6), :last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(13) p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(15) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(4),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(10),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(13),
-  .informationContainer article.privacyPolicy div:nth-of-type(17) p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(18)>p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(19) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(20) p:not(:last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(22)>p,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li,
-  .informationContainer article.termsConditions div:nth-of-type(2) p:first-of-type,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul,
-  .informationContainer article.termsConditions div:nth-of-type(5) p:not(:last-of-type),
-  .informationContainer article.termsConditions div:nth-of-type(10) ul,
-  .informationContainer article.termsConditions div:nth-of-type(10) p:nth-of-type(2),
-  .informationContainer article.termsConditions div:nth-of-type(11) p:not(:last-of-type),
-  .informationContainer article.termsConditions div:nth-of-type(12) p:not(:last-of-type),
-  .informationContainer article.termsConditions div:nth-of-type(17) p:first-of-type,
-  .informationContainer article.termsSales>ol>li:first-of-type>ol>li:first-of-type,
-  .informationContainer article.termsSales>ol>li:nth-of-type(2)>ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(n+4):nth-of-type(-n+7) ol li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(n+9):nth-of-type(-n+13)>ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:not(:last-of-type),
-  .informationContainer article.termsSales ol li:last-of-type ol>li:not(:last-of-type),
-  .informationContainer article.termsSales div address:last-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl {
-    margin-bottom: 30px;
-  }
-
   .indexContainer>div:nth-of-type(8) ul li figure figcaption span {
     display: block;
     font-size: 18px;
@@ -6760,11 +6387,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 1 sub title content ##########  */
-  .listMixContainer>div:first-of-type {
-    height: 540px;
-    color: white;
-  }
-
   .listMixContainer.mens>div:first-of-type {
     background: url('../images/listPage_mens_bg_01.png') no-repeat center center;
   }
@@ -6783,12 +6405,6 @@ section .lImgRcap div:last-of-type h4,
 
   .listMixContainer.colla>div:first-of-type {
     background: url('../images/listPage_colla_bg_01.png') no-repeat center center;
-  }
-
-  .listMixContainer>div:first-of-type h2 {
-    font-size: 25px;
-    font-weight: 500;
-    transform: translateY(280px);
   }
 
   .listMixContainer.mens>div:first-of-type h2,
@@ -6961,27 +6577,6 @@ section .lImgRcap div:last-of-type h4,
 
   .listMixContainer.colla div:nth-of-type(9) div>div {
     background: url('../images/listPage_colla_bg_03.png') no-repeat center center;
-  }
-
-  .listMixContainer div:nth-of-type(4) div div h2,
-  .listMixContainer div:nth-of-type(9) div div h2,
-  .listCardContainer>div:first-of-type div nav,
-  .accountContainer aside h2 b,
-  .aboutContainer aside h2,
-  .serviceContainer aside h2,
-  .informationContainer aside h2,
-  .accountContainer section h2 strong,
-  .accountContainer section.editInformation form ul li input[type=text],
-  .accountContainer section.editInformation form ul li input[type=email],
-  .accountContainer section.editInformation form ul li input[type=tel],
-  .accountContainer section.editInformation form ul li input[type=date],
-  .checkoutContainer form section div:first-of-type ul li input[type=text],
-  .checkoutContainer form section div:first-of-type ul li input[type=tel],
-  .serviceContainer form ul li input[type=text],
-  .serviceContainer form ul li input[type=email],
-  .checkoutContainer form section div:first-of-type div:last-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3) ul li input[type=text] {
-    margin-bottom: 35px;
   }
 
   .listMixContainer div:nth-of-type(4) div div h2,
@@ -7190,71 +6785,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 500;
   }
 
-  .listCardContainer>div:first-of-type div div {
-    position: relative;
-  }
-
-  .listCardContainer>div:first-of-type div div h2,
-  .accountContainer section.myProfile div:nth-of-type(2) dl dt,
-  .accountContainer section.myProfile div:nth-of-type(3)>p:first-of-type,
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div,
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li:not(:last-of-type) mark:first-of-type,
-  .accountContainer section.addressBook ul li div:first-of-type dl dd,
-  .aboutContainer section ul li:not(:nth-of-type(4), :last-of-type) address a:first-of-type,
-  .serviceContainer article div:nth-of-type(9) p:nth-of-type(2),
-  .serviceContainer article div:nth-of-type(10) p:first-of-type,
-  .serviceContainer article div:nth-of-type(10) p:nth-of-type(3),
-  .serviceContainer article div:nth-of-type(10) ul,
-  .informationContainer article.customerSupport div:nth-of-type(3) p:last-of-type,
-  .informationContainer article.customerSupport div:nth-of-type(4) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) p:nth-of-type(4),
-  .informationContainer article.privacyPolicy div:nth-of-type(3) p,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) p,
-  .informationContainer article.privacyPolicy div:nth-of-type(7) p,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) p:nth-of-type(6),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(3),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+5):nth-of-type(-n+9),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(11),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(12),
-  .informationContainer article.privacyPolicy div:nth-of-type(16) p:nth-of-type(n+14):nth-of-type(-n+16),
-  .informationContainer article.privacyPolicy div:nth-of-type(18)>p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(2) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li:nth-of-type(3) p:nth-of-type(2),
-  .informationContainer article.privacyPolicy div:nth-of-type(19) p:last-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(19) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) p:nth-of-type(odd),
-  .informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(2),
-  .informationContainer article.termsConditions div:nth-of-type(2) p:nth-of-type(3),
-  .informationContainer article.termsConditions div:nth-of-type(3)>p:first-of-type,
-  .informationContainer article.termsConditions div:nth-of-type(10) p:first-of-type,
-  .informationContainer article.termsConditions div:nth-of-type(14) p,
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:first-of-type>p:not(:last-of-type),
-  .informationContainer article.termsSales ol li:nth-of-type(13) ol>li p,
-  .informationContainer article.termsSales ol li:nth-of-type(13) ol>li ol li:not(:last-of-type),
-  .informationContainer article.termsSales div ul li,
-  .cartContainer.checkoutCompleted div:first-of-type>p:first-of-type,
-  .cartContainer>ol>li:not(:last-of-type),
-  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dt,
-  .cartContainer.cartFull aside div:first-of-type dl:first-of-type dd,
-  .cartContainer.cartFull aside div:first-of-type dl:last-of-type,
-  .cartContainer aside div:nth-of-type(2) h3,
-  .cartContainer aside div:last-of-type h3,
-  .cartContainer.checkoutCompleted aside div ol li mark:first-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dd,
-  .checkoutContainer aside>dl>dt,
-  .checkoutContainer aside>dl>dd {
-    margin-bottom: 15px;
-  }
-
-  .listCardContainer>div:first-of-type div div span {
-    display: block;
-  }
-
   .listCardContainer>div:first-of-type div div span,
   .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li,
   .accountContainer section.orderDetails ol li dl dd:first-of-type,
@@ -7271,16 +6801,6 @@ section .lImgRcap div:last-of-type h4,
   .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dt,
   .checkoutContainer aside ol li dl dd:first-of-type {
     margin-bottom: 10px;
-  }
-
-  .listCardContainer>div:first-of-type div div span,
-  .listCardContainer>div:nth-of-type(2) div ul li.active,
-  .wishlistContainer div:nth-of-type(2)>div ul li.active,
-  .listCardContainer>div:nth-of-type(2) div ul li a,
-  .accountContainer section.editInformation,
-  .accountContainer section.orderList table thead tr th {
-    font-size: 14px;
-    font-weight: 500;
   }
 
   /* ########## 2 list card slot  ##########  */
@@ -7469,36 +6989,6 @@ section .lImgRcap div:last-of-type h4,
 
   .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span {
     display: block;
-  }
-
-  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span,
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
-  .accountContainer aside nav ul,
-  .aboutContainer aside nav ul,
-  .serviceContainer aside nav ul,
-  .informationContainer aside nav ul,
-  .serviceContainer article div ol li b,
-  .serviceContainer article div b,
-  .serviceContainer article div:nth-of-type(5) p:nth-of-type(2),
-  .serviceContainer section p:first-of-type,
-  .informationContainer section div b,
-  .informationContainer section div:nth-of-type(2) a,
-  .informationContainer article.customerSupport div b,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:not(:first-of-type, :last-of-type),
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li b,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li b,
-  .cartContainer.checkoutCompleted div:first-of-type h2,
-  .wishlistContainer div:first-of-type h2,
-  .checkoutContainer form section>div:first-of-type,
-  .checkoutContainer form section>div:nth-of-type(2),
-  .checkoutContainer form section div:first-of-type h3,
-  .checkoutContainer aside h3,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2),
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(3),
-  .checkoutContainer form section div:nth-of-type(2) div:last-of-type,
-  .checkoutContainer form section div:last-of-type span,
-  .checkoutContainer form section div:last-of-type p {
-    margin-bottom: 20px;
   }
 
   .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span label {
@@ -8048,54 +7538,12 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 50px;
   }
 
-  .accountContainer section.myProfile div:nth-of-type(2) dl:first-of-type,
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
-  .checkoutContainer form section div:first-of-type div label,
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark,
-  .cartContainer.checkoutCompleted aside div ol li mark {
-    font-size: 15px;
-    font-weight: 400;
-  }
-
   .accountContainer section.myProfile div:nth-of-type(2) dl dd {
     font-weight: 400;
   }
 
   .accountContainer section.myProfile div:nth-of-type(3) p a {
     text-decoration: underline;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div input[type=checkbox],
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div input[type=checkbox],
-  .checkoutContainer form section div:first-of-type div input[type=checkbox],
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type input[type=checkbox],
-  .checkoutContainer form section div:nth-of-type(3) span input[type=checkbox] {
-    display: none;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label,
-  .checkoutContainer form section div:first-of-type div label,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label,
-  .checkoutContainer form section>div:nth-of-type(3) span label {
-    padding-left: 25px;
-    background: url('../images/check_box_outline_blank.svg') no-repeat center left;
-    background-size: 20px;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type div label.active,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) div label.active,
-  .checkoutContainer form section div:first-of-type div label.active,
-  .checkoutContainer form section div:nth-of-type(2) div:first-of-type label.active,
-  .checkoutContainer form section div:nth-of-type(3) span label.active {
-    background: url('../images/check_box.svg') no-repeat center left;
-    background-size: 20px;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type p,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p {
-    padding-left: 25px;
   }
 
   .accountContainer section.myProfile div:nth-of-type(3) div:first-of-type p a {
@@ -8815,10 +8263,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 20px;
   }
 
-  .checkoutContainer form section>div:first-of-type {
-    font-size: 0;
-  }
-
   .checkoutContainer form section div:first-of-type h3,
   .checkoutContainer form section div:nth-of-type(2) h3,
   .checkoutContainer aside h3 {
@@ -8843,21 +8287,8 @@ section .lImgRcap div:last-of-type h4,
     right: 0;
   }
 
-  .checkoutContainer form section>div:first-of-type>ul {
-    font-size: 0;
-  }
-
-  .checkoutContainer form section>div:first-of-type>ul>li {
-    position: relative;
-    display: inline-block;
-  }
-
   .serviceContainer form ul li {
     position: relative;
-  }
-
-  .checkoutContainer form section>div:first-of-type>ul>li:nth-of-type(2n+1) {
-    margin-right: 22px;
   }
 
   .checkoutContainer form section div:first-of-type ul li input[type=text],
