@@ -421,7 +421,7 @@ section .lImgRcap div:last-of-type h4,
 
 .checkoutContainer form section div:first-of-type .selectComponent ul li {
   font-size: 15px;
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .checkoutContainer form section div:first-of-type .selectComponent ul li {
@@ -436,6 +436,85 @@ section .lImgRcap div:last-of-type h4,
 .checkoutContainer form section div:first-of-type .selectComponent.active ul li:hover {
   text-decoration: underline;
 }
+
+.indexContainer div:nth-of-type(2) .bx-wrapper,
+.indexContainer div:nth-of-type(4) .bx-wrapper,
+.indexContainer div:nth-of-type(6) .bx-wrapper,
+.listMixContainer div:nth-of-type(2) .bx-wrapper,
+.listMixContainer div:nth-of-type(7) .bx-wrapper,
+.listCardContainer div:nth-of-type(3) .bx-wrapper,
+.detailPageContainer div:nth-of-type(4) .bx-wrapper,
+.wishlistContainer div:last-of-type .bx-wrapper {
+  border: none;
+  box-shadow: none;
+}
+
+.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
+.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
+.indexContainer>div:nth-of-type(6) .bx-wrapper .sliderAcc li,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
+.listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li,
+.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li,
+.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
+.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li {
+  position: relative;
+}
+
+.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
+.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
+.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
+.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
+.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
+.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
+.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type.active {
+  background: url('../images/bookmark_fill.png') no-repeat center;
+  background-size: 23px;
+}
+
+.indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+.indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+.indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+.listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+.listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+.detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+.wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+  width: 30px;
+  height: 2px;
+  background-color: var(--gs03);
+  margin: 0 6px;
+}
+
+.indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+.indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+.indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+.listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+.listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+.detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
+.wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+  width: 45px;
+  height: 4px;
+  background-color: var(--gs04);
+}
+
+.indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
+.indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+  display: none;
+}
+
+
 
 @media screen and (max-width: 767px) {
 
@@ -571,51 +650,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## bx slider ##########  */
-  .indexContainer div:nth-of-type(2) .bx-wrapper,
-  .indexContainer div:nth-of-type(4) .bx-wrapper,
-  .indexContainer div:nth-of-type(6) .bx-wrapper,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper,
-  .wishlistContainer div:last-of-type .bx-wrapper {
-    border: none;
-    box-shadow: none;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .sliderAcc li,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
-  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li {
-    position: relative;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type.active {
-    background: url('../images/bookmark_fill.png') no-repeat center;
-    background-size: 23px;
-  }
-
   .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
@@ -665,34 +699,6 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-next {
     top: 115%;
-  }
-
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
-    width: 30px;
-    height: 2px;
-    background-color: var(--gs03);
-    margin: 0 6px;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
-    width: 45px;
-    height: 4px;
-    background-color: var(--gs04);
   }
 
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
@@ -3575,50 +3581,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## bx slider ##########  */
-  .indexContainer div:nth-of-type(2) .bx-wrapper,
-  .indexContainer div:nth-of-type(4) .bx-wrapper,
-  .indexContainer div:nth-of-type(6) .bx-wrapper,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper,
-  .wishlistContainer div:last-of-type .bx-wrapper {
-    border: none;
-    box-shadow: none;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .sliderAcc li,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
-  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li {
-    position: relative;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type.active {
-    background: url('../images/bookmark_fill.png') no-repeat center;
-    background-size: 23px;
-  }
 
   .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
@@ -3670,33 +3632,6 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-next {
     top: 115%;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
-    width: 30px;
-    height: 2px;
-    background-color: var(--gs03);
-    margin: 0 6px;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
-    width: 45px;
-    height: 4px;
-    background-color: var(--gs04);
   }
 
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
@@ -6507,51 +6442,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## bx slider ##########  */
-  .indexContainer div:nth-of-type(2) .bx-wrapper,
-  .indexContainer div:nth-of-type(4) .bx-wrapper,
-  .indexContainer div:nth-of-type(6) .bx-wrapper,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper,
-  .wishlistContainer div:last-of-type .bx-wrapper {
-    border: none;
-    box-shadow: none;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .sliderAcc li,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
-  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li {
-    position: relative;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-  .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type.active {
-    background: url('../images/bookmark_fill.png') no-repeat center;
-    background-size: 23px;
-  }
-
   .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
@@ -6589,33 +6479,6 @@ section .lImgRcap div:last-of-type h4,
   .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
   .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next {
     display: none;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
-    width: 30px;
-    height: 2px;
-    background-color: var(--gs03);
-    margin: 0 6px;
-  }
-
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
-    width: 45px;
-    height: 4px;
-    background-color: var(--gs04);
   }
 
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
