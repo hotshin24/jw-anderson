@@ -919,6 +919,39 @@ section .lImgRcap div:last-of-type h4,
   border: 1px solid var(--gs05);
 }
 
+.detailPageContainer>div:nth-of-type(2)>div div:first-of-type span label,
+.detailPageContainer>div:nth-of-type(2)>div div:first-of-type span input[type=button],
+.detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li,
+.detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
+.accountContainer aside nav ul li,
+.aboutContainer aside nav ul li,
+.serviceContainer aside nav ul li,
+.informationContainer aside nav ul li,
+.accountContainer section.myProfile div:nth-of-type(2) dl dt,
+.accountContainer section.orderDetails ol li dl dd:first-of-type,
+.accountContainer section.orderDetails ol li dl dd:nth-of-type(2),
+.cartContainer ol li div div:last-of-type ul li,
+.cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span,
+.checkoutContainer aside ol li dl dd:first-of-type,
+.checkoutContainer aside ol li dl dd:nth-of-type(2) {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI {
+  font-size: 0;
+}
+
+.detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li {
+  display: inline-block;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li.active {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 767px) {
 
   /* ########## padding & bg ##########  */
@@ -1865,25 +1898,6 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 20px;
   }
 
-  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span label,
-  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span input[type=button],
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li,
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
-  .accountContainer aside nav ul li,
-  .aboutContainer aside nav ul li,
-  .serviceContainer aside nav ul li,
-  .informationContainer aside nav ul li,
-  .accountContainer section.myProfile div:nth-of-type(2) dl dt,
-  .accountContainer section.orderDetails ol li dl dd:first-of-type,
-  .accountContainer section.orderDetails ol li dl dd:nth-of-type(2),
-  .cartContainer ol li div div:last-of-type ul li,
-  .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span,
-  .checkoutContainer aside ol li dl dd:first-of-type,
-  .checkoutContainer aside ol li dl dd:nth-of-type(2) {
-    font-size: 15px;
-    font-weight: 500;
-  }
-
   .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span input[type=button] {
     border: none;
     background-color: transparent;
@@ -1891,19 +1905,8 @@ section .lImgRcap div:last-of-type h4,
     cursor: pointer;
   }
 
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI {
-    font-size: 0;
-  }
-
   .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li {
-    display: inline-block;
-    padding-right: 30px;
-    cursor: pointer;
     line-height: 35px;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li.active {
-    text-decoration: underline;
   }
 
   .detailPageContainer>div:nth-of-type(2)>div>div:last-of-type {
@@ -4380,44 +4383,11 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 20px;
   }
 
-  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span label,
-  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span input[type=button],
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li,
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
-  .accountContainer aside nav ul li,
-  .aboutContainer aside nav ul li,
-  .serviceContainer aside nav ul li,
-  .informationContainer aside nav ul li,
-  .accountContainer section.myProfile div:nth-of-type(2) dl dt,
-  .accountContainer section.orderDetails ol li dl dd:first-of-type,
-  .accountContainer section.orderDetails ol li dl dd:nth-of-type(2),
-  .cartContainer ol li div div:last-of-type ul li,
-  .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span,
-  .checkoutContainer aside ol li dl dd:first-of-type,
-  .checkoutContainer aside ol li dl dd:nth-of-type(2) {
-    font-size: 15px;
-    font-weight: 500;
-  }
-
   .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span input[type=button] {
     border: none;
     background-color: transparent;
     text-decoration: underline;
     cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI {
-    font-size: 0;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li {
-    display: inline-block;
-    padding-right: 30px;
-    cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li.active {
-    text-decoration: underline;
   }
 
   .detailPageContainer>div:nth-of-type(2)>div>div:last-of-type {
@@ -6891,44 +6861,11 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 20px;
   }
 
-  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span label,
-  .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span input[type=button],
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li,
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3,
-  .accountContainer aside nav ul li,
-  .aboutContainer aside nav ul li,
-  .serviceContainer aside nav ul li,
-  .informationContainer aside nav ul li,
-  .accountContainer section.myProfile div:nth-of-type(2) dl dt,
-  .accountContainer section.orderDetails ol li dl dd:first-of-type,
-  .accountContainer section.orderDetails ol li dl dd:nth-of-type(2),
-  .cartContainer ol li div div:last-of-type ul li,
-  .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span,
-  .checkoutContainer aside ol li dl dd:first-of-type,
-  .checkoutContainer aside ol li dl dd:nth-of-type(2) {
-    font-size: 15px;
-    font-weight: 500;
-  }
-
   .detailPageContainer>div:nth-of-type(2)>div div:first-of-type span input[type=button] {
     border: none;
     background-color: transparent;
     text-decoration: underline;
     cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI {
-    font-size: 0;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li {
-    display: inline-block;
-    padding-right: 30px;
-    cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:first-of-type .chooseBox .tabUI li.active {
-    text-decoration: underline;
   }
 
   .detailPageContainer>div:nth-of-type(2) div div:last-of-type h3 {
