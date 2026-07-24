@@ -860,6 +860,52 @@ section .lImgRcap div:last-of-type h4,
   margin-right: 22px;
 }
 
+.listCardContainer>div:first-of-type div nav ol,
+.detailPageContainer>div:first-of-type nav ol,
+.accountContainer>div:first-of-type nav ol,
+.aboutContainer>div:first-of-type nav ol,
+.serviceContainer>div:first-of-type nav ol,
+.informationContainer>div:first-of-type nav ol {
+  font-size: 0;
+}
+
+.listCardContainer>div:first-of-type div nav ol li,
+.detailPageContainer>div:first-of-type nav ol li,
+.accountContainer>div:first-of-type nav ol li,
+.aboutContainer>div:first-of-type nav ol li,
+.serviceContainer>div:first-of-type nav ol li,
+.informationContainer>div:first-of-type nav ol li {
+  display: inline-block;
+  padding-right: 25px;
+  line-height: 19px;
+}
+
+.listCardContainer>div:first-of-type div nav ol li:not(:last-of-type),
+.detailPageContainer>div:first-of-type nav ol li:not(:last-of-type),
+.accountContainer>div:first-of-type nav ol li:not(:last-of-type),
+.aboutContainer>div:first-of-type nav ol li:not(:last-of-type),
+.serviceContainer>div:first-of-type nav ol li:not(:last-of-type),
+.informationContainer>div:first-of-type nav ol li:not(:last-of-type) {
+  background: url('../images/chevron_forward_400.svg') no-repeat right 2px top calc(50% - 2px);
+  background-size: 20px;
+}
+
+.listCardContainer>div:first-of-type div nav ol li:last-of-type,
+  .accountContainer>div:first-of-type nav ol li:last-of-type,
+  .aboutContainer>div:first-of-type nav ol li:last-of-type,
+  .serviceContainer>div:first-of-type nav ol li:last-of-type,
+  .informationContainer>div:first-of-type nav ol li:last-of-type,
+  .listCardContainer>div:first-of-type div nav ol li a,
+  .accountContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+  .detailPageContainer>div:first-of-type nav ol li:last-of-type {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
 @media screen and (max-width: 767px) {
 
   /* ########## padding & bg ##########  */
@@ -1625,26 +1671,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 80px 0 20px;
   }
 
-  .listCardContainer>div:first-of-type div nav ol,
-  .detailPageContainer>div:first-of-type nav ol,
-  .accountContainer>div:first-of-type nav ol,
-  .aboutContainer>div:first-of-type nav ol,
-  .serviceContainer>div:first-of-type nav ol,
-  .informationContainer>div:first-of-type nav ol {
-    font-size: 0;
-  }
-
-  .listCardContainer>div:first-of-type div nav ol li,
-  .detailPageContainer>div:first-of-type nav ol li,
-  .accountContainer>div:first-of-type nav ol li,
-  .aboutContainer>div:first-of-type nav ol li,
-  .serviceContainer>div:first-of-type nav ol li,
-  .informationContainer>div:first-of-type nav ol li {
-    display: inline-block;
-    padding-right: 25px;
-    line-height: 19px;
-  }
-
   .listCardContainer>div:first-of-type div nav ol li:last-of-type,
   .detailPageContainer>div:first-of-type nav ol li:last-of-type,
   .accountContainer>div:first-of-type nav ol li:last-of-type,
@@ -1654,28 +1680,6 @@ section .lImgRcap div:last-of-type h4,
     display: inline;
   }
 
-  .listCardContainer>div:first-of-type div nav ol li:not(:last-of-type),
-  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .accountContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) {
-    background: url('../images/chevron_forward_400.svg') no-repeat right 2px top calc(50% - 2px);
-    background-size: 20px;
-  }
-
-  .listCardContainer>div:first-of-type div nav ol li:last-of-type,
-  .accountContainer>div:first-of-type nav ol li:last-of-type,
-  .aboutContainer>div:first-of-type nav ol li:last-of-type,
-  .serviceContainer>div:first-of-type nav ol li:last-of-type,
-  .informationContainer>div:first-of-type nav ol li:last-of-type,
-  .listCardContainer>div:first-of-type div nav ol li a,
-  .accountContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .detailPageContainer>div:first-of-type nav ol li:last-of-type,
   .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
     font-size: 13px;
     font-weight: 500;
@@ -4203,48 +4207,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 80px 0 20px;
   }
 
-  .listCardContainer>div:first-of-type div nav ol,
-  .detailPageContainer>div:first-of-type nav ol,
-  .accountContainer>div:first-of-type nav ol,
-  .aboutContainer>div:first-of-type nav ol,
-  .serviceContainer>div:first-of-type nav ol,
-  .informationContainer>div:first-of-type nav ol {
-    font-size: 0;
-  }
-
-  .listCardContainer>div:first-of-type div nav ol li,
-  .detailPageContainer>div:first-of-type nav ol li,
-  .accountContainer>div:first-of-type nav ol li,
-  .aboutContainer>div:first-of-type nav ol li,
-  .serviceContainer>div:first-of-type nav ol li,
-  .informationContainer>div:first-of-type nav ol li {
-    display: inline-block;
-    padding-right: 25px;
-    line-height: 19px;
-  }
-
-  .listCardContainer>div:first-of-type div nav ol li:not(:last-of-type),
-  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .accountContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) {
-    background: url('../images/chevron_forward_400.svg') no-repeat right 2px top calc(50% - 2px);
-    background-size: 20px;
-  }
-
-  .listCardContainer>div:first-of-type div nav ol li:last-of-type,
-  .accountContainer>div:first-of-type nav ol li:last-of-type,
-  .aboutContainer>div:first-of-type nav ol li:last-of-type,
-  .serviceContainer>div:first-of-type nav ol li:last-of-type,
-  .informationContainer>div:first-of-type nav ol li:last-of-type,
-  .listCardContainer>div:first-of-type div nav ol li a,
-  .accountContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .detailPageContainer>div:first-of-type nav ol li:last-of-type,
   .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
     font-size: 13px;
     font-weight: 500;
@@ -6737,49 +6699,6 @@ section .lImgRcap div:last-of-type h4,
   .detailPageContainer>div:first-of-type {
     padding: 140px 0 40px;
   }
-
-  .listCardContainer>div:first-of-type div nav ol,
-  .detailPageContainer>div:first-of-type nav ol,
-  .accountContainer>div:first-of-type nav ol,
-  .aboutContainer>div:first-of-type nav ol,
-  .serviceContainer>div:first-of-type nav ol,
-  .informationContainer>div:first-of-type nav ol {
-    font-size: 0;
-  }
-
-  .listCardContainer>div:first-of-type div nav ol li,
-  .detailPageContainer>div:first-of-type nav ol li,
-  .accountContainer>div:first-of-type nav ol li,
-  .aboutContainer>div:first-of-type nav ol li,
-  .serviceContainer>div:first-of-type nav ol li,
-  .informationContainer>div:first-of-type nav ol li {
-    display: inline-block;
-    padding-right: 25px;
-    line-height: 19px;
-  }
-
-  .listCardContainer>div:first-of-type div nav ol li:not(:last-of-type),
-  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .accountContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type),
-  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) {
-    background: url('../images/chevron_forward_400.svg') no-repeat right 2px top calc(50% - 2px);
-    background-size: 20px;
-  }
-
-  .listCardContainer>div:first-of-type div nav ol li:last-of-type,
-  .accountContainer>div:first-of-type nav ol li:last-of-type,
-  .aboutContainer>div:first-of-type nav ol li:last-of-type,
-  .serviceContainer>div:first-of-type nav ol li:last-of-type,
-  .informationContainer>div:first-of-type nav ol li:last-of-type,
-  .listCardContainer>div:first-of-type div nav ol li a,
-  .accountContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .detailPageContainer>div:first-of-type nav ol li:last-of-type,
   .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
     font-size: 13px;
     font-weight: 500;
