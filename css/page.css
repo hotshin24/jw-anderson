@@ -1273,7 +1273,47 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(3) figure figcaption p,
   .indexContainer>div:nth-of-type(5) figure figcaption p,
   .listMixContainer div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(8) figure figcaption p {
+  .listMixContainer div:nth-of-type(8) figure figcaption p,
+  .listMixContainer div:nth-of-type(4) div div p,
+  .listMixContainer div:nth-of-type(9) div div p,
+  .listCardContainer>div:first-of-type div div p,
+  .detailPageContainer>div:nth-of-type(3) .accComponent:first-of-type li:nth-of-type(2) p,
+  .accountContainer section.myProfile div:nth-of-type(3) p,
+  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type p,
+  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p,
+  .accountContainer section.orderDetails div:nth-of-type(2) ol li address,
+  .aboutContainer article figure figcaption p,
+  .aboutContainer article p,
+  .aboutContainer article a,
+  .serviceContainer article div ol li p,
+  .serviceContainer article p,
+  .serviceContainer article div p,
+  .serviceContainer article div:nth-of-type(5) ul li,
+  .serviceContainer article div:nth-of-type(9) ul li,
+  .serviceContainer article div:nth-of-type(10) ul li,
+  .serviceContainer section p,
+  .informationContainer section p,
+  .informationContainer article div p,
+  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
+  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(7) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
+  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
+  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
+  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
+  .informationContainer article.termsSales ol li ol li,
+  .informationContainer article.termsSales ol li:nth-of-type(8) p,
+  .informationContainer article.termsSales ol li:nth-of-type(15) p,
+  .informationContainer article.termsSales div ul li label,
+  .cartContainer.checkoutCompleted aside div ol li address {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -1458,7 +1498,10 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ##########  6 accessories zone  ##########  */
-  .indexContainer>div:nth-of-type(6) ul::after {
+  .indexContainer>div:nth-of-type(6) ul::after,
+  .listCardContainer>div:nth-of-type(2) ul:after,
+  .wishlistContainer div:nth-of-type(2) ul:after,
+  .wishlistContainer>div:after {
     content: '';
     display: block;
     clear: both;
@@ -1844,7 +1887,11 @@ section .lImgRcap div:last-of-type h4,
   }
 
   .listMixContainer div:nth-of-type(4) div ul li,
-  .listMixContainer div:nth-of-type(9) div ul li {
+  .listMixContainer div:nth-of-type(9) div ul li,
+  .listMixContainer div:nth-of-type(6) ul li,
+  .listMixContainer>div:nth-of-type(10) ul li,
+  .listCardContainer>div:nth-of-type(2)>ul>li,
+  .wishlistContainer div:nth-of-type(2)>ul>li {
     width: 100%;
     position: relative;
   }
@@ -1858,7 +1905,9 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type,
   .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type,
   .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type {
+  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type,
+  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
+  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
     border: none;
     background-color: transparent;
     position: absolute;
@@ -1871,7 +1920,10 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type.active,
   .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type.active,
   .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type.active,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active {
+  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active,
+  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
+  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
+  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
     background: url('../images/bookmark_fill.png') no-repeat center;
     background-size: 23px;
   }
@@ -1879,12 +1931,6 @@ section .lImgRcap div:last-of-type h4,
   /* ########## 6 list right video  ##########  */
   /* ########## 7 list three product ##########  */
   /* ########## 10 list left video  ##########  */
-  .listMixContainer div:nth-of-type(6) ul li,
-  .listMixContainer>div:nth-of-type(10) ul li {
-    width: 100%;
-    position: relative;
-  }
-
   .listMixContainer div:nth-of-type(7) ul li {
     width: calc(50% - 11.25px);
     position: relative;
@@ -1959,29 +2005,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 2 list card slot  ##########  */
-  .listCardContainer>div:nth-of-type(2)>ul>li,
-  .wishlistContainer div:nth-of-type(2)>ul>li {
-    width: 100%;
-    position: relative;
-  }
-
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
-  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
-    background: url('../images/bookmark_fill.png') no-repeat center;
-    background-size: 23px;
-  }
-
   .listCardContainer>div:nth-of-type(2)>div>ul>li,
   .wishlistContainer div:nth-of-type(2)>div>ul>li {
     text-align: center;
@@ -3217,12 +3240,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## wishlist container ##########  */
-  .wishlistContainer>div:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
   .wishlistContainer>div:first-of-type a {
     float: left;
     margin-right: 35px;
@@ -4117,7 +4134,9 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type,
   .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type,
   .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type {
+  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type,
+  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
+  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
     border: none;
     background-color: transparent;
     position: absolute;
@@ -4130,7 +4149,10 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type.active,
   .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type.active,
   .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type.active,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active {
+  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active,
+  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
+  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
+  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
     background: url('../images/bookmark_fill.png') no-repeat center;
     background-size: 23px;
   }
@@ -4207,13 +4229,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 2 list card slot  ##########  */
-  .listCardContainer>div:nth-of-type(2) ul:after,
-  .wishlistContainer div:nth-of-type(2) ul:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
   .listCardContainer>div:nth-of-type(2)>ul>li,
   .wishlistContainer div:nth-of-type(2)>ul>li {
     float: left;
@@ -4224,23 +4239,6 @@ section .lImgRcap div:last-of-type h4,
   .listCardContainer>div:nth-of-type(2)>ul>li:not(:nth-of-type(2n)),
   .wishlistContainer div:nth-of-type(2)>ul>li:not(:nth-of-type(2n)) {
     margin-right: 36px;
-  }
-
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
-  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
-    background: url('../images/bookmark_fill.png') no-repeat center;
-    background-size: 23px;
   }
 
   .listCardContainer>div:nth-of-type(2)>div>ul>li,
@@ -5401,12 +5399,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## wishlist container ##########  */
-  .wishlistContainer>div:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
   .wishlistContainer>div:first-of-type a {
     float: left;
     margin-right: 40px;
@@ -5788,10 +5780,7 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-prev,
   .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-next,
   .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next {
-    display: none;
-  }
-
+  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
   .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
@@ -5805,7 +5794,17 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(3) figure:after,
   .indexContainer>div:nth-of-type(5) figure:after,
   .listMixContainer div:nth-of-type(5) figure:after,
-  .listMixContainer div:nth-of-type(8) figure:after {
+  .listMixContainer div:nth-of-type(8) figure:after,
+  .indexContainer>div:nth-of-type(6) ul::after,
+  .indexContainer>div:nth-of-type(8) ul:after,
+  .listMixContainer div:nth-of-type(4) div ul:after,
+  .listMixContainer div:nth-of-type(9) div ul:after,
+  .listMixContainer div:nth-of-type(6) ul::after,
+  .listMixContainer div:nth-of-type(7) ul::after,
+  .listMixContainer>div:nth-of-type(10) ul::after,
+  .listCardContainer>div:nth-of-type(2) ul:after,
+  .wishlistContainer div:nth-of-type(2) ul:after,
+  .wishlistContainer>div:after {
     content: '';
     display: block;
     clear: both;
@@ -5915,12 +5914,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ##########  6 accessories zone  ##########  */
-  .indexContainer>div:nth-of-type(6) ul::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
   .indexContainer>div:nth-of-type(6) ul li {
     float: left;
   }
@@ -5995,12 +5988,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 8 collaborations zone  ##########  */
-  .indexContainer>div:nth-of-type(8) ul:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
   .indexContainer>div:nth-of-type(8) ul li {
     float: left;
     width: 32%;
@@ -6092,7 +6079,9 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 3 video zone  ##########  */
-  .listMixContainer>div:nth-of-type(3) {
+  .listMixContainer>div:nth-of-type(3),
+  .listCardContainer>div:nth-of-type(2)>div ul,
+  .wishlistContainer div:nth-of-type(2)>div ul {
     font-size: 0;
   }
 
@@ -6254,60 +6243,12 @@ section .lImgRcap div:last-of-type h4,
     margin: 0 auto;
   }
 
-  .listMixContainer div:nth-of-type(4) div div p,
-  .listMixContainer div:nth-of-type(9) div div p,
-  .listCardContainer>div:first-of-type div div p,
-  .detailPageContainer>div:nth-of-type(3) .accComponent:first-of-type li:nth-of-type(2) p,
-  .accountContainer section.myProfile div:nth-of-type(3) p,
-  .accountContainer section.myProfile div:nth-of-type(3)>div:first-of-type p,
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p,
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li address,
-  .aboutContainer article figure figcaption p,
-  .aboutContainer article p,
-  .aboutContainer article a,
-  .serviceContainer article div ol li p,
-  .serviceContainer article p,
-  .serviceContainer article div p,
-  .serviceContainer article div:nth-of-type(5) ul li,
-  .serviceContainer article div:nth-of-type(9) ul li,
-  .serviceContainer article div:nth-of-type(10) ul li,
-  .serviceContainer section p,
-  .informationContainer section p,
-  .informationContainer article div p,
-  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(7) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
-  .informationContainer article.termsSales ol li ol li,
-  .informationContainer article.termsSales ol li:nth-of-type(8) p,
-  .informationContainer article.termsSales ol li:nth-of-type(15) p,
-  .informationContainer article.termsSales div ul li label,
-  .cartContainer.checkoutCompleted aside div ol li address {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-  }
-
-  .listMixContainer div:nth-of-type(4) div ul:after,
-  .listMixContainer div:nth-of-type(9) div ul:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
   .listMixContainer div:nth-of-type(4) div ul li,
-  .listMixContainer div:nth-of-type(9) div ul li {
+  .listMixContainer div:nth-of-type(9) div ul li,
+  .listMixContainer div:nth-of-type(6) ul li,
+  .listMixContainer>div:nth-of-type(10) ul li,
+  .listCardContainer>div:nth-of-type(2)>ul>li,
+  .wishlistContainer div:nth-of-type(2)>ul>li {
     float: left;
     width: 265px;
     position: relative;
@@ -6322,7 +6263,9 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type,
   .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type,
   .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type {
+  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type,
+  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
+  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
     border: none;
     background-color: transparent;
     position: absolute;
@@ -6335,7 +6278,10 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type.active,
   .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type.active,
   .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type.active,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active {
+  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active,
+  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
+  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
+  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
     background: url('../images/bookmark_fill.png') no-repeat center;
     background-size: 23px;
   }
@@ -6343,21 +6289,6 @@ section .lImgRcap div:last-of-type h4,
   /* ########## 6 list right video  ##########  */
   /* ########## 7 list three product ##########  */
   /* ########## 10 list left video  ##########  */
-  .listMixContainer div:nth-of-type(6) ul::after,
-  .listMixContainer div:nth-of-type(7) ul::after,
-  .listMixContainer>div:nth-of-type(10) ul::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  .listMixContainer div:nth-of-type(6) ul li,
-  .listMixContainer>div:nth-of-type(10) ul li {
-    float: left;
-    width: 265px;
-    position: relative;
-  }
-
   .listMixContainer div:nth-of-type(7) ul li {
     float: left;
     width: 375px;
@@ -6381,12 +6312,14 @@ section .lImgRcap div:last-of-type h4,
   }
 
   .listMixContainer div:nth-of-type(6) ul li:last-of-type .videoBox .fluid-width-video-wrapper,
-  .listMixContainer>div:nth-of-type(10) ul li:first-of-type .videoBox .fluid-width-video-wrapper {
+  .listMixContainer>div:nth-of-type(10) ul li:first-of-type .videoBox .fluid-width-video-wrapper,
+  .listCardContainer div:last-of-type .videoBox .fluid-width-video-wrapper {
     height: 100%;
   }
 
   .listMixContainer div:nth-of-type(6) ul li:last-of-type .videoBox .fluid-width-video-wrapper video,
-  .listMixContainer>div:nth-of-type(10) ul li:first-of-type .videoBox .fluid-width-video-wrapper video {
+  .listMixContainer>div:nth-of-type(10) ul li:first-of-type .videoBox .fluid-width-video-wrapper video,
+  .listCardContainer div:last-of-type .videoBox .fluid-width-video-wrapper video {
     object-fit: cover;
   }
 
@@ -6428,40 +6361,9 @@ section .lImgRcap div:last-of-type h4,
     box-sizing: border-box;
   }
 
-  .listCardContainer>div:nth-of-type(2) ul:after,
-  .wishlistContainer div:nth-of-type(2) ul:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>ul>li,
-  .wishlistContainer div:nth-of-type(2)>ul>li {
-    float: left;
-    width: 265px;
-    position: relative;
-  }
-
   .listCardContainer>div:nth-of-type(2)>ul>li:not(:nth-of-type(4n)),
   .wishlistContainer div:nth-of-type(2)>ul>li:not(:nth-of-type(4n)) {
     margin-right: 36px;
-  }
-
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
-  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
-    background: url('../images/bookmark_fill.png') no-repeat center;
-    background-size: 23px;
   }
 
   .listCardContainer>div:nth-of-type(2)>div>ul>li,
@@ -6475,11 +6377,6 @@ section .lImgRcap div:last-of-type h4,
     width: 100px;
     margin: 0 auto;
     position: relative;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div ul,
-  .wishlistContainer div:nth-of-type(2)>div ul {
-    font-size: 0;
   }
 
   .listCardContainer>div:nth-of-type(2)>div ul li,
@@ -6528,14 +6425,6 @@ section .lImgRcap div:last-of-type h4,
   .listCardContainer>div:last-of-type .videoBox:last-of-type {
     top: 190px;
     right: 50px;
-  }
-
-  .listCardContainer div:last-of-type .videoBox .fluid-width-video-wrapper {
-    height: 100%;
-  }
-
-  .listCardContainer div:last-of-type .videoBox .fluid-width-video-wrapper video {
-    object-fit: cover;
   }
 
   /* ########## 2 image & size  ##########  */
@@ -7677,12 +7566,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## wishlist container ##########  */
-  .wishlistContainer>div:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
   .wishlistContainer>div:first-of-type a {
     float: left;
     margin-right: 40px;
@@ -7895,6 +7778,7 @@ section .lImgRcap div:last-of-type h4,
     float: left;
     margin-right: 20px;
   }
+
 
 
 }
