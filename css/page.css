@@ -952,6 +952,225 @@ section .lImgRcap div:last-of-type h4,
   text-decoration: underline;
 }
 
+.indexContainer>div:nth-of-type(6) ul li a strong,
+.accountContainer section.orderDetails ol li dl dt,
+.accountContainer section.orderDetails div:nth-of-type(2) dl dt,
+.accountContainer section.orderDetails div:nth-of-type(2) dl dd,
+.cartContainer ol li div div:first-of-type a b,
+.cartContainer aside div:first-of-type dl:last-of-type dt,
+.cartContainer aside div:first-of-type dl:last-of-type dd strong,
+.checkoutContainer aside ol li dl dt,
+.checkoutContainer aside>dl>dt:nth-of-type(5),
+.checkoutContainer aside>dl>dd:nth-of-type(5) {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.accountContainer aside h2 span {
+  display: block;
+}
+
+.accountContainer aside nav ul li a,
+.aboutContainer aside nav ul li a,
+.serviceContainer aside nav ul li a,
+.informationContainer aside nav ul a {
+  display: block;
+  width: 100%;
+}
+
+.accountContainer aside nav ul li:hover a,
+.aboutContainer aside nav ul li:hover a,
+.serviceContainer aside nav ul li:hover a,
+.informationContainer aside nav ul li:hover a {
+  cursor: pointer;
+}
+
+.accountContainer section.canceled h2 em,
+.accountContainer section.canceled div:nth-of-type(2)>p:last-of-type,
+.accountContainer section.addressBook ul li div:first-of-type dl dt,
+.cartContainer aside div:nth-of-type(2) p,
+.cartContainer aside div:last-of-type>p,
+.checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dt {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.accountContainer section.myProfile>div:nth-of-type(2),
+.accountContainer section.orderDetails div:nth-of-type(2),
+.accountContainer section.addressBook ul,
+.aboutContainer article figure img,
+.aboutContainer section ul li:not(:last-of-type),
+.serviceContainer article div ol:not(:last-of-type),
+.serviceContainer article div:not(:last-of-type),
+.serviceContainer article>p,
+.informationContainer section>p,
+.informationContainer section div:first-of-type,
+.informationContainer section div:nth-of-type(2),
+.informationContainer article div:not(:last-of-type),
+.informationContainer article>ol>li,
+.cartContainer.checkoutCompleted aside div {
+  margin-bottom: 50px;
+}
+
+.accountContainer section.orderDetails ol li dl dd:last-of-type,
+.cartContainer ol li div div:last-of-type strong,
+.cartContainer aside div:nth-of-type(2) h3,
+.cartContainer aside div:last-of-type h3,
+.checkoutContainer aside ol li dl dd:last-of-type {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.cartContainer aside div:first-of-type,
+.cartContainer aside div:nth-of-type(2),
+.cartContainer aside div:last-of-type {
+  padding: 20px;
+}
+
+.cartContainer aside div:first-of-type h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cartContainer aside div:first-of-type dl:first-of-type {
+  position: relative;
+}
+
+.cartContainer aside div:first-of-type dl:first-of-type dd {
+  position: absolute;
+  right: 0;
+}
+
+.cartContainer aside div:first-of-type dl:first-of-type dd:first-of-type {
+  top: 0;
+}
+
+.cartContainer aside div:first-of-type dl:first-of-type dd:nth-of-type(2) {
+  top: 30px;
+}
+
+.cartContainer.cartFull aside div:first-of-type dl:first-of-type>dd:nth-of-type(3) {
+  top: 60px;
+}
+
+.cartContainer.cartFull aside div:first-of-type dl:last-of-type {
+  position: relative;
+}
+
+.cartContainer aside div:first-of-type dl:last-of-type dd strong {
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cartContainer aside div:nth-of-type(2) p,
+.cartContainer aside div:last-of-type>p {
+  line-height: 18px;
+}
+
+.cartContainer.checkoutCompleted aside div ol li h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cartContainer.checkoutCompleted aside div ol li mark {
+  font-style: normal;
+  background-color: transparent;
+}
+
+.cartContainer.checkoutCompleted aside div ol li mark:first-of-type {
+  display: block;
+}
+
+.cartContainer.checkoutCompleted aside div ol li address {
+  font-style: normal;
+}
+
+.cartContainer.checkoutCompleted aside div ol li address a {
+  display: block;
+}
+
+.cartContainer.checkoutCompleted aside div dl {
+  position: relative;
+}
+
+.checkoutContainer form section div:first-of-type h3,
+.checkoutContainer form section div:nth-of-type(2) h3,
+.checkoutContainer aside h3 {
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+}
+
+.checkoutContainer form section div:first-of-type h3,
+.checkoutContainer aside h3 {
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+}
+
+.checkoutContainer form section div:first-of-type h3 em,
+.checkoutContainer form section div:nth-of-type(2) h3 em,
+.checkoutContainer aside h3 a {
+  font-style: normal;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.checkoutContainer aside h3 a {
+  text-decoration: underline;
+}
+
+.checkoutContainer aside ol li dl {
+  position: relative;
+}
+
+.checkoutContainer aside ol li dl dt {
+  line-height: 23px;
+}
+
+.checkoutContainer aside ol li dl dd:last-of-type {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.checkoutContainer aside>dl {
+  position: relative;
+}
+
+.checkoutContainer aside>dl>dd {
+  position: absolute;
+  right: 0;
+}
+
+.checkoutContainer aside>dl>dd:first-of-type {
+  top: 0;
+}
+
+.checkoutContainer aside>dl>dd:nth-of-type(2) {
+  top: 30px;
+}
+
+.checkoutContainer aside>dl>dd:nth-of-type(3) {
+  top: 60px;
+}
+
+.checkoutContainer aside>dl>dd:nth-of-type(4) {
+  top: 90px;
+}
+
+.checkoutContainer aside>dl>dd:nth-of-type(5) {
+  top: 120px;
+}
+
+.checkoutContainer aside>dl>dt:nth-of-type(5),
+.checkoutContainer aside>dl>dd:nth-of-type(5) {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 767px) {
 
   /* ########## padding & bg ##########  */
@@ -1280,20 +1499,6 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(6) ul li a strong {
     display: block;
     text-align: center;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li a strong,
-  .accountContainer section.orderDetails ol li dl dt,
-  .accountContainer section.orderDetails div:nth-of-type(2) dl dt,
-  .accountContainer section.orderDetails div:nth-of-type(2) dl dd,
-  .cartContainer ol li div div:first-of-type a b,
-  .cartContainer aside div:first-of-type dl:last-of-type dt,
-  .cartContainer aside div:first-of-type dl:last-of-type dd strong,
-  .checkoutContainer aside ol li dl dt,
-  .checkoutContainer aside>dl>dt:nth-of-type(5),
-  .checkoutContainer aside>dl>dd:nth-of-type(5) {
-    font-size: 17px;
-    font-weight: 700;
   }
 
   .cartContainer ol li div div:first-of-type a b {
@@ -2222,10 +2427,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 700;
   }
 
-  .accountContainer aside h2 span {
-    display: block;
-  }
-
   .accountContainer aside h2 span,
   .accountContainer section h2 span,
   .accountContainer section.myProfile div:nth-of-type(3) h3,
@@ -2250,21 +2451,6 @@ section .lImgRcap div:last-of-type h4,
     border-bottom: 1px solid var(--gs05);
     background: url('../images/chevron_forward_400.svg') no-repeat center right;
     background-size: 30px;
-  }
-
-  .accountContainer aside nav ul li a,
-  .aboutContainer aside nav ul li a,
-  .serviceContainer aside nav ul li a,
-  .informationContainer aside nav ul a {
-    display: block;
-    width: 100%;
-  }
-
-  .accountContainer aside nav ul li:hover a,
-  .aboutContainer aside nav ul li:hover a,
-  .serviceContainer aside nav ul li:hover a,
-  .informationContainer aside nav ul li:hover a {
-    cursor: pointer;
   }
 
   .accountContainer aside>a {
@@ -2339,16 +2525,6 @@ section .lImgRcap div:last-of-type h4,
     left: 150px;
   }
 
-  .accountContainer section.canceled h2 em,
-  .accountContainer section.canceled div:nth-of-type(2)>p:last-of-type,
-  .accountContainer section.addressBook ul li div:first-of-type dl dt,
-  .cartContainer aside div:nth-of-type(2) p,
-  .cartContainer aside div:last-of-type>p,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dt {
-    font-size: 12px;
-    font-weight: 400;
-  }
-
   .accountContainer section.editInformation input[type=button]:first-of-type,
   .accountContainer section.orderDetails input[type=button]:first-of-type,
   .aboutContainer article input[type=button],
@@ -2378,23 +2554,6 @@ section .lImgRcap div:last-of-type h4,
 
   .accountContainer section.myProfile div:first-of-type input[type=button] {
     width: 260px;
-  }
-
-  .accountContainer section.myProfile>div:nth-of-type(2),
-  .accountContainer section.orderDetails div:nth-of-type(2),
-  .accountContainer section.addressBook ul,
-  .aboutContainer article figure img,
-  .aboutContainer section ul li:not(:last-of-type),
-  .serviceContainer article div ol:not(:last-of-type),
-  .serviceContainer article div:not(:last-of-type),
-  .serviceContainer article>p,
-  .informationContainer section>p,
-  .informationContainer section div:first-of-type,
-  .informationContainer section div:nth-of-type(2),
-  .informationContainer article div:not(:last-of-type),
-  .informationContainer article>ol>li,
-  .cartContainer.checkoutCompleted aside div {
-    margin-bottom: 50px;
   }
 
   .accountContainer section.myProfile div:nth-of-type(2) dl dd {
@@ -2622,15 +2781,6 @@ section .lImgRcap div:last-of-type h4,
     position: absolute;
     right: 0;
     bottom: 0;
-  }
-
-  .accountContainer section.orderDetails ol li dl dd:last-of-type,
-  .cartContainer ol li div div:last-of-type strong,
-  .cartContainer aside div:nth-of-type(2) h3,
-  .cartContainer aside div:last-of-type h3,
-  .checkoutContainer aside ol li dl dd:last-of-type {
-    font-size: 17px;
-    font-weight: 500;
   }
 
   .accountContainer section.orderDetails div:nth-of-type(2) {
@@ -3058,86 +3208,12 @@ section .lImgRcap div:last-of-type h4,
     top: 55px;
   }
 
-  .cartContainer aside div:first-of-type,
-  .cartContainer aside div:nth-of-type(2),
-  .cartContainer aside div:last-of-type {
-    padding: 20px;
-  }
-
-  .cartContainer aside div:first-of-type h3 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type {
-    position: relative;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type dd {
-    position: absolute;
-    right: 0;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type dd:first-of-type {
-    top: 0;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type dd:nth-of-type(2) {
-    top: 30px;
-  }
-
-  .cartContainer.cartFull aside div:first-of-type dl:first-of-type>dd:nth-of-type(3) {
-    top: 60px;
-  }
-
-  .cartContainer.cartFull aside div:first-of-type dl:last-of-type {
-    position: relative;
-  }
-
-  .cartContainer aside div:first-of-type dl:last-of-type dd strong {
-    float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
   .cartContainer aside div:first-of-type>a,
   .cartContainer.checkoutCompleted aside>a {
     display: block;
     width: 100%;
     text-align: center;
     height: 50px;
-  }
-
-  .cartContainer aside div:nth-of-type(2) p,
-  .cartContainer aside div:last-of-type>p {
-    line-height: 18px;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li h4 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li mark {
-    font-style: normal;
-    background-color: transparent;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li mark:first-of-type {
-    display: block;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li address {
-    font-style: normal;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li address a {
-    display: block;
-  }
-
-  .cartContainer.checkoutCompleted aside div dl {
-    position: relative;
   }
 
   /* ########## wishlist container ##########  */
@@ -3166,30 +3242,6 @@ section .lImgRcap div:last-of-type h4,
   .checkoutContainer form section>div:first-of-type,
   .checkoutContainer form section>div:nth-of-type(2) {
     padding: 20px 10px;
-  }
-
-  .checkoutContainer form section div:first-of-type h3,
-  .checkoutContainer form section div:nth-of-type(2) h3,
-  .checkoutContainer aside h3 {
-    font-size: 16px;
-    font-weight: 500;
-    position: relative;
-  }
-
-  .checkoutContainer form section div:first-of-type h3,
-  .checkoutContainer aside h3 {
-    font-size: 16px;
-    font-weight: 500;
-    position: relative;
-  }
-
-  .checkoutContainer form section div:first-of-type h3 em,
-  .checkoutContainer form section div:nth-of-type(2) h3 em,
-  .checkoutContainer aside h3 a {
-    font-style: normal;
-    position: absolute;
-    top: 0;
-    right: 0;
   }
 
   .serviceContainer form ul li {
@@ -3375,71 +3427,12 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 50px;
   }
 
-  .checkoutContainer aside h3 a {
-    text-decoration: underline;
-  }
-
   .checkoutContainer aside ol li img {
     width: 100%;
     height: auto;
     display: block;
     margin-bottom: 15px;
   }
-
-  .checkoutContainer aside ol li dl {
-    position: relative;
-  }
-
-  .checkoutContainer aside ol li dl dt {
-    line-height: 23px;
-  }
-
-  .checkoutContainer aside ol li dl dd:last-of-type {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
-  .checkoutContainer aside>dl {
-    position: relative;
-  }
-
-  .checkoutContainer aside>dl>dd {
-    position: absolute;
-    right: 0;
-  }
-
-  .checkoutContainer aside>dl>dd:first-of-type {
-    top: 0;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(2) {
-    top: 30px;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(3) {
-    top: 60px;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(4) {
-    top: 90px;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(5) {
-    top: 120px;
-  }
-
-  .checkoutContainer aside>dl>dt:nth-of-type(5),
-  .checkoutContainer aside>dl>dd:nth-of-type(5) {
-    margin-bottom: 0;
-  }
-
-
-
-
-
-
-
 
 }
 
@@ -3767,20 +3760,6 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(6) ul li a strong {
     display: block;
     text-align: center;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li a strong,
-  .accountContainer section.orderDetails ol li dl dt,
-  .accountContainer section.orderDetails div:nth-of-type(2) dl dt,
-  .accountContainer section.orderDetails div:nth-of-type(2) dl dd,
-  .cartContainer ol li div div:first-of-type a b,
-  .cartContainer aside div:first-of-type dl:last-of-type dt,
-  .cartContainer aside div:first-of-type dl:last-of-type dd strong,
-  .checkoutContainer aside ol li dl dt,
-  .checkoutContainer aside>dl>dt:nth-of-type(5),
-  .checkoutContainer aside>dl>dd:nth-of-type(5) {
-    font-size: 17px;
-    font-weight: 700;
   }
 
   .indexContainer>div:nth-of-type(6) ul li a:hover strong {
@@ -4706,10 +4685,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 700;
   }
 
-  .accountContainer aside h2 span {
-    display: block;
-  }
-
   .accountContainer aside h2 span,
   .accountContainer section h2 span,
   .accountContainer section.myProfile div:nth-of-type(3) h3,
@@ -4733,21 +4708,6 @@ section .lImgRcap div:last-of-type h4,
     border-bottom: 1px solid var(--gs05);
     background: url('../images/chevron_forward_400.svg') no-repeat center right;
     background-size: 30px;
-  }
-
-  .accountContainer aside nav ul li a,
-  .aboutContainer aside nav ul li a,
-  .serviceContainer aside nav ul li a,
-  .informationContainer aside nav ul a {
-    display: block;
-    width: 100%;
-  }
-
-  .accountContainer aside nav ul li:hover a,
-  .aboutContainer aside nav ul li:hover a,
-  .serviceContainer aside nav ul li:hover a,
-  .informationContainer aside nav ul li:hover a {
-    cursor: pointer;
   }
 
   .accountContainer aside>a {
@@ -4821,16 +4781,6 @@ section .lImgRcap div:last-of-type h4,
     left: 150px;
   }
 
-  .accountContainer section.canceled h2 em,
-  .accountContainer section.canceled div:nth-of-type(2)>p:last-of-type,
-  .accountContainer section.addressBook ul li div:first-of-type dl dt,
-  .cartContainer aside div:nth-of-type(2) p,
-  .cartContainer aside div:last-of-type>p,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dt {
-    font-size: 12px;
-    font-weight: 400;
-  }
-
   .accountContainer section.editInformation input[type=button]:first-of-type,
   .accountContainer section.orderDetails input[type=button]:first-of-type,
   .aboutContainer article input[type=button],
@@ -4861,23 +4811,6 @@ section .lImgRcap div:last-of-type h4,
   .accountContainer section.myProfile div:first-of-type input[type=button] {
     vertical-align: top;
     width: 348px;
-  }
-
-  .accountContainer section.myProfile>div:nth-of-type(2),
-  .accountContainer section.orderDetails div:nth-of-type(2),
-  .accountContainer section.addressBook ul,
-  .aboutContainer article figure img,
-  .aboutContainer section ul li:not(:last-of-type),
-  .serviceContainer article div ol:not(:last-of-type),
-  .serviceContainer article div:not(:last-of-type),
-  .serviceContainer article>p,
-  .informationContainer section>p,
-  .informationContainer section div:first-of-type,
-  .informationContainer section div:nth-of-type(2),
-  .informationContainer article div:not(:last-of-type),
-  .informationContainer article>ol>li,
-  .cartContainer.checkoutCompleted aside div {
-    margin-bottom: 50px;
   }
 
   .accountContainer section.myProfile div:nth-of-type(2) dl dd {
@@ -5058,15 +4991,6 @@ section .lImgRcap div:last-of-type h4,
     position: absolute;
     right: 0;
     bottom: 0;
-  }
-
-  .accountContainer section.orderDetails ol li dl dd:last-of-type,
-  .cartContainer ol li div div:last-of-type strong,
-  .cartContainer aside div:nth-of-type(2) h3,
-  .cartContainer aside div:last-of-type h3,
-  .checkoutContainer aside ol li dl dd:last-of-type {
-    font-size: 17px;
-    font-weight: 500;
   }
 
   .accountContainer section.orderDetails div:nth-of-type(2) {
@@ -5463,49 +5387,6 @@ section .lImgRcap div:last-of-type h4,
     right: 0;
   }
 
-  .cartContainer aside div:first-of-type,
-  .cartContainer aside div:nth-of-type(2),
-  .cartContainer aside div:last-of-type {
-    padding: 20px;
-  }
-
-  .cartContainer aside div:first-of-type h3 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type {
-    position: relative;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type dd {
-    position: absolute;
-    right: 0;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type dd:first-of-type {
-    top: 0;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type dd:nth-of-type(2) {
-    top: 30px;
-  }
-
-  .cartContainer.cartFull aside div:first-of-type dl:first-of-type>dd:nth-of-type(3) {
-    top: 60px;
-  }
-
-  .cartContainer.cartFull aside div:first-of-type dl:last-of-type {
-    position: relative;
-  }
-
-  .cartContainer aside div:first-of-type dl:last-of-type dd strong {
-    float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
   .cartContainer aside div:first-of-type>a,
   .cartContainer.checkoutCompleted aside>a {
     display: block;
@@ -5517,37 +5398,6 @@ section .lImgRcap div:last-of-type h4,
   .cartContainer aside div:nth-of-type(2),
   .cartContainer aside div:nth-of-type(3) {
     padding-left: 75px;
-  }
-
-  .cartContainer aside div:nth-of-type(2) p,
-  .cartContainer aside div:last-of-type>p {
-    line-height: 18px;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li h4 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li mark {
-    font-style: normal;
-    background-color: transparent;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li mark:first-of-type {
-    display: block;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li address {
-    font-style: normal;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li address a {
-    display: block;
-  }
-
-  .cartContainer.checkoutCompleted aside div dl {
-    position: relative;
   }
 
   /* ########## wishlist container ##########  */
@@ -5576,30 +5426,6 @@ section .lImgRcap div:last-of-type h4,
   .checkoutContainer form section>div:first-of-type,
   .checkoutContainer form section>div:nth-of-type(2) {
     padding: 20px;
-  }
-
-  .checkoutContainer form section div:first-of-type h3,
-  .checkoutContainer form section div:nth-of-type(2) h3,
-  .checkoutContainer aside h3 {
-    font-size: 16px;
-    font-weight: 500;
-    position: relative;
-  }
-
-  .checkoutContainer form section div:first-of-type h3,
-  .checkoutContainer aside h3 {
-    font-size: 16px;
-    font-weight: 500;
-    position: relative;
-  }
-
-  .checkoutContainer form section div:first-of-type h3 em,
-  .checkoutContainer form section div:nth-of-type(2) h3 em,
-  .checkoutContainer aside h3 a {
-    font-style: normal;
-    position: absolute;
-    top: 0;
-    right: 0;
   }
 
   .serviceContainer form ul li {
@@ -5785,10 +5611,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 50px;
   }
 
-  .checkoutContainer aside h3 a {
-    text-decoration: underline;
-  }
-
   .checkoutContainer aside ol li:after {
     content: '';
     display: block;
@@ -5799,60 +5621,6 @@ section .lImgRcap div:last-of-type h4,
     float: left;
     margin-right: 20px;
   }
-
-  .checkoutContainer aside ol li dl {
-    position: relative;
-  }
-
-  .checkoutContainer aside ol li dl dt {
-    line-height: 23px;
-  }
-
-  .checkoutContainer aside ol li dl dd:last-of-type {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
-  .checkoutContainer aside>dl {
-    position: relative;
-  }
-
-  .checkoutContainer aside>dl>dd {
-    position: absolute;
-    right: 0;
-  }
-
-  .checkoutContainer aside>dl>dd:first-of-type {
-    top: 0;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(2) {
-    top: 30px;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(3) {
-    top: 60px;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(4) {
-    top: 90px;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(5) {
-    top: 120px;
-  }
-
-  .checkoutContainer aside>dl>dt:nth-of-type(5),
-  .checkoutContainer aside>dl>dd:nth-of-type(5) {
-    margin-bottom: 0;
-  }
-
-
-
-
-
-
 
 
 }
@@ -6187,20 +5955,6 @@ section .lImgRcap div:last-of-type h4,
   .indexContainer>div:nth-of-type(6) ul li a strong {
     display: block;
     text-align: center;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li a strong,
-  .accountContainer section.orderDetails ol li dl dt,
-  .accountContainer section.orderDetails div:nth-of-type(2) dl dt,
-  .accountContainer section.orderDetails div:nth-of-type(2) dl dd,
-  .cartContainer ol li div div:first-of-type a b,
-  .cartContainer aside div:first-of-type dl:last-of-type dt,
-  .cartContainer aside div:first-of-type dl:last-of-type dd strong,
-  .checkoutContainer aside ol li dl dt,
-  .checkoutContainer aside>dl>dt:nth-of-type(5),
-  .checkoutContainer aside>dl>dd:nth-of-type(5) {
-    font-size: 17px;
-    font-weight: 700;
   }
 
   .indexContainer>div:nth-of-type(6) ul li a:hover strong {
@@ -7175,10 +6929,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 700;
   }
 
-  .accountContainer aside h2 span {
-    display: block;
-  }
-
   .accountContainer aside h2 span,
   .accountContainer section h2 span,
   .accountContainer section.myProfile div:nth-of-type(3) h3,
@@ -7202,21 +6952,6 @@ section .lImgRcap div:last-of-type h4,
     border-bottom: 1px solid var(--gs05);
     background: url('../images/chevron_forward_400.svg') no-repeat center right;
     background-size: 30px;
-  }
-
-  .accountContainer aside nav ul li a,
-  .aboutContainer aside nav ul li a,
-  .serviceContainer aside nav ul li a,
-  .informationContainer aside nav ul a {
-    display: block;
-    width: 100%;
-  }
-
-  .accountContainer aside nav ul li:hover a,
-  .aboutContainer aside nav ul li:hover a,
-  .serviceContainer aside nav ul li:hover a,
-  .informationContainer aside nav ul li:hover a {
-    cursor: pointer;
   }
 
   .accountContainer aside>a {
@@ -7292,16 +7027,6 @@ section .lImgRcap div:last-of-type h4,
     left: 150px;
   }
 
-  .accountContainer section.canceled h2 em,
-  .accountContainer section.canceled div:nth-of-type(2)>p:last-of-type,
-  .accountContainer section.addressBook ul li div:first-of-type dl dt,
-  .cartContainer aside div:nth-of-type(2) p,
-  .cartContainer aside div:last-of-type>p,
-  .checkoutContainer form section div:nth-of-type(2) div:nth-of-type(2) dl dt {
-    font-size: 12px;
-    font-weight: 400;
-  }
-
   .accountContainer section.editInformation input[type=button]:first-of-type,
   .accountContainer section.orderDetails input[type=button]:first-of-type,
   .aboutContainer article input[type=button],
@@ -7332,23 +7057,6 @@ section .lImgRcap div:last-of-type h4,
   .accountContainer section.myProfile div:first-of-type input[type=button] {
     vertical-align: top;
     width: 370px;
-  }
-
-  .accountContainer section.myProfile>div:nth-of-type(2),
-  .accountContainer section.orderDetails div:nth-of-type(2),
-  .accountContainer section.addressBook ul,
-  .aboutContainer article figure img,
-  .aboutContainer section ul li:not(:last-of-type),
-  .serviceContainer article div ol:not(:last-of-type),
-  .serviceContainer article div:not(:last-of-type),
-  .serviceContainer article>p,
-  .informationContainer section>p,
-  .informationContainer section div:first-of-type,
-  .informationContainer section div:nth-of-type(2),
-  .informationContainer article div:not(:last-of-type),
-  .informationContainer article>ol>li,
-  .cartContainer.checkoutCompleted aside div {
-    margin-bottom: 50px;
   }
 
   .accountContainer section.myProfile div:nth-of-type(2) dl dd {
@@ -7536,15 +7244,6 @@ section .lImgRcap div:last-of-type h4,
     position: absolute;
     right: 0;
     bottom: 0;
-  }
-
-  .accountContainer section.orderDetails ol li dl dd:last-of-type,
-  .cartContainer ol li div div:last-of-type strong,
-  .cartContainer aside div:nth-of-type(2) h3,
-  .cartContainer aside div:last-of-type h3,
-  .checkoutContainer aside ol li dl dd:last-of-type {
-    font-size: 17px;
-    font-weight: 500;
   }
 
   .accountContainer section.orderDetails div:nth-of-type(2) {
@@ -7964,49 +7663,6 @@ section .lImgRcap div:last-of-type h4,
     vertical-align: top;
   }
 
-  .cartContainer aside div:first-of-type,
-  .cartContainer aside div:nth-of-type(2),
-  .cartContainer aside div:last-of-type {
-    padding: 20px;
-  }
-
-  .cartContainer aside div:first-of-type h3 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type {
-    position: relative;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type dd {
-    position: absolute;
-    right: 0;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type dd:first-of-type {
-    top: 0;
-  }
-
-  .cartContainer aside div:first-of-type dl:first-of-type dd:nth-of-type(2) {
-    top: 30px;
-  }
-
-  .cartContainer.cartFull aside div:first-of-type dl:first-of-type>dd:nth-of-type(3) {
-    top: 60px;
-  }
-
-  .cartContainer.cartFull aside div:first-of-type dl:last-of-type {
-    position: relative;
-  }
-
-  .cartContainer aside div:first-of-type dl:last-of-type dd strong {
-    float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
   .cartContainer aside div:first-of-type>a,
   .cartContainer.checkoutCompleted aside>a {
     display: block;
@@ -8018,37 +7674,6 @@ section .lImgRcap div:last-of-type h4,
   .cartContainer aside div:nth-of-type(2),
   .cartContainer aside div:nth-of-type(3) {
     padding-left: 75px;
-  }
-
-  .cartContainer aside div:nth-of-type(2) p,
-  .cartContainer aside div:last-of-type>p {
-    line-height: 18px;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li h4 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li mark {
-    font-style: normal;
-    background-color: transparent;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li mark:first-of-type {
-    display: block;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li address {
-    font-style: normal;
-  }
-
-  .cartContainer.checkoutCompleted aside div ol li address a {
-    display: block;
-  }
-
-  .cartContainer.checkoutCompleted aside div dl {
-    position: relative;
   }
 
   /* ########## wishlist container ##########  */
@@ -8074,30 +7699,6 @@ section .lImgRcap div:last-of-type h4,
   .checkoutContainer form section>div:first-of-type,
   .checkoutContainer form section>div:nth-of-type(2) {
     padding: 20px;
-  }
-
-  .checkoutContainer form section div:first-of-type h3,
-  .checkoutContainer form section div:nth-of-type(2) h3,
-  .checkoutContainer aside h3 {
-    font-size: 16px;
-    font-weight: 500;
-    position: relative;
-  }
-
-  .checkoutContainer form section div:first-of-type h3,
-  .checkoutContainer aside h3 {
-    font-size: 16px;
-    font-weight: 500;
-    position: relative;
-  }
-
-  .checkoutContainer form section div:first-of-type h3 em,
-  .checkoutContainer form section div:nth-of-type(2) h3 em,
-  .checkoutContainer aside h3 a {
-    font-style: normal;
-    position: absolute;
-    top: 0;
-    right: 0;
   }
 
   .serviceContainer form ul li {
@@ -8284,10 +7885,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 20px;
   }
 
-  .checkoutContainer aside h3 a {
-    text-decoration: underline;
-  }
-
   .checkoutContainer aside ol li:after {
     content: '';
     display: block;
@@ -8298,60 +7895,6 @@ section .lImgRcap div:last-of-type h4,
     float: left;
     margin-right: 20px;
   }
-
-  .checkoutContainer aside ol li dl {
-    position: relative;
-  }
-
-  .checkoutContainer aside ol li dl dt {
-    line-height: 23px;
-  }
-
-  .checkoutContainer aside ol li dl dd:last-of-type {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
-  .checkoutContainer aside>dl {
-    position: relative;
-  }
-
-  .checkoutContainer aside>dl>dd {
-    position: absolute;
-    right: 0;
-  }
-
-  .checkoutContainer aside>dl>dd:first-of-type {
-    top: 0;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(2) {
-    top: 30px;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(3) {
-    top: 60px;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(4) {
-    top: 90px;
-  }
-
-  .checkoutContainer aside>dl>dd:nth-of-type(5) {
-    top: 120px;
-  }
-
-  .checkoutContainer aside>dl>dt:nth-of-type(5),
-  .checkoutContainer aside>dl>dd:nth-of-type(5) {
-    margin-bottom: 0;
-  }
-
-
-
-
-
-
 
 
 }
