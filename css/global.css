@@ -1573,6 +1573,10 @@ footer>div div:first-of-type div:nth-of-type(2)>div:first-of-type input[type=sub
   cursor: pointer;
 }
 
+footer>div div:nth-of-type(2) {
+  margin-bottom: var(--sp50);
+}
+
 footer>div div:nth-of-type(2) div h3 {
   font-size: 19px;
   font-weight: 700;
@@ -1581,6 +1585,13 @@ footer>div div:nth-of-type(2) div h3 {
 
 footer>div div:nth-of-type(2) div ul li {
   padding-bottom: var(--sp20);
+}
+
+footer>div p {
+  color: var(--gs03);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
 }
 
 
