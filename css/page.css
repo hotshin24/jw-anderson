@@ -267,6 +267,176 @@ section .lImgRcap div:last-of-type h4,
   color: var(--gs05);
 }
 
+.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent ul,
+.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent ul,
+.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent ul {
+  background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be02);
+  background-size: 30px;
+}
+
+.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent ul,
+.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent ul,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent ul,
+.listMixContainer div:nth-of-type(4) div ul li .selectComponent.active,
+.listMixContainer div:nth-of-type(6) ul li div.selectComponent.active,
+.listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent ul,
+.listMixContainer div:nth-of-type(9) div ul li .selectComponent.active,
+.listMixContainer>div:nth-of-type(10) ul li div.selectComponent.active,
+.listCardContainer>div:nth-of-type(2) ul li .selectComponent.active,
+.wishlistContainer div:nth-of-type(2) ul li .selectComponent.active {
+  background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+.listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent.active {
+  background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--gs01);
+  background-size: 30px;
+}
+
+.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active i,
+.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active i,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active i,
+.listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent.active i,
+.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent.active i,
+.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active i,
+.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent.active i {
+  transform: translateY(35px);
+}
+
+.listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent.active ul,
+.listMixContainer div:nth-of-type(4) div ul li .selectComponent.active ul,
+.listMixContainer div:nth-of-type(6) ul li div.selectComponent.active ul,
+.listMixContainer div:nth-of-type(9) div ul li .selectComponent.active ul,
+.listMixContainer>div:nth-of-type(10) ul li div.selectComponent.active ul,
+.listCardContainer>div:nth-of-type(2) ul li .selectComponent.active ul,
+.wishlistContainer div:nth-of-type(2) ul li .selectComponent.active ul {
+  top: 100%;
+  border-top: none;
+}
+
+.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active ul,
+.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active ul,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active ul,
+.listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent.active ul,
+.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent.active ul,
+.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active ul,
+.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent.active ul {
+  bottom: 100%;
+  border-bottom: none;
+}
+
+.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent.active,
+.detailPageContainer div:nth-of-type(4) li .selectComponent ul,
+.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active,
+.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent.active {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be02);
+  background-size: 30px;
+}
+
+.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active,
+.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active,
+.listMixContainer div:nth-of-type(4) div ul li .selectComponent ul,
+.listMixContainer div:nth-of-type(6) ul li div.selectComponent ul,
+.listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent.active,
+.listMixContainer div:nth-of-type(9) div ul li .selectComponent ul,
+.listMixContainer>div:nth-of-type(10) ul li div.selectComponent ul,
+.listCardContainer>div:nth-of-type(2) ul li .selectComponent ul,
+.wishlistContainer div:nth-of-type(2) ul li .selectComponent ul {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+.listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent ul {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--gs01);
+  background-size: 30px;
+}
+
+.listCardContainer>div:first-of-type div div.selectComponent.active {
+  background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+.listCardContainer>div:first-of-type div div.selectComponent.active ul {
+  top: 100%;
+  border-top: none;
+}
+
+.listCardContainer>div:first-of-type div div.selectComponent ul {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+.accountContainer section.editInformation form .selectComponent.active {
+  background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+.accountContainer section.editInformation form .selectComponent ul {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+.accountContainer section.editInformation form .selectComponent.active ul {
+  top: 100%;
+  border-top: none;
+}
+
+.accountContainer section.editInformation form .selectComponent ul {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+.accountContainer section.editInformation form .selectComponent {
+  margin-bottom: 45px;
+}
+
+.checkoutContainer form section div:first-of-type .selectComponent:first-of-type {
+  margin-right: 22px;
+}
+
+.checkoutContainer form section div:first-of-type .selectComponent ul {
+  overflow: hidden;
+  height: 48px;
+  cursor: pointer;
+}
+
+.checkoutContainer form section div:first-of-type .selectComponent.active ul {
+  display: block;
+  overflow: visible;
+  height: auto;
+  z-index: 10;
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  border: 1px solid var(--gs05);
+  top: 100%;
+  border-top: none;
+}
+
+.checkoutContainer form section div:first-of-type .selectComponent ul {
+  background: url('../images/keyboard_arrow_down.svg') no-repeat center right 3px var(--be01);
+  background-size: 30px;
+}
+
+.checkoutContainer form section div:first-of-type .selectComponent ul li {
+  font-size: 15px;
+    font-weight: 500;
+}
+
+.checkoutContainer form section div:first-of-type .selectComponent ul li {
+  line-height: 30px;
+  padding: 10px 20px;
+}
+
+.checkoutContainer form section div:first-of-type .selectComponent.active ul li {
+  padding: 0 20px;
+}
+
+.checkoutContainer form section div:first-of-type .selectComponent.active ul li:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 767px) {
 
   /* ########## padding & bg ##########  */
@@ -1037,7 +1207,7 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
     font-size: 16px;
   }
-  
+
   .listMixContainer div:nth-of-type(3)>.videoBox {
     display: block;
     width: 100%;
@@ -1219,7 +1389,7 @@ section .lImgRcap div:last-of-type h4,
   }
 
   .listMixContainer div:nth-of-type(4) div div p,
-  .listMixContainer div:nth-of-type(9) div div p{
+  .listMixContainer div:nth-of-type(9) div div p {
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
@@ -1589,7 +1759,7 @@ section .lImgRcap div:last-of-type h4,
   .detailPageContainer>div:nth-of-type(2) .bx-wrapper .bx-viewport {
     height: auto;
   }
-  
+
   .detailPageContainer>div:nth-of-type(2) .detailSlider li img {
     display: block;
     width: 100%;
@@ -1697,7 +1867,6 @@ section .lImgRcap div:last-of-type h4,
   .accountContainer section.orderDetails ol li dl dd:nth-of-type(2),
   .cartContainer ol li div div:last-of-type ul li,
   .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span,
-  .checkoutContainer form section div:first-of-type .selectComponent ul li,
   .checkoutContainer aside ol li dl dd:first-of-type,
   .checkoutContainer aside ol li dl dd:nth-of-type(2) {
     font-size: 15px;
@@ -2000,15 +2169,15 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  .accountContainer aside input[type=checkbox]:checked ~ h2,
-  .accountContainer aside input[type=checkbox]:checked ~ nav,
-  .accountContainer aside input[type=checkbox]:checked ~ a,
-  .aboutContainer aside input[type=checkbox]:checked ~ h2,
-  .aboutContainer aside input[type=checkbox]:checked ~ nav,
-  .serviceContainer aside input[type=checkbox]:checked ~ h2,
-  .serviceContainer aside input[type=checkbox]:checked ~ nav,
-  .informationContainer aside input[type=checkbox]:checked ~ h2,
-  .informationContainer aside input[type=checkbox]:checked ~ nav {
+  .accountContainer aside input[type=checkbox]:checked~h2,
+  .accountContainer aside input[type=checkbox]:checked~nav,
+  .accountContainer aside input[type=checkbox]:checked~a,
+  .aboutContainer aside input[type=checkbox]:checked~h2,
+  .aboutContainer aside input[type=checkbox]:checked~nav,
+  .serviceContainer aside input[type=checkbox]:checked~h2,
+  .serviceContainer aside input[type=checkbox]:checked~nav,
+  .informationContainer aside input[type=checkbox]:checked~h2,
+  .informationContainer aside input[type=checkbox]:checked~nav {
     display: block;
   }
 
@@ -2435,7 +2604,7 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-    .accountContainer section.orderList table thead tr th:nth-of-type(2),
+  .accountContainer section.orderList table thead tr th:nth-of-type(2),
   .accountContainer section.orderList table thead tr th:nth-of-type(3),
   .accountContainer section.orderList table thead tr th:nth-of-type(5) {
     display: none;
@@ -4203,7 +4372,7 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
     font-size: 16px;
   }
-  
+
   .listMixContainer div:nth-of-type(3)>.videoBox {
     display: block;
     width: 100%;
@@ -5160,15 +5329,15 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  .accountContainer aside input[type=checkbox]:checked ~ h2,
-  .accountContainer aside input[type=checkbox]:checked ~ nav,
-  .accountContainer aside input[type=checkbox]:checked ~ a,
-  .aboutContainer aside input[type=checkbox]:checked ~ h2,
-  .aboutContainer aside input[type=checkbox]:checked ~ nav,
-  .serviceContainer aside input[type=checkbox]:checked ~ h2,
-  .serviceContainer aside input[type=checkbox]:checked ~ nav,
-  .informationContainer aside input[type=checkbox]:checked ~ h2,
-  .informationContainer aside input[type=checkbox]:checked ~ nav {
+  .accountContainer aside input[type=checkbox]:checked~h2,
+  .accountContainer aside input[type=checkbox]:checked~nav,
+  .accountContainer aside input[type=checkbox]:checked~a,
+  .aboutContainer aside input[type=checkbox]:checked~h2,
+  .aboutContainer aside input[type=checkbox]:checked~nav,
+  .serviceContainer aside input[type=checkbox]:checked~h2,
+  .serviceContainer aside input[type=checkbox]:checked~nav,
+  .informationContainer aside input[type=checkbox]:checked~h2,
+  .informationContainer aside input[type=checkbox]:checked~nav {
     display: block;
   }
 
