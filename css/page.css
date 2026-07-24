@@ -891,20 +891,33 @@ section .lImgRcap div:last-of-type h4,
 }
 
 .listCardContainer>div:first-of-type div nav ol li:last-of-type,
-  .accountContainer>div:first-of-type nav ol li:last-of-type,
-  .aboutContainer>div:first-of-type nav ol li:last-of-type,
-  .serviceContainer>div:first-of-type nav ol li:last-of-type,
-  .informationContainer>div:first-of-type nav ol li:last-of-type,
-  .listCardContainer>div:first-of-type div nav ol li a,
-  .accountContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .aboutContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .serviceContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .informationContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .detailPageContainer>div:first-of-type nav ol li:not(:last-of-type) a,
-  .detailPageContainer>div:first-of-type nav ol li:last-of-type {
-    font-size: 13px;
-    font-weight: 500;
-  }
+.accountContainer>div:first-of-type nav ol li:last-of-type,
+.aboutContainer>div:first-of-type nav ol li:last-of-type,
+.serviceContainer>div:first-of-type nav ol li:last-of-type,
+.informationContainer>div:first-of-type nav ol li:last-of-type,
+.listCardContainer>div:first-of-type div nav ol li a,
+.accountContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+.aboutContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+.serviceContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+.informationContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+.detailPageContainer>div:first-of-type nav ol li:not(:last-of-type) a,
+.detailPageContainer>div:first-of-type nav ol li:last-of-type {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a img,
+.detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a video {
+  border: 1px solid var(--be01);
+  width: 75px;
+  height: 95px;
+  cursor: pointer;
+}
+
+.detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active img,
+.detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active video {
+  border: 1px solid var(--gs05);
+}
 
 @media screen and (max-width: 767px) {
 
@@ -1915,25 +1928,6 @@ section .lImgRcap div:last-of-type h4,
 
   .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li:not(:nth-of-type(3n)) {
     margin-right: 17px;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a img {
-    border: 1px solid var(--be01);
-    width: 75px;
-    height: 95px;
-    cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a video {
-    border: 1px solid var(--be01);
-    width: 75px;
-    height: 95px;
-    cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active img,
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active video {
-    border: 1px solid var(--gs05);
   }
 
   /* ########## 3 information  ##########  */
@@ -4447,25 +4441,6 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 5px;
   }
 
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a img {
-    border: 1px solid var(--be01);
-    width: 75px;
-    height: 95px;
-    cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a video {
-    border: 1px solid var(--be01);
-    width: 75px;
-    height: 95px;
-    cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active img,
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active video {
-    border: 1px solid var(--gs05);
-  }
-
   /* ########## 3 information  ##########  */
   .detailPageContainer>div:nth-of-type(3) .accComponent>li {
     border-bottom: 1px solid var(--gs05);
@@ -6699,6 +6674,7 @@ section .lImgRcap div:last-of-type h4,
   .detailPageContainer>div:first-of-type {
     padding: 140px 0 40px;
   }
+
   .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
     font-size: 13px;
     font-weight: 500;
@@ -6969,25 +6945,6 @@ section .lImgRcap div:last-of-type h4,
   .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li {
     float: left;
     margin-right: 5px;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a img {
-    border: 1px solid var(--be01);
-    width: 75px;
-    height: 95px;
-    cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a video {
-    border: 1px solid var(--be01);
-    width: 75px;
-    height: 95px;
-    cursor: pointer;
-  }
-
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active img,
-  .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li a.active video {
-    border: 1px solid var(--gs05);
   }
 
   /* ########## 3 information  ##########  */
