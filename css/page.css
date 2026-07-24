@@ -530,7 +530,55 @@ section .lImgRcap div:last-of-type h4,
   display: none;
 }
 
+.cartContainer ol li div div:last-of-type span.qtyComponent i {
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 5px;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+}
 
+.cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-outer-spin-button,
+.cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.cartContainer ol li div div:last-of-type span.qtyComponent input[type=number] {
+  border: 1px solid var(--gs05);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+  width: 90px;
+}
+
+.cartContainer ol li div div:last-of-type span.qtyComponent input[type=button] {
+  position: absolute;
+  top: 20px;
+  border: none;
+  background-color: transparent;
+  text-indent: -9999px;
+}
+
+.cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:first-of-type {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: url('../images/remove.svg') no-repeat center;
+  background-size: 13px;
+  cursor: pointer;
+}
+
+.cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:last-of-type {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url('../images/add.svg') no-repeat center;
+  background-size: 13px;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 767px) {
 
@@ -2980,56 +3028,6 @@ section .lImgRcap div:last-of-type h4,
     position: absolute;
     top: 65px;
     left: 0;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent i {
-    font-style: normal;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0 5px;
-    position: absolute;
-    top: -5px;
-    left: 5px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-outer-spin-button,
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number] {
-    border: 1px solid var(--gs05);
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px;
-    text-align: center;
-    width: 90px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button] {
-    position: absolute;
-    top: 20px;
-    border: none;
-    background-color: transparent;
-    text-indent: -9999px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:first-of-type {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: url('../images/remove.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:last-of-type {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: url('../images/add.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
   }
 
   .cartContainer ol li div div:last-of-type strong {
@@ -5819,56 +5817,6 @@ section .lImgRcap div:last-of-type h4,
     position: absolute;
     top: 0;
     right: 100px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent i {
-    font-style: normal;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0 5px;
-    position: absolute;
-    top: -5px;
-    left: 5px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-outer-spin-button,
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number] {
-    border: 1px solid var(--gs05);
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px;
-    text-align: center;
-    width: 90px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button] {
-    position: absolute;
-    top: 20px;
-    border: none;
-    background-color: transparent;
-    text-indent: -9999px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:first-of-type {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: url('../images/remove.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:last-of-type {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: url('../images/add.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
   }
 
   .cartContainer ol li div div:last-of-type strong {
@@ -8741,56 +8689,6 @@ section .lImgRcap div:last-of-type h4,
     position: absolute;
     top: 0;
     right: 100px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent i {
-    font-style: normal;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 0 5px;
-    position: absolute;
-    top: -5px;
-    left: 5px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-outer-spin-button,
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=number] {
-    border: 1px solid var(--gs05);
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px;
-    text-align: center;
-    width: 90px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button] {
-    position: absolute;
-    top: 20px;
-    border: none;
-    background-color: transparent;
-    text-indent: -9999px;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:first-of-type {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: url('../images/remove.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
-  }
-
-  .cartContainer ol li div div:last-of-type span.qtyComponent input[type=button]:last-of-type {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: url('../images/add.svg') no-repeat center;
-    background-size: 13px;
-    cursor: pointer;
   }
 
   .cartContainer ol li div div:last-of-type strong {
