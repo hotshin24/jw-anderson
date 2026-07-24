@@ -267,6 +267,22 @@ section .lImgRcap div:last-of-type h4,
   color: var(--gs05);
 }
 
+.indexContainer>div:nth-of-type(7) a.btnShop {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.indexContainer div:first-of-type a.btnShop:hover,
+.indexContainer>div:nth-of-type(7) a.btnShop:hover {
+  border-color: var(--gs05);
+}
+
+.indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop {
+  width: 100%;
+}
+
 .listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent ul,
 .detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent ul,
 .wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent ul {
@@ -743,18 +759,6 @@ section .lImgRcap div:last-of-type h4,
     background-size: 30px;
   }
 
-  .indexContainer>div:nth-of-type(7) a.btnShop {
-    position: absolute;
-    bottom: 8%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .indexContainer div:first-of-type a.btnShop:hover,
-  .indexContainer>div:nth-of-type(7) a.btnShop:hover {
-    border-color: var(--gs05);
-  }
-
   .indexContainer>div:nth-of-type(3) figure figcaption .btnShop,
   .indexContainer>div:nth-of-type(5) figure figcaption .btnShop,
   .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop,
@@ -771,10 +775,6 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
     width: 100%;
     margin-bottom: 45px;
-  }
-
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop {
-    width: 100%;
   }
 
   .indexContainer>div:nth-of-type(3) figure figcaption .btnShop:hover,
@@ -3676,18 +3676,6 @@ section .lImgRcap div:last-of-type h4,
     background-size: 30px;
   }
 
-  .indexContainer>div:nth-of-type(7) a.btnShop {
-    position: absolute;
-    bottom: 8%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .indexContainer div:first-of-type a.btnShop:hover,
-  .indexContainer>div:nth-of-type(7) a.btnShop:hover {
-    border-color: var(--gs05);
-  }
-
   .indexContainer>div:nth-of-type(3) figure figcaption .btnShop,
   .indexContainer>div:nth-of-type(5) figure figcaption .btnShop,
   .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop,
@@ -3704,10 +3692,6 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
     width: 100%;
     margin-bottom: 45px;
-  }
-
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop {
-    width: 100%;
   }
 
   .indexContainer>div:nth-of-type(3) figure figcaption .btnShop:hover,
@@ -6541,18 +6525,6 @@ section .lImgRcap div:last-of-type h4,
     background-size: 30px;
   }
 
-  .indexContainer>div:nth-of-type(7) a.btnShop {
-    position: absolute;
-    bottom: 8%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .indexContainer div:first-of-type a.btnShop:hover,
-  .indexContainer>div:nth-of-type(7) a.btnShop:hover {
-    border-color: var(--gs05);
-  }
-
   .indexContainer>div:nth-of-type(3) figure figcaption .btnShop,
   .indexContainer>div:nth-of-type(5) figure figcaption .btnShop,
   .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop,
@@ -6569,10 +6541,6 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
     float: right;
     width: 300px;
-  }
-
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption a.btnShop {
-    width: 100%;
   }
 
   .indexContainer>div:nth-of-type(3) figure figcaption .btnShop:hover,
