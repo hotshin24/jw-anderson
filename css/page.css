@@ -1276,6 +1276,39 @@ section .lImgRcap div:last-of-type h4,
   margin-right: 20px;
 }
 
+.listCardContainer>div:nth-of-type(2)>div>ul>li,
+.wishlistContainer div:nth-of-type(2)>div>ul>li {
+  text-align: center;
+}
+
+.listCardContainer>div:nth-of-type(2)>div,
+.wishlistContainer>div:nth-of-type(2)>div {
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.listCardContainer>div:nth-of-type(2)>div ul li,
+.wishlistContainer div:nth-of-type(2)>div ul li {
+  display: inline-block;
+  padding: 3px 7px;
+}
+
+.listCardContainer>div:nth-of-type(2)>div>a {
+  position: absolute;
+}
+
+.listCardContainer>div:nth-of-type(2)>div>a:first-of-type {
+  top: 0px;
+  left: 0px;
+}
+
+.listCardContainer>div:nth-of-type(2)>div>a:last-of-type {
+  top: 0px;
+  right: 0px;
+}
+
 @media screen and (max-width: 767px) {
 
   /* ########## padding & bg ##########  */
@@ -2005,42 +2038,9 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 2 list card slot  ##########  */
-  .listCardContainer>div:nth-of-type(2)>div>ul>li,
-  .wishlistContainer div:nth-of-type(2)>div>ul>li {
-    text-align: center;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div,
-  .wishlistContainer>div:nth-of-type(2)>div {
-    text-align: center;
-    width: 100px;
-    margin: 0 auto;
-    position: relative;
-  }
-
   .listCardContainer>div:nth-of-type(2)>div ul,
   .wishlistContainer div:nth-of-type(2)>div ul {
     font-size: 0;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div ul li,
-  .wishlistContainer div:nth-of-type(2)>div ul li {
-    display: inline-block;
-    padding: 3px 7px;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>a {
-    position: absolute;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>a:first-of-type {
-    top: 0px;
-    left: 0px;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>a:last-of-type {
-    top: 0px;
-    right: 0px;
   }
 
   /* ########## 4 video zone  ##########  */
@@ -4139,42 +4139,9 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 36px;
   }
 
-  .listCardContainer>div:nth-of-type(2)>div>ul>li,
-  .wishlistContainer div:nth-of-type(2)>div>ul>li {
-    text-align: center;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div,
-  .wishlistContainer>div:nth-of-type(2)>div {
-    text-align: center;
-    width: 100px;
-    margin: 0 auto;
-    position: relative;
-  }
-
   .listCardContainer>div:nth-of-type(2)>div ul,
   .wishlistContainer div:nth-of-type(2)>div ul {
     font-size: 0;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div ul li,
-  .wishlistContainer div:nth-of-type(2)>div ul li {
-    display: inline-block;
-    padding: 3px 7px;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>a {
-    position: absolute;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>a:first-of-type {
-    top: 0px;
-    left: 0px;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>a:last-of-type {
-    top: 0px;
-    right: 0px;
   }
 
   /* ########## 4 video zone  ##########  */
@@ -6202,39 +6169,6 @@ section .lImgRcap div:last-of-type h4,
   .listCardContainer>div:nth-of-type(2)>ul>li:not(:nth-of-type(4n)),
   .wishlistContainer div:nth-of-type(2)>ul>li:not(:nth-of-type(4n)) {
     margin-right: 36px;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>ul>li,
-  .wishlistContainer div:nth-of-type(2)>div>ul>li {
-    text-align: center;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div,
-  .wishlistContainer>div:nth-of-type(2)>div {
-    text-align: center;
-    width: 100px;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div ul li,
-  .wishlistContainer div:nth-of-type(2)>div ul li {
-    display: inline-block;
-    padding: 3px 7px;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>a {
-    position: absolute;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>a:first-of-type {
-    top: 0px;
-    left: 0px;
-  }
-
-  .listCardContainer>div:nth-of-type(2)>div>a:last-of-type {
-    top: 0px;
-    right: 0px;
   }
 
   /* ########## 4 video zone  ##########  */
