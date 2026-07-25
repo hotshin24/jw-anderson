@@ -1854,7 +1854,7 @@ footer>div p {
     left: 0;
     width: 100%;
     background-color: var(--be01);
-    z-index: 50px;
+    z-index: 50;
     overflow-y: auto;
   }
 
@@ -2243,7 +2243,7 @@ footer>div p {
     left: 0;
     width: 100%;
     background-color: var(--be01);
-    z-index: 50px;
+    z-index: 50;
     overflow-y: auto;
   }
 
