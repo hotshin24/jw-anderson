@@ -1009,7 +1009,7 @@ section .lImgRcap div:last-of-type h4,
 .informationContainer article div:not(:last-of-type),
 .informationContainer article>ol>li,
 .cartContainer.checkoutCompleted aside div {
-  margin-bottom: var(--sp05);
+  margin-bottom: var(--sp50);
 }
 
 .accountContainer section.orderDetails ol li dl dd:last-of-type,
