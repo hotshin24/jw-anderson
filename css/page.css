@@ -1171,6 +1171,80 @@ section .lImgRcap div:last-of-type h4,
   margin-bottom: 0;
 }
 
+.indexContainer>div:nth-of-type(3) figure figcaption h2,
+.indexContainer>div:nth-of-type(5) figure figcaption h2,
+.listMixContainer div:nth-of-type(5) figure figcaption h2,
+.listMixContainer div:nth-of-type(8) figure figcaption h2 {
+  margin-bottom: 20px;
+}
+
+.indexContainer div:nth-of-type(2) p,
+.indexContainer div:nth-of-type(4) p,
+.indexContainer>div:nth-of-type(3) figure figcaption p,
+.indexContainer>div:nth-of-type(5) figure figcaption p,
+.indexContainer>div:nth-of-type(6) p,
+.listMixContainer>div:nth-of-type(2) p,
+.listMixContainer div:nth-of-type(5) figure figcaption p,
+.listMixContainer div:nth-of-type(8) figure figcaption p {
+  font-weight: 400;
+}
+
+.indexContainer>div:first-of-type h2,
+.indexContainer>div:first-of-type p,
+.indexContainer>div:first-of-type a {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.indexContainer>div:nth-of-type(6) ul li {
+  float: left;
+}
+
+.indexContainer>div:nth-of-type(6) ul li:not(:last-of-type) {
+  margin-right: 1.4%;
+}
+
+.indexContainer>div:nth-of-type(6) ul li a strong {
+  display: block;
+  text-align: center;
+}
+
+.indexContainer>div:nth-of-type(6) ul li a:hover strong {
+  text-decoration: underline;
+}
+
+.indexContainer>div:nth-of-type(7) div:first-of-type {
+  background: url('../images/index_menCollection.png') no-repeat center center;
+  background-size: cover;
+}
+
+.indexContainer>div:nth-of-type(7) div:last-of-type {
+  background: url('../images/index_womenCollection.png') no-repeat center center;
+  background-size: cover;
+}
+
+.indexContainer>div:nth-of-type(8) ul li figure figcaption span {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.indexContainer>div:nth-of-type(8) ul li figure figcaption b {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.indexContainer>div:last-of-type blockquote i {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  margin-top: 35px;
+}
+
 @media screen and (max-width: 767px) {
 
   /* ########## padding & bg ##########  */
@@ -1239,24 +1313,6 @@ section .lImgRcap div:last-of-type h4,
   .wishlistContainer div:last-of-type h2 {
     text-align: center;
     margin-bottom: 25px;
-  }
-
-  .indexContainer>div:nth-of-type(3) figure figcaption h2,
-  .indexContainer>div:nth-of-type(5) figure figcaption h2,
-  .listMixContainer div:nth-of-type(5) figure figcaption h2,
-  .listMixContainer div:nth-of-type(8) figure figcaption h2 {
-    margin-bottom: 20px;
-  }
-
-  .indexContainer div:nth-of-type(2) p,
-  .indexContainer div:nth-of-type(4) p,
-  .indexContainer>div:nth-of-type(3) figure figcaption p,
-  .indexContainer>div:nth-of-type(5) figure figcaption p,
-  .indexContainer>div:nth-of-type(6) p,
-  .listMixContainer>div:nth-of-type(2) p,
-  .listMixContainer div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(8) figure figcaption p {
-    font-weight: 400;
   }
 
   .indexContainer div:nth-of-type(2) p,
@@ -1489,14 +1545,6 @@ section .lImgRcap div:last-of-type h4,
     top: 84%;
   }
 
-  .indexContainer>div:first-of-type h2,
-  .indexContainer>div:first-of-type p,
-  .indexContainer>div:first-of-type a {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
   /* ##########  6 accessories zone  ##########  */
   .indexContainer>div:nth-of-type(6) ul::after,
   .listCardContainer>div:nth-of-type(2) ul:after,
@@ -1505,14 +1553,6 @@ section .lImgRcap div:last-of-type h4,
     content: '';
     display: block;
     clear: both;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li {
-    float: left;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li:not(:last-of-type) {
-    margin-right: 1.4%;
   }
 
   .indexContainer>div:nth-of-type(6) ul li a img,
@@ -1539,35 +1579,16 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 25px;
   }
 
-  .indexContainer>div:nth-of-type(6) ul li a strong {
-    display: block;
-    text-align: center;
-  }
-
   .cartContainer ol li div div:first-of-type a b {
     display: inline-block;
     width: 100px;
     line-height: 23px;
   }
 
-  .indexContainer>div:nth-of-type(6) ul li a:hover strong {
-    text-decoration: underline;
-  }
-
   /* ########## 7 men & women collection  ##########  */
   .indexContainer>div:nth-of-type(7) {
     height: auto;
     flex-direction: column;
-  }
-
-  .indexContainer>div:nth-of-type(7) div:first-of-type {
-    background: url('../images/index_menCollection.png') no-repeat center center;
-    background-size: cover;
-  }
-
-  .indexContainer>div:nth-of-type(7) div:last-of-type {
-    background: url('../images/index_womenCollection.png') no-repeat center center;
-    background-size: cover;
   }
 
   .indexContainer>div:nth-of-type(7) div {
@@ -1600,18 +1621,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption span {
-    display: block;
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption b {
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-  }
-
   /* ########## 9 paragraph zone  ##########  */
   .indexContainer>div:last-of-type blockquote {
     font-size: 28px;
@@ -1620,15 +1629,6 @@ section .lImgRcap div:last-of-type h4,
     text-align: center;
     width: 260px;
     margin: 0 auto;
-  }
-
-  .indexContainer>div:last-of-type blockquote i {
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 700;
-    display: block;
-    text-align: center;
-    margin-top: 35px;
   }
 
   /* ########## 1 sub title content ##########  */
@@ -3523,24 +3523,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 50px;
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption h2,
-  .indexContainer>div:nth-of-type(5) figure figcaption h2,
-  .listMixContainer div:nth-of-type(5) figure figcaption h2,
-  .listMixContainer div:nth-of-type(8) figure figcaption h2 {
-    margin-bottom: 20px;
-  }
-
-  .indexContainer div:nth-of-type(2) p,
-  .indexContainer div:nth-of-type(4) p,
-  .indexContainer>div:nth-of-type(3) figure figcaption p,
-  .indexContainer>div:nth-of-type(5) figure figcaption p,
-  .indexContainer>div:nth-of-type(6) p,
-  .listMixContainer>div:nth-of-type(2) p,
-  .listMixContainer div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(8) figure figcaption p {
-    font-weight: 400;
-  }
-
   .indexContainer div:nth-of-type(2) p,
   .indexContainer div:nth-of-type(4) p,
   .indexContainer>div:nth-of-type(6) p,
@@ -3727,29 +3709,14 @@ section .lImgRcap div:last-of-type h4,
     top: 81%;
   }
 
-  .indexContainer>div:first-of-type h2,
-  .indexContainer>div:first-of-type p,
-  .indexContainer>div:first-of-type a {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
   /* ##########  6 accessories zone  ##########  */
-  .indexContainer>div:nth-of-type(6) ul::after, .listCardContainer>div:nth-of-type(2) ul:after,
+  .indexContainer>div:nth-of-type(6) ul::after,
+  .listCardContainer>div:nth-of-type(2) ul:after,
   .wishlistContainer div:nth-of-type(2) ul:after,
   .wishlistContainer>div:after {
     content: '';
     display: block;
     clear: both;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li {
-    float: left;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li:not(:last-of-type) {
-    margin-right: 1.4%;
   }
 
   .indexContainer>div:nth-of-type(6) ul li a img,
@@ -3776,29 +3743,10 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 25px;
   }
 
-  .indexContainer>div:nth-of-type(6) ul li a strong {
-    display: block;
-    text-align: center;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li a:hover strong {
-    text-decoration: underline;
-  }
-
   /* ########## 7 men & women collection  ##########  */
   .indexContainer>div:nth-of-type(7) {
     height: auto;
     flex-direction: column;
-  }
-
-  .indexContainer>div:nth-of-type(7) div:first-of-type {
-    background: url('../images/index_menCollection.png') no-repeat center center;
-    background-size: cover;
-  }
-
-  .indexContainer>div:nth-of-type(7) div:last-of-type {
-    background: url('../images/index_womenCollection.png') no-repeat center center;
-    background-size: cover;
   }
 
   .indexContainer>div:nth-of-type(7) div {
@@ -3829,18 +3777,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption span {
-    display: block;
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption b {
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-  }
-
   /* ########## 9 paragraph zone  ##########  */
   .indexContainer>div:last-of-type blockquote {
     font-size: 31px;
@@ -3849,15 +3785,6 @@ section .lImgRcap div:last-of-type h4,
     text-align: center;
     width: 720px;
     margin: 0 auto;
-  }
-
-  .indexContainer>div:last-of-type blockquote i {
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 700;
-    display: block;
-    text-align: center;
-    margin-top: 35px;
   }
 
   /* ########## 1 sub title content ##########  */
@@ -5693,24 +5620,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 50px;
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption h2,
-  .indexContainer>div:nth-of-type(5) figure figcaption h2,
-  .listMixContainer div:nth-of-type(5) figure figcaption h2,
-  .listMixContainer div:nth-of-type(8) figure figcaption h2 {
-    margin-bottom: 20px;
-  }
-
-  .indexContainer div:nth-of-type(2) p,
-  .indexContainer div:nth-of-type(4) p,
-  .indexContainer>div:nth-of-type(3) figure figcaption p,
-  .indexContainer>div:nth-of-type(5) figure figcaption p,
-  .indexContainer>div:nth-of-type(6) p,
-  .listMixContainer>div:nth-of-type(2) p,
-  .listMixContainer div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(8) figure figcaption p {
-    font-weight: 400;
-  }
-
   .indexContainer div:nth-of-type(2) p,
   .indexContainer div:nth-of-type(4) p,
   .indexContainer>div:nth-of-type(6) p,
@@ -5907,23 +5816,7 @@ section .lImgRcap div:last-of-type h4,
     top: 85%;
   }
 
-  .indexContainer>div:first-of-type h2,
-  .indexContainer>div:first-of-type p,
-  .indexContainer>div:first-of-type a {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
   /* ##########  6 accessories zone  ##########  */
-  .indexContainer>div:nth-of-type(6) ul li {
-    float: left;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li:not(:last-of-type) {
-    margin-right: 1.4%;
-  }
-
   .indexContainer>div:nth-of-type(6) ul li a img,
   .indexContainer>div:nth-of-type(8) ul li figure figcaption span,
   .detailPageContainer>div:nth-of-type(2) div h2,
@@ -5947,30 +5840,11 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 25px;
   }
 
-  .indexContainer>div:nth-of-type(6) ul li a strong {
-    display: block;
-    text-align: center;
-  }
-
-  .indexContainer>div:nth-of-type(6) ul li a:hover strong {
-    text-decoration: underline;
-  }
-
   /* ########## 7 men & women collection  ##########  */
   .indexContainer>div:nth-of-type(7) {
     background-size: cover;
     height: 1080px;
     display: flex;
-  }
-
-  .indexContainer>div:nth-of-type(7) div:first-of-type {
-    background: url('../images/index_menCollection.png') no-repeat center center;
-    background-size: cover;
-  }
-
-  .indexContainer>div:nth-of-type(7) div:last-of-type {
-    background: url('../images/index_womenCollection.png') no-repeat center center;
-    background-size: cover;
   }
 
   .indexContainer>div:nth-of-type(7) div {
@@ -6005,18 +5879,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption span {
-    display: block;
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  .indexContainer>div:nth-of-type(8) ul li figure figcaption b {
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-  }
-
   /* ########## 9 paragraph zone  ##########  */
   .indexContainer>div:last-of-type blockquote {
     font-size: 31px;
@@ -6025,15 +5887,6 @@ section .lImgRcap div:last-of-type h4,
     text-align: center;
     width: 900px;
     margin: 0 auto;
-  }
-
-  .indexContainer>div:last-of-type blockquote i {
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 700;
-    display: block;
-    text-align: center;
-    margin-top: 35px;
   }
 
   /* ########## 1 sub title content ##########  */
