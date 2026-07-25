@@ -1245,6 +1245,37 @@ section .lImgRcap div:last-of-type h4,
   margin-top: 35px;
 }
 
+.listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type,
+.listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type,
+.listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type,
+.listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type,
+.listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type,
+.listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
+.wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type.active,
+.listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type.active,
+.listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type.active,
+.listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type.active,
+.listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active,
+.listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
+.detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
+.wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
+  background: url('../images/bookmark_fill.png') no-repeat center;
+  background-size: 23px;
+}
+
+.listMixContainer div:nth-of-type(7) ul li:not(:last-of-type) {
+  margin-right: 20px;
+}
+
 @media screen and (max-width: 767px) {
 
   /* ########## padding & bg ##########  */
@@ -1901,43 +1932,12 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 60px;
   }
 
-  .listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type,
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type.active,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active,
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
-  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
-    background: url('../images/bookmark_fill.png') no-repeat center;
-    background-size: 23px;
-  }
-
   /* ########## 6 list right video  ##########  */
   /* ########## 7 list three product ##########  */
   /* ########## 10 list left video  ##########  */
   .listMixContainer div:nth-of-type(7) ul li {
     width: calc(50% - 11.25px);
     position: relative;
-  }
-
-  .listMixContainer div:nth-of-type(7) ul li:not(:last-of-type) {
-    margin-right: 20px;
   }
 
   .listMixContainer div:nth-of-type(6) ul li:not(:last-of-type),
@@ -4059,33 +4059,6 @@ section .lImgRcap div:last-of-type h4,
     position: relative;
   }
 
-  .listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type,
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type.active,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active,
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
-  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
-    background: url('../images/bookmark_fill.png') no-repeat center;
-    background-size: 23px;
-  }
-
   /* ########## 6 list right video  ##########  */
   /* ########## 7 list three product ##########  */
   /* ########## 10 list left video  ##########  */
@@ -4105,10 +4078,6 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(7) ul li {
     width: calc(50% - 11.25px);
     position: relative;
-  }
-
-  .listMixContainer div:nth-of-type(7) ul li:not(:last-of-type) {
-    margin-right: 20px;
   }
 
   .listMixContainer div:nth-of-type(6) ul li:last-of-type .videoBox,
@@ -6159,33 +6128,6 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 35px;
   }
 
-  .listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type,
-  .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type,
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
-  }
-
-  .listMixContainer div:nth-of-type(4) div ul li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(9) div ul li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(6) ul li input[type=button]:first-of-type.active,
-  .listMixContainer div:nth-of-type(7) ul li input[type=button]:first-of-type.active,
-  .listMixContainer>div:nth-of-type(10) ul li input[type=button]:first-of-type.active,
-  .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
-  .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
-  .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
-    background: url('../images/bookmark_fill.png') no-repeat center;
-    background-size: 23px;
-  }
-
   /* ########## 6 list right video  ##########  */
   /* ########## 7 list three product ##########  */
   /* ########## 10 list left video  ##########  */
@@ -6198,10 +6140,6 @@ section .lImgRcap div:last-of-type h4,
   .listMixContainer div:nth-of-type(6) ul li:not(:last-of-type),
   .listMixContainer>div:nth-of-type(10) ul li:not(:last-of-type) {
     margin-right: 35px;
-  }
-
-  .listMixContainer div:nth-of-type(7) ul li:not(:last-of-type) {
-    margin-right: 20px;
   }
 
   .listMixContainer div:nth-of-type(6) ul li:last-of-type .videoBox,
