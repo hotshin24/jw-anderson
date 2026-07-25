@@ -283,9 +283,9 @@ section .lImgRcap div:last-of-type h4,
   width: 100%;
 }
 
-.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent ul,
-.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent ul,
-.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent ul {
+:is(.listCardContainer div:nth-of-type(3),
+.detailPageContainer div:nth-of-type(4),
+.wishlistContainer div:last-of-type) .bx-wrapper .sliderNew li .selectComponent ul {
   background: url('../images/keyboard_arrow_up.svg') no-repeat center right 3px var(--be02);
   background-size: 30px;
 }
@@ -309,13 +309,13 @@ section .lImgRcap div:last-of-type h4,
   background-size: 30px;
 }
 
-.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active i,
-.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active i,
-.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active i,
-.listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent.active i,
-.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent.active i,
-.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active i,
-.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent.active i {
+:is(.indexContainer div:nth-of-type(2),
+.indexContainer div:nth-of-type(4),
+.listMixContainer div:nth-of-type(2),
+.listMixContainer div:nth-of-type(7),
+.listCardContainer div:nth-of-type(3),
+.detailPageContainer div:nth-of-type(4),
+.wishlistContainer div:last-of-type) .bx-wrapper .sliderNew li .selectComponent.active i {
   transform: translateY(35px);
 }
 
@@ -330,13 +330,13 @@ section .lImgRcap div:last-of-type h4,
   border-top: none;
 }
 
-.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active ul,
-.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active ul,
-.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li .selectComponent.active ul,
-.listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li .selectComponent.active ul,
-.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li .selectComponent.active ul,
-.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li .selectComponent.active ul,
-.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li .selectComponent.active ul {
+:is(.indexContainer div:nth-of-type(2),
+.indexContainer div:nth-of-type(4),
+.listMixContainer div:nth-of-type(2),
+.listMixContainer div:nth-of-type(7),
+.listCardContainer div:nth-of-type(3),
+.detailPageContainer div:nth-of-type(4),
+.wishlistContainer div:last-of-type) .bx-wrapper .sliderNew li .selectComponent.active ul {
   bottom: 100%;
   border-bottom: none;
 }
@@ -453,34 +453,34 @@ section .lImgRcap div:last-of-type h4,
   text-decoration: underline;
 }
 
-.indexContainer div:nth-of-type(2) .bx-wrapper,
-.indexContainer div:nth-of-type(4) .bx-wrapper,
-.indexContainer div:nth-of-type(6) .bx-wrapper,
-.listMixContainer div:nth-of-type(2) .bx-wrapper,
-.listMixContainer div:nth-of-type(7) .bx-wrapper,
-.listCardContainer div:nth-of-type(3) .bx-wrapper,
-.detailPageContainer div:nth-of-type(4) .bx-wrapper,
-.wishlistContainer div:last-of-type .bx-wrapper {
+:is(.indexContainer div:nth-of-type(2),
+.indexContainer div:nth-of-type(4),
+.indexContainer div:nth-of-type(6),
+.listMixContainer div:nth-of-type(2),
+.listMixContainer div:nth-of-type(7),
+.listCardContainer div:nth-of-type(3),
+.detailPageContainer div:nth-of-type(4),
+.wishlistContainer div:last-of-type) .bx-wrapper {
   border: none;
   box-shadow: none;
 }
 
-.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
-.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
-.indexContainer>div:nth-of-type(6) .bx-wrapper .sliderAcc li,
-.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li,
-.listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew li,
-.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li,
-.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew li,
-.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li {
+:is(.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew,
+.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew,
+.indexContainer>div:nth-of-type(6) .bx-wrapper .sliderAcc,
+.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew,
+.listMixContainer div:nth-of-type(7) .bx-wrapper .sliderNew,
+.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew,
+.detailPageContainer div:nth-of-type(4) .bx-wrapper .sliderNew,
+.wishlistContainer div:last-of-type .bx-wrapper .sliderNew) li {
   position: relative;
 }
 
-.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type,
-.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type {
+:is(.indexContainer div:nth-of-type(2),
+.indexContainer div:nth-of-type(4),
+.listMixContainer div:nth-of-type(2),
+.listCardContainer div:nth-of-type(3),
+.wishlistContainer div:last-of-type) .bx-wrapper .sliderNew li input[type=button]:first-of-type {
   border: none;
   background-color: transparent;
   position: absolute;
@@ -489,37 +489,37 @@ section .lImgRcap div:last-of-type h4,
   cursor: pointer;
 }
 
-.indexContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-.indexContainer div:nth-of-type(4) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-.listMixContainer div:nth-of-type(2) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-.listCardContainer div:nth-of-type(3) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active,
-.wishlistContainer div:last-of-type .bx-wrapper .sliderNew li input[type=button]:first-of-type.active {
+:is(.indexContainer div:nth-of-type(2),
+.indexContainer div:nth-of-type(4),
+.listMixContainer div:nth-of-type(2),
+.listCardContainer div:nth-of-type(3),
+.wishlistContainer div:last-of-type) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active {
   background: url('../images/bookmark_fill.png') no-repeat center;
   background-size: 23px;
 }
 
-.indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-.indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-.indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-.listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-.listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-.listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-.detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a,
-.wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+:is(.indexContainer div:nth-of-type(2),
+.indexContainer div:nth-of-type(4),
+.indexContainer>div:nth-of-type(6),
+.listMixContainer div:nth-of-type(2),
+.listMixContainer div:nth-of-type(7),
+.listCardContainer div:nth-of-type(3),
+.detailPageContainer div:nth-of-type(4),
+.wishlistContainer div:last-of-type) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
   width: 30px;
   height: 2px;
   background-color: var(--gs03);
   margin: 0 6px;
 }
 
-.indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-.indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-.indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-.listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-.listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-.listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-.detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active,
-.wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+:is(.indexContainer div:nth-of-type(2),
+.indexContainer div:nth-of-type(4),
+.indexContainer>div:nth-of-type(6),
+.listMixContainer div:nth-of-type(2),
+.listMixContainer div:nth-of-type(7),
+.listCardContainer div:nth-of-type(3),
+.detailPageContainer div:nth-of-type(4),
+.wishlistContainer div:last-of-type) .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
   width: 45px;
   height: 4px;
   background-color: var(--gs04);
@@ -978,10 +978,10 @@ section .lImgRcap div:last-of-type h4,
   width: 100%;
 }
 
-.accountContainer aside nav ul li:hover a,
-.aboutContainer aside nav ul li:hover a,
-.serviceContainer aside nav ul li:hover a,
-.informationContainer aside nav ul li:hover a {
+:is(.accountContainer,
+.aboutContainer,
+.serviceContainer,
+.informationContainer) aside nav ul li:hover a {
   cursor: pointer;
 }
 
@@ -1021,9 +1021,9 @@ section .lImgRcap div:last-of-type h4,
   font-weight: 500;
 }
 
-.cartContainer aside div:first-of-type,
-.cartContainer aside div:nth-of-type(2),
-.cartContainer aside div:last-of-type {
+.cartContainer aside :is(div:first-of-type,
+div:nth-of-type(2),
+div:last-of-type) {
   padding: var(--sp20);
 }
 
@@ -1171,10 +1171,10 @@ section .lImgRcap div:last-of-type h4,
   margin-bottom: 0;
 }
 
-.indexContainer>div:nth-of-type(3) figure figcaption h2,
-.indexContainer>div:nth-of-type(5) figure figcaption h2,
-.listMixContainer div:nth-of-type(5) figure figcaption h2,
-.listMixContainer div:nth-of-type(8) figure figcaption h2 {
+:is(.indexContainer>div:nth-of-type(3),
+.indexContainer>div:nth-of-type(5),
+.listMixContainer div:nth-of-type(5),
+.listMixContainer div:nth-of-type(8)) figure figcaption h2 {
   margin-bottom: var(--sp20);
 }
 
@@ -1189,9 +1189,9 @@ section .lImgRcap div:last-of-type h4,
   font-weight: 400;
 }
 
-.indexContainer>div:first-of-type h2,
-.indexContainer>div:first-of-type p,
-.indexContainer>div:first-of-type a {
+.indexContainer>div:first-of-type :is(h2,
+p,
+a) {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -1609,10 +1609,10 @@ section .lImgRcap div:last-of-type h4,
   display: block;
 }
 
-.accountContainer section.editInformation form ul li input[type=text],
-.accountContainer section.editInformation form ul li input[type=email],
-.accountContainer section.editInformation form ul li input[type=tel],
-.accountContainer section.editInformation form ul li input[type=date] {
+.accountContainer section.editInformation form ul li :is(input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date]) {
   padding: var(--sp15) var(--sp20);
   border: 1px solid var(--gs05);
   width: 100%;
@@ -1631,10 +1631,10 @@ section .lImgRcap div:last-of-type h4,
   right: 20px;
 }
 
-.accountContainer section.editInformation form ul li input[type=text].filled,
-.accountContainer section.editInformation form ul li input[type=email].filled,
-.accountContainer section.editInformation form ul li input[type=tel].filled,
-.accountContainer section.editInformation form ul li input[type=date].filled {
+.accountContainer section.editInformation form ul li :is(input[type=text].filled,
+input[type=email].filled,
+input[type=tel].filled,
+input[type=date].filled) {
   padding: var(--sp25) var(--sp20) var(--sp05);
 }
 
@@ -1941,12 +1941,12 @@ section .lImgRcap div:last-of-type h4,
   display: block;
 }
 
-.aboutContainer article h3,
-.aboutContainer section h3,
-.serviceContainer article h3,
-.serviceContainer section h3,
-.informationContainer article h3,
-.informationContainer section h3 {
+:is(.aboutContainer article,
+.aboutContainer section,
+.serviceContainer article,
+.serviceContainer section,
+.informationContainer article,
+.informationContainer section) h3 {
   margin-bottom: var(--sp60);
 }
 
@@ -1974,9 +1974,9 @@ section .lImgRcap div:last-of-type h4,
   margin-left: var(--sp25);
 }
 
-.informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
-.informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
-.informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
+.informationContainer article.privacyPolicy :is(div:nth-of-type(2),
+div:nth-of-type(16),
+div:nth-of-type(22))  ol li {
   list-style: decimal;
 }
 
@@ -2134,10 +2134,10 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: var(--sp25);
   }
 
-  .indexContainer div:nth-of-type(2) p,
-  .indexContainer div:nth-of-type(4) p,
-  .indexContainer>div:nth-of-type(6) p,
-  .listMixContainer>div:nth-of-type(2) p {
+  :is(.indexContainer div:nth-of-type(2),
+  .indexContainer div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(6),
+  .listMixContainer>div:nth-of-type(2)) p {
     font-size: 13px;
     font-weight: 400;
     line-height: 19px;
@@ -2207,28 +2207,28 @@ section .lImgRcap div:last-of-type h4,
     width: 260px;
   }
 
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-prev,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-prev,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-prev {
+  :is(.indexContainer div:nth-of-type(2),
+  .indexContainer div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(6),
+  .listMixContainer div:nth-of-type(2),
+  .listMixContainer div:nth-of-type(7),
+  .listCardContainer div:nth-of-type(3),
+  .detailPageContainer div:nth-of-type(4),
+  .wishlistContainer div:last-of-type) .bx-wrapper .bx-controls .bx-prev {
     left: -10px;
     background: url('../images/chevron_backward.svg') no-repeat center;
     background-size: 30px;
     z-index: 0;
   }
 
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-next,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-next,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-next,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-next {
+  :is(.indexContainer div:nth-of-type(2),
+  .indexContainer div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(6),
+  .listMixContainer div:nth-of-type(2),
+  .listMixContainer div:nth-of-type(7),
+  .listCardContainer div:nth-of-type(3),
+  .detailPageContainer div:nth-of-type(4),
+  .wishlistContainer div:last-of-type) .bx-wrapper .bx-controls .bx-next {
     right: -10px;
     background: url('../images/chevron_forward.svg') no-repeat center;
     background-size: 30px;
@@ -2263,27 +2263,27 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  .indexContainer>div:nth-of-type(3) figure,
-  .listMixContainer div:nth-of-type(5) figure,
-  .indexContainer>div:nth-of-type(5) figure,
-  .listMixContainer div:nth-of-type(8) figure {
+  :is(.indexContainer>div:nth-of-type(3),
+  .listMixContainer div:nth-of-type(5),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure {
     display: flex;
     flex-direction: column;
   }
 
-  .indexContainer>div:nth-of-type(3) figure img,
-  .listMixContainer div:nth-of-type(5) figure img,
-  .indexContainer>div:nth-of-type(5) figure img,
-  .listMixContainer div:nth-of-type(8) figure img {
+  :is(.indexContainer>div:nth-of-type(3),
+  .listMixContainer div:nth-of-type(5),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure img {
     max-width: 100%;
     height: auto;
     display: block;
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption,
-  .listMixContainer div:nth-of-type(5) figure figcaption,
-  .indexContainer>div:nth-of-type(5) figure figcaption,
-  .listMixContainer div:nth-of-type(8) figure figcaption {
+  :is(.indexContainer>div:nth-of-type(3),
+  .listMixContainer div:nth-of-type(5),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure figcaption {
     width: 260px;
     margin: 0 auto;
     order: -1;
@@ -2308,10 +2308,10 @@ section .lImgRcap div:last-of-type h4,
     background-size: 30px;
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption .btnShop,
-  .indexContainer>div:nth-of-type(5) figure figcaption .btnShop,
-  .listMixContainer div:nth-of-type(5) figure figcaption .btnShop,
-  .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
+  :is(.indexContainer>div:nth-of-type(3),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure figcaption .btnShop {
     width: 100%;
     margin-bottom: var(--sp45);
   }
@@ -2618,9 +2618,9 @@ section .lImgRcap div:last-of-type h4,
     background-size: 100%;
   }
 
-  .listMixContainer div:nth-of-type(4) div div h2,
-  .listMixContainer div:nth-of-type(9) div div h2,
-  .listCardContainer>div:first-of-type div div h2 {
+  :is(.listMixContainer div:nth-of-type(4),
+  .listMixContainer div:nth-of-type(9),
+  .listCardContainer>div:first-of-type) div div h2 {
     font-size: 21px;
     font-weight: 400;
     line-height: 27px;
@@ -2926,10 +2926,10 @@ section .lImgRcap div:last-of-type h4,
     padding: 80px 0 var(--sp40);
   }
 
-  .accountContainer aside input[type=checkbox],
-  .aboutContainer aside input[type=checkbox],
-  .serviceContainer aside input[type=checkbox],
-  .informationContainer aside input[type=checkbox] {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside input[type=checkbox] {
     display: none;
   }
 
@@ -2945,10 +2945,10 @@ section .lImgRcap div:last-of-type h4,
     display: block;
   }
 
-  .accountContainer aside label,
-  .aboutContainer aside label,
-  .serviceContainer aside label,
-  .informationContainer aside label {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside label {
     font-size: 15px;
     font-weight: 400;
     background: url('../images/menu_open.svg') no-repeat center left;
@@ -2971,10 +2971,10 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  .accountContainer aside h2,
-  .aboutContainer aside h2,
-  .serviceContainer aside h2,
-  .informationContainer aside h2 {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside h2 {
     padding-left: var(--sp10);
   }
 
@@ -2984,9 +2984,9 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 700;
   }
 
-  .aboutContainer aside h2,
-  .serviceContainer aside h2,
-  .informationContainer aside h2 {
+  :is(.aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside h2 {
     font-size: 16px;
     font-weight: 700;
   }
@@ -3006,10 +3006,10 @@ section .lImgRcap div:last-of-type h4,
     line-height: 26px;
   }
 
-  .accountContainer aside nav ul li,
-  .aboutContainer aside nav ul li,
-  .serviceContainer aside nav ul li,
-  .informationContainer aside nav ul li {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside nav ul li {
     padding-left: var(--sp10);
     line-height: 45px;
     border-bottom: 1px solid var(--gs05);
@@ -3153,9 +3153,9 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  .accountContainer section.orderList table thead tr th:nth-of-type(2),
-  .accountContainer section.orderList table thead tr th:nth-of-type(3),
-  .accountContainer section.orderList table thead tr th:nth-of-type(5) {
+  .accountContainer section.orderList table thead tr :is(th:nth-of-type(2),
+  th:nth-of-type(3),
+  th:nth-of-type(5)) {
     display: none;
   }
 
@@ -3453,10 +3453,10 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: var(--sp50);
   }
 
-  .indexContainer div:nth-of-type(2) p,
-  .indexContainer div:nth-of-type(4) p,
-  .indexContainer>div:nth-of-type(6) p,
-  .listMixContainer>div:nth-of-type(2) p {
+  :is(.indexContainer div:nth-of-type(2),
+  .indexContainer div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(6),
+  .listMixContainer>div:nth-of-type(2)) p {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -3464,10 +3464,10 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: var(--sp30);
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption p,
-  .indexContainer>div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(8) figure figcaption p {
+  :is(.indexContainer>div:nth-of-type(3),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure figcaption p {
     font-size: 17px;
     font-weight: 400;
     line-height: 23px;
@@ -3486,14 +3486,14 @@ section .lImgRcap div:last-of-type h4,
     width: 200px;
   }
 
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-prev,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-prev,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-prev {
+  :is(.indexContainer div:nth-of-type(2),
+  .indexContainer div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(6),
+  .listMixContainer div:nth-of-type(2),
+  .listMixContainer div:nth-of-type(7),
+  .listCardContainer div:nth-of-type(3),
+  .detailPageContainer div:nth-of-type(4),
+  .wishlistContainer div:last-of-type) .bx-wrapper .bx-controls .bx-prev {
     left: -10px;
     top: 53%;
     background: url('../images/chevron_backward.svg') no-repeat center;
@@ -3501,14 +3501,14 @@ section .lImgRcap div:last-of-type h4,
     z-index: 0;
   }
 
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-next,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-next,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-next,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-next {
+  :is(.indexContainer div:nth-of-type(2),
+  .indexContainer div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(6),
+  .listMixContainer div:nth-of-type(2),
+  .listMixContainer div:nth-of-type(7),
+  .listCardContainer div:nth-of-type(3),
+  .detailPageContainer div:nth-of-type(4),
+  .wishlistContainer div:last-of-type) .bx-wrapper .bx-controls .bx-next {
     right: -10px;
     top: 53%;
     background: url('../images/chevron_forward.svg') no-repeat center;
@@ -3543,27 +3543,27 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  .indexContainer>div:nth-of-type(3) figure,
-  .listMixContainer div:nth-of-type(5) figure,
-  .indexContainer>div:nth-of-type(5) figure,
-  .listMixContainer div:nth-of-type(8) figure {
+  :is(.indexContainer>div:nth-of-type(3),
+  .listMixContainer div:nth-of-type(5),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure {
     display: flex;
     flex-direction: column;
   }
 
-  .indexContainer>div:nth-of-type(3) figure img,
-  .listMixContainer div:nth-of-type(5) figure img,
-  .indexContainer>div:nth-of-type(5) figure img,
-  .listMixContainer div:nth-of-type(8) figure img {
+  :is(.indexContainer>div:nth-of-type(3),
+  .listMixContainer div:nth-of-type(5),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure img {
     max-width: 100%;
     height: auto;
     display: block;
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption,
-  .listMixContainer div:nth-of-type(5) figure figcaption,
-  .indexContainer>div:nth-of-type(5) figure figcaption,
-  .listMixContainer div:nth-of-type(8) figure figcaption {
+  :is(.indexContainer>div:nth-of-type(3),
+  .listMixContainer div:nth-of-type(5),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure figcaption {
     width: 720px;
     margin: 0 auto;
     order: -1;
@@ -3588,10 +3588,10 @@ section .lImgRcap div:last-of-type h4,
     background-size: 30px;
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption .btnShop,
-  .indexContainer>div:nth-of-type(5) figure figcaption .btnShop,
-  .listMixContainer div:nth-of-type(5) figure figcaption .btnShop,
-  .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
+  :is(.indexContainer>div:nth-of-type(3),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure figcaption .btnShop {
     width: 100%;
     margin-bottom: var(--sp45);
   }
@@ -3898,9 +3898,9 @@ section .lImgRcap div:last-of-type h4,
     background-size: 100%;
   }
 
-  .listMixContainer div:nth-of-type(4) div div h2,
-  .listMixContainer div:nth-of-type(9) div div h2,
-  .listCardContainer>div:first-of-type div div h2 {
+  :is(.listMixContainer div:nth-of-type(4),
+  .listMixContainer div:nth-of-type(9),
+  .listCardContainer>div:first-of-type) div div h2 {
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
@@ -4197,10 +4197,10 @@ section .lImgRcap div:last-of-type h4,
     padding: 80px 0 var(--sp40);
   }
 
-  .accountContainer aside input[type=checkbox],
-  .aboutContainer aside input[type=checkbox],
-  .serviceContainer aside input[type=checkbox],
-  .informationContainer aside input[type=checkbox] {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside input[type=checkbox] {
     display: none;
   }
 
@@ -4216,10 +4216,10 @@ section .lImgRcap div:last-of-type h4,
     display: block;
   }
 
-  .accountContainer aside label,
-  .aboutContainer aside label,
-  .serviceContainer aside label,
-  .informationContainer aside label {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside label {
     font-size: 15px;
     font-weight: 400;
     background: url('../images/menu_open.svg') no-repeat center left;
@@ -4242,10 +4242,10 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  .accountContainer aside h2,
-  .aboutContainer aside h2,
-  .serviceContainer aside h2,
-  .informationContainer aside h2 {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside h2 {
     padding-left: var(--sp20);
   }
 
@@ -4255,9 +4255,9 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 700;
   }
 
-  .aboutContainer aside h2,
-  .serviceContainer aside h2,
-  .informationContainer aside h2 {
+  :is(.aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside h2 {
     font-size: 16px;
     font-weight: 700;
   }
@@ -4276,10 +4276,10 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 500;
   }
 
-  .accountContainer aside nav ul li,
-  .aboutContainer aside nav ul li,
-  .serviceContainer aside nav ul li,
-  .informationContainer aside nav ul li {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside nav ul li {
     padding-left: var(--sp20);
     line-height: 45px;
     border-bottom: 1px solid var(--gs05);
@@ -4659,10 +4659,10 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: var(--sp50);
   }
 
-  .indexContainer div:nth-of-type(2) p,
-  .indexContainer div:nth-of-type(4) p,
-  .indexContainer>div:nth-of-type(6) p,
-  .listMixContainer>div:nth-of-type(2) p {
+  :is(.indexContainer div:nth-of-type(2),
+  .indexContainer div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(6),
+  .listMixContainer>div:nth-of-type(2)) p {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -4670,10 +4670,10 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: var(--sp30);
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption p,
-  .indexContainer>div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(5) figure figcaption p,
-  .listMixContainer div:nth-of-type(8) figure figcaption p {
+  :is(.indexContainer>div:nth-of-type(3),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure figcaption p {
     font-size: 17px;
     font-weight: 400;
     line-height: 23px;
@@ -4692,14 +4692,14 @@ section .lImgRcap div:last-of-type h4,
     width: 200px;
   }
 
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-prev,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-prev,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-prev {
+  :is(.indexContainer div:nth-of-type(2),
+  .indexContainer div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(6),
+  .listMixContainer div:nth-of-type(2),
+  .listMixContainer div:nth-of-type(7),
+  .listCardContainer div:nth-of-type(3),
+  .detailPageContainer div:nth-of-type(4),
+  .wishlistContainer div:last-of-type) .bx-wrapper .bx-controls .bx-prev {
     left: -30px;
     top: 53%;
     background: url('../images/chevron_backward.svg') no-repeat center;
@@ -4707,14 +4707,14 @@ section .lImgRcap div:last-of-type h4,
     z-index: 0;
   }
 
-  .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
-  .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
-  .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-next,
-  .listMixContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-next,
-  .listMixContainer div:nth-of-type(7) .bx-wrapper .bx-controls .bx-next,
-  .listCardContainer div:nth-of-type(3) .bx-wrapper .bx-controls .bx-next,
-  .detailPageContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-next,
-  .wishlistContainer div:last-of-type .bx-wrapper .bx-controls .bx-next {
+  :is(.indexContainer div:nth-of-type(2),
+  .indexContainer div:nth-of-type(4),
+  .indexContainer>div:nth-of-type(6),
+  .listMixContainer div:nth-of-type(2),
+  .listMixContainer div:nth-of-type(7),
+  .listCardContainer div:nth-of-type(3),
+  .detailPageContainer div:nth-of-type(4),
+  .wishlistContainer div:last-of-type) .bx-wrapper .bx-controls .bx-next {
     right: -30px;
     top: 53%;
     background: url('../images/chevron_forward.svg') no-repeat center;
@@ -4806,10 +4806,10 @@ section .lImgRcap div:last-of-type h4,
     background-size: 30px;
   }
 
-  .indexContainer>div:nth-of-type(3) figure figcaption .btnShop,
-  .indexContainer>div:nth-of-type(5) figure figcaption .btnShop,
-  .listMixContainer div:nth-of-type(5) figure figcaption .btnShop,
-  .listMixContainer div:nth-of-type(8) figure figcaption .btnShop {
+  :is(.indexContainer>div:nth-of-type(3),
+  .indexContainer>div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(5),
+  .listMixContainer div:nth-of-type(8)) figure figcaption .btnShop {
     float: right;
     width: 300px;
   }
@@ -5110,9 +5110,9 @@ section .lImgRcap div:last-of-type h4,
     background: url('../images/listPage_colla_bg_03.png') no-repeat center center;
   }
 
-  .listMixContainer div:nth-of-type(4) div div h2,
-  .listMixContainer div:nth-of-type(9) div div h2,
-  .listCardContainer>div:first-of-type div div h2 {
+  :is(.listMixContainer div:nth-of-type(4),
+  .listMixContainer div:nth-of-type(9),
+  .listCardContainer>div:first-of-type) div div h2 {
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
@@ -5440,10 +5440,10 @@ section .lImgRcap div:last-of-type h4,
     padding: var(--sp140) 0 var(--sp40);
   }
 
-  .accountContainer aside,
-  .aboutContainer aside,
-  .serviceContainer aside,
-  .informationContainer aside {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside {
     width: 31.7%;
     margin-right: 2.4%;
     display: inline-block;
@@ -5461,10 +5461,10 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  .accountContainer aside h2,
-  .aboutContainer aside h2,
-  .serviceContainer aside h2,
-  .informationContainer aside h2 {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside h2 {
     padding-left: var(--sp20);
   }
 
@@ -5491,10 +5491,10 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 500;
   }
 
-  .accountContainer aside nav ul li,
-  .aboutContainer aside nav ul li,
-  .serviceContainer aside nav ul li,
-  .informationContainer aside nav ul li {
+  :is(.accountContainer,
+  .aboutContainer,
+  .serviceContainer,
+  .informationContainer) aside nav ul li {
     padding-left: var(--sp20);
     line-height: 45px;
     border-bottom: 1px solid var(--gs05);
