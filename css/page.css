@@ -1478,6 +1478,254 @@ section .lImgRcap div:last-of-type h4,
   cursor: pointer;
 }
 
+.accountContainer section h2 {
+  position: relative;
+}
+
+.accountContainer section h2 strong,
+.accountContainer section h2 span {
+  display: block;
+}
+
+.accountContainer section.addressBook ul li div:last-of-type input[type=button] {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.accountContainer section.addressBook ul li {
+  padding: 20px;
+  position: relative;
+}
+
+.accountContainer section.addressBook ul li div:first-of-type input[type=radio] {
+  display: none;
+}
+
+.accountContainer section.addressBook ul li div:first-of-type label {
+  font-size: 16px;
+  font-weight: 500;
+  background: url('../images/radio_button_unchecked.svg') no-repeat center left;
+  background-size: 20px;
+  padding-left: 25px;
+}
+
+.accountContainer section.addressBook ul li div:first-of-type label.active {
+  background: url('../images/radio_button_checked.svg') no-repeat center left;
+  background-size: 20px;
+}
+
+.accountContainer section.addressBook ul li div:first-of-type dl {
+  text-indent: 25px;
+  margin-top: 20px;
+}
+
+.accountContainer section.addressBook ul li div:first-of-type dl dt {
+  margin-bottom: 5px;
+}
+
+.accountContainer section.addressBook ul li div:first-of-type dl dd:last-of-type {
+  margin-bottom: 0;
+}
+
+.accountContainer section.addressBook ul li div:last-of-type {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 85%;
+}
+
+.accountContainer section.addressBook ul li div:last-of-type input[type=button] {
+  border: none;
+  width: 80px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.accountContainer section.addressBook ul li div:last-of-type input[type=button].disabled {
+  background-color: var(--gs02);
+  cursor: default;
+}
+
+.accountContainer section.addressBook ul li div:last-of-type input[type=button]:last-of-type {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.accountContainer section.canceled h2 em {
+  font-style: normal;
+  padding: 5px 15px;
+  border-radius: 20px;
+  position: absolute;
+  top: 60px;
+  left: 150px;
+}
+
+.accountContainer section.canceled ol li img {
+  filter: grayscale(100%)
+}
+
+.accountContainer section.canceled div:nth-of-type(2) dl dd {
+  text-decoration: line-through;
+}
+
+.accountContainer section.canceled div:nth-of-type(2)>p:last-of-type {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.accountContainer section.editInformation input[type=button]:first-of-type,
+.accountContainer section.orderDetails input[type=button]:first-of-type,
+.aboutContainer article input[type=button],
+.aboutContainer section input[type=button],
+.serviceContainer article input[type=button],
+.serviceContainer section input[type=button],
+.informationContainer article input[type=button],
+.informationContainer section input[type=button] {
+  border: none;
+  background-color: transparent;
+  padding: 0 0 0 15px;
+  font-size: 13px;
+  font-weight: 400;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 40px;
+  cursor: pointer;
+  background: url('../images/chevron_backward_400.svg') no-repeat center left -8px;
+  background-size: 25px;
+}
+
+.accountContainer section.editInformation p,
+.aboutContainer section ul li h4,
+.serviceContainer article div h4,
+.informationContainer section div h4,
+.informationContainer article div h4,
+.informationContainer article ol li h4 {
+  margin-bottom: 40px;
+}
+
+.accountContainer section.editInformation form ul li {
+  position: relative;
+  display: block;
+}
+
+.accountContainer section.editInformation form ul li input[type=text],
+.accountContainer section.editInformation form ul li input[type=email],
+.accountContainer section.editInformation form ul li input[type=tel],
+.accountContainer section.editInformation form ul li input[type=date] {
+  padding: 15px 20px;
+  border: 1px solid var(--gs05);
+  width: 100%;
+}
+
+.accountContainer section.editInformation form ul li input[type=date] {
+  color: transparent;
+}
+
+.accountContainer section.editInformation form ul li input[type=date]::-webkit-calendar-picker-indicator {
+  background: url('../images/date_range.svg') no-repeat center;
+  background-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.accountContainer section.editInformation form ul li input[type=text].filled,
+.accountContainer section.editInformation form ul li input[type=email].filled,
+.accountContainer section.editInformation form ul li input[type=tel].filled,
+.accountContainer section.editInformation form ul li input[type=date].filled {
+  padding: 25px 20px 5px;
+}
+
+.accountContainer section.editInformation form ul li label {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.accountContainer section.editInformation form ul li label.filled {
+  top: 5px;
+}
+
+.accountContainer section.myProfile div:nth-of-type(2) dl dd {
+  font-weight: 400;
+}
+
+.accountContainer section.myProfile div:nth-of-type(3) p a,
+.accountContainer section.myProfile div:nth-of-type(3) div:first-of-type p a,
+.accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p a {
+  text-decoration: underline;
+}
+
+.accountContainer section.orderDetails div:first-of-type i {
+  font-style: normal;
+  margin-right: 45px;
+}
+
+.accountContainer section.orderDetails ol li dl {
+  position: relative;
+}
+
+.accountContainer section.orderDetails ol li dl dt {
+  line-height: 23px;
+}
+
+.accountContainer section.orderDetails ol li dl dd:last-of-type {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.accountContainer section.orderDetails div:nth-of-type(2) ol li h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.accountContainer section.orderDetails div:nth-of-type(2) ol li mark {
+  font-style: normal;
+  background-color: transparent;
+}
+
+.accountContainer section.orderDetails div:nth-of-type(2) ol li mark:first-of-type {
+  display: block;
+}
+
+.accountContainer section.orderDetails div:nth-of-type(2) ol li address {
+  font-style: normal;
+}
+
+.accountContainer section.orderDetails div:nth-of-type(2) ol li address a {
+  display: block;
+}
+
+.accountContainer section.orderDetails div:nth-of-type(2) dl {
+  position: relative;
+}
+
+.accountContainer section.orderDetails div:nth-of-type(2) dl dd {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.accountContainer section.orderList table {
+  width: 100%;
+  text-align: center;
+}
+
+.accountContainer section.orderList table thead,
+.accountContainer section.orderList table tbody {
+  line-height: 50px;
+}
+
+.accountContainer section.orderList table tbody tr {
+  border-bottom: 1px solid var(--gs05);
+  background: url('../images/chevron_forward_400.svg') no-repeat center right;
+  background-size: 20px;
+}
+
+
 @media screen and (max-width: 767px) {
 
   /* ########## padding & bg ##########  */
@@ -2179,11 +2427,6 @@ section .lImgRcap div:last-of-type h4,
     display: inline;
   }
 
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
-    font-size: 13px;
-    font-weight: 500;
-  }
-
   .listCardContainer>div:first-of-type div div span {
     margin-bottom: 85px;
   }
@@ -2496,10 +2739,6 @@ section .lImgRcap div:last-of-type h4,
     float: right;
   }
 
-  .accountContainer section h2 {
-    position: relative;
-  }
-
   .accountContainer section h2 strong,
   .aboutContainer article h3,
   .aboutContainer section h3,
@@ -2517,10 +2756,6 @@ section .lImgRcap div:last-of-type h4,
     line-height: 35px;
   }
 
-  .accountContainer section h2 strong {
-    display: block;
-  }
-
   .aboutContainer article h3,
   .aboutContainer section h3,
   .serviceContainer article h3,
@@ -2528,40 +2763,6 @@ section .lImgRcap div:last-of-type h4,
   .informationContainer article h3,
   .informationContainer section h3 {
     margin-bottom: 60px;
-  }
-
-  .accountContainer section h2 span {
-    display: block;
-  }
-
-  .accountContainer section.canceled h2 em {
-    font-style: normal;
-    padding: 5px 15px;
-    border-radius: 20px;
-    position: absolute;
-    top: 60px;
-    left: 150px;
-  }
-
-  .accountContainer section.editInformation input[type=button]:first-of-type,
-  .accountContainer section.orderDetails input[type=button]:first-of-type,
-  .aboutContainer article input[type=button],
-  .aboutContainer section input[type=button],
-  .serviceContainer article input[type=button],
-  .serviceContainer section input[type=button],
-  .informationContainer article input[type=button],
-  .informationContainer section input[type=button] {
-    border: none;
-    background-color: transparent;
-    padding: 0 0 0 15px;
-    font-size: 13px;
-    font-weight: 400;
-    display: block;
-    margin-left: auto;
-    margin-bottom: 40px;
-    cursor: pointer;
-    background: url('../images/chevron_backward_400.svg') no-repeat center left -8px;
-    background-size: 25px;
   }
 
   .accountContainer section.myProfile div:first-of-type a {
@@ -2574,72 +2775,7 @@ section .lImgRcap div:last-of-type h4,
     width: 260px;
   }
 
-  .accountContainer section.myProfile div:nth-of-type(2) dl dd {
-    font-weight: 400;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3) p a {
-    text-decoration: underline;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3) div:first-of-type p a {
-    text-decoration: underline;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p a {
-    text-decoration: underline;
-  }
-
   /* ########## 3 section - editInformation  ##########  */
-  .accountContainer section.editInformation p,
-  .aboutContainer section ul li h4,
-  .serviceContainer article div h4,
-  .informationContainer section div h4,
-  .informationContainer article div h4,
-  .informationContainer article ol li h4 {
-    margin-bottom: 40px;
-  }
-
-  .accountContainer section.editInformation form ul li {
-    position: relative;
-    display: block;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=text],
-  .accountContainer section.editInformation form ul li input[type=email],
-  .accountContainer section.editInformation form ul li input[type=tel],
-  .accountContainer section.editInformation form ul li input[type=date] {
-    padding: 15px 20px;
-    border: 1px solid var(--gs05);
-    width: 100%;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=date] {
-    color: transparent;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=date]::-webkit-calendar-picker-indicator {
-    background: url('../images/date_range.svg') no-repeat center;
-    background-size: 20px;
-    cursor: pointer;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=text].filled,
-  .accountContainer section.editInformation form ul li input[type=email].filled,
-  .accountContainer section.editInformation form ul li input[type=tel].filled,
-  .accountContainer section.editInformation form ul li input[type=date].filled {
-    padding: 25px 20px 5px;
-  }
-
-  .accountContainer section.editInformation form ul li label {
-    position: absolute;
-    top: 15px;
-    left: 20px;
-  }
-
   .accountContainer section.editInformation form ul li label,
   .accountContainer section.orderList table tbody tr td,
   .accountContainer section.addressBook ul li div:first-of-type dl dd,
@@ -2746,36 +2882,7 @@ section .lImgRcap div:last-of-type h4,
     line-height: 20px;
   }
 
-  .accountContainer section.editInformation form ul li label.filled {
-    top: 5px;
-  }
-
-  /* ########## 3 section - orderList  ##########  */
-  .accountContainer section.orderList table {
-    width: 100%;
-    text-align: center;
-  }
-
-  .accountContainer section.orderList table thead {
-    line-height: 50px;
-  }
-
-  .accountContainer section.orderList table tbody {
-    line-height: 50px;
-  }
-
-  .accountContainer section.orderList table tbody tr {
-    border-bottom: 1px solid var(--gs05);
-    background: url('../images/chevron_forward_400.svg') no-repeat center right;
-    background-size: 20px;
-  }
-
   /* ########## 3 section - orderDetails  ##########  */
-  .accountContainer section.orderDetails div:first-of-type i {
-    font-style: normal;
-    margin-right: 45px;
-  }
-
   .accountContainer section.orderDetails ol li img {
     margin-bottom: 15px;
     width: 100%;
@@ -2783,67 +2890,8 @@ section .lImgRcap div:last-of-type h4,
     display: block;
   }
 
-  .accountContainer section.canceled ol li img {
-    filter: grayscale(100%)
-  }
-
-  .accountContainer section.orderDetails ol li dl {
-    position: relative;
-  }
-
-  .accountContainer section.orderDetails ol li dl dt {
-    line-height: 23px;
-  }
-
-  .accountContainer section.orderDetails ol li dl dd:last-of-type {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
   .accountContainer section.orderDetails div:nth-of-type(2) {
     padding: 20px;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li h4 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark {
-    font-style: normal;
-    background-color: transparent;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark:first-of-type {
-    display: block;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li address {
-    font-style: normal;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li address a {
-    display: block;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) dl {
-    position: relative;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) dl dd {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
-  .accountContainer section.canceled div:nth-of-type(2) dl dd {
-    text-decoration: line-through;
-  }
-
-  .accountContainer section.canceled div:nth-of-type(2)>p:last-of-type {
-    text-align: right;
-    margin-top: 10px;
   }
 
   .accountContainer section.orderDetails input[type=button].orderCompleted,
@@ -2863,66 +2911,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 3 section - addressBook  ##########  */
-  .accountContainer section.addressBook ul li {
-    padding: 20px;
-    position: relative;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type input[type=radio] {
-    display: none;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type label {
-    font-size: 16px;
-    font-weight: 500;
-    background: url('../images/radio_button_unchecked.svg') no-repeat center left;
-    background-size: 20px;
-    padding-left: 25px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type label.active {
-    background: url('../images/radio_button_checked.svg') no-repeat center left;
-    background-size: 20px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type dl {
-    text-indent: 25px;
-    margin-top: 20px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type dl dt {
-    margin-bottom: 5px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type dl dd:last-of-type {
-    margin-bottom: 0;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    height: 85%;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
-    border: none;
-    width: 80px;
-    line-height: 30px;
-    cursor: pointer;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button].disabled {
-    background-color: var(--gs02);
-    cursor: default;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button]:last-of-type {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-
   .accountContainer section.addressBook input[type=button] {
     width: 100%;
   }
@@ -4098,11 +4086,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 80px 0 20px;
   }
 
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
-    font-size: 13px;
-    font-weight: 500;
-  }
-
   .listCardContainer>div:first-of-type div div span,
   .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li,
   .accountContainer section.orderDetails ol li dl dd:first-of-type,
@@ -4420,10 +4403,6 @@ section .lImgRcap div:last-of-type h4,
     float: right;
   }
 
-  .accountContainer section h2 {
-    position: relative;
-  }
-
   .accountContainer section h2 strong,
   .aboutContainer article h3,
   .aboutContainer section h3,
@@ -4440,10 +4419,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 500;
   }
 
-  .accountContainer section h2 strong {
-    display: block;
-  }
-
   .aboutContainer article h3,
   .aboutContainer section h3,
   .serviceContainer article h3,
@@ -4451,40 +4426,6 @@ section .lImgRcap div:last-of-type h4,
   .informationContainer article h3,
   .informationContainer section h3 {
     margin-bottom: 60px;
-  }
-
-  .accountContainer section h2 span {
-    display: block;
-  }
-
-  .accountContainer section.canceled h2 em {
-    font-style: normal;
-    padding: 5px 15px;
-    border-radius: 20px;
-    position: absolute;
-    top: 60px;
-    left: 150px;
-  }
-
-  .accountContainer section.editInformation input[type=button]:first-of-type,
-  .accountContainer section.orderDetails input[type=button]:first-of-type,
-  .aboutContainer article input[type=button],
-  .aboutContainer section input[type=button],
-  .serviceContainer article input[type=button],
-  .serviceContainer section input[type=button],
-  .informationContainer article input[type=button],
-  .informationContainer section input[type=button] {
-    border: none;
-    background-color: transparent;
-    padding: 0 0 0 15px;
-    font-size: 13px;
-    font-weight: 400;
-    display: block;
-    margin-left: auto;
-    margin-bottom: 40px;
-    cursor: pointer;
-    background: url('../images/chevron_backward_400.svg') no-repeat center left -8px;
-    background-size: 25px;
   }
 
   .accountContainer section.myProfile div:first-of-type a {
@@ -4498,72 +4439,7 @@ section .lImgRcap div:last-of-type h4,
     width: 348px;
   }
 
-  .accountContainer section.myProfile div:nth-of-type(2) dl dd {
-    font-weight: 400;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3) p a {
-    text-decoration: underline;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3) div:first-of-type p a {
-    text-decoration: underline;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p a {
-    text-decoration: underline;
-  }
-
   /* ########## 3 section - editInformation  ##########  */
-  .accountContainer section.editInformation p,
-  .aboutContainer section ul li h4,
-  .serviceContainer article div h4,
-  .informationContainer section div h4,
-  .informationContainer article div h4,
-  .informationContainer article ol li h4 {
-    margin-bottom: 40px;
-  }
-
-  .accountContainer section.editInformation form ul li {
-    position: relative;
-    display: block;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=text],
-  .accountContainer section.editInformation form ul li input[type=email],
-  .accountContainer section.editInformation form ul li input[type=tel],
-  .accountContainer section.editInformation form ul li input[type=date] {
-    padding: 15px 20px;
-    border: 1px solid var(--gs05);
-    width: 100%;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=date] {
-    color: transparent;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=date]::-webkit-calendar-picker-indicator {
-    background: url('../images/date_range.svg') no-repeat center;
-    background-size: 20px;
-    cursor: pointer;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=text].filled,
-  .accountContainer section.editInformation form ul li input[type=email].filled,
-  .accountContainer section.editInformation form ul li input[type=tel].filled,
-  .accountContainer section.editInformation form ul li input[type=date].filled {
-    padding: 25px 20px 5px;
-  }
-
-  .accountContainer section.editInformation form ul li label {
-    position: absolute;
-    top: 15px;
-    left: 20px;
-  }
-
   .accountContainer section.editInformation form ul li label,
   .accountContainer section.orderList table tbody tr td,
   .accountContainer section.orderDetails div:first-of-type i,
@@ -4619,36 +4495,7 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 400;
   }
 
-  .accountContainer section.editInformation form ul li label.filled {
-    top: 5px;
-  }
-
-  /* ########## 3 section - orderList  ##########  */
-  .accountContainer section.orderList table {
-    width: 100%;
-    text-align: center;
-  }
-
-  .accountContainer section.orderList table thead {
-    line-height: 50px;
-  }
-
-  .accountContainer section.orderList table tbody {
-    line-height: 50px;
-  }
-
-  .accountContainer section.orderList table tbody tr {
-    border-bottom: 1px solid var(--gs05);
-    background: url('../images/chevron_forward_400.svg') no-repeat center right;
-    background-size: 20px;
-  }
-
   /* ########## 3 section - orderDetails  ##########  */
-  .accountContainer section.orderDetails div:first-of-type i {
-    font-style: normal;
-    margin-right: 45px;
-  }
-
   .accountContainer section.orderDetails ol li:after {
     content: '';
     display: block;
@@ -4660,67 +4507,8 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 20px;
   }
 
-  .accountContainer section.canceled ol li img {
-    filter: grayscale(100%)
-  }
-
-  .accountContainer section.orderDetails ol li dl {
-    position: relative;
-  }
-
-  .accountContainer section.orderDetails ol li dl dt {
-    line-height: 23px;
-  }
-
-  .accountContainer section.orderDetails ol li dl dd:last-of-type {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
   .accountContainer section.orderDetails div:nth-of-type(2) {
     padding: 20px;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li h4 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark {
-    font-style: normal;
-    background-color: transparent;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark:first-of-type {
-    display: block;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li address {
-    font-style: normal;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li address a {
-    display: block;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) dl {
-    position: relative;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) dl dd {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
-  .accountContainer section.canceled div:nth-of-type(2) dl dd {
-    text-decoration: line-through;
-  }
-
-  .accountContainer section.canceled div:nth-of-type(2)>p:last-of-type {
-    text-align: right;
-    margin-top: 10px;
   }
 
   .accountContainer section.orderDetails input[type=button].orderCompleted,
@@ -4740,66 +4528,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 3 section - addressBook  ##########  */
-  .accountContainer section.addressBook ul li {
-    padding: 20px;
-    position: relative;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type input[type=radio] {
-    display: none;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type label {
-    font-size: 16px;
-    font-weight: 500;
-    background: url('../images/radio_button_unchecked.svg') no-repeat center left;
-    background-size: 20px;
-    padding-left: 25px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type label.active {
-    background: url('../images/radio_button_checked.svg') no-repeat center left;
-    background-size: 20px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type dl {
-    text-indent: 25px;
-    margin-top: 20px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type dl dt {
-    margin-bottom: 5px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type dl dd:last-of-type {
-    margin-bottom: 0;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    height: 85%;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
-    border: none;
-    width: 80px;
-    line-height: 30px;
-    cursor: pointer;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button].disabled {
-    background-color: var(--gs02);
-    cursor: default;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button]:last-of-type {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-
   .accountContainer section.addressBook input[type=button] {
     width: 100%;
   }
@@ -5959,11 +5687,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 140px 0 40px;
   }
 
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
-    font-size: 13px;
-    font-weight: 500;
-  }
-
   .listCardContainer>div:first-of-type div div span,
   .detailPageContainer>div:nth-of-type(2) div div:last-of-type .thumbPager li,
   .accountContainer section.orderDetails ol li dl dd:first-of-type,
@@ -6290,10 +6013,6 @@ section .lImgRcap div:last-of-type h4,
     float: right;
   }
 
-  .accountContainer section h2 {
-    position: relative;
-  }
-
   .accountContainer section h2 strong,
   .aboutContainer article h3,
   .aboutContainer section h3,
@@ -6310,10 +6029,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 500;
   }
 
-  .accountContainer section h2 strong {
-    display: block;
-  }
-
   .aboutContainer article h3,
   .aboutContainer section h3,
   .serviceContainer article h3,
@@ -6321,40 +6036,6 @@ section .lImgRcap div:last-of-type h4,
   .informationContainer article h3,
   .informationContainer section h3 {
     margin-bottom: 60px;
-  }
-
-  .accountContainer section h2 span {
-    display: block;
-  }
-
-  .accountContainer section.canceled h2 em {
-    font-style: normal;
-    padding: 5px 15px;
-    border-radius: 20px;
-    position: absolute;
-    top: 60px;
-    left: 150px;
-  }
-
-  .accountContainer section.editInformation input[type=button]:first-of-type,
-  .accountContainer section.orderDetails input[type=button]:first-of-type,
-  .aboutContainer article input[type=button],
-  .aboutContainer section input[type=button],
-  .serviceContainer article input[type=button],
-  .serviceContainer section input[type=button],
-  .informationContainer article input[type=button],
-  .informationContainer section input[type=button] {
-    border: none;
-    background-color: transparent;
-    padding: 0 0 0 15px;
-    font-size: 13px;
-    font-weight: 400;
-    display: block;
-    margin-left: auto;
-    margin-bottom: 40px;
-    cursor: pointer;
-    background: url('../images/chevron_backward_400.svg') no-repeat center left -8px;
-    background-size: 25px;
   }
 
   .accountContainer section.myProfile div:first-of-type a {
@@ -6368,72 +6049,7 @@ section .lImgRcap div:last-of-type h4,
     width: 370px;
   }
 
-  .accountContainer section.myProfile div:nth-of-type(2) dl dd {
-    font-weight: 400;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3) p a {
-    text-decoration: underline;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3) div:first-of-type p a {
-    text-decoration: underline;
-  }
-
-  .accountContainer section.myProfile div:nth-of-type(3) div:nth-of-type(2) p a {
-    text-decoration: underline;
-  }
-
   /* ########## 3 section - editInformation  ##########  */
-  .accountContainer section.editInformation p,
-  .aboutContainer section ul li h4,
-  .serviceContainer article div h4,
-  .informationContainer section div h4,
-  .informationContainer article div h4,
-  .informationContainer article ol li h4 {
-    margin-bottom: 40px;
-  }
-
-  .accountContainer section.editInformation form ul li {
-    position: relative;
-    display: block;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=text],
-  .accountContainer section.editInformation form ul li input[type=email],
-  .accountContainer section.editInformation form ul li input[type=tel],
-  .accountContainer section.editInformation form ul li input[type=date] {
-    padding: 15px 20px;
-    border: 1px solid var(--gs05);
-    width: 100%;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=date] {
-    color: transparent;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=date]::-webkit-calendar-picker-indicator {
-    background: url('../images/date_range.svg') no-repeat center;
-    background-size: 20px;
-    cursor: pointer;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-  }
-
-  .accountContainer section.editInformation form ul li input[type=text].filled,
-  .accountContainer section.editInformation form ul li input[type=email].filled,
-  .accountContainer section.editInformation form ul li input[type=tel].filled,
-  .accountContainer section.editInformation form ul li input[type=date].filled {
-    padding: 25px 20px 5px;
-  }
-
-  .accountContainer section.editInformation form ul li label {
-    position: absolute;
-    top: 15px;
-    left: 20px;
-  }
-
   .accountContainer section.editInformation form ul li label,
   .accountContainer section.orderList table tbody tr td,
   .accountContainer section.orderDetails div:first-of-type i,
@@ -6489,36 +6105,7 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 400;
   }
 
-  .accountContainer section.editInformation form ul li label.filled {
-    top: 5px;
-  }
-
-  /* ########## 3 section - orderList  ##########  */
-  .accountContainer section.orderList table {
-    width: 100%;
-    text-align: center;
-  }
-
-  .accountContainer section.orderList table thead {
-    line-height: 50px;
-  }
-
-  .accountContainer section.orderList table tbody {
-    line-height: 50px;
-  }
-
-  .accountContainer section.orderList table tbody tr {
-    border-bottom: 1px solid var(--gs05);
-    background: url('../images/chevron_forward_400.svg') no-repeat center right;
-    background-size: 20px;
-  }
-
   /* ########## 3 section - orderDetails  ##########  */
-  .accountContainer section.orderDetails div:first-of-type i {
-    font-style: normal;
-    margin-right: 45px;
-  }
-
   .accountContainer section.orderDetails>ol {
     display: inline-block;
     width: 48%;
@@ -6537,70 +6124,11 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 20px;
   }
 
-  .accountContainer section.canceled ol li img {
-    filter: grayscale(100%)
-  }
-
-  .accountContainer section.orderDetails ol li dl {
-    position: relative;
-  }
-
-  .accountContainer section.orderDetails ol li dl dt {
-    line-height: 23px;
-  }
-
-  .accountContainer section.orderDetails ol li dl dd:last-of-type {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
   .accountContainer section.orderDetails div:nth-of-type(2) {
     display: inline-block;
     width: 49.5%;
     vertical-align: top;
     padding: 20px;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li h4 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark {
-    font-style: normal;
-    background-color: transparent;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li mark:first-of-type {
-    display: block;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li address {
-    font-style: normal;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) ol li address a {
-    display: block;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) dl {
-    position: relative;
-  }
-
-  .accountContainer section.orderDetails div:nth-of-type(2) dl dd {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-
-  .accountContainer section.canceled div:nth-of-type(2) dl dd {
-    text-decoration: line-through;
-  }
-
-  .accountContainer section.canceled div:nth-of-type(2)>p:last-of-type {
-    text-align: right;
-    margin-top: 10px;
   }
 
   .accountContainer section.orderDetails input[type=button].orderCompleted,
@@ -6623,66 +6151,6 @@ section .lImgRcap div:last-of-type h4,
   }
 
   /* ########## 3 section - addressBook  ##########  */
-  .accountContainer section.addressBook ul li {
-    padding: 20px;
-    position: relative;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type input[type=radio] {
-    display: none;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type label {
-    font-size: 16px;
-    font-weight: 500;
-    background: url('../images/radio_button_unchecked.svg') no-repeat center left;
-    background-size: 20px;
-    padding-left: 25px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type label.active {
-    background: url('../images/radio_button_checked.svg') no-repeat center left;
-    background-size: 20px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type dl {
-    text-indent: 25px;
-    margin-top: 20px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type dl dt {
-    margin-bottom: 5px;
-  }
-
-  .accountContainer section.addressBook ul li div:first-of-type dl dd:last-of-type {
-    margin-bottom: 0;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    height: 85%;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button] {
-    border: none;
-    width: 80px;
-    line-height: 30px;
-    cursor: pointer;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button].disabled {
-    background-color: var(--gs02);
-    cursor: default;
-  }
-
-  .accountContainer section.addressBook ul li div:last-of-type input[type=button]:last-of-type {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-
   .accountContainer section.addressBook input[type=button] {
     display: block;
     margin: 0 auto;
