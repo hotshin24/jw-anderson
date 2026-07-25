@@ -1912,10 +1912,162 @@ section .lImgRcap div:last-of-type h4,
   text-decoration: underline;
 }
 
+.aboutContainer article figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.aboutContainer article a {
+  display: block;
+  text-decoration: underline;
+}
+
+.aboutContainer section ul li address div,
+.informationContainer section div:last-of-type address div {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.aboutContainer section ul li address a,
+.informationContainer article.termsSales div address div {
+  font-style: normal;
+}
+
+.aboutContainer section ul li address a,
+.informationContainer section div:nth-of-type(2) a {
+  display: block;
+}
+
+.aboutContainer article h3,
+.aboutContainer section h3,
+.serviceContainer article h3,
+.serviceContainer section h3,
+.informationContainer article h3,
+.informationContainer section h3 {
+  margin-bottom: 60px;
+}
+
+.informationContainer:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.informationContainer article.termsConditions {
+  margin-bottom: 110px;
+}
+
+.informationContainer article.termsSales {
+  float: right;
+}
+
+.informationContainer article.termsSales div address div {
+  line-height: 29px;
+}
+
+.informationContainer article.privacyPolicy div:nth-of-type(18) ol li,
+.informationContainer article.privacyPolicy div:nth-of-type(18) ol li p,
+.informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
+  margin-left: 25px;
+}
+
+.informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
+.informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
+.informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
+  list-style: decimal;
+}
+
+.informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li ul li {
+  list-style: '- ';
+}
+
+.informationContainer article.privacyPolicy div:nth-of-type(16) i {
+  display: block;
+}
+
+.informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
+.informationContainer article.privacyPolicy div:nth-of-type(16) i:last-of-type {
+  text-decoration: underline;
+}
+
+.informationContainer article.termsSales>ol>li ol li {
+  margin-left: 25px;
+}
+
+.informationContainer article.termsSales div ul li input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--gs05);
+}
+
+.serviceContainer article div:nth-of-type(5) ul li,
+.serviceContainer article div:nth-of-type(9) ul li,
+.serviceContainer article div:nth-of-type(10) ul li,
+.informationContainer article.customerSupport div:nth-of-type(4) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
+.informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
+.informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
+.informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
+.informationContainer article.termsConditions div:nth-of-type(3) ul li,
+.informationContainer article.termsConditions div:nth-of-type(10) ul li,
+.informationContainer article.termsConditions div:nth-of-type(14) ul li,
+.informationContainer article.termsConditions div:nth-of-type(15) ul li,
+.informationContainer article.termsConditions div:nth-of-type(16) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
+.informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
+.informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.serviceContainer article div:nth-of-type(5) ul li,
+.serviceContainer article div:nth-of-type(9) ul li,
+.serviceContainer article div:nth-of-type(10) ul li,
+.informationContainer article.customerSupport div:nth-of-type(4) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
+.informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
+.informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
+.informationContainer article.termsConditions div:nth-of-type(3) ul li,
+.informationContainer article.termsConditions div:nth-of-type(10) ul li,
+.informationContainer article.termsConditions div:nth-of-type(14) ul li,
+.informationContainer article.termsConditions div:nth-of-type(15) ul li,
+.informationContainer article.termsConditions div:nth-of-type(16) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
+.informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
+.informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
+.informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
+  list-style: disc;
+}
+
+.serviceContainer article div:nth-of-type(12) p a {
+  text-decoration: underline;
+}
+
+.serviceContainer form ul li {
+  position: relative;
+}
+
 
 @media screen and (max-width: 767px) {
-
-  /* ########## padding & bg ##########  */
   .indexContainer>div:nth-of-type(2),
   .indexContainer>div:nth-of-type(3),
   .indexContainer>div:nth-of-type(4),
@@ -1953,7 +2105,6 @@ section .lImgRcap div:last-of-type h4,
     padding-bottom: 60px;
   }
 
-  /* ########## title + paragraph ##########  */
   .indexContainer>div:nth-of-type(2) h2,
   .indexContainer>div:nth-of-type(4) h2,
   .indexContainer>div:nth-of-type(3) figure figcaption h2,
@@ -2043,14 +2194,12 @@ section .lImgRcap div:last-of-type h4,
     line-height: 20px;
   }
 
-  /* ########## selectComponent - size ##########  */
   .listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent {
     width: 100%;
     max-width: 260px;
     margin: 0 auto 15px;
   }
 
-  /* ########## selectComponent - sort by ##########  */
   .listCardContainer>div:first-of-type div div.selectComponent {
     position: absolute;
     bottom: -90px;
@@ -2058,7 +2207,6 @@ section .lImgRcap div:last-of-type h4,
     width: 260px;
   }
 
-  /* ########## bx slider ##########  */
   .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
@@ -2115,7 +2263,6 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  /* ########## floatingBox ##########  */
   .indexContainer>div:nth-of-type(3) figure,
   .listMixContainer div:nth-of-type(5) figure,
   .indexContainer>div:nth-of-type(5) figure,
@@ -2142,7 +2289,6 @@ section .lImgRcap div:last-of-type h4,
     order: -1;
   }
 
-  /* ########## btnShop ##########  */
   .indexContainer>div:first-of-type a.btnShop,
   .indexContainer>div:nth-of-type(7) a.btnShop {
     border: 1px solid white;
@@ -2179,7 +2325,6 @@ section .lImgRcap div:last-of-type h4,
     background-size: 30px;
   }
 
-  /* ########## 1 title content ##########  */
   .indexContainer>div:first-of-type {
     height: 680px;
     color: white;
@@ -2213,7 +2358,6 @@ section .lImgRcap div:last-of-type h4,
     top: 84%;
   }
 
-  /* ##########  6 accessories zone  ##########  */
   .indexContainer>div:nth-of-type(6) ul::after,
   .listCardContainer>div:nth-of-type(2) ul:after,
   .wishlistContainer div:nth-of-type(2) ul:after,
@@ -2253,7 +2397,6 @@ section .lImgRcap div:last-of-type h4,
     line-height: 23px;
   }
 
-  /* ########## 7 men & women collection  ##########  */
   .indexContainer>div:nth-of-type(7) {
     height: auto;
     flex-direction: column;
@@ -2278,7 +2421,6 @@ section .lImgRcap div:last-of-type h4,
     width: 260px;
   }
 
-  /* ########## 8 collaborations zone  ##########  */
   .indexContainer>div:nth-of-type(8) ul li:not(:last-of-type) {
     margin-bottom: 80px;
   }
@@ -2289,7 +2431,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  /* ########## 9 paragraph zone  ##########  */
   .indexContainer>div:last-of-type blockquote {
     font-size: 28px;
     font-weight: 400;
@@ -2299,7 +2440,6 @@ section .lImgRcap div:last-of-type h4,
     margin: 0 auto;
   }
 
-  /* ########## 1 sub title content ##########  */
   .listMixContainer.mens>div:first-of-type {
     background: url('../images/listPage_mens_bg_01.png') no-repeat center right 34%;
   }
@@ -2329,7 +2469,6 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  /* ########## 3 video zone  ##########  */
   .listMixContainer>div:nth-of-type(3) {
     display: block;
     height: auto;
@@ -2428,8 +2567,6 @@ section .lImgRcap div:last-of-type h4,
     margin: 0 auto;
   }
 
-  /* ########## 4 list left img men  ##########  */
-  /* ########## 9 list right img men  ##########  */
   .listMixContainer div:nth-of-type(4) div>div,
   .listMixContainer div:nth-of-type(9) div>div {
     text-align: center;
@@ -2569,9 +2706,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 60px;
   }
 
-  /* ########## 6 list right video  ##########  */
-  /* ########## 7 list three product ##########  */
-  /* ########## 10 list left video  ##########  */
   .listMixContainer div:nth-of-type(7) ul li {
     width: calc(50% - 11.25px);
     position: relative;
@@ -2599,7 +2733,6 @@ section .lImgRcap div:last-of-type h4,
     object-fit: cover;
   }
 
-  /* ########## 1 title  ##########  */
   .listCardContainer>div:first-of-type,
   .detailPageContainer>div:first-of-type {
     padding: 80px 0 20px;
@@ -2636,20 +2769,15 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 10px;
   }
 
-  /* ########## 2 list card slot  ##########  */
   .listCardContainer>div:nth-of-type(2)>div ul,
   .wishlistContainer div:nth-of-type(2)>div ul {
     font-size: 0;
   }
 
-  /* ########## 4 video zone  ##########  */
-
   .listCardContainer>div:last-of-type .videoBox {
     display: none;
   }
 
-  /* ########## 2 image & size  ##########  */
-  /* L-img or video */
   .detailPageContainer>div:nth-of-type(2) .bx-wrapper {
     border: none;
     box-shadow: none;
@@ -2672,7 +2800,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  /* R - information */
   .detailPageContainer>div:nth-of-type(2)>div {
     display: flex;
     flex-direction: column;
@@ -2703,14 +2830,12 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 17px;
   }
 
-  /* ########## collaboration  ##########  */
   section>div:first-of-type.lCapRimg,
   section>div:last-of-type.lImgRcap {
     background: url('../images/detailPage_colla_bg.png') no-repeat center center;
     background-size: cover;
   }
 
-  /* L-Cap R-Img */
   section .lImgRcap {
     display: flex;
     flex-direction: column;
@@ -2794,13 +2919,6 @@ section .lImgRcap div:last-of-type h4,
     object-fit: cover;
   }
 
-  /* ########## 1 navigation  ##########  */
-  .informationContainer:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
   .accountContainer>div:first-of-type,
   .aboutContainer>div:first-of-type,
   .serviceContainer>div:first-of-type,
@@ -2808,8 +2926,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 80px 0 40px;
   }
 
-
-  /* ########## 2 aside  ##########  */
   .accountContainer aside input[type=checkbox],
   .aboutContainer aside input[type=checkbox],
   .serviceContainer aside input[type=checkbox],
@@ -2906,8 +3022,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 80px;
   }
 
-  /* ########## 3 section - myProfile  ##########  */
-
   .accountContainer section,
   .aboutContainer article,
   .aboutContainer section,
@@ -2916,14 +3030,6 @@ section .lImgRcap div:last-of-type h4,
   .informationContainer article,
   .informationContainer section {
     width: 100%;
-  }
-
-  .informationContainer article.termsConditions {
-    margin-bottom: 110px;
-  }
-
-  .informationContainer article.termsSales {
-    float: right;
   }
 
   .accountContainer section h2 strong,
@@ -2943,15 +3049,6 @@ section .lImgRcap div:last-of-type h4,
     line-height: 35px;
   }
 
-  .aboutContainer article h3,
-  .aboutContainer section h3,
-  .serviceContainer article h3,
-  .serviceContainer section h3,
-  .informationContainer article h3,
-  .informationContainer section h3 {
-    margin-bottom: 60px;
-  }
-
   .accountContainer section.myProfile div:first-of-type a {
     display: inline-block;
     width: 260px;
@@ -2962,7 +3059,6 @@ section .lImgRcap div:last-of-type h4,
     width: 260px;
   }
 
-  /* ########## 3 section - editInformation  ##########  */
   .accountContainer section.editInformation form ul li label,
   .accountContainer section.orderList table tbody tr td,
   .accountContainer section.addressBook ul li div:first-of-type dl dd,
@@ -3069,7 +3165,6 @@ section .lImgRcap div:last-of-type h4,
     line-height: 20px;
   }
 
-  /* ########## 3 section - orderDetails  ##########  */
   .accountContainer section.orderDetails ol li img {
     margin-bottom: 15px;
     width: 100%;
@@ -3097,34 +3192,8 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 20px;
   }
 
-  /* ########## 3 section - addressBook  ##########  */
-  .accountContainer section.addressBook input[type=button] {
-    width: 100%;
-  }
-
-  /* ########## 3 article - Jonathan / careers  ##########  */
-  .aboutContainer article figure img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .aboutContainer article a {
-    display: block;
-    text-decoration: underline;
-  }
-
-  /* ########## 3 section - Stores  ##########  */
   .aboutContainer section ul li {
     padding: 20px 10px;
-  }
-
-  .aboutContainer section ul li address div,
-  .informationContainer section div:last-of-type address div {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 500;
   }
 
   .aboutContainer section ul li address em,
@@ -3136,20 +3205,6 @@ section .lImgRcap div:last-of-type h4,
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
-  }
-
-  .informationContainer article.termsSales div address div {
-    line-height: 29px;
-  }
-
-  .aboutContainer section ul li address a,
-  .informationContainer article.termsSales div address div {
-    font-style: normal;
-  }
-
-  .aboutContainer section ul li address a,
-  .informationContainer section div:nth-of-type(2) a {
-    display: block;
   }
 
   .informationContainer section div a,
@@ -3173,111 +3228,9 @@ section .lImgRcap div:last-of-type h4,
     overflow-wrap: break-word;
   }
 
-  /* ########## 3 article - shipping & returns  ##########  */
-  .serviceContainer article div:nth-of-type(5) ul li,
-  .serviceContainer article div:nth-of-type(9) ul li,
-  .serviceContainer article div:nth-of-type(10) ul li,
-  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
-    margin-bottom: 10px;
-    margin-left: 40px;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li p,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
-    margin-left: 25px;
-  }
-
-  .serviceContainer article div:nth-of-type(5) ul li,
-  .serviceContainer article div:nth-of-type(9) ul li,
-  .serviceContainer article div:nth-of-type(10) ul li,
-  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
-    list-style: disc;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
-    list-style: decimal;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li ul li {
-    list-style: '- ';
-  }
-
-  .serviceContainer article div:nth-of-type(12) p a {
-    text-decoration: underline;
-  }
-
-  /* ########## 3 section - track your order  ##########  */
   .serviceContainer section form input[type=submit] {
     width: 260px;
   }
-
-  /* ########## 3 article - customer support  ##########  */
-
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i {
-    display: block;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:last-of-type {
-    text-decoration: underline;
-  }
-
-  /* ########## 3 article - terms of sale  ##########  */
-  .informationContainer article.termsSales>ol>li ol li {
-    margin-left: 25px;
-  }
-
-  .informationContainer article.termsSales div ul li input {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid var(--gs05);
-  }
-
-
-  /* ########## cart container - cart full & checkout completed ##########  */
 
   .cartContainer>div:first-of-type,
   .wishlistContainer>div:first-of-type,
@@ -3367,13 +3320,10 @@ section .lImgRcap div:last-of-type h4,
     top: 55px;
   }
 
-  /* ########## wishlist container ##########  */
   .wishlistContainer>div:first-of-type a {
     float: left;
     margin-right: 35px;
   }
-
-  /* ########## checkout container ##########  */
 
   .checkoutContainer {
     display: flex;
@@ -3387,10 +3337,6 @@ section .lImgRcap div:last-of-type h4,
   .checkoutContainer form section>div:first-of-type,
   .checkoutContainer form section>div:nth-of-type(2) {
     padding: 20px 10px;
-  }
-
-  .serviceContainer form ul li {
-    position: relative;
   }
 
   .checkoutContainer form section div:first-of-type ul li input[type=text],
@@ -3437,8 +3383,6 @@ section .lImgRcap div:last-of-type h4,
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-
-  /* ########## padding & bg ##########  */
   .indexContainer>div:nth-of-type(2),
   .indexContainer>div:nth-of-type(3),
   .indexContainer>div:nth-of-type(4),
@@ -3476,7 +3420,6 @@ section .lImgRcap div:last-of-type h4,
     padding-bottom: 110px;
   }
 
-  /* ########## title + paragraph ##########  */
   .indexContainer>div:nth-of-type(2) h2,
   .indexContainer>div:nth-of-type(4) h2,
   .indexContainer>div:nth-of-type(3) figure figcaption h2,
@@ -3526,22 +3469,18 @@ section .lImgRcap div:last-of-type h4,
     line-height: 23px;
   }
 
-  /* ########## selectComponent - size ##########  */
   .listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent {
     width: 100%;
     max-width: 375px;
     margin: 0 auto 15px;
   }
 
-  /* ########## selectComponent - sort by ##########  */
   .listCardContainer>div:first-of-type div div.selectComponent {
     position: absolute;
     bottom: -20px;
     right: 0;
     width: 200px;
   }
-
-  /* ########## bx slider ##########  */
 
   .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
@@ -3600,7 +3539,6 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  /* ########## floatingBox ##########  */
   .indexContainer>div:nth-of-type(3) figure,
   .listMixContainer div:nth-of-type(5) figure,
   .indexContainer>div:nth-of-type(5) figure,
@@ -3627,7 +3565,6 @@ section .lImgRcap div:last-of-type h4,
     order: -1;
   }
 
-  /* ########## btnShop ##########  */
   .indexContainer>div:first-of-type a.btnShop,
   .indexContainer>div:nth-of-type(7) a.btnShop {
     border: 1px solid white;
@@ -3664,7 +3601,6 @@ section .lImgRcap div:last-of-type h4,
     background-size: 30px;
   }
 
-  /* ########## 1 title content ##########  */
   .indexContainer>div:first-of-type {
     height: 864px;
     color: white;
@@ -3692,7 +3628,6 @@ section .lImgRcap div:last-of-type h4,
     top: 81%;
   }
 
-  /* ##########  6 accessories zone  ##########  */
   .indexContainer>div:nth-of-type(6) ul::after,
   .listCardContainer>div:nth-of-type(2) ul:after,
   .wishlistContainer div:nth-of-type(2) ul:after,
@@ -3726,7 +3661,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 25px;
   }
 
-  /* ########## 7 men & women collection  ##########  */
   .indexContainer>div:nth-of-type(7) {
     height: auto;
     flex-direction: column;
@@ -3749,7 +3683,6 @@ section .lImgRcap div:last-of-type h4,
     transform: translate(-50%, -50%);
   }
 
-  /* ########## 8 collaborations zone  ##########  */
   .indexContainer>div:nth-of-type(8) ul li:not(:last-of-type) {
     margin-bottom: 80px;
   }
@@ -3760,7 +3693,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  /* ########## 9 paragraph zone  ##########  */
   .indexContainer>div:last-of-type blockquote {
     font-size: 31px;
     font-weight: 400;
@@ -3770,7 +3702,6 @@ section .lImgRcap div:last-of-type h4,
     margin: 0 auto;
   }
 
-  /* ########## 1 sub title content ##########  */
   .listMixContainer.mens>div:first-of-type {
     background: url('../images/listPage_mens_bg_01.png') no-repeat center center;
   }
@@ -3814,7 +3745,6 @@ section .lImgRcap div:last-of-type h4,
     transform: translate(-70px, 300px);
   }
 
-  /* ########## 3 video zone  ##########  */
   .listMixContainer>div:nth-of-type(3) {
     display: block;
     height: auto;
@@ -3913,8 +3843,6 @@ section .lImgRcap div:last-of-type h4,
     margin: 0 auto;
   }
 
-  /* ########## 4 list left img men  ##########  */
-  /* ########## 9 list right img men  ##########  */
   .listMixContainer div:nth-of-type(4) div>div,
   .listMixContainer div:nth-of-type(9) div>div {
     text-align: center;
@@ -4042,9 +3970,6 @@ section .lImgRcap div:last-of-type h4,
     position: relative;
   }
 
-  /* ########## 6 list right video  ##########  */
-  /* ########## 7 list three product ##########  */
-  /* ########## 10 list left video  ##########  */
   .listMixContainer div:nth-of-type(6)>ul,
   .listMixContainer>div:nth-of-type(10)>ul {
     display: flex;
@@ -4080,7 +4005,6 @@ section .lImgRcap div:last-of-type h4,
     object-fit: cover;
   }
 
-  /* ########## 1 title  ##########  */
   .listCardContainer>div:first-of-type,
   .detailPageContainer>div:first-of-type {
     padding: 80px 0 20px;
@@ -4104,7 +4028,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 10px;
   }
 
-  /* ########## 2 list card slot  ##########  */
   .listCardContainer>div:nth-of-type(2)>ul>li,
   .wishlistContainer div:nth-of-type(2)>ul>li {
     float: left;
@@ -4122,14 +4045,10 @@ section .lImgRcap div:last-of-type h4,
     font-size: 0;
   }
 
-  /* ########## 4 video zone  ##########  */
-
   .listCardContainer>div:last-of-type .videoBox {
     display: none;
   }
 
-  /* ########## 2 image & size  ##########  */
-  /* L-img or video */
   .detailPageContainer>div:nth-of-type(2) .bx-wrapper {
     border: none;
     box-shadow: none;
@@ -4152,7 +4071,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  /* R - information */
   .detailPageContainer>div:nth-of-type(2)>div {
     display: flex;
     flex-direction: column;
@@ -4173,22 +4091,18 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 5px;
   }
 
-  /* ########## 3 information  ##########  */
-  /* details */
   .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(2) li:nth-of-type(2) ul li,
   .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul {
     float: left;
     width: 50%;
   }
 
-  /* ########## collaboration  ##########  */
   section>div:first-of-type.lCapRimg,
   section>div:last-of-type.lImgRcap {
     background: url('../images/detailPage_colla_bg.png') no-repeat center center;
     background-size: cover;
   }
 
-  /* L-Cap R-Img */
   section .lImgRcap {
     display: flex;
     flex-direction: column;
@@ -4272,13 +4186,6 @@ section .lImgRcap div:last-of-type h4,
     object-fit: cover;
   }
 
-  /* ########## 1 navigation  ##########  */
-  .informationContainer:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
   .accountContainer>div:first-of-type,
   .aboutContainer>div:first-of-type,
   .serviceContainer>div:first-of-type,
@@ -4286,8 +4193,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 80px 0 40px;
   }
 
-
-  /* ########## 2 aside  ##########  */
   .accountContainer aside input[type=checkbox],
   .aboutContainer aside input[type=checkbox],
   .serviceContainer aside input[type=checkbox],
@@ -4383,8 +4288,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 80px;
   }
 
-  /* ########## 3 section - myProfile  ##########  */
-
   .accountContainer section,
   .aboutContainer article,
   .aboutContainer section,
@@ -4393,14 +4296,6 @@ section .lImgRcap div:last-of-type h4,
   .informationContainer article,
   .informationContainer section {
     width: 100%;
-  }
-
-  .informationContainer article.termsConditions {
-    margin-bottom: 110px;
-  }
-
-  .informationContainer article.termsSales {
-    float: right;
   }
 
   .accountContainer section h2 strong,
@@ -4419,15 +4314,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 500;
   }
 
-  .aboutContainer article h3,
-  .aboutContainer section h3,
-  .serviceContainer article h3,
-  .serviceContainer section h3,
-  .informationContainer article h3,
-  .informationContainer section h3 {
-    margin-bottom: 60px;
-  }
-
   .accountContainer section.myProfile div:first-of-type a {
     display: inline-block;
     margin-right: 2.6%;
@@ -4439,7 +4325,6 @@ section .lImgRcap div:last-of-type h4,
     width: 348px;
   }
 
-  /* ########## 3 section - editInformation  ##########  */
   .accountContainer section.editInformation form ul li label,
   .accountContainer section.orderList table tbody tr td,
   .accountContainer section.orderDetails div:first-of-type i,
@@ -4495,7 +4380,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 400;
   }
 
-  /* ########## 3 section - orderDetails  ##########  */
   .accountContainer section.orderDetails ol li:after {
     content: '';
     display: block;
@@ -4527,34 +4411,12 @@ section .lImgRcap div:last-of-type h4,
     float: right;
   }
 
-  /* ########## 3 section - addressBook  ##########  */
   .accountContainer section.addressBook input[type=button] {
     width: 100%;
   }
 
-  /* ########## 3 article - Jonathan / careers  ##########  */
-  .aboutContainer article figure img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .aboutContainer article a {
-    display: block;
-    text-decoration: underline;
-  }
-
-  /* ########## 3 section - Stores  ##########  */
   .aboutContainer section ul li {
     padding: 20px;
-  }
-
-  .aboutContainer section ul li address div,
-  .informationContainer section div:last-of-type address div {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 500;
   }
 
   .aboutContainer section ul li address em,
@@ -4565,20 +4427,6 @@ section .lImgRcap div:last-of-type h4,
     display: block;
     font-size: 16px;
     font-weight: 500;
-  }
-
-  .informationContainer article.termsSales div address div {
-    line-height: 29px;
-  }
-
-  .aboutContainer section ul li address a,
-  .informationContainer article.termsSales div address div {
-    font-style: normal;
-  }
-
-  .aboutContainer section ul li address a,
-  .informationContainer section div:nth-of-type(2) a {
-    display: block;
   }
 
   .informationContainer section div a,
@@ -4600,111 +4448,9 @@ section .lImgRcap div:last-of-type h4,
     text-decoration: underline;
   }
 
-  /* ########## 3 article - shipping & returns  ##########  */
-  .serviceContainer article div:nth-of-type(5) ul li,
-  .serviceContainer article div:nth-of-type(9) ul li,
-  .serviceContainer article div:nth-of-type(10) ul li,
-  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
-    margin-bottom: 10px;
-    margin-left: 40px;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li p,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
-    margin-left: 25px;
-  }
-
-  .serviceContainer article div:nth-of-type(5) ul li,
-  .serviceContainer article div:nth-of-type(9) ul li,
-  .serviceContainer article div:nth-of-type(10) ul li,
-  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
-    list-style: disc;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
-    list-style: decimal;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li ul li {
-    list-style: '- ';
-  }
-
-  .serviceContainer article div:nth-of-type(12) p a {
-    text-decoration: underline;
-  }
-
-  /* ########## 3 section - track your order  ##########  */
   .serviceContainer section form input[type=submit] {
     width: 430px;
   }
-
-  /* ########## 3 article - customer support  ##########  */
-
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i {
-    display: block;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:last-of-type {
-    text-decoration: underline;
-  }
-
-  /* ########## 3 article - terms of sale  ##########  */
-  .informationContainer article.termsSales>ol>li ol li {
-    margin-left: 25px;
-  }
-
-  .informationContainer article.termsSales div ul li input {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid var(--gs05);
-  }
-
-
-  /* ########## cart container - cart full & checkout completed ##########  */
 
   .cartContainer>div:first-of-type,
   .wishlistContainer>div:first-of-type,
@@ -4771,13 +4517,10 @@ section .lImgRcap div:last-of-type h4,
     padding-left: 75px;
   }
 
-  /* ########## wishlist container ##########  */
   .wishlistContainer>div:first-of-type a {
     float: left;
     margin-right: 40px;
   }
-
-  /* ########## checkout container ##########  */
 
   .checkoutContainer {
     display: flex;
@@ -4791,10 +4534,6 @@ section .lImgRcap div:last-of-type h4,
   .checkoutContainer form section>div:first-of-type,
   .checkoutContainer form section>div:nth-of-type(2) {
     padding: 20px;
-  }
-
-  .serviceContainer form ul li {
-    position: relative;
   }
 
   .checkoutContainer form section div:first-of-type ul li input[type=text],
@@ -4846,8 +4585,6 @@ section .lImgRcap div:last-of-type h4,
 }
 
 @media screen and (min-width: 1280px) {
-
-  /* ########## padding & bg ##########  */
   .indexContainer>div:nth-of-type(2),
   .indexContainer>div:nth-of-type(3),
   .indexContainer>div:nth-of-type(4),
@@ -4889,7 +4626,6 @@ section .lImgRcap div:last-of-type h4,
     padding-bottom: 110px;
   }
 
-  /* ########## title + paragraph ##########  */
   .indexContainer>div:nth-of-type(2) h2,
   .indexContainer>div:nth-of-type(4) h2,
   .indexContainer>div:nth-of-type(3) figure figcaption h2,
@@ -4939,14 +4675,12 @@ section .lImgRcap div:last-of-type h4,
     line-height: 23px;
   }
 
-  /* ########## selectComponent - size ##########  */
   .listMixContainer div:nth-of-type(3)>div:last-of-type div .selectComponent {
     width: 100%;
     max-width: 375px;
     margin: 0 auto 15px;
   }
 
-  /* ########## selectComponent - sort by ##########  */
   .listCardContainer>div:first-of-type div div.selectComponent {
     position: absolute;
     bottom: -20px;
@@ -4954,7 +4688,6 @@ section .lImgRcap div:last-of-type h4,
     width: 200px;
   }
 
-  /* ########## bx slider ##########  */
   .indexContainer div:nth-of-type(2) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer div:nth-of-type(4) .bx-wrapper .bx-controls .bx-prev,
   .indexContainer>div:nth-of-type(6) .bx-wrapper .bx-controls .bx-prev,
@@ -5000,7 +4733,6 @@ section .lImgRcap div:last-of-type h4,
     display: none;
   }
 
-  /* ########## floatingBox ##########  */
   .indexContainer>div:nth-of-type(3) figure:after,
   .indexContainer>div:nth-of-type(5) figure:after,
   .listMixContainer div:nth-of-type(5) figure:after,
@@ -5051,7 +4783,6 @@ section .lImgRcap div:last-of-type h4,
     float: right;
   }
 
-  /* ########## btnShop ##########  */
   .indexContainer>div:first-of-type a.btnShop,
   .indexContainer>div:nth-of-type(7) a.btnShop {
     border: 1px solid white;
@@ -5088,7 +4819,6 @@ section .lImgRcap div:last-of-type h4,
     background-size: 30px;
   }
 
-  /* ########## 1 title content ##########  */
   .indexContainer>div:first-of-type {
     height: 1080px;
     color: white;
@@ -5115,7 +4845,6 @@ section .lImgRcap div:last-of-type h4,
     top: 85%;
   }
 
-  /* ##########  6 accessories zone  ##########  */
   .indexContainer>div:nth-of-type(6) ul li a img,
   .indexContainer>div:nth-of-type(8) ul li figure figcaption span,
   .detailPageContainer>div:nth-of-type(2) div h2,
@@ -5139,7 +4868,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 25px;
   }
 
-  /* ########## 7 men & women collection  ##########  */
   .indexContainer>div:nth-of-type(7) {
     background-size: cover;
     height: 1080px;
@@ -5162,7 +4890,6 @@ section .lImgRcap div:last-of-type h4,
     transform: translate(-50%, -50%);
   }
 
-  /* ########## 8 collaborations zone  ##########  */
   .indexContainer>div:nth-of-type(8) ul li {
     float: left;
     width: 32%;
@@ -5178,7 +4905,6 @@ section .lImgRcap div:last-of-type h4,
     height: auto;
   }
 
-  /* ########## 9 paragraph zone  ##########  */
   .indexContainer>div:last-of-type blockquote {
     font-size: 31px;
     font-weight: 400;
@@ -5188,7 +4914,6 @@ section .lImgRcap div:last-of-type h4,
     margin: 0 auto;
   }
 
-  /* ########## 1 sub title content ##########  */
   .listMixContainer.mens>div:first-of-type {
     background: url('../images/listPage_mens_bg_01.png') no-repeat center center;
   }
@@ -5232,7 +4957,6 @@ section .lImgRcap div:last-of-type h4,
     transform: translate(-293px, 300px);
   }
 
-  /* ########## 3 video zone  ##########  */
   .listMixContainer>div:nth-of-type(3),
   .listCardContainer>div:nth-of-type(2)>div ul,
   .wishlistContainer div:nth-of-type(2)>div ul {
@@ -5323,7 +5047,6 @@ section .lImgRcap div:last-of-type h4,
     margin: 0 auto;
   }
 
-  /* ########## 4 list left img men  ##########  */
   .listMixContainer div:nth-of-type(4)>div,
   .listMixContainer div:nth-of-type(9)>div {
     display: flex;
@@ -5458,9 +5181,6 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 35px;
   }
 
-  /* ########## 6 list right video  ##########  */
-  /* ########## 7 list three product ##########  */
-  /* ########## 10 list left video  ##########  */
   .listMixContainer div:nth-of-type(7) ul li {
     float: left;
     width: 375px;
@@ -5491,7 +5211,6 @@ section .lImgRcap div:last-of-type h4,
     object-fit: cover;
   }
 
-  /* ########## 1 title  ##########  */
   .listCardContainer>div:first-of-type {
     padding: 140px 345px 20px;
   }
@@ -5518,7 +5237,6 @@ section .lImgRcap div:last-of-type h4,
     margin-bottom: 10px;
   }
 
-  /* ########## 2 list card slot  ##########  */
   .listCardContainer>div:nth-of-type(2) {
     padding: 0 345px;
     box-sizing: border-box;
@@ -5528,8 +5246,6 @@ section .lImgRcap div:last-of-type h4,
   .wishlistContainer div:nth-of-type(2)>ul>li:not(:nth-of-type(4n)) {
     margin-right: 36px;
   }
-
-  /* ########## 4 video zone  ##########  */
 
   .listCardContainer {
     position: relative;
@@ -5557,8 +5273,6 @@ section .lImgRcap div:last-of-type h4,
     right: 50px;
   }
 
-  /* ########## 2 image & size  ##########  */
-  /* L-img or video */
   .detailPageContainer>div:nth-of-type(2) {
     display: flex;
   }
@@ -5583,7 +5297,6 @@ section .lImgRcap div:last-of-type h4,
     height: 880px;
   }
 
-  /* R - information */
   .detailPageContainer>div:nth-of-type(2)>div:nth-of-type(2) {
     margin-left: 5%;
     width: 35%;
@@ -5599,7 +5312,6 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 5px;
   }
 
-  /* ########## 3 information  ##########  */
   .detailPageContainer>div:nth-of-type(3) {
     font-size: 0;
   }
@@ -5617,21 +5329,18 @@ section .lImgRcap div:last-of-type h4,
     vertical-align: top;
   }
 
-  /* details */
   .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(2) li:nth-of-type(2) ul li,
   .detailPageContainer>div:nth-of-type(3) .accComponent:nth-of-type(3) li:nth-of-type(2) div ul {
     float: left;
     width: 50%;
   }
 
-  /* ########## collaboration  ##########  */
   section>div:first-of-type.lCapRimg,
   section>div:last-of-type.lImgRcap {
     background: url('../images/detailPage_colla_bg.png') no-repeat center center;
     background-size: cover;
   }
 
-  /* L-Cap R-Img */
   section .lCapRimg,
   section .lImgRcap {
     font-size: 0;
@@ -5712,20 +5421,12 @@ section .lImgRcap div:last-of-type h4,
     left: -4.7%;
   }
 
-  /* L-Img R-Cap */
   section .lImgRcap>img {
     padding-left: 4.948vw;
   }
 
   section .lImgRcap .videoBox .fluid-width-video-wrapper video {
     left: 4.7%;
-  }
-
-  /* ########## 1 navigation  ##########  */
-  .informationContainer:after {
-    content: '';
-    display: block;
-    clear: both;
   }
 
   .accountContainer>div:first-of-type,
@@ -5735,8 +5436,6 @@ section .lImgRcap div:last-of-type h4,
     padding: 140px 0 40px;
   }
 
-
-  /* ########## 2 aside  ##########  */
   .accountContainer aside,
   .aboutContainer aside,
   .serviceContainer aside,
@@ -5804,8 +5503,6 @@ section .lImgRcap div:last-of-type h4,
     width: 100%;
   }
 
-  /* ########## 3 section - myProfile  ##########  */
-
   .accountContainer section,
   .aboutContainer article,
   .aboutContainer section,
@@ -5816,14 +5513,6 @@ section .lImgRcap div:last-of-type h4,
     width: 65.5%;
     display: inline-block;
     vertical-align: top;
-  }
-
-  .informationContainer article.termsConditions {
-    margin-bottom: 110px;
-  }
-
-  .informationContainer article.termsSales {
-    float: right;
   }
 
   .accountContainer section h2 strong,
@@ -5842,15 +5531,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 500;
   }
 
-  .aboutContainer article h3,
-  .aboutContainer section h3,
-  .serviceContainer article h3,
-  .serviceContainer section h3,
-  .informationContainer article h3,
-  .informationContainer section h3 {
-    margin-bottom: 60px;
-  }
-
   .accountContainer section.myProfile div:first-of-type a {
     display: inline-block;
     margin-right: 2.6%;
@@ -5862,7 +5542,6 @@ section .lImgRcap div:last-of-type h4,
     width: 370px;
   }
 
-  /* ########## 3 section - editInformation  ##########  */
   .accountContainer section.editInformation form ul li label,
   .accountContainer section.orderList table tbody tr td,
   .accountContainer section.orderDetails div:first-of-type i,
@@ -5918,7 +5597,6 @@ section .lImgRcap div:last-of-type h4,
     font-weight: 400;
   }
 
-  /* ########## 3 section - orderDetails  ##########  */
   .accountContainer section.orderDetails>ol {
     display: inline-block;
     width: 48%;
@@ -5963,36 +5641,14 @@ section .lImgRcap div:last-of-type h4,
     float: right;
   }
 
-  /* ########## 3 section - addressBook  ##########  */
   .accountContainer section.addressBook input[type=button] {
     display: block;
     margin: 0 auto;
     width: 370px;
   }
 
-  /* ########## 3 article - Jonathan / careers  ##########  */
-  .aboutContainer article figure img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .aboutContainer article a {
-    display: block;
-    text-decoration: underline;
-  }
-
-  /* ########## 3 section - Stores  ##########  */
   .aboutContainer section ul li {
     padding: 20px;
-  }
-
-  .aboutContainer section ul li address div,
-  .informationContainer section div:last-of-type address div {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 500;
   }
 
   .aboutContainer section ul li address em,
@@ -6003,20 +5659,6 @@ section .lImgRcap div:last-of-type h4,
     display: block;
     font-size: 16px;
     font-weight: 500;
-  }
-
-  .informationContainer article.termsSales div address div {
-    line-height: 29px;
-  }
-
-  .aboutContainer section ul li address a,
-  .informationContainer article.termsSales div address div {
-    font-style: normal;
-  }
-
-  .aboutContainer section ul li address a,
-  .informationContainer section div:nth-of-type(2) a {
-    display: block;
   }
 
   .informationContainer section div a,
@@ -6038,111 +5680,9 @@ section .lImgRcap div:last-of-type h4,
     text-decoration: underline;
   }
 
-  /* ########## 3 article - shipping & returns  ##########  */
-  .serviceContainer article div:nth-of-type(5) ul li,
-  .serviceContainer article div:nth-of-type(9) ul li,
-  .serviceContainer article div:nth-of-type(10) ul li,
-  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
-    margin-bottom: 10px;
-    margin-left: 40px;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(18) ol li p,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
-    margin-left: 25px;
-  }
-
-  .serviceContainer article div:nth-of-type(5) ul li,
-  .serviceContainer article div:nth-of-type(9) ul li,
-  .serviceContainer article div:nth-of-type(10) ul li,
-  .informationContainer article.customerSupport div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(4) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(5) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li,
-  .informationContainer article.privacyPolicy div:nth-of-type(8) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ul li,
-  .informationContainer article.privacyPolicy div:nth-of-type(21) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(3) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(10) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(14) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(15) ul li,
-  .informationContainer article.termsConditions div:nth-of-type(16) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(3) ol>li:last-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(9) ol>li:nth-of-type(6) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(10) ol>li:nth-of-type(3) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(11) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:first-of-type ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(12) ol>li:nth-of-type(2) ul li,
-  .informationContainer article.termsSales ol li:nth-of-type(16) ol>li:first-of-type ul li {
-    list-style: disc;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(2) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) ol li,
-  .informationContainer article.privacyPolicy div:nth-of-type(22) ol li {
-    list-style: decimal;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(7)>ul>li ul li {
-    list-style: '- ';
-  }
-
-  .serviceContainer article div:nth-of-type(12) p a {
-    text-decoration: underline;
-  }
-
-  /* ########## 3 section - track your order  ##########  */
   .serviceContainer section form input[type=submit] {
     width: 430px;
   }
-
-  /* ########## 3 article - customer support  ##########  */
-
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i {
-    display: block;
-  }
-
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:first-of-type,
-  .informationContainer article.privacyPolicy div:nth-of-type(16) i:last-of-type {
-    text-decoration: underline;
-  }
-
-  /* ########## 3 article - terms of sale  ##########  */
-  .informationContainer article.termsSales>ol>li ol li {
-    margin-left: 25px;
-  }
-
-  .informationContainer article.termsSales div ul li input {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid var(--gs05);
-  }
-
-
-  /* ########## cart container - cart full & checkout completed ##########  */
 
   .cartContainer>div:first-of-type,
   .wishlistContainer>div:first-of-type,
@@ -6224,13 +5764,11 @@ section .lImgRcap div:last-of-type h4,
     padding-left: 75px;
   }
 
-  /* ########## wishlist container ##########  */
   .wishlistContainer>div:first-of-type a {
     float: left;
     margin-right: 40px;
   }
 
-  /* ########## checkout container ##########  */
   .checkoutContainer form {
     display: inline-block;
     width: 56.8%;
@@ -6241,10 +5779,6 @@ section .lImgRcap div:last-of-type h4,
   .checkoutContainer form section>div:first-of-type,
   .checkoutContainer form section>div:nth-of-type(2) {
     padding: 20px;
-  }
-
-  .serviceContainer form ul li {
-    position: relative;
   }
 
   .checkoutContainer form section div:first-of-type ul li input[type=text],
