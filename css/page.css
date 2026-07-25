@@ -1725,6 +1725,48 @@ section .lImgRcap div:last-of-type h4,
   background-size: 20px;
 }
 
+.cartContainer.checkoutCompleted div:last-of-type i {
+  font-style: normal;
+  margin-right: 45px;
+}
+
+.cartContainer aside div:first-of-type>a,
+.cartContainer.checkoutCompleted aside>a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+
+.cartContainer>ol>li {
+  border: 1px solid var(--gs04);
+  padding: 10px;
+}
+
+.cartContainer>ol>li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.cartContainer ol li div div:first-of-type {
+  position: relative;
+}
+
+.cartContainer ol li div div:first-of-type input[type=button] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cartContainer ol li div div:last-of-type ul li:last-of-type {
+  margin-right: 0;
+}
+
 
 @media screen and (max-width: 767px) {
 
@@ -3103,24 +3145,8 @@ section .lImgRcap div:last-of-type h4,
     float: left;
   }
 
-  .cartContainer.checkoutCompleted div:last-of-type i {
-    font-style: normal;
-    margin-right: 45px;
-  }
-
   .cartContainer>ol {
     margin-bottom: 35px;
-  }
-
-  .cartContainer>ol>li {
-    border: 1px solid var(--gs04);
-    padding: 10px;
-  }
-
-  .cartContainer>ol>li:after {
-    content: '';
-    display: block;
-    clear: both;
   }
 
   .cartContainer ol li img {
@@ -3140,20 +3166,6 @@ section .lImgRcap div:last-of-type h4,
 
   .cartContainer.checkoutCompleted ol li>div {
     height: 190px;
-  }
-
-  .cartContainer ol li div div:first-of-type {
-    position: relative;
-  }
-
-  .cartContainer ol li div div:first-of-type input[type=button] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
   }
 
   .cartContainer ol li div div:last-of-type {
@@ -3182,10 +3194,6 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 10px;
   }
 
-  .cartContainer ol li div div:last-of-type ul li:last-of-type {
-    margin-right: 0;
-  }
-
   .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span {
     line-height: 40px;
     margin-right: 0;
@@ -3212,14 +3220,6 @@ section .lImgRcap div:last-of-type h4,
 
   .cartContainer.checkoutCompleted ol li div div:last-of-type strong {
     top: 55px;
-  }
-
-  .cartContainer aside div:first-of-type>a,
-  .cartContainer.checkoutCompleted aside>a {
-    display: block;
-    width: 100%;
-    text-align: center;
-    height: 50px;
   }
 
   /* ########## wishlist container ##########  */
@@ -4717,24 +4717,8 @@ section .lImgRcap div:last-of-type h4,
     float: left;
   }
 
-  .cartContainer.checkoutCompleted div:last-of-type i {
-    font-style: normal;
-    margin-right: 45px;
-  }
-
   .cartContainer>ol {
     margin-bottom: 35px;
-  }
-
-  .cartContainer>ol>li {
-    border: 1px solid var(--gs04);
-    padding: 10px;
-  }
-
-  .cartContainer>ol>li:after {
-    content: '';
-    display: block;
-    clear: both;
   }
 
   .cartContainer ol li img {
@@ -4745,20 +4729,6 @@ section .lImgRcap div:last-of-type h4,
   .cartContainer ol li>div {
     position: relative;
     height: 170px;
-  }
-
-  .cartContainer ol li div div:first-of-type {
-    position: relative;
-  }
-
-  .cartContainer ol li div div:first-of-type input[type=button] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
   }
 
   .cartContainer ol li div div:last-of-type {
@@ -4779,10 +4749,6 @@ section .lImgRcap div:last-of-type h4,
     margin-right: 20px;
   }
 
-  .cartContainer ol li div div:last-of-type ul li:last-of-type {
-    margin-right: 0;
-  }
-
   .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span {
     line-height: 40px;
     margin-right: 100px;
@@ -4798,14 +4764,6 @@ section .lImgRcap div:last-of-type h4,
     position: absolute;
     top: 13px;
     right: 0;
-  }
-
-  .cartContainer aside div:first-of-type>a,
-  .cartContainer.checkoutCompleted aside>a {
-    display: block;
-    width: 100%;
-    text-align: center;
-    height: 50px;
   }
 
   .cartContainer aside div:nth-of-type(2),
@@ -6348,27 +6306,11 @@ section .lImgRcap div:last-of-type h4,
     float: left;
   }
 
-  .cartContainer.checkoutCompleted div:last-of-type i {
-    font-style: normal;
-    margin-right: 45px;
-  }
-
   .cartContainer>ol {
     width: 65.5%;
     display: inline-block;
     vertical-align: top;
     margin-right: 2.4%;
-  }
-
-  .cartContainer>ol>li {
-    border: 1px solid var(--gs04);
-    padding: 10px;
-  }
-
-  .cartContainer>ol>li:after {
-    content: '';
-    display: block;
-    clear: both;
   }
 
   .cartContainer ol li img {
@@ -6379,20 +6321,6 @@ section .lImgRcap div:last-of-type h4,
   .cartContainer ol li>div {
     position: relative;
     height: 170px;
-  }
-
-  .cartContainer ol li div div:first-of-type {
-    position: relative;
-  }
-
-  .cartContainer ol li div div:first-of-type input[type=button] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
   }
 
   .cartContainer ol li div div:last-of-type {
@@ -6411,10 +6339,6 @@ section .lImgRcap div:last-of-type h4,
     display: inline-block;
     line-height: 40px;
     margin-right: 20px;
-  }
-
-  .cartContainer ol li div div:last-of-type ul li:last-of-type {
-    margin-right: 0;
   }
 
   .cartContainer.cartContainer.checkoutCompleted ol li div div:last-of-type span {
@@ -6438,14 +6362,6 @@ section .lImgRcap div:last-of-type h4,
     width: 31.7%;
     display: inline-block;
     vertical-align: top;
-  }
-
-  .cartContainer aside div:first-of-type>a,
-  .cartContainer.checkoutCompleted aside>a {
-    display: block;
-    width: 100%;
-    text-align: center;
-    height: 50px;
   }
 
   .cartContainer aside div:nth-of-type(2),
