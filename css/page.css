@@ -669,7 +669,7 @@ section .lImgRcap div:last-of-type h4,
 
 .listMixContainer>div:first-of-type {
   height: 540px;
-  color: white;
+  color: var(--gs00);
 }
 
 .listMixContainer>div:first-of-type h2 {
@@ -2291,9 +2291,9 @@ div:nth-of-type(22))  ol li {
 
   .indexContainer>div:first-of-type a.btnShop,
   .indexContainer>div:nth-of-type(7) a.btnShop {
-    border: 1px solid white;
+    border: 1px solid var(--gs00);
     width: 260px;
-    color: white;
+    color: var(--gs00);
     background: url('../images/arrow_right_alt_FFFFFF.svg') no-repeat center right 25px;
     background-size: 30px;
   }
@@ -2327,7 +2327,7 @@ div:nth-of-type(22))  ol li {
 
   .indexContainer>div:first-of-type {
     height: 680px;
-    color: white;
+    color: var(--gs00);
     position: relative;
     background: url('../images/index_bg_main.png') no-repeat center center;
     background-size: cover;
@@ -2412,7 +2412,7 @@ div:nth-of-type(22))  ol li {
     font-size: 28px;
     font-weight: 400;
     line-height: 34px;
-    color: white;
+    color: var(--gs00);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2570,7 +2570,7 @@ div:nth-of-type(22))  ol li {
   .listMixContainer div:nth-of-type(4) div>div,
   .listMixContainer div:nth-of-type(9) div>div {
     text-align: center;
-    color: white;
+    color: var(--gs00);
     padding: var(--sp70) 0 var(--sp25);
   }
 
@@ -3571,9 +3571,9 @@ div:nth-of-type(22))  ol li {
 
   .indexContainer>div:first-of-type a.btnShop,
   .indexContainer>div:nth-of-type(7) a.btnShop {
-    border: 1px solid white;
+    border: 1px solid var(--gs00);
     width: 300px;
-    color: white;
+    color: var(--gs00);
     background: url('../images/arrow_right_alt_FFFFFF.svg') no-repeat center right 45px;
     background-size: 30px;
   }
@@ -3607,7 +3607,7 @@ div:nth-of-type(22))  ol li {
 
   .indexContainer>div:first-of-type {
     height: 864px;
-    color: white;
+    color: var(--gs00);
     position: relative;
     background: url('../images/index_bg_main.png') no-repeat center center;
     background-size: cover;
@@ -3680,7 +3680,7 @@ div:nth-of-type(22))  ol li {
     font-size: 31px;
     font-weight: 400;
     line-height: 37px;
-    color: white;
+    color: var(--gs00);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -3850,7 +3850,7 @@ div:nth-of-type(22))  ol li {
   .listMixContainer div:nth-of-type(4) div>div,
   .listMixContainer div:nth-of-type(9) div>div {
     text-align: center;
-    color: white;
+    color: var(--gs00);
     padding: 350px 0 var(--sp50);
   }
 
@@ -4789,9 +4789,9 @@ div:nth-of-type(22))  ol li {
 
   .indexContainer>div:first-of-type a.btnShop,
   .indexContainer>div:nth-of-type(7) a.btnShop {
-    border: 1px solid white;
+    border: 1px solid var(--gs00);
     width: 300px;
-    color: white;
+    color: var(--gs00);
     background: url('../images/arrow_right_alt_FFFFFF.svg') no-repeat center right 45px;
     background-size: 30px;
   }
@@ -4825,7 +4825,7 @@ div:nth-of-type(22))  ol li {
 
   .indexContainer>div:first-of-type {
     height: 1080px;
-    color: white;
+    color: var(--gs00);
     position: relative;
     background: url('../images/index_bg_main.png') no-repeat center center;
   }
@@ -4887,7 +4887,7 @@ div:nth-of-type(22))  ol li {
     font-size: 31px;
     font-weight: 400;
     line-height: 37px;
-    color: white;
+    color: var(--gs00);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -5062,7 +5062,7 @@ div:nth-of-type(22))  ol li {
     background-size: cover;
     width: 567px;
     text-align: center;
-    color: white;
+    color: var(--gs00);
     padding: 350px 0 var(--sp50);
   }
 
