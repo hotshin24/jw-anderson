@@ -4612,7 +4612,7 @@ div:nth-of-type(22))  ol li {
   }
 
   .listCardContainer>div:nth-of-type(3) {
-    padding: var(--sp110) 345px;
+    padding: var(--sp110) 368px;
   }
 
   .listMixContainer div:nth-of-type(7),
@@ -5216,7 +5216,7 @@ div:nth-of-type(22))  ol li {
   }
 
   .listCardContainer>div:first-of-type {
-    padding: var(--sp140) 345px var(--sp20);
+    padding: var(--sp140) 368px var(--sp20);
   }
 
   .detailPageContainer>div:first-of-type {
@@ -5242,7 +5242,7 @@ div:nth-of-type(22))  ol li {
   }
 
   .listCardContainer>div:nth-of-type(2) {
-    padding: 0 345px;
+    padding: 0 368px;
     box-sizing: border-box;
   }
 
