@@ -494,7 +494,7 @@ section .lImgRcap div:last-of-type h4,
 .listMixContainer div:nth-of-type(2),
 .listCardContainer div:nth-of-type(3),
 .wishlistContainer div:last-of-type) .bx-wrapper .sliderNew li input[type=button]:first-of-type.active {
-  background: url('../images/bookmark_fill.png') no-repeat center;
+  background: url('../images/bookmark_fill.webp') no-repeat center;
   background-size: 23px;
 }
 
@@ -1268,7 +1268,7 @@ a) {
 .listCardContainer>div:nth-of-type(2) ul li input[type=button]:first-of-type.active,
 .detailPageContainer div:nth-of-type(4) li input[type=button]:first-of-type.active,
 .wishlistContainer div:nth-of-type(2) ul li input[type=button]:first-of-type.active {
-  background: url('../images/bookmark_fill.png') no-repeat center;
+  background: url('../images/bookmark_fill.webp') no-repeat center;
   background-size: 23px;
 }
 
