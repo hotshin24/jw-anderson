@@ -5090,10 +5090,6 @@ div:nth-of-type(22))  ol li {
     background: url('../images/listPage_womens_bg_03.webp') no-repeat center center;
   }
 
-  .listMixContainer.bags div:nth-of-type(9) div>div {
-    background: url('../images/listPage_bags_bg_03.webp') no-repeat center center;
-  }
-
   .listMixContainer.colla div:nth-of-type(9) div>div {
     background: url('../images/listPage_colla_bg_03.webp') no-repeat center center;
   }
