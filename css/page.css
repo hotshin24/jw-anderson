@@ -5852,7 +5852,7 @@ div:nth-of-type(22))  ol li {
 
 }
 
-@media screen and (min-width: 1501px) and (max-width: 1890px) {
+@media screen and (min-width: 1501px) and (max-width: 1919px) {
 
   .listCardContainer>div:nth-of-type(2)>ul>li {
     width: calc(33.333% - 25px);
