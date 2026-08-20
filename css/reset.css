@@ -26,6 +26,11 @@ time, mark, audio, video {
     outline: none;
 }
 
+:focus-visible {
+    outline: 2px solid var(--gs06);
+    outline-offset: 2px;
+}
+
 img {
     max-width: 100%;
     height: auto;
