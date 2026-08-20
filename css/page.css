@@ -1914,8 +1914,6 @@ input[type=date].filled) {
 
 .aboutContainer article figure img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .aboutContainer article a {
@@ -2275,8 +2273,6 @@ div:nth-of-type(22))  ol li {
   .listMixContainer div:nth-of-type(5),
   .indexContainer>div:nth-of-type(5),
   .listMixContainer div:nth-of-type(8)) figure img {
-    max-width: 100%;
-    height: auto;
     display: block;
   }
 
@@ -3555,8 +3551,6 @@ div:nth-of-type(22))  ol li {
   .listMixContainer div:nth-of-type(5),
   .indexContainer>div:nth-of-type(5),
   .listMixContainer div:nth-of-type(8)) figure img {
-    max-width: 100%;
-    height: auto;
     display: block;
   }
 
@@ -4760,8 +4754,6 @@ div:nth-of-type(22))  ol li {
   .listMixContainer div:nth-of-type(5) figure img {
     float: right;
     width: 65%;
-    max-width: 100%;
-    height: auto;
     display: block;
   }
 
@@ -4769,8 +4761,6 @@ div:nth-of-type(22))  ol li {
   .listMixContainer div:nth-of-type(8) figure img {
     float: left;
     width: 65%;
-    max-width: 100%;
-    height: auto;
     display: block;
   }
 
@@ -4905,8 +4895,6 @@ div:nth-of-type(22))  ol li {
 
   .indexContainer>div:nth-of-type(8) ul li figure img {
     display: block;
-    max-width: 100%;
-    height: auto;
   }
 
   .indexContainer>div:last-of-type blockquote {
